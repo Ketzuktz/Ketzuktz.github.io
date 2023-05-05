@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gicg_sim"
+version = "0.0.1"
+authors = [
+  { name="RedContritio", email="RedContritio@qq.com" },
+]
+description = "simulation environment for Genshin Impact mini-game Genius Invokation TCG"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/RedContritio/gicg-simulator"
+"Bug Tracker" = "https://github.com/RedContritio/gicg-simulator/issues"
+
+[tool.setuptools]
+# ...
+# By default, include-package-data is true in pyproject.toml, so you do
+# NOT have to specify this line.
+include-package-data = true
+packages = ["gicg_sim"]
+
+[tool.setuptools.package-data]
+mypkg = ["*.yml", "*.yaml"]
