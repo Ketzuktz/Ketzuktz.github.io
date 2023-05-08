@@ -1,4 +1,4 @@
-from .utils.card import Card
+from .character import Character
 
 
 class UserBoard:
@@ -9,4 +9,4 @@ class UserBoard:
         self.effects = []
 
     def add_character(self, name: str):
-        self.charaters.append(Card.create_character(name))
+        self.charaters.append(Character.create(name))
