@@ -1,0 +1,3 @@
+
+class CardBase:
+    pass
