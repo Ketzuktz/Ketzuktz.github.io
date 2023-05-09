@@ -2,7 +2,8 @@ from typing import Any, List
 
 from typing_extensions import TypedDict
 
-from .utils.data import cards_data
+from gicg_sim.card.base import CardBase
+from gicg_sim.utils.data import cards_data
 
 
 class SkillPrototype(TypedDict):
@@ -31,7 +32,7 @@ class Skill:
         self.effect = prototype["effect"]
 
 
-class Character:
+class Character(CardBase):
     prototype_dict = None
 
     def build_prototype_dict():

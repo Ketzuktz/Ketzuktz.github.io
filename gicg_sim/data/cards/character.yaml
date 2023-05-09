@@ -24,15 +24,15 @@
       effect :
         - damage :
           - pyro : 3
-        - add_counter :
+        - counter_add :
           - name : Searing Onslaught
-        - check_counter :
+        - counter_check :
           - name : Searing Onslaught
           - value : 3
           - effect :
             - damage :
               - pyro : 2
-            - clear_counter :
+            - counter_clear :
               - name : Searing Onslaught
       comment : Deals 3 Pyro DMG. For the third use of this Skill each Round, deals +2 DMG.
     - name : Dawn
