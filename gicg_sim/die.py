@@ -1,6 +1,10 @@
+import random
+from typing import List
+
 from typing_extensions import TypedDict
 
 element_names = ["Omni", "Pyro", "Hydro", "Anemo", "Electro", "Dendro", "Cryo", "Geo"]
+element_count = len(element_names)
 
 
 class DieStatePrototype(TypedDict):
@@ -135,7 +139,7 @@ class DieState:
 
     @Geo.setter
     def Geo(self, count: int):
-        assert count >= 0, "Invalid die count: count must be non-negative"
+        assert count >= 0, f"Invalid die count: count ({count}) must be non-negative"
         self.die_count[7] = count
 
     # endregion
@@ -187,25 +191,39 @@ class DieState:
         )
 
 
-def create_die_state(
-    omni: int = 0,
-    pyro: int = 0,
-    hydro: int = 0,
-    anemo: int = 0,
-    electro: int = 0,
-    dendro: int = 0,
-    cryo: int = 0,
-    geo: int = 0,
-):
-    kwargs = {
-        "Omni": omni,
-        "Pyro": pyro,
-        "Hydro": hydro,
-        "Anemo": anemo,
-        "Electro": electro,
-        "Dendro": dendro,
-        "Cryo": cryo,
-        "Geo": geo,
-    }
+def _create_die_state_by_array(die_counts: List[int]) -> DieState:
+    assert element_count == len(die_counts), (
+        "Invalid die counts: die_counts must be"
+        f"array with {element_count} int elements."
+    )
+    kwargs = dict(zip(element_names, die_counts))
 
     return DieState(**kwargs)
+
+
+def roll_n_dies_raw(die_count: int = 8) -> DieState:
+    die_state_array: List[int] = [0 for _ in range(element_count)]
+
+    for i in range(die_count):
+        p = random.randint(0, element_count - 1)
+        die_state_array[p] = die_state_array[p] + 1
+
+    return _create_die_state_by_array(die_state_array)
+
+
+def roll_n_dies(die_count: int = 8) -> DieState:
+    die_state_array: List[int] = [0 for _ in range(element_count)]
+    current_sum = 0
+
+    for i in range(element_count - 1):
+        if die_count == current_sum:
+            break
+
+        value = random.randint(0, die_count - current_sum)
+        die_state_array[i] = value
+        current_sum += value
+
+    die_state_array[element_count - 1] = die_count - current_sum
+    random.shuffle(die_state_array)
+
+    return _create_die_state_by_array(die_state_array)
