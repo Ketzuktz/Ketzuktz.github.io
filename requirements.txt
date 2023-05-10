@@ -1,2 +1,4 @@
-pre-commit >=2.9.2
 importlib-resources
+
+# dev
+pre-commit >=2.9.2

@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, Dict, List
 
 from typing_extensions import TypedDict
 
@@ -32,16 +32,18 @@ class Skill:
         self.effect = prototype["effect"]
 
 
+def build_character_prototype_dict() -> Dict[str, CharacterPrototype]:
+    assert "character" in cards_data, "No character data"
+    return dict(
+        [(character["name"], character) for character in cards_data["character"]]
+    )
+
+
 class Character(CardBase):
-    prototype_dict = None
+    prototype_dict: Dict[str, CharacterPrototype] = build_character_prototype_dict()
 
-    def build_prototype_dict():
-        assert "character" in cards_data, "No character data"
-        Character.prototype_dict = dict(
-            [(character["name"], character) for character in cards_data["character"]]
-        )
-
-    def create(name: str) -> dict:
+    @staticmethod
+    def create(name: str) -> "Character":
         if Character.prototype_dict is None:
             Character.build_prototype_dict()
         assert name in Character.prototype_dict, f"No such character: {name}"

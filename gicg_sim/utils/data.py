@@ -1,8 +1,11 @@
-import yaml
-from importlib_resources import files
+from pathlib import Path
+from typing import Dict
 
-raw_basepath = files("gicg_sim.data")
-cards_basepath = files("gicg_sim.data.cards")
+import yaml
+from importlib_resources import files  # type: ignore [import]
+
+raw_basepath: Path = files("gicg_sim.data")
+cards_basepath: Path = files("gicg_sim.data.cards")
 
 
 def read_cards(card_type: str) -> dict:
@@ -20,10 +23,8 @@ def read_raw(data_name: str) -> dict:
 """ cards """
 card_types = ["character"]
 
-cards_data = dict([(ctype, read_cards(ctype)) for ctype in card_types])
+cards_data: Dict[str, dict] = dict([(ctype, read_cards(ctype)) for ctype in card_types])
 
 """ raw """
 
-effect_data = read_raw("effect")
-
-dietype_data = read_raw("die_type")
+effect_data: dict = read_raw("effect")
