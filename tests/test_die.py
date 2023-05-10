@@ -71,10 +71,11 @@ class TestDieState(unittest.TestCase):
         self.assertEqual(result.Hydro, 1)
 
     def test_subtraction_exception(self):
-        DieState(Omni=2, Pyro=3, Hydro=1)
-        DieState(Omni=4, Pyro=2, Hydro=3)
+        die_state1 = DieState(Omni=2, Pyro=3, Hydro=1)
+        die_state2 = DieState(Omni=4, Pyro=2, Hydro=3)
         with self.assertRaises(AssertionError):
-            pass
+            result = die_state1 - die_state2
+            result.Omni  # avoid removing unnecessary code
 
     def test_comparison(self):
         die_state1 = create_random_die()
@@ -89,8 +90,8 @@ class TestDieState(unittest.TestCase):
             self.assertLessEqual(die_state1, die_state2)
 
         die_state2 = die_state1.copy()
-        for i in range(len(die_state2.die_count)):
-            die_state2.die_count[i] = die_state2.die_count[i] + 1
+        for i in range(len(die_state2.die_counts_array)):
+            die_state2.die_counts_array[i] = die_state2.die_counts_array[i] + 1
 
         for en in element_names:
             die_state3 = die_state2.copy()
