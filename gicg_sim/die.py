@@ -1,4 +1,25 @@
+from typing_extensions import TypedDict
+
 element_names = ["Omni", "Pyro", "Hydro", "Anemo", "Electro", "Dendro", "Cryo", "Geo"]
+
+
+class DieStatePrototype(TypedDict):
+    Omni: int
+    Pyro: int
+    Hydro: int
+    Anemo: int
+    Electro: int
+    Dendro: int
+    Cryo: int
+    Geo: int
+
+
+def non_negative_setter(func):
+    def wrapper(self: "DieState", count: int):
+        assert count >= 0, "Invalid die count: count must be non-negative"
+        func(self, count)
+
+    return wrapper
 
 
 class DieState:
@@ -8,7 +29,12 @@ class DieState:
         for (k, v) in kwargs.items():
             assert k in element_names, f"Invalid element name: {k}"
             assert isinstance(v, int), f"Invalid die count: {v}"
-            self.die_count[element_names.index(k)] = v
+            setattr(self, k, v)
+
+    def copy(self) -> "DieState":
+        kwargs: dict = dict((en, getattr(self, en)) for en in element_names)
+
+        return DieState(**kwargs)
 
     # region Omni
     @property
@@ -18,6 +44,7 @@ class DieState:
 
     @Omni.setter
     def Omni(self, count: int):
+        assert count >= 0, "Invalid die count: count must be non-negative"
         self.die_count[0] = count
 
     # endregion
@@ -30,6 +57,7 @@ class DieState:
 
     @Pyro.setter
     def Pyro(self, count: int):
+        assert count >= 0, "Invalid die count: count must be non-negative"
         self.die_count[1] = count
 
     # endregion
@@ -42,6 +70,7 @@ class DieState:
 
     @Hydro.setter
     def Hydro(self, count: int):
+        assert count >= 0, "Invalid die count: count must be non-negative"
         self.die_count[2] = count
 
     # endregion
@@ -54,6 +83,7 @@ class DieState:
 
     @Anemo.setter
     def Anemo(self, count: int):
+        assert count >= 0, "Invalid die count: count must be non-negative"
         self.die_count[3] = count
 
     # endregion
@@ -66,6 +96,7 @@ class DieState:
 
     @Electro.setter
     def Electro(self, count: int):
+        assert count >= 0, "Invalid die count: count must be non-negative"
         self.die_count[4] = count
 
     # endregion
@@ -78,6 +109,7 @@ class DieState:
 
     @Dendro.setter
     def Dendro(self, count: int):
+        assert count >= 0, "Invalid die count: count must be non-negative"
         self.die_count[5] = count
 
     # endregion
@@ -90,6 +122,7 @@ class DieState:
 
     @Cryo.setter
     def Cryo(self, count: int):
+        assert count >= 0, "Invalid die count: count must be non-negative"
         self.die_count[6] = count
 
     # endregion
@@ -102,9 +135,56 @@ class DieState:
 
     @Geo.setter
     def Geo(self, count: int):
+        assert count >= 0, "Invalid die count: count must be non-negative"
         self.die_count[7] = count
 
     # endregion
+
+    # region mathop
+    def __add__(self, other: "DieState"):
+        result = DieState()
+        for en in element_names:
+            lhs = getattr(self, en)
+            rhs = getattr(other, en)
+            setattr(result, en, lhs + rhs)
+        return result
+
+    def __sub__(self, other: "DieState"):
+        result = DieState()
+        for en in element_names:
+            lhs = getattr(self, en)
+            rhs = getattr(other, en)
+            setattr(result, en, lhs - rhs)
+        return result
+
+    # endregion
+
+    def __ge__(self, other: "DieState") -> bool:
+        return all(
+            self.die_count[i] >= other.die_count[i] for i in range(len(self.die_count))
+        )
+
+    def __gt__(self, other: "DieState") -> bool:
+        return all(
+            self.die_count[i] > other.die_count[i] for i in range(len(self.die_count))
+        )
+
+    def __le__(self, other: "DieState") -> bool:
+        return all(
+            self.die_count[i] <= other.die_count[i] for i in range(len(self.die_count))
+        )
+
+    def __lt__(self, other: "DieState") -> bool:
+        return all(
+            self.die_count[i] < other.die_count[i] for i in range(len(self.die_count))
+        )
+
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, DieState):
+            return NotImplemented
+        return all(
+            self.die_count[i] == other.die_count[i] for i in range(len(self.die_count))
+        )
 
 
 def create_die_state(

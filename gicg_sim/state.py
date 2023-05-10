@@ -1,4 +1,5 @@
 from enum import Enum
+from functools import wraps
 from typing import List
 
 from gicg_sim.card.action import ActionCard
@@ -12,10 +13,42 @@ class PlayerID(Enum):
     Player_2 = 2
 
 
+class PlayerActionState(Enum):
+    """
+    New Turn -> (Set_Reroll_Dies, Set_Reroll_Dies)
+    """
+
+    Undefined = 0
+    Wait = 1
+    Set_Reroll_Dies = 2
+    Select_Active_Character = 3
+    Normal_Action = 4
+
+
+def validate_action_state(required_state: PlayerActionState):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(self: "State", player: PlayerID, *args, **kwargs):
+            id = self.player2index(player)
+            action_state: PlayerActionState = self.player_action_state[id]
+            if action_state != required_state:
+                raise ValueError(
+                    f"Invalid player action state. Expected {required_state}."
+                )
+
+            return func(self, player, *args, **kwargs)
+
+        return wrapper
+
+    return decorator
+
+
 class State:
     def __init__(self, current_player=PlayerID.Player_1) -> None:
         self.turn_count = 0
-        self.current_player = current_player
+        self.player_action_state: List[PlayerActionState] = [
+            PlayerActionState.Wait for _ in range(2)
+        ]
 
         self.characters_lists: List[List[Character]] = [[], []]
         self.active_character_index = [-1, -1]
@@ -36,7 +69,7 @@ class State:
         id = self.player2index(player)
         return self.characters_lists[id]
 
-    def append_character(self, player: PlayerID, character_name: str):
+    def character_append(self, player: PlayerID, character_name: str):
         self.characters(player).append(Character.create(character_name))
 
     def deck(self, player: PlayerID):
@@ -52,6 +85,12 @@ class State:
         id = self.player2index(player)
         return self.hand_cards_lists[id]
 
-    def hand_cards_extend(self, player: PlayerID, cards):
+    def hand_cards_append(self, player: PlayerID, cards):
         id = self.player2index(player)
         self.hand_cards_lists[id].extend(cards)
+
+    @validate_action_state(PlayerActionState.Set_Reroll_Dies)
+    def set_reroll_dies(self, player: PlayerID, keep_dies: DieState):
+        self.player2index(player)
+
+        pass
