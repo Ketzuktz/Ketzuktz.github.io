@@ -4,7 +4,7 @@ from typing import List
 
 from gicg_sim.card.action import ActionCard
 from gicg_sim.card.character import Character
-from gicg_sim.die import DieState, create_die_state
+from gicg_sim.die import DieState, roll_n_dies
 
 
 class PlayerID(Enum):
@@ -44,18 +44,20 @@ def validate_action_state(required_state: PlayerActionState):
 
 
 class State:
-    def __init__(self, current_player=PlayerID.Player_1) -> None:
+    def __init__(self, first_action_player: PlayerID = PlayerID.Player_1) -> None:
         self.turn_count = 0
+        self.players = [PlayerID.Player_1, PlayerID.Player_2]
         self.player_action_state: List[PlayerActionState] = [
             PlayerActionState.Wait for _ in range(2)
         ]
+        self.first_action_player = first_action_player
 
         self.characters_lists: List[List[Character]] = [[], []]
         self.active_character_index = [-1, -1]
 
         self.deck_lists: List[List[ActionCard]] = [[], []]
         self.hand_cards_lists: List[List[ActionCard]] = [[], []]
-        self.die_states: List[DieState] = [create_die_state() for _ in range(2)]
+        self.die_states: List[DieState] = [DieState() for _ in range(2)]
 
     def player2index(self, player: PlayerID) -> int:
         if player == PlayerID.Player_1:
@@ -89,8 +91,38 @@ class State:
         id = self.player2index(player)
         self.hand_cards_lists[id].extend(cards)
 
-    @validate_action_state(PlayerActionState.Set_Reroll_Dies)
-    def set_reroll_dies(self, player: PlayerID, keep_dies: DieState):
-        self.player2index(player)
+    def state_all(self, state: PlayerActionState) -> bool:
+        """
+        判断是否所有玩家行动状态都是 state
+        """
+        return all(
+            [
+                self.player_action_state[self.player2index(p)] == state
+                for p in self.players
+            ]
+        )
 
-        pass
+    @validate_action_state(PlayerActionState.Set_Reroll_Dies)
+    def reroll_dies(self, player: PlayerID, keep_dies: DieState):
+        id = self.player2index(player)
+        reroll_dies = self.die_states[id] - keep_dies
+        reroll_dies = roll_n_dies(reroll_dies.die_count)
+        self.die_states[id] = keep_dies + reroll_dies
+
+        self.reroll_dies_end(player)
+
+    @validate_action_state(PlayerActionState.Set_Reroll_Dies)
+    def reroll_dies_end(self, player: PlayerID):
+        id = self.player2index(player)
+        self.player_action_state[id] = PlayerActionState.Wait
+
+        if self.state_all(PlayerActionState.Wait):
+            pass
+
+    def newturn(self):
+        assert all([s == PlayerActionState.Wait for s in self.player_action_state])
+
+        for pid in self.players:
+            i = self.player2index(pid)
+            self.die_states[i] = roll_n_dies(8)
+            self.player_action_state[i] = PlayerActionState.Set_Reroll_Dies
