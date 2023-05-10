@@ -18,14 +18,6 @@ class DieStatePrototype(TypedDict):
     Geo: int
 
 
-def non_negative_setter(func):
-    def wrapper(self: "DieState", count: int):
-        assert count >= 0, "Invalid die count: count must be non-negative"
-        func(self, count)
-
-    return wrapper
-
-
 class DieState:
     def __init__(self, **kwargs):
         self.die_counts_array = [0 for _ in range(7 + 1)]
@@ -48,7 +40,7 @@ class DieState:
 
     @Omni.setter
     def Omni(self, count: int):
-        assert count >= 0, "Invalid die count: count must be non-negative"
+        assert count >= 0, f"Invalid die count: count ({count}) must be non-negative"
         self.die_counts_array[0] = count
 
     # endregion
@@ -61,7 +53,7 @@ class DieState:
 
     @Pyro.setter
     def Pyro(self, count: int):
-        assert count >= 0, "Invalid die count: count must be non-negative"
+        assert count >= 0, f"Invalid die count: count ({count}) must be non-negative"
         self.die_counts_array[1] = count
 
     # endregion
@@ -74,7 +66,7 @@ class DieState:
 
     @Hydro.setter
     def Hydro(self, count: int):
-        assert count >= 0, "Invalid die count: count must be non-negative"
+        assert count >= 0, f"Invalid die count: count ({count}) must be non-negative"
         self.die_counts_array[2] = count
 
     # endregion
@@ -87,7 +79,7 @@ class DieState:
 
     @Anemo.setter
     def Anemo(self, count: int):
-        assert count >= 0, "Invalid die count: count must be non-negative"
+        assert count >= 0, f"Invalid die count: count ({count}) must be non-negative"
         self.die_counts_array[3] = count
 
     # endregion
@@ -100,7 +92,7 @@ class DieState:
 
     @Electro.setter
     def Electro(self, count: int):
-        assert count >= 0, "Invalid die count: count must be non-negative"
+        assert count >= 0, f"Invalid die count: count ({count}) must be non-negative"
         self.die_counts_array[4] = count
 
     # endregion
@@ -113,7 +105,7 @@ class DieState:
 
     @Dendro.setter
     def Dendro(self, count: int):
-        assert count >= 0, "Invalid die count: count must be non-negative"
+        assert count >= 0, f"Invalid die count: count ({count}) must be non-negative"
         self.die_counts_array[5] = count
 
     # endregion
@@ -126,7 +118,7 @@ class DieState:
 
     @Cryo.setter
     def Cryo(self, count: int):
-        assert count >= 0, "Invalid die count: count must be non-negative"
+        assert count >= 0, f"Invalid die count: count ({count}) must be non-negative"
         self.die_counts_array[6] = count
 
     # endregion
