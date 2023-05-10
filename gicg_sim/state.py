@@ -57,7 +57,7 @@ class State:
 
         self.deck_lists: List[List[ActionCard]] = [[], []]
         self.hand_cards_lists: List[List[ActionCard]] = [[], []]
-        self.die_states: List[DieState] = [DieState() for _ in range(2)]
+        self._die_states: List[DieState] = [DieState() for _ in range(2)]
 
     def player2index(self, player: PlayerID) -> int:
         if player == PlayerID.Player_1:
@@ -91,6 +91,10 @@ class State:
         id = self.player2index(player)
         self.hand_cards_lists[id].extend(cards)
 
+    def die_state(self, player: PlayerID) -> DieState:
+        id = self.player2index(player)
+        return self._die_states[id]
+
     def state_all(self, state: PlayerActionState) -> bool:
         """
         判断是否所有玩家行动状态都是 state
@@ -103,26 +107,27 @@ class State:
         )
 
     @validate_action_state(PlayerActionState.Set_Reroll_Dies)
-    def reroll_dies(self, player: PlayerID, keep_dies: DieState):
+    def reroll_dies(self, player: PlayerID, keep_dies: DieState) -> DieState:
         id = self.player2index(player)
-        reroll_dies = self.die_states[id] - keep_dies
+        reroll_dies = self._die_states[id] - keep_dies
         reroll_dies = roll_n_dies(reroll_dies.die_count)
-        self.die_states[id] = keep_dies + reroll_dies
+        self._die_states[id] = keep_dies + reroll_dies
 
         self.reroll_dies_end(player)
+        return self._die_states[id]
 
     @validate_action_state(PlayerActionState.Set_Reroll_Dies)
-    def reroll_dies_end(self, player: PlayerID):
+    def reroll_dies_end(self, player: PlayerID) -> None:
         id = self.player2index(player)
         self.player_action_state[id] = PlayerActionState.Wait
 
         if self.state_all(PlayerActionState.Wait):
             pass
 
-    def newturn(self):
+    def newturn(self) -> None:
         assert all([s == PlayerActionState.Wait for s in self.player_action_state])
 
         for pid in self.players:
             i = self.player2index(pid)
-            self.die_states[i] = roll_n_dies(8)
+            self._die_states[i] = roll_n_dies(8)
             self.player_action_state[i] = PlayerActionState.Set_Reroll_Dies
