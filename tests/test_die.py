@@ -1,7 +1,8 @@
 import random
 import unittest
+from unittest.mock import patch
 
-from gicg_sim.die import DieState, element_names
+from gicg_sim.die import DieState, element_names, roll_n_dies, roll_n_dies_raw
 
 
 def create_random_die(low: int = 0, high: int = 10):
@@ -103,6 +104,34 @@ class TestDieState(unittest.TestCase):
     def test_invalid_die_count(self):
         with self.assertRaises(AssertionError):
             self.die_state.Omni = -1
+
+
+class TestRollNDies(unittest.TestCase):
+    def test_roll_n_dies_raw(self):
+        with patch("random.randint", return_value=6):
+            result = roll_n_dies_raw(die_count=8)
+            self.assertDictEqual(
+                result.__dict__,
+                DieState(
+                    Omni=0, Pyro=0, Hydro=0, Anemo=0, Electro=0, Dendro=0, Cryo=8, Geo=0
+                ).__dict__,
+            )
+
+    def test_roll_n_dies(self):
+        def test_mock_roll_n_dies(die_count: int):
+            with patch("random.randint", return_value=1), patch(
+                "random.shuffle"
+            ) as mock_shuffle:
+                result = roll_n_dies(die_count)
+
+                die_array = [(1 if i < die_count else 0) for i in range(8)]
+                kwargs = dict(zip(element_names, die_array))
+
+                self.assertDictEqual(result.__dict__, DieState(**kwargs).__dict__)
+                mock_shuffle.assert_called_once_with(die_array)
+
+        for i in range(0, 9):
+            test_mock_roll_n_dies(i)
 
 
 if __name__ == "__main__":
