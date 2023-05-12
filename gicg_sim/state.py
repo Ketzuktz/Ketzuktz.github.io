@@ -13,43 +13,50 @@ class PlayerID(Enum):
     Player_2 = 2
 
 
-class PlayerActionState(Enum):
-    """
-    New Turn -> (Set_Reroll_Dies, Set_Reroll_Dies)
-    """
-
-    Undefined = 0
-    Wait = 1
-    Set_Reroll_Dies = 2
-    Select_Active_Character = 3
-    Normal_Action = 4
+class DuelPhase(Enum):
+    PREPARATION = 1
+    ROUNDS = 2
+    VICTORY_EVALUATION = 3
 
 
-def validate_action_state(required_state: PlayerActionState):
+class RoundPhase(Enum):
+    ROLL = 1
+    ACTION = 2
+    END = 3
+
+
+def validate_round_phase(required_state: RoundPhase):
     def decorator(func):
         @wraps(func)
-        def wrapper(self: "State", player: PlayerID, *args, **kwargs):
-            id = self.player2index(player)
-            action_state: PlayerActionState = self.player_action_state[id]
-            if action_state != required_state:
-                raise ValueError(
-                    f"Invalid player action state. Expected {required_state}."
-                )
+        def wrapper(self: "State", *args, **kwargs):
+            if self.duel_phase != DuelPhase.ROUNDS:
+                raise ValueError("Invalid duel phase. Expected ROUNDS.")
+            if self.round_phase != required_state:
+                raise ValueError(f"Invalid round phase. Expected {required_state}.")
 
-            return func(self, player, *args, **kwargs)
+            return func(self, *args, **kwargs)
 
         return wrapper
 
     return decorator
 
 
+class RoundState(Enum):
+    Roll_Phase = 0
+    Start_Phase = 1
+    Action_Phase = 2
+    End_Phase = 3
+
+
 class State:
     def __init__(self, first_action_player: PlayerID = PlayerID.Player_1) -> None:
+        # self.duel_phase: DuelPhase = DuelPhase.PREPARATION
+        self.duel_phase: DuelPhase = DuelPhase.ROUNDS  # 先 ROUNDS，之后再加选牌流程
+        self.round_phase: RoundPhase = RoundPhase.END
         self.turn_count = 0
         self.players = [PlayerID.Player_1, PlayerID.Player_2]
-        self.player_action_state: List[PlayerActionState] = [
-            PlayerActionState.Wait for _ in range(2)
-        ]
+        self.player_max_roll_times = [1, 1]
+        self.player_roll_times = [1, 1]
         self.first_action_player = first_action_player
 
         self.characters_lists: List[List[Character]] = [[], []]
@@ -95,20 +102,11 @@ class State:
         id = self.player2index(player)
         return self._die_states[id]
 
-    def state_all(self, state: PlayerActionState) -> bool:
-        """
-        判断是否所有玩家行动状态都是 state
-        """
-        return all(
-            [
-                self.player_action_state[self.player2index(p)] == state
-                for p in self.players
-            ]
-        )
-
-    @validate_action_state(PlayerActionState.Set_Reroll_Dies)
+    @validate_round_phase(RoundPhase.ROLL)
     def reroll_dies(self, player: PlayerID, keep_dies: DieState) -> DieState:
         id = self.player2index(player)
+        assert self.player_roll_times[id] > 0, "player has no roll times."
+
         reroll_dies = self._die_states[id] - keep_dies
         reroll_dies = roll_n_dies(reroll_dies.die_count)
         self._die_states[id] = keep_dies + reroll_dies
@@ -116,18 +114,22 @@ class State:
         self.reroll_dies_end(player)
         return self._die_states[id]
 
-    @validate_action_state(PlayerActionState.Set_Reroll_Dies)
+    @validate_round_phase(RoundPhase.ROLL)
     def reroll_dies_end(self, player: PlayerID) -> None:
         id = self.player2index(player)
-        self.player_action_state[id] = PlayerActionState.Wait
+        assert self.player_roll_times[id] > 0, "player has no roll times."
+        self.player_roll_times[id] -= 1
 
-        if self.state_all(PlayerActionState.Wait):
-            pass
+        if self.player_roll_times[id] == 0:
+            if sum(self.player_roll_times) == 0:
+                self.round_phase = RoundPhase.ACTION
 
     def newturn(self) -> None:
-        assert all([s == PlayerActionState.Wait for s in self.player_action_state])
+        assert self.round_phase == RoundPhase.END, "round phase is not END."
 
         for pid in self.players:
             i = self.player2index(pid)
             self._die_states[i] = roll_n_dies(8)
-            self.player_action_state[i] = PlayerActionState.Set_Reroll_Dies
+            self.player_roll_times[i] = self.player_max_roll_times[i]
+
+        self.round_phase = RoundPhase.ROLL
