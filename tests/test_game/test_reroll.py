@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import MagicMock, call, patch
 
 from gicg_sim.die import DieState, _create_die_state_by_array
-from gicg_sim.state import PlayerActionState, PlayerID, State
+from gicg_sim.state import PlayerID, RoundPhase, State
 from gicg_sim.userboard import UserBoard
 
 
@@ -29,10 +29,10 @@ class TestReroll(unittest.TestCase):
 
     @patch("gicg_sim.state.roll_n_dies", side_effect=roll_n_dies_patch)
     def test_reroll_action(self, mock_func: MagicMock):
-        self.assertTrue(self.state.state_all(PlayerActionState.Wait))
+        self.assertTrue(self.state.round_phase == RoundPhase.END)
 
         self.state.newturn()
-        self.assertTrue(self.state.state_all(PlayerActionState.Set_Reroll_Dies))
+        self.assertTrue(self.state.round_phase == RoundPhase.ROLL)
 
         keepdies_1 = _create_die_state_by_array([1, 1, 0, 0, 0, 0, 0, 0])
         keepdies_2 = _create_die_state_by_array([1, 0, 0, 0, 0, 0, 0, 0])
@@ -51,7 +51,7 @@ class TestReroll(unittest.TestCase):
         mock_func.assert_has_calls([call(8), call(8), call(6), call(7)])
 
     @patch("gicg_sim.state.roll_n_dies", side_effect=roll_n_dies_patch)
-    def test_reroll_exception(self, mock_func):
+    def test_reroll_exception(self, mock_func: MagicMock):
         self.state.newturn()
         mock_func.assert_has_calls([call(8), call(8)])
 
