@@ -1,23 +1,31 @@
-from typing import Any, Dict, List
+from typing import Dict, List, Optional
 
 from typing_extensions import TypedDict
 
+from gicg_sim.basic.cost import DieCost
+from gicg_sim.basic.effect import SkillEffect
+from gicg_sim.basic.element import ElementType
 from gicg_sim.card.base import CardBase
 from gicg_sim.utils.data import cards_data
+
+
+class SkillCost(TypedDict):
+    die: Optional[DieCost]
+    erengy: Optional[int]
 
 
 class SkillPrototype(TypedDict):
     name: str
     type: str
-    cost: List[Any]
-    effect: List[Any]
+    cost: SkillCost
+    effect: List[SkillEffect]
     comment: str
 
 
 class CharacterPrototype(TypedDict):
     name: str
     rarity: int
-    element: str
+    element: ElementType
     weapon: str
     max_HP: int
     max_energy: int
@@ -39,15 +47,14 @@ def build_character_prototype_dict() -> Dict[str, CharacterPrototype]:
     )
 
 
-class Character(CardBase):
+class CharacterCard(CardBase):
     prototype_dict: Dict[str, CharacterPrototype] = build_character_prototype_dict()
 
     @staticmethod
-    def create(name: str) -> "Character":
-        if Character.prototype_dict is None:
-            Character.build_prototype_dict()
-        assert name in Character.prototype_dict, f"No such character: {name}"
-        return Character(Character.prototype_dict[name])
+    def create(name: str) -> "CharacterCard":
+        assert CharacterCard.prototype_dict, "No character prototype data"
+        assert name in CharacterCard.prototype_dict, f"No such character: {name}"
+        return CharacterCard(CharacterCard.prototype_dict[name])
 
     def __init__(self, prototype: CharacterPrototype) -> None:
         self.name = prototype["name"]
@@ -60,3 +67,6 @@ class Character(CardBase):
 
         self.current_HP = self.max_HP
         self.current_energy = 0
+
+    def get_skill(self, skill_name: str) -> List[Skill]:
+        return [skill for skill in self.skills if skill_name == skill.name]

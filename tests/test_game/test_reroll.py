@@ -31,7 +31,7 @@ class TestReroll(unittest.TestCase):
     def test_reroll_action(self, mock_func: MagicMock):
         self.assertTrue(self.state.round_phase == RoundPhase.END)
 
-        self.state.newturn()
+        self.state.new_turn()
         self.assertTrue(self.state.round_phase == RoundPhase.ROLL)
 
         keepdies_1 = _create_die_state_by_array([1, 1, 0, 0, 0, 0, 0, 0])
@@ -39,6 +39,8 @@ class TestReroll(unittest.TestCase):
 
         self.userboard_1.reroll_dies(keepdies_1)
         self.userboard_2.reroll_dies(keepdies_2)
+
+        self.assertTrue(self.state.round_phase == RoundPhase.ACTION)
 
         self.assertEqual(self.userboard_1.die_state.Omni, 7)
         self.assertEqual(self.userboard_1.die_state.Pyro, 1)
@@ -52,7 +54,7 @@ class TestReroll(unittest.TestCase):
 
     @patch("gicg_sim.state.roll_n_dies", side_effect=roll_n_dies_patch)
     def test_reroll_exception(self, mock_func: MagicMock):
-        self.state.newturn()
+        self.state.new_turn()
         mock_func.assert_has_calls([call(8), call(8)])
 
         keepdies_1 = _create_die_state_by_array([2, 1, 0, 0, 0, 0, 0, 0])

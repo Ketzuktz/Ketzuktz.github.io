@@ -3,7 +3,7 @@ from functools import wraps
 from typing import List
 
 from gicg_sim.card.action import ActionCard
-from gicg_sim.card.character import Character
+from gicg_sim.card.character import CharacterCard
 from gicg_sim.die import DieState, roll_n_dies
 
 
@@ -59,12 +59,20 @@ class State:
         self.player_roll_times = [1, 1]
         self.first_action_player = first_action_player
 
-        self.characters_lists: List[List[Character]] = [[], []]
+        self.characters_lists: List[List[CharacterCard]] = [[], []]
         self.active_character_index = [-1, -1]
 
         self.deck_lists: List[List[ActionCard]] = [[], []]
         self.hand_cards_lists: List[List[ActionCard]] = [[], []]
         self._die_states: List[DieState] = [DieState() for _ in range(2)]
+
+    def another_player(self, player: PlayerID) -> PlayerID:
+        if player == PlayerID.Player_1:
+            return PlayerID.Player_2
+        elif player == PlayerID.Player_2:
+            return PlayerID.Player_1
+        else:
+            raise ValueError("player cannot be Undefined.")
 
     def player2index(self, player: PlayerID) -> int:
         if player == PlayerID.Player_1:
@@ -74,12 +82,12 @@ class State:
         else:
             raise ValueError("player cannot be Undefined.")
 
-    def characters(self, player: PlayerID) -> List[Character]:
+    def characters(self, player: PlayerID) -> List[CharacterCard]:
         id = self.player2index(player)
         return self.characters_lists[id]
 
     def character_append(self, player: PlayerID, character_name: str):
-        self.characters(player).append(Character.create(character_name))
+        self.characters(player).append(CharacterCard.create(character_name))
 
     def deck(self, player: PlayerID):
         id = self.player2index(player)
@@ -124,7 +132,7 @@ class State:
             if sum(self.player_roll_times) == 0:
                 self.round_phase = RoundPhase.ACTION
 
-    def newturn(self) -> None:
+    def new_turn(self) -> None:
         assert self.round_phase == RoundPhase.END, "round phase is not END."
 
         for pid in self.players:
@@ -133,3 +141,22 @@ class State:
             self.player_roll_times[i] = self.player_max_roll_times[i]
 
         self.round_phase = RoundPhase.ROLL
+
+    def get_active_character(self, player: PlayerID) -> CharacterCard:
+        id = self.player2index(player)
+        ch_id = self.active_character_index[id]
+        assert ch_id in range(
+            0, len(self.characters_lists[id])
+        ), "player has no active character."
+        return self.characters_lists[id][ch_id]
+
+    def use_skill(self, player: PlayerID, skill_name: str) -> None:
+        ch_1 = self.get_active_character(player)
+        skills = ch_1.get_skill(skill_name)
+        assert len(skills) > 0, f"Character has no skill named {skill_name}"
+        if len(skills) > 1:
+            print(f"Character has more than one skill named {skill_name}.")
+        skills[0]
+
+        enemy_player = self.another_player(player)
+        self.get_active_character(enemy_player)

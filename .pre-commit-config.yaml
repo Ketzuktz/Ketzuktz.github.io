@@ -20,12 +20,6 @@ repos:
         name: Tabs remover (Python)
         files: (.*\.(py|bzl)|BUILD|.*\.BUILD|WORKSPACE)$
         args: [--whitespaces-count, '4']
-# For Python files
--   repo: https://github.com/psf/black.git
-    rev: 22.8.0
-    hooks:
-    -   id: black
-        files: (.*\.(py|pyi|bzl)|BUILD|.*\.BUILD|WORKSPACE)$
 -   repo: https://github.com/pycqa/isort
     rev: 5.11.5
     hooks:
