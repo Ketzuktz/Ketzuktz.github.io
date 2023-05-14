@@ -1,34 +1,20 @@
 import random
 from typing import List
 
-from typing_extensions import TypedDict
-
-element_names = ["Omni", "Pyro", "Hydro", "Anemo", "Electro", "Dendro", "Cryo", "Geo"]
-element_count = len(element_names)
-
-
-class DieStatePrototype(TypedDict):
-    Omni: int
-    Pyro: int
-    Hydro: int
-    Anemo: int
-    Electro: int
-    Dendro: int
-    Cryo: int
-    Geo: int
+from gicg_sim.basic.element import die_element_count, die_element_names
 
 
 class DieState:
     def __init__(self, **kwargs):
         self.die_counts_array = [0 for _ in range(7 + 1)]
 
-        for (k, v) in kwargs.items():
-            assert k in element_names, f"Invalid element name: {k}"
+        for k, v in kwargs.items():
+            assert k in die_element_names, f"Invalid element name: {k}"
             assert isinstance(v, int), f"Invalid die count: {v}"
             setattr(self, k, v)
 
     def copy(self) -> "DieState":
-        kwargs: dict = dict((en, getattr(self, en)) for en in element_names)
+        kwargs: dict = dict((en, getattr(self, en)) for en in die_element_names)
 
         return DieState(**kwargs)
 
@@ -147,7 +133,7 @@ class DieState:
     # region mathop
     def __add__(self, other: "DieState"):
         result = DieState()
-        for en in element_names:
+        for en in die_element_names:
             lhs = getattr(self, en)
             rhs = getattr(other, en)
             setattr(result, en, lhs + rhs)
@@ -155,7 +141,7 @@ class DieState:
 
     def __sub__(self, other: "DieState"):
         result = DieState()
-        for en in element_names:
+        for en in die_element_names:
             lhs = getattr(self, en)
             rhs = getattr(other, en)
             setattr(result, en, lhs - rhs)
@@ -197,30 +183,30 @@ class DieState:
 
 
 def _create_die_state_by_array(die_counts: List[int]) -> DieState:
-    assert element_count == len(die_counts), (
+    assert die_element_count == len(die_counts), (
         "Invalid die counts: die_counts must be"
-        f"array with {element_count} int elements."
+        f"array with {die_element_count} int elements."
     )
-    kwargs = dict(zip(element_names, die_counts))
+    kwargs = dict(zip(die_element_names, die_counts))
 
     return DieState(**kwargs)
 
 
 def roll_n_dies_raw(die_count: int = 8) -> DieState:
-    die_counts_array: List[int] = [0 for _ in range(element_count)]
+    die_counts_array: List[int] = [0 for _ in range(die_element_count)]
 
     for i in range(die_count):
-        p = random.randint(0, element_count - 1)
+        p = random.randint(0, die_element_count - 1)
         die_counts_array[p] = die_counts_array[p] + 1
 
     return _create_die_state_by_array(die_counts_array)
 
 
 def roll_n_dies(die_count: int = 8) -> DieState:
-    die_counts_array: List[int] = [0 for _ in range(element_count)]
+    die_counts_array: List[int] = [0 for _ in range(die_element_count)]
     current_sum = 0
 
-    for i in range(element_count - 1):
+    for i in range(die_element_count - 1):
         if die_count == current_sum:
             break
 
@@ -228,7 +214,7 @@ def roll_n_dies(die_count: int = 8) -> DieState:
         die_counts_array[i] = value
         current_sum += value
 
-    die_counts_array[element_count - 1] = die_count - current_sum
+    die_counts_array[die_element_count - 1] = die_count - current_sum
     random.shuffle(die_counts_array)
 
     return _create_die_state_by_array(die_counts_array)

@@ -1,6 +1,6 @@
 from typing import List
 
-from gicg_sim.card.character import Character
+from gicg_sim.card.character import CharacterCard
 from gicg_sim.die import DieState
 from gicg_sim.state import PlayerID, State
 
@@ -11,7 +11,7 @@ class UserBoard:
         self._player = player
 
     def add_character(self, name: str):
-        self.characters.append(Character.create(name))
+        self.characters.append(CharacterCard.create(name))
 
     def draw_cards(self):
         pass
@@ -24,5 +24,5 @@ class UserBoard:
         return self._state.die_state(self._player)
 
     @property
-    def characters(self) -> List[Character]:
+    def characters(self) -> List[CharacterCard]:
         return self._state.characters(self._player)

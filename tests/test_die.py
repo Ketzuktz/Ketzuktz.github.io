@@ -2,11 +2,12 @@ import random
 import unittest
 from unittest.mock import patch
 
-from gicg_sim.die import DieState, element_names, roll_n_dies, roll_n_dies_raw
+from gicg_sim.die import (DieState, die_element_names, roll_n_dies,
+                          roll_n_dies_raw)
 
 
 def create_random_die(low: int = 0, high: int = 10):
-    kwargs = dict((en, random.randint(low, high)) for en in element_names)
+    kwargs = dict((en, random.randint(low, high)) for en in die_element_names)
     return DieState(**kwargs)
 
 
@@ -80,7 +81,7 @@ class TestDieState(unittest.TestCase):
     def test_comparison(self):
         die_state1 = create_random_die()
 
-        for en in element_names:
+        for en in die_element_names:
             die_state2 = die_state1.copy()
             value = getattr(die_state2, en)
             setattr(die_state2, en, value + 1)
@@ -93,7 +94,7 @@ class TestDieState(unittest.TestCase):
         for i in range(len(die_state2.die_counts_array)):
             die_state2.die_counts_array[i] = die_state2.die_counts_array[i] + 1
 
-        for en in element_names:
+        for en in die_element_names:
             die_state3 = die_state2.copy()
             value = getattr(die_state3, en)
             setattr(die_state3, en, value + 1)
@@ -126,7 +127,7 @@ class TestRollNDies(unittest.TestCase):
                 result = roll_n_dies(die_count)
 
                 die_array = [(1 if i < die_count else 0) for i in range(8)]
-                kwargs = dict(zip(element_names, die_array))
+                kwargs = dict(zip(die_element_names, die_array))
 
                 self.assertDictEqual(result.__dict__, DieState(**kwargs).__dict__)
                 mock_shuffle.assert_called_once_with(die_array)
