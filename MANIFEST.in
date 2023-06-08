@@ -1,0 +1,2 @@
+include gicg_sim/data/*
+include gicg_sim/data/**/*

@@ -32,10 +32,12 @@ dynamic = ["version", "readme"]
 include-package-data = true
 
 [tool.setuptools.packages.find]
-include = ["gicg_sim"]  # alternatively: `exclude = ["additional*"]`
+namespaces = true
+include = ["gicg_sim*"]  # alternatively: `exclude = ["additional*"]`
 
 [tool.setuptools.package-data]
 gicg_sim = ["*.yml", "*.yaml"]
+"gicg_sim.data" = ["*.yml", "*.yaml"]
 
 [tool.setuptools.dynamic]
 readme = {file = ["README.md"], content-type = "text/markdown"}
