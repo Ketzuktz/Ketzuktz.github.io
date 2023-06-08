@@ -1,7 +1,3 @@
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "gicg_sim"
 authors = [
@@ -25,20 +21,14 @@ dynamic = ["version", "readme"]
 "Homepage" = "https://github.com/RedContritio/gicg-simulator"
 "Bug Tracker" = "https://github.com/RedContritio/gicg-simulator/issues"
 
-[tool.setuptools]
-# ...
-# By default, include-package-data is true in pyproject.toml, so you do
-# NOT have to specify this line.
-include-package-data = true
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["src"]
 namespaces = true
 include = ["gicg_sim*"]  # alternatively: `exclude = ["additional*"]`
-
-[tool.setuptools.package-data]
-gicg_sim = ["*.yml", "*.yaml"]
-"gicg_sim.data" = ["*.yml", "*.yaml"]
 
 [tool.setuptools.dynamic]
 readme = {file = ["README.md"], content-type = "text/markdown"}
