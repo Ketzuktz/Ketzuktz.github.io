@@ -1,4 +1,7 @@
 importlib-resources
+typing_extensions
+pyyaml
+types-PyYAML
 
 # dev
 pre-commit >=2.9.2

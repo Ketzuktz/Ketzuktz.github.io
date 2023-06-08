@@ -1,6 +1,6 @@
-from .action import Action
-from .state import PlayerID, State
-from .userboard import UserBoard
+from gicg_sim.action import Action
+from gicg_sim.state import PlayerID, State
+from gicg_sim.userboard import UserBoard
 
 
 class GICG_Core:
