@@ -32,6 +32,7 @@ dynamic = ["version", "readme"]
 include-package-data = true
 
 [tool.setuptools.packages.find]
+where = ["src"]
 namespaces = true
 include = ["gicg_sim*"]  # alternatively: `exclude = ["additional*"]`
 
