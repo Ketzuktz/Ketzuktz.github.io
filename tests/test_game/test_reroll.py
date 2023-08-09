@@ -1,5 +1,6 @@
-import unittest
-from unittest.mock import MagicMock, call, patch
+from unittest.mock import call, patch
+
+import pytest
 
 from gicg_sim.die import DieState, _create_die_state_by_array
 from gicg_sim.state import PlayerID, RoundPhase, State
@@ -15,53 +16,64 @@ def roll_n_dies_patch(die_count: int) -> DieState:
         )
 
 
-class TestReroll(unittest.TestCase):
-    def setUp(self) -> None:
-        self.state = State()
-        self.player_1 = PlayerID.Player_1
-        self.player_2 = PlayerID.Player_2
-        self.userboard_1 = UserBoard(self.state, self.player_1)
-        self.userboard_2 = UserBoard(self.state, self.player_2)
+@pytest.fixture
+def setup_state():
+    state = State()
+    player_1 = PlayerID.Player_1
+    player_2 = PlayerID.Player_2
+    userboard_1 = UserBoard(state, player_1)
+    userboard_2 = UserBoard(state, player_2)
 
-        self.userboard_1.add_character("Diluc")
-        self.userboard_2.add_character("Diluc")
-        return super().setUp()
+    userboard_1.add_character("Diluc")
+    userboard_2.add_character("Diluc")
 
-    @patch("gicg_sim.state.roll_n_dies", side_effect=roll_n_dies_patch)
-    def test_reroll_action(self, mock_func: MagicMock):
-        self.assertTrue(self.state.round_phase == RoundPhase.END)
+    return state, userboard_1, userboard_2
 
-        self.state.new_turn()
-        self.assertTrue(self.state.round_phase == RoundPhase.ROLL)
+
+@pytest.fixture
+def setup_mock_roll_n_dies():
+    with patch(
+        "gicg_sim.state.roll_n_dies", side_effect=roll_n_dies_patch
+    ) as mock_func:
+        yield mock_func
+
+
+class TestReroll:
+    def test_reroll_action(self, setup_state, setup_mock_roll_n_dies):
+        state, userboard_1, userboard_2 = setup_state
+        mock_func = setup_mock_roll_n_dies
+
+        assert state.round_phase == RoundPhase.END
+
+        state.new_turn()
+        assert state.round_phase == RoundPhase.ROLL
 
         keepdies_1 = _create_die_state_by_array([1, 1, 0, 0, 0, 0, 0, 0])
         keepdies_2 = _create_die_state_by_array([1, 0, 0, 0, 0, 0, 0, 0])
 
-        self.userboard_1.reroll_dies(keepdies_1)
-        self.userboard_2.reroll_dies(keepdies_2)
+        userboard_1.reroll_dies(keepdies_1)
+        userboard_2.reroll_dies(keepdies_2)
 
-        self.assertTrue(self.state.round_phase == RoundPhase.ACTION)
+        assert state.round_phase == RoundPhase.ACTION
 
-        self.assertEqual(self.userboard_1.die_state.Omni, 7)
-        self.assertEqual(self.userboard_1.die_state.Pyro, 1)
+        assert userboard_1.die_state.Omni == 7
+        assert userboard_1.die_state.Pyro == 1
 
-        self.assertEqual(self.userboard_2.die_state.Omni, 8)
+        assert userboard_2.die_state.Omni == 8
 
-        self.assertEqual(self.userboard_1.die_state.die_count, 8)
-        self.assertEqual(self.userboard_2.die_state.die_count, 8)
+        assert userboard_1.die_state.die_count == 8
+        assert userboard_2.die_state.die_count == 8
 
         mock_func.assert_has_calls([call(8), call(8), call(6), call(7)])
 
-    @patch("gicg_sim.state.roll_n_dies", side_effect=roll_n_dies_patch)
-    def test_reroll_exception(self, mock_func: MagicMock):
-        self.state.new_turn()
+    def test_reroll_exception(self, setup_state, setup_mock_roll_n_dies):
+        state, userboard_1, _ = setup_state
+        mock_func = setup_mock_roll_n_dies
+
+        state.new_turn()
         mock_func.assert_has_calls([call(8), call(8)])
 
         keepdies_1 = _create_die_state_by_array([2, 1, 0, 0, 0, 0, 0, 0])
 
-        with self.assertRaises(AssertionError):
-            self.userboard_1.reroll_dies(keepdies_1)
-
-
-if __name__ == "__main__":
-    unittest.main()
+        with pytest.raises(AssertionError):
+            userboard_1.reroll_dies(keepdies_1)

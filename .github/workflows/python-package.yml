@@ -31,4 +31,4 @@ jobs:
         pip install -e .
     - name: Test with unittest
       run: |
-        python tests -v
+        pytest tests

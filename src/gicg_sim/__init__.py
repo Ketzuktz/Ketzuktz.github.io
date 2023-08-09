@@ -8,7 +8,7 @@ if sys.version_info < (3, 7):
 from . import basic, card, utils
 
 __all__ = [
-    'card',
-    'basic',
-    'utils',
+    "card",
+    "basic",
+    "utils",
 ]

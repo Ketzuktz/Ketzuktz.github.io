@@ -1,8 +1,9 @@
-import unittest
 from unittest.mock import patch
 
+import pytest
+
 from gicg_sim.die import DieState, _create_die_state_by_array
-from gicg_sim.state import PlayerID, State
+from gicg_sim.state import PlayerID, RoundPhase, State
 from gicg_sim.userboard import UserBoard
 
 
@@ -15,8 +16,9 @@ def roll_n_dies_patch(die_count: int) -> DieState:
         )
 
 
-class TestReroll(unittest.TestCase):
-    def setUp(self) -> None:
+class TestAction:
+    @pytest.fixture(autouse=True)
+    def setup_method(self):
         self.state = State()
         self.player_1 = PlayerID.Player_1
         self.player_2 = PlayerID.Player_2
@@ -34,8 +36,5 @@ class TestReroll(unittest.TestCase):
             self.userboard_1.reroll_dies(keepdies_1)
             self.userboard_2.reroll_dies(keepdies_2)
 
-        return super().setUp()
-
-
-if __name__ == "__main__":
-    unittest.main()
+    def test_action(self):
+        assert self.state.round_phase == RoundPhase.ACTION

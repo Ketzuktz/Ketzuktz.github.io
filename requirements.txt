@@ -5,3 +5,5 @@ types-PyYAML
 
 # dev
 pre-commit >=2.9.2
+pytest
+pytest-mock
