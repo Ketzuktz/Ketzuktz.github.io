@@ -1,0 +1,35 @@
+[project]
+name = "gicg_sim"
+authors = [
+  { name="RedContritio", email="RedContritio@qq.com" },
+]
+description = "simulation environment for Genshin Impact mini-game Genius Invokation TCG"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'typing_extensions',
+  "pyyaml",
+  "importlib-resources",
+]
+dynamic = ["version", "readme"]
+
+[project.urls]
+"Homepage" = "https://github.com/RedContritio/gicg-simulator"
+"Bug Tracker" = "https://github.com/RedContritio/gicg-simulator/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true
+include = ["gicg_sim*"]  # alternatively: `exclude = ["additional*"]`
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"], content-type = "text/markdown"}
+version = {attr = "gicg_sim.__version__"}
