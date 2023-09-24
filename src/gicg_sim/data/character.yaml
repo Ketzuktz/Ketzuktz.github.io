@@ -1,0 +1,49 @@
+- name : Diluc
+  rarity : 5
+  element : Pyro
+  weapon : Claymore
+  max_HP : 10
+  max_energy : 3
+  skills :
+    - name : Tempered Sword
+      type : Normal Attack
+      cost :
+          die :
+            pyro : 1
+            any : 2
+      effect :
+        - damage :
+            physical : 2
+        - erengy : 1
+      comment : "Deals 2 Physical DMG."
+    - name : Searing Onslaught
+      type : Elemental Skill
+      cost :
+          die :
+            pyro : 3
+      effect :
+        - damage :
+          - pyro : 3
+        - erengy : 1
+        - counter_add :
+          - name : Searing Onslaught
+        - counter_check :
+          - name : Searing Onslaught
+          - value : 3
+          - effect :
+            - damage_add :
+              - pyro : 2
+            - counter_clear :
+              - name : Searing Onslaught
+      comment : Deals 3 Pyro DMG. For the third use of this Skill each Round, deals +2 DMG.
+    - name : Dawn
+      type : Elemental Burst
+      cost :
+          die :
+            pyro : 4
+          erengy : 3
+      effect :
+        - damage :
+          - pyro : 8
+        - gain : Pyro Infusion
+      comment : Deals 8 Pyro DMG. This character gains Pyro Infusion.

@@ -1,0 +1,21 @@
+import typing
+
+from pydantic import BaseModel
+
+
+class DieCostType(BaseModel):
+    pyro: typing.Optional[int] = None
+    hydro: typing.Optional[int] = None
+    anemo: typing.Optional[int] = None
+    electro: typing.Optional[int] = None
+    dendro: typing.Optional[int] = None
+    cryo: typing.Optional[int] = None
+    geo: typing.Optional[int] = None
+    # non-specified
+    same: typing.Optional[int] = None
+    any: typing.Optional[int] = None
+
+
+class CostType(BaseModel):
+    die: DieCostType
+    energy: typing.Optional[int] = None

@@ -29,6 +29,6 @@ jobs:
     - name : Install Package
       run: |
         pip install -e .
-    - name: Test with unittest
+    - name: Test with Pytest
       run: |
-        python tests -v
+        python -m pytest tests/

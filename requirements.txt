@@ -1,5 +1,6 @@
 importlib-resources
 typing_extensions
+pydantic
 pyyaml
 types-PyYAML
 

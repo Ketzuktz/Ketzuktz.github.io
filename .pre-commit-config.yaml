@@ -39,5 +39,5 @@ repos:
     hooks:
     -   id: mypy
         verbose: true
-        args: [--show-error-codes]
-        additional_dependencies: ['types-requests', 'types-PyYAML']
+        args: [--show-error-codes, "--config-file=.mypy.ini"]
+        additional_dependencies: ['types-requests', 'types-PyYAML', 'mypy[pydantic]']

@@ -2,7 +2,7 @@ import typing
 
 
 def prototype_loadable(cls):
-    def __init__(self, data, *args, **kwargs):
+    def __init__(self, data: dict, *args, **kwargs):
         self._prototype = data
         super(cls, self).__init__(*args, **kwargs)
 
