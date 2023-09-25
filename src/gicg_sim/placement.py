@@ -2,6 +2,6 @@ from gicg_sim.decorator import prototype_loadable
 
 
 @prototype_loadable
-class Weapon:
+class Placement:
     def __init__(self) -> None:
         pass
