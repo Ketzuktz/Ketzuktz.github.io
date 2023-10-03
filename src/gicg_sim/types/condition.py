@@ -2,7 +2,7 @@ from copy import deepcopy
 
 from gicg_sim.game.state import GameControlState as CtrlState
 from gicg_sim.game.state import GameState
-from gicg_sim.types.sysEvent import SystemEventBase
+from gicg_sim.types.event import SystemEventBase
 
 
 class CtrlCondition:
