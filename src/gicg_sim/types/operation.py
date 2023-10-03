@@ -1,91 +1,140 @@
 from enum import Enum
 
-from gicg_sim.types.subtypes import CharacterID, OperationID, PlayerID
+from gicg_sim.types.subtypes import CardID, OperationID, PlayerID, SkillID
 
 
-class OpEnum(Enum):
+class PlayerOperationEnum(Enum):
     DrawCard = 1
     RedrawCard = 2
     SelectActiveCharacter = 3
     RollDice = 4
     RerollDice = 5
-    CombatAction = 6
-    DeclareRoundEnd = 7
-    UseSkill = 8
+    UseSkill = 6
+    PlayCard = 7
+    ElementalTuning = 8
+    SwitchCharacter = 9
+    DeclareRoundEnd = 10
 
 
-class Operation:
+class PlayerOperationBase:
     def __init__(
         self,
-        op_type: OpEnum,
+        op_type: PlayerOperationEnum,
         player_id: PlayerID,
-        operation_id: OperationID | None = None,
-        pre_op: OpEnum | None = None,
+        op_id: OperationID | None = None,
     ) -> None:
-        self.op_type = op_type
-        self.player_id = player_id
-        self.operation_id = operation_id
-        self.pre_op = pre_op
+        self.op_type: PlayerOperationEnum = op_type
+        self.player_id: PlayerID = player_id
+        self.operation_id: OperationID | None = op_id
 
     def __eq__(self, __value: object) -> bool:
-        if not isinstance(__value, Operation):
+        if not isinstance(__value, PlayerOperationBase):
             return False
         if self.op_type != __value.op_type:
             return False
         if self.player_id != __value.player_id:
             return False
-        if (
-            self.operation_id is not None
-            and __value.operation_id is not None
-            and self.operation_id != __value.operation_id
-        ):
-            return False
-        if (
-            self.pre_op is not None
-            and __value.pre_op is not None
-            and self.pre_op != __value.pre_op
-        ):
+        if self.operation_id != __value.operation_id:
             return False
         return True
 
 
-class OpDrawCard(Operation):
-    def __init__(self, count: int = 1, **kwargs) -> None:
-        super().__init__(OpEnum.DrawCard, **kwargs)
+class PlayerOpDrawCard(PlayerOperationBase):
+    def __init__(
+        self, *args, count: int, player_id: PlayerID, op_id: OperationID | None = None
+    ) -> None:
         self.count: int = count
+        super().__init__(PlayerOperationEnum.DrawCard, player_id, op_id, *args)
 
 
-class OpRedrawCard(Operation):
-    def __init__(self, *, min_count: int = 0, max_count: int = 1, **kwargs) -> None:
-        super().__init__(OpEnum.RedrawCard, **kwargs)
-        self.min_count: int = min_count
-        self.max_count: int = max_count
-
-
-class OpSelectActiveCharacter(Operation):
-    def __init__(self, selected_id: CharacterID, **kwargs) -> None:
-        super().__init__(OpEnum.SelectActiveCharacter, **kwargs)
-        self.active_character_id: CharacterID = selected_id
-
-
-class OpRollDice(Operation):
-    def __init__(self, count: int = 8, **kwargs) -> None:
-        super().__init__(OpEnum.RollDice, **kwargs)
+class PlayerOpRedrawCard(PlayerOperationBase):
+    def __init__(
+        self, *args, count: int, player_id: PlayerID, op_id: OperationID | None = None
+    ) -> None:
         self.count: int = count
+        super().__init__(PlayerOperationEnum.RedrawCard, player_id, op_id, *args)
 
 
-class OpRerollDice(Operation):
-    def __init__(self, *, min_count: int = 0, max_count: int = 8, **kwargs) -> None:
-        super().__init__(OpEnum.RerollDice, **kwargs)
-        self.min_count: int = min_count
-        self.max_count: int = max_count
+class PlayerOpSelectActiveCharacter(PlayerOperationBase):
+    def __init__(
+        self,
+        *args,
+        character_id: int,
+        player_id: PlayerID,
+        op_id: OperationID | None = None,
+    ) -> None:
+        self.character_id: int = character_id
+        super().__init__(
+            PlayerOperationEnum.SelectActiveCharacter, player_id, op_id, *args
+        )
 
 
-class OpCombatAction(Operation):
-    def __init__(self, **kwargs) -> None:
-        super().__init__(OpEnum.CombatAction, **kwargs)
+class PlayerOpRollDice(PlayerOperationBase):
+    def __init__(
+        self, *args, count: int, player_id: PlayerID, op_id: OperationID | None = None
+    ) -> None:
+        self.count: int = count
+        super().__init__(PlayerOperationEnum.RollDice, player_id, op_id, *args)
 
 
-class OpDeclareRoundEnd(Operation):
-    def __init__(self, player_id: PlayerID, **kwargs) -> None:
-        super().__init__(OpEnum.DeclareRoundEnd, player_id=player_id, **kwargs)
+class PlayerOpRerollDice(PlayerOperationBase):
+    def __init__(
+        self, *args, count: int, player_id: PlayerID, op_id: OperationID | None = None
+    ) -> None:
+        self.count: int = count
+        super().__init__(PlayerOperationEnum.RerollDice, player_id, op_id, *args)
+
+
+class PlayerOpUseSkill(PlayerOperationBase):
+    def __init__(
+        self,
+        *args,
+        skill_id: SkillID,
+        player_id: PlayerID,
+        op_id: OperationID | None = None,
+    ) -> None:
+        self.skill_id: SkillID = skill_id
+        super().__init__(PlayerOperationEnum.UseSkill, player_id, op_id, *args)
+
+
+class PlayerOpPlayCard(PlayerOperationBase):
+    def __init__(
+        self,
+        *args,
+        card_id: CardID,
+        player_id: PlayerID,
+        op_id: OperationID | None = None,
+    ) -> None:
+        self.card_id: CardID = card_id
+        super().__init__(PlayerOperationEnum.PlayCard, player_id, op_id, *args)
+
+
+class PlayerOpElementalTuning(PlayerOperationBase):
+    def __init__(
+        self,
+        *args,
+        card_id: CardID,
+        player_id: PlayerID,
+        op_id: OperationID | None = None,
+    ) -> None:
+        self.card_id: CardID = card_id
+        super().__init__(PlayerOperationEnum.ElementalTuning, player_id, op_id, *args)
+
+
+class PlayerOpSwitchCharacter(PlayerOperationBase):
+    def __init__(
+        self,
+        *args,
+        character_id: int,
+        player_id: PlayerID,
+        op_id: OperationID | None = None,
+    ) -> None:
+        self.character_id: int = character_id
+        super().__init__(PlayerOperationEnum.SwitchCharacter, player_id, op_id, *args)
+
+
+class PlayerOpDeclareRoundEnd(PlayerOperationBase):
+    def __init__(
+        self, *args, player_id: PlayerID, op_id: OperationID | None = None
+    ) -> None:
+        super().__init__(PlayerOperationEnum.DeclareRoundEnd, player_id, op_id, *args)

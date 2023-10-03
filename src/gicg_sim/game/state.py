@@ -6,8 +6,9 @@ from gicg_sim.character import Character
 from gicg_sim.placement import Placement
 from gicg_sim.types.die import DieState
 from gicg_sim.types.enums import PhaseType, RoundType, TossType
-from gicg_sim.types.operation import Operation
+from gicg_sim.types.operation import PlayerOperationBase
 from gicg_sim.types.subtypes import CharacterID, PlayerID
+from gicg_sim.types.sysEvent import SystemEventBase
 
 
 class GameStateSide:
@@ -21,7 +22,7 @@ class GameStateSide:
 
         self.active_id: CharacterID = CharacterID(0)
 
-        self.todo_set: typing.Set[Operation] = set()
+        self.todo_set: typing.Set[SystemEventBase] = set()
 
     def reset(self) -> None:
         self.deck.clear()
@@ -78,9 +79,11 @@ class GameState:
         self.control_state = GameControlState(phase_status=PhaseType.Preparation)
         self.active_player: PlayerID = PlayerID(0)
 
-        self.op_history: list[Operation] = []
-        self.op_history_1: list[Operation] = []
-        self.op_history_2: list[Operation] = []
+        self.operation_history: list[PlayerOperationBase] = []
+        self.operation_history_1: list[SystemEventBase] = []
+        self.operation_history_2: list[SystemEventBase] = []
+
+        self.event_history: list[SystemEventBase] = []
 
     def initialize(self, toss: TossType = TossType.CONST_1) -> None:
         self.control_state.reset()
@@ -88,11 +91,14 @@ class GameState:
         self.side2.reset()
         self.active_player = tossType2playerID(toss)
 
-    def take_operation(self, operation: Operation):
-        self.op_history.append(operation)
+    def take_operation(self, operation: PlayerOperationBase):
+        self.operation_history.append(operation)
+        if operation.player_id == PlayerID(1):
+            self.operation_history_1.append(operation)
+        elif operation.player_id == PlayerID(2):
+            self.operation_history_2.append(operation)
+        else:
+            raise ValueError(f"Invalid player id ({operation.player_id}) in operation.")
 
-    def get_phase_operation(self) -> list[Operation]:
-        return self.op_history
-
-    def get_valid_operations(self) -> list[Operation]:
-        pass
+    def get_phase_events(self) -> list[SystemEventBase]:
+        return self.event_history

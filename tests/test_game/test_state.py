@@ -1,9 +1,9 @@
 from gicg_sim.game.manager import GameManager
 from gicg_sim.game.state import GameState
 from gicg_sim.types.enums import PhaseType, RoundType
-from gicg_sim.types.operation import (OpDrawCard, OpRedrawCard,
-                                      OpSelectActiveCharacter)
 from gicg_sim.types.subtypes import PlayerID
+from gicg_sim.types.sysEvent import (OpDrawCard, OpRedrawCard,
+                                     OpSelectActiveCharacter)
 
 
 def test_init():
