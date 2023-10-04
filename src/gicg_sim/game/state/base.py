@@ -4,7 +4,7 @@ from random import randint
 from gicg_sim.action import Action
 from gicg_sim.basic.die import DieState
 from gicg_sim.basic.enums import PhaseStatusEnum, TossType
-from gicg_sim.basic.event.base import EventBase
+from gicg_sim.basic.event.base import EventBase, SysEventSwitchPhase
 from gicg_sim.basic.event.operation import PlayerOperationBase
 from gicg_sim.basic.subtypes import CharacterID, PlayerID
 from gicg_sim.character import Character
@@ -56,6 +56,7 @@ class GameState:
         self.operation_history: list[PlayerOperationBase] = []
 
         self.event_history: list[EventBase] = []
+        self.event_history_phase_begin: int = 0
 
     def initialize(self, toss: TossType = TossType.CONST_1) -> None:
         self.control_state.reset()
@@ -68,6 +69,12 @@ class GameState:
             if c.state == self.control_state:
                 if c.validate(self.get_phase_events()):
                     self.control_state.update(c.target)
+                    self.event_history.append(
+                        SysEventSwitchPhase(
+                            phase=self.control_state.phase_status,
+                        )
+                    )
+                    self.event_history_phase_begin = len(self.event_history)
                     break
 
     def take_operation(self, operation: PlayerOperationBase):
@@ -83,4 +90,4 @@ class GameState:
         pass
 
     def get_phase_events(self) -> list[EventBase]:
-        return self.event_history
+        return self.event_history[self.event_history_phase_begin:]

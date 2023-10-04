@@ -98,7 +98,7 @@ class CtrlCondition:
         self,
         state: CtrlState,
         logic_event: EventLogic,
-        target: CtrlState | None = None,
+        target: CtrlState,
     ) -> None:
         self.state = deepcopy(state)
         self.logic_event = deepcopy(logic_event)

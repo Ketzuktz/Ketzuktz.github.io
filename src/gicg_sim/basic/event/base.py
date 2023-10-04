@@ -39,6 +39,8 @@ class EventBase:
             return False
         if self.event_id != __value.event_id:
             return False
+        if self.is_system != __value.is_system:
+            return False
         return True
 
 
@@ -82,6 +84,22 @@ class EventDeclareRoundEnd(EventBase):
         super().__init__(EventEnum.DeclareRoundEnd, player_id=player_id, **kwargs)
 
 
-class SystemEventSwitchPhaseRound(EventBase):
+class SystemEventBase(EventBase):
+    def __init__(
+        self,
+        event_type: EventEnum,
+        player_id: PlayerID | None = None,
+        event_id: EventID | None = None,
+    ) -> None:
+        super().__init__(event_type, player_id, event_id, system_flag=True)
+
+    def __eq__(self, __value: object) -> bool:
+        if not isinstance(__value, SystemEventBase):
+            return False
+        return super().__eq__(__value)
+
+
+class SysEventSwitchPhase(SystemEventBase):
     def __init__(self, phase: PhaseStatusEnum, **kwargs) -> None:
         super().__init__(EventEnum.SYS_SwitchPhaseRound, **kwargs)
+        self.phase: PhaseStatusEnum = phase
