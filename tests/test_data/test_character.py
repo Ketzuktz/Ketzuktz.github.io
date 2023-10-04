@@ -1,5 +1,5 @@
+from gicg_sim.basic.character import CharacterPrototype as CP
 from gicg_sim.data import character_data
-from gicg_sim.types.character import CharacterPrototype as CP
 
 
 def test_character_validate():

@@ -1,13 +1,11 @@
-from gicg_sim.game.state import GameState
-from gicg_sim.types.event import EventBase
-from gicg_sim.types.operation import PlayerOperationBase
+from gicg_sim.basic.event.operation import PlayerOperationBase
+from gicg_sim.game.state.base import GameState
 
 
 class GameManager:
     def __init__(self):
         self.game_state: GameState = GameState()
         self.operation_history: list[PlayerOperationBase] = []
-        self.event_history: list[EventBase] = []
 
     def initialize(self):
         self.game_state.initialize()

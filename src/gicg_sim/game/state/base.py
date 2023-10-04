@@ -2,14 +2,16 @@ import typing
 from random import randint
 
 from gicg_sim.action import Action
+from gicg_sim.basic.die import DieState
+from gicg_sim.basic.enums import PhaseStatusEnum, TossType
+from gicg_sim.basic.event.base import EventBase
+from gicg_sim.basic.event.operation import PlayerOperationBase
+from gicg_sim.basic.subtypes import CharacterID, PlayerID
 from gicg_sim.character import Character
+from gicg_sim.game.condition import CONTROL_CONDITIONS
 from gicg_sim.game.operation_helper import OperationHelper
+from gicg_sim.game.state.control import GameControlState
 from gicg_sim.placement import Placement
-from gicg_sim.types.die import DieState
-from gicg_sim.types.enums import PhaseType, RoundType, TossType
-from gicg_sim.types.event import EventBase
-from gicg_sim.types.operation import PlayerOperationBase
-from gicg_sim.types.subtypes import CharacterID, PlayerID
 
 
 class GameStateSide:
@@ -34,27 +36,6 @@ class GameStateSide:
         self.die_state = DieState()
 
 
-class GameControlState:
-    def __init__(
-        self, *, phase_status: PhaseType, round_status: RoundType | None = None
-    ) -> None:
-        self.phase_status: PhaseType = phase_status
-        self.round_status: RoundType = round_status
-
-    def reset(self) -> None:
-        self.phase_status = PhaseType.Preparation
-        self.round_status = RoundType.Roll
-
-    def __eq__(self, __value: object) -> bool:
-        if not isinstance(__value, GameControlState):
-            return False
-        if (self.phase_status != __value.phase_status):
-            return False
-        if (self.round_status != __value.round_status):
-            return False
-        return True
-
-
 def tossType2playerID(toss: TossType) -> PlayerID:
     if toss == TossType.RANDOM:
         return PlayerID(randint(1, 2))
@@ -69,7 +50,7 @@ class GameState:
         self.side1 = GameStateSide()
         self.side2 = GameStateSide()
         self.sides = (self.side1, self.side2)
-        self.control_state = GameControlState(phase_status=PhaseType.Preparation)
+        self.control_state = GameControlState(phase_status=PhaseStatusEnum.Preparation)
         self.active_player: PlayerID = PlayerID(-1)
 
         self.operation_history: list[PlayerOperationBase] = []
@@ -82,10 +63,19 @@ class GameState:
         self.side2.reset()
         self.active_player = tossType2playerID(toss)
 
+    def _update_control_state(self) -> None:
+        for c in CONTROL_CONDITIONS:
+            if c.state == self.control_state:
+                if c.validate(self.get_phase_events()):
+                    self.control_state.update(c.target)
+                    break
+
     def take_operation(self, operation: PlayerOperationBase):
         self.operation_history.append(operation)
         events = OperationHelper.map_operation_events(operation)
         self.apply_events(events)
+
+        self._update_control_state()
 
     def apply_events(self, events: list[EventBase]):
         for e in events:
