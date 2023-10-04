@@ -74,13 +74,13 @@ CONTROL_CONDITIONS: list[CtrlCondition] = [
         phase_status=PhaseStatusEnum.Preparation,
         logic_event=EventLogicAnd(
             el_sequence(
-                EventDrawCard(count=8, player_id=PlayerID(1)),
-                EventRedrawCard(count=8, player_id=PlayerID(1)),
+                EventDrawCard(count=5, player_id=PlayerID(1)),
+                EventRedrawCard(count=5, player_id=PlayerID(1)),
                 EventSelectActiveCharacter(player_id=PlayerID(1)),
             ),
             el_sequence(
-                EventDrawCard(count=8, player_id=PlayerID(2)),
-                EventRedrawCard(count=8, player_id=PlayerID(2)),
+                EventDrawCard(count=5, player_id=PlayerID(2)),
+                EventRedrawCard(count=5, player_id=PlayerID(2)),
                 EventSelectActiveCharacter(player_id=PlayerID(2)),
             ),
         ),
