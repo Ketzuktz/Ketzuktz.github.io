@@ -2,7 +2,8 @@ from copy import deepcopy
 
 from gicg_sim.basic.enums import PhaseStatusEnum
 from gicg_sim.basic.event.base import (EventBase, EventDrawCard,
-                                       EventRedrawCard,
+                                       EventRedrawCard, EventRerollDice,
+                                       EventRollDice,
                                        EventSelectActiveCharacter)
 from gicg_sim.basic.event.logic import (CtrlCondition, EventLogic,
                                         EventLogicAnd, EventLogicSequence,
@@ -86,10 +87,24 @@ CONTROL_CONDITIONS: list[CtrlCondition] = [
         target=CtrlState(phase_status=PhaseStatusEnum.Roll),
     ),
     # phase-round round-roll
-    # _must_be_once(
-    #     phase_status=PhaseStatusEnum.Roll,
-    #     event=EventRollDice(8),
-    # ),
+    _normal_condition(
+        phase_status=PhaseStatusEnum.Roll,
+        logic_event=EventLogicAnd(
+            el_sequence(
+                EventRollDice(count=8, player_id=PlayerID(1)),
+                EventRerollDice(count=8, player_id=PlayerID(1)),
+            ),
+            el_sequence(
+                EventRollDice(count=8, player_id=PlayerID(2)),
+                EventRerollDice(count=8, player_id=PlayerID(2)),
+            ),
+        ),
+        target=CtrlState(phase_status=PhaseStatusEnum.RA_start),
+    ),
+    _auto_switch(
+        phase_status=PhaseStatusEnum.RA_start,
+        target=CtrlState(phase_status=PhaseStatusEnum.RA_all_continue_1),
+    ),
     # _must_be_once(
     #     phase_status=PhaseStatusEnum.Roll,
     #     event=EventRedrawCard(

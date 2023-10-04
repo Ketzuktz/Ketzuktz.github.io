@@ -55,7 +55,7 @@ def get_gm_to_roll() -> GameManager:
     return gm
 
 
-def _test_roll():
+def test_roll():
     gm = get_gm_to_roll()
 
     for pid in [1, 2]:
@@ -63,5 +63,5 @@ def _test_roll():
         gm.take_operation(PlayerOpRollDice(count=8, player_id=p))
         gm.take_operation(PlayerOpRerollDice(count=4, player_id=p))
 
-    assert gm.game_state.control_state.phase_status == PhaseStatusEnum.RA_start
+    assert gm.game_state.control_state.phase_status == PhaseStatusEnum.RA_all_continue_1
     assert len(gm.game_state.get_phase_events()) == 0

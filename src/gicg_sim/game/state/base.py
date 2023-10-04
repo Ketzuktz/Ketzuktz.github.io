@@ -64,7 +64,7 @@ class GameState:
         self.side2.reset()
         self.active_player = tossType2playerID(toss)
 
-    def _update_control_state(self) -> None:
+    def _update_control_state(self) -> bool:
         for c in CONTROL_CONDITIONS:
             if c.state == self.control_state:
                 if c.validate(self.get_phase_events()):
@@ -75,14 +75,17 @@ class GameState:
                         )
                     )
                     self.event_history_phase_begin = len(self.event_history)
-                    break
+                    return True
+        return False
 
     def take_operation(self, operation: PlayerOperationBase):
         self.operation_history.append(operation)
         events = OperationHelper.map_operation_events(operation)
         self.apply_events(events)
 
-        self._update_control_state()
+        while True:
+            if not self._update_control_state():
+                break
 
     def apply_events(self, events: list[EventBase]):
         for e in events:

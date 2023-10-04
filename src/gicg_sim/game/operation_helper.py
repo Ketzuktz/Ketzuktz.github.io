@@ -1,12 +1,15 @@
 from copy import deepcopy
 
 from gicg_sim.basic.event.base import (EventBase, EventDrawCard,
-                                       EventRedrawCard,
+                                       EventRedrawCard, EventRerollDice,
+                                       EventRollDice,
                                        EventSelectActiveCharacter)
 from gicg_sim.basic.event.operation import (PlayerOpDrawCard,
                                             PlayerOperationBase,
                                             PlayerOperationEnum,
                                             PlayerOpRedrawCard,
+                                            PlayerOpRerollDice,
+                                            PlayerOpRollDice,
                                             PlayerOpSelectActiveCharacter)
 from gicg_sim.basic.subtypes import OperationID
 
@@ -51,6 +54,22 @@ class OperationHelper:
                         selected_id=operation.character_id,
                         player_id=operation.player_id,
                     )
+                )
+            case PlayerOperationEnum.RollDice:
+                assert isinstance(
+                    operation, PlayerOpRollDice
+                )
+                events.append(
+                    EventRollDice(count=operation.count,
+                                  player_id=operation.player_id)
+                )
+            case PlayerOperationEnum.RerollDice:
+                assert isinstance(
+                    operation, PlayerOpRerollDice
+                )
+                events.append(
+                    EventRerollDice(count=operation.count,
+                                    player_id=operation.player_id)
                 )
             case _:
                 raise ValueError(
