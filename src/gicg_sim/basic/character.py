@@ -3,9 +3,9 @@ from enum import Enum
 
 from pydantic import BaseModel
 
-from gicg_sim.types.cost import CostType
-from gicg_sim.types.element import ElementType
-from gicg_sim.types.weapon import WeaponType
+from gicg_sim.basic.cost import CostType
+from gicg_sim.basic.element import ElementType
+from gicg_sim.basic.weapon import WeaponType
 
 
 class SkillType(Enum):

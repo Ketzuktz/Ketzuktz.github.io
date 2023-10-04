@@ -1,4 +1,4 @@
-import typing
+from abc import ABCMeta, abstractmethod
 
 
 def prototype_loadable(cls):
@@ -10,7 +10,8 @@ def prototype_loadable(cls):
     return cls
 
 
-class PrototypeBase:
-    def __init__(self) -> None:
-        self._prototype: dict = {}
-        self._state: typing.Any = None
+class PrototypeBase(metaclass=ABCMeta):
+    @property
+    @abstractmethod
+    def _prototype(self) -> dict:
+        ...
