@@ -3,12 +3,13 @@ from random import randint
 
 from gicg_sim.action import Action
 from gicg_sim.character import Character
+from gicg_sim.game.operation_helper import OperationHelper
 from gicg_sim.placement import Placement
 from gicg_sim.types.die import DieState
 from gicg_sim.types.enums import PhaseType, RoundType, TossType
+from gicg_sim.types.event import EventBase
 from gicg_sim.types.operation import PlayerOperationBase
 from gicg_sim.types.subtypes import CharacterID, PlayerID
-from gicg_sim.types.event import SystemEventBase
 
 
 class GameStateSide:
@@ -22,7 +23,7 @@ class GameStateSide:
 
         self.active_id: CharacterID = CharacterID(0)
 
-        self.todo_set: typing.Set[SystemEventBase] = set()
+        self.todo_set: typing.Set[EventBase] = set()
 
     def reset(self) -> None:
         self.deck.clear()
@@ -47,17 +48,9 @@ class GameControlState:
     def __eq__(self, __value: object) -> bool:
         if not isinstance(__value, GameControlState):
             return False
-        if (
-            self.phase_status != ...
-            and __value.phase_status != ...
-            and self.phase_status != __value.phase_status
-        ):
+        if (self.phase_status != __value.phase_status):
             return False
-        if (
-            self.round_status is not None
-            and __value.round_status is not None
-            and self.round_status != __value.round_status
-        ):
+        if (self.round_status != __value.round_status):
             return False
         return True
 
@@ -81,7 +74,7 @@ class GameState:
 
         self.operation_history: list[PlayerOperationBase] = []
 
-        self.event_history: list[SystemEventBase] = []
+        self.event_history: list[EventBase] = []
 
     def initialize(self, toss: TossType = TossType.CONST_1) -> None:
         self.control_state.reset()
@@ -91,6 +84,13 @@ class GameState:
 
     def take_operation(self, operation: PlayerOperationBase):
         self.operation_history.append(operation)
+        events = OperationHelper.map_operation_events(operation)
+        self.apply_events(events)
 
-    def get_phase_events(self) -> list[SystemEventBase]:
+    def apply_events(self, events: list[EventBase]):
+        for e in events:
+            self.event_history.append(e)
+        pass
+
+    def get_phase_events(self) -> list[EventBase]:
         return self.event_history

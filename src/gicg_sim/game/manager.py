@@ -1,6 +1,6 @@
 from gicg_sim.game.state import GameState
-from gicg_sim.types.operation import PlayerOperationBase
 from gicg_sim.types.event import EventBase
+from gicg_sim.types.operation import PlayerOperationBase
 
 
 class GameManager:
@@ -13,7 +13,7 @@ class GameManager:
         self.game_state.initialize()
 
     def take_operation(self, operation: PlayerOperationBase):
-        self.operation_history.append(operation)
+        self.game_state.take_operation(operation)
 
     # def get_valid_operations(self) -> list[PlayerOperationBase]:
     #     return self.game_state.get_phase_events()

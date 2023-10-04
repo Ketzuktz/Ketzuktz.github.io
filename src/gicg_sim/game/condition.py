@@ -3,19 +3,27 @@ from copy import deepcopy
 from gicg_sim.game.state import GameControlState
 from gicg_sim.game.state import GameControlState as CtrlState
 from gicg_sim.game.state import GameState
-from gicg_sim.types.condition import CtrlCondition
+from gicg_sim.types.condition import (CtrlCondition, EventLogic, EventLogicAnd,
+                                      EventLogicSingle, EventsLogicOr)
 from gicg_sim.types.enums import PhaseType, RoundType
+from gicg_sim.types.event import (EventBase, EventCombatAction,
+                                  EventDeclareRoundEnd, EventDrawCard,
+                                  EventEnum, EventRedrawCard, EventRollDice,
+                                  EventSelectActiveCharacter)
 from gicg_sim.types.subtypes import PlayerID
-from gicg_sim.types.event import (EventCombatAction,
-                                     EventDeclareRoundEnd, EventDrawCard,
-                                     EventEnum, EventRedrawCard,
-                                     EventRollDice,
-                                     EventSelectActiveCharacter,
-                                     SystemEventBase)
 
+
+def el_and(*events: EventBase) -> EventLogic:
+    return EventLogicAnd(*[el_single(e) for e in events])
+
+def el_or(*events: EventBase) -> EventLogic:
+    return EventsLogicOr(*[el_single(e) for e in events])
+
+def el_single(event: EventBase) -> EventLogic:
+    return EventLogicSingle(event)
 
 def _le_once(
-    event: SystemEventBase,
+    logic_event: EventLogic,
     phase_status: PhaseType,
     round_status: RoundType | None = None,
     target: CtrlState | None = None,
@@ -25,7 +33,7 @@ def _le_once(
             phase_status=phase_status,
             round_status=round_status,
         ),
-        sys_event=deepcopy(event),
+        logic_event=deepcopy(logic_event),
         min_count=0,
         max_count=1,
         target=target,
@@ -42,7 +50,7 @@ def _auto_switch(
             phase_status=phase_status,
             round_status=round_status,
         ),
-        sys_event=None,
+        logic_event=None,
         min_count=0,
         max_count=0,
         target=target,
@@ -50,7 +58,7 @@ def _auto_switch(
 
 
 def _must_be_once(
-    event: SystemEventBase,
+    logic_event: EventLogic,
     phase_status: PhaseType,
     round_status: RoundType | None = None,
     target: CtrlState | None = None,
@@ -60,7 +68,7 @@ def _must_be_once(
             phase_status=phase_status,
             round_status=round_status,
         ),
-        sys_event=deepcopy(event),
+        logic_event=deepcopy(logic_event),
         min_count=1,
         max_count=1,
         target=target,
