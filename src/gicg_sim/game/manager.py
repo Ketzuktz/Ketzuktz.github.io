@@ -9,7 +9,7 @@ class GameManager:
 
     def initialize(self):
         self.game_state.initialize()
-        
+
     def initialize_player_card(self):
         pass
 

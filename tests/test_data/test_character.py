@@ -1,21 +1,20 @@
-from gicg_sim.basic.character import CharacterPrototype as CP
+from gicg_sim.data import character_mapping
 from gicg_sim.model.character import Character
-from gicg_sim.data import character_data
+from gicg_sim.model.prototype.character import CharacterPrototype as CP
 
 
 def test_character_validate():
-    for c in character_data:
+    for name, c in character_mapping.items():
         assert CP.model_validate(c)
 
 
-def test_character_load():
-    target = 'Diluc'
-    
-    cps = [cd for cd in character_data if cd['name'] == target]
-    assert len(cps) == 1
-    cd =  CP.model_validate(cps[0])
-    
-    c = Character(cd)
+def test_character_create():
+    target = "Diluc"
+
+    cp_data = character_mapping[target]
+    cp = CP.model_validate(cp_data)
+
+    c = Character(cp)
     assert c.name == target
     assert c.hp == 10
-    
+    assert c.energy == 0

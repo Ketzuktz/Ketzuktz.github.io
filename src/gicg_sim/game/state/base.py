@@ -1,17 +1,17 @@
 import typing
 from random import randint
 
-from gicg_sim.model.action import Action
-from gicg_sim.basic.die import DieState
 from gicg_sim.basic.enums import PhaseStatusEnum, TossType
 from gicg_sim.basic.event.base import EventBase, SysEventSwitchPhase
 from gicg_sim.basic.event.operation import PlayerOperationBase
 from gicg_sim.basic.subtypes import CharacterID, PlayerID
-from gicg_sim.model.character import Character
 from gicg_sim.game.condition import CONTROL_CONDITIONS
 from gicg_sim.game.operation_helper import OperationHelper
 from gicg_sim.game.state.control import GameControlState
+from gicg_sim.model.action import Action
+from gicg_sim.model.character import Character
 from gicg_sim.model.placement import Placement
+from gicg_sim.model.prototype.die import DieState
 
 
 class GameStateSide:
@@ -34,7 +34,7 @@ class GameStateSide:
         self.summon.clear()
         self.draw_pile.clear()
         self.die_state = DieState()
-        
+
     def initialize(self, characters: list[Character], draw_pile: list[Action]):
         pass
 
