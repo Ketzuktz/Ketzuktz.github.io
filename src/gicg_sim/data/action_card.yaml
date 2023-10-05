@@ -1,0 +1,9 @@
+- name: Sweet Madame
+  type: Food
+  cost:
+    die:
+      aligned: 0
+  effect:
+    - heal:
+        hp: 1
+  comment: Heal the target character for 1 HP. (A character can consume at most 1 Food per Round)

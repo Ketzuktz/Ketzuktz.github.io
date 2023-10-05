@@ -3,9 +3,9 @@ import typing
 
 from gicg_sim.basic.event.base import EventBase
 from gicg_sim.basic.subtypes import CharacterID
-from gicg_sim.model.action import Action
 from gicg_sim.model.character import Character
 from gicg_sim.model.placement import Placement
+from gicg_sim.model.prototype.action_card import Action
 from gicg_sim.model.prototype.die import DieState
 
 
