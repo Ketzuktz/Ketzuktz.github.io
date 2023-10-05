@@ -1,42 +1,15 @@
-import typing
 from random import randint
 
 from gicg_sim.basic.enums import PhaseStatusEnum, TossType
-from gicg_sim.basic.event.base import EventBase, SysEventSwitchPhase
+from gicg_sim.basic.event.base import (EventBase, EventEnum,
+                                       EventSelectActiveCharacter,
+                                       SysEventSwitchPhase)
 from gicg_sim.basic.event.operation import PlayerOperationBase
-from gicg_sim.basic.subtypes import CharacterID, PlayerID
+from gicg_sim.basic.subtypes import PlayerID
 from gicg_sim.game.condition import CONTROL_CONDITIONS
 from gicg_sim.game.operation_helper import OperationHelper
 from gicg_sim.game.state.control import GameControlState
-from gicg_sim.model.action import Action
-from gicg_sim.model.character import Character
-from gicg_sim.model.placement import Placement
-from gicg_sim.model.prototype.die import DieState
-
-
-class GameStateSide:
-    def __init__(self) -> None:
-        self.die_state: DieState = DieState()
-        self.characters: list[Character] = []
-        self.hand: list[Action] = []
-        self.placement: list[Placement] = []
-        self.summon: list = []
-        self.draw_pile: list[Action] = []
-
-        self.active_id: CharacterID = CharacterID(0)
-
-        self.todo_set: typing.Set[EventBase] = set()
-
-    def reset(self) -> None:
-        self.characters.clear()
-        self.hand.clear()
-        self.placement.clear()
-        self.summon.clear()
-        self.draw_pile.clear()
-        self.die_state = DieState()
-
-    def initialize(self, characters: list[Character], draw_pile: list[Action]):
-        pass
+from gicg_sim.game.state.side import GameSideState
 
 
 def tossType2playerID(toss: TossType) -> PlayerID:
@@ -50,8 +23,8 @@ def tossType2playerID(toss: TossType) -> PlayerID:
 
 class GameState:
     def __init__(self) -> None:
-        self.side1 = GameStateSide()
-        self.side2 = GameStateSide()
+        self.side1 = GameSideState()
+        self.side2 = GameSideState()
         self.sides = (self.side1, self.side2)
         self.control_state = GameControlState(phase_status=PhaseStatusEnum.Preparation)
         self.active_player: PlayerID = PlayerID(-1)
@@ -67,11 +40,11 @@ class GameState:
         self.side2.reset()
         self.active_player = tossType2playerID(toss)
 
-    def initialize_player(self, player: PlayerID, *args, **kwargs):
+    def initialize_player(self, player: PlayerID, **kwargs):
         if player == PlayerID(1):
-            self.side1.initialize(*args, **kwargs)
+            self.side1.initialize(**kwargs)
         elif player == PlayerID(2):
-            self.side2.initialize(*args, **kwargs)
+            self.side2.initialize(**kwargs)
         else:
             raise ValueError("Invalid player ID")
 
@@ -89,6 +62,9 @@ class GameState:
                     return True
         return False
 
+    def get_phase_events(self) -> list[EventBase]:
+        return self.event_history[self.event_history_phase_begin:]
+
     def take_operation(self, operation: PlayerOperationBase):
         self.operation_history.append(operation)
         events = OperationHelper.map_operation_events(operation)
@@ -98,10 +74,36 @@ class GameState:
             if not self._update_control_state():
                 break
 
-    def apply_events(self, events: list[EventBase]):
-        for e in events:
-            self.event_history.append(e)
-        pass
+    def get_relative_side(self, player: PlayerID) -> GameSideState:
+        if player == PlayerID(1):
+            return self.side1
+        elif player == PlayerID(2):
+            return self.side2
+        else:
+            raise ValueError("Invalid player ID")
 
-    def get_phase_events(self) -> list[EventBase]:
-        return self.event_history[self.event_history_phase_begin:]
+    def apply_events(self, events: list[EventBase]):
+        for e_raw in events:
+            assert e_raw.player_id is not None
+            side: GameSideState = self.get_relative_side(e_raw.player_id)
+
+            self.event_history.append(e_raw)
+
+            match e_raw.event_type:
+                case EventEnum.DrawCard:
+                    pass
+                case EventEnum.RedrawCard:
+                    pass
+                case EventEnum.SelectActiveCharacter:
+                    assert isinstance(e_raw, EventSelectActiveCharacter)
+                    e: EventSelectActiveCharacter = e_raw
+                    assert e.active_character_id is not None
+                    side._switch_character(e.active_character_id)
+                case EventEnum.RollDice:
+                    pass
+                case EventEnum.RerollDice:
+                    pass
+                case _:
+                    raise ValueError(
+                        f"Invalid event type {e_raw.event_type} for {e_raw}"
+                    )

@@ -1,4 +1,5 @@
 from gicg_sim.basic.event.operation import PlayerOperationBase
+from gicg_sim.basic.subtypes import PlayerID
 from gicg_sim.game.state.base import GameState
 
 
@@ -10,8 +11,10 @@ class GameManager:
     def initialize(self):
         self.game_state.initialize()
 
-    def initialize_player_card(self):
-        pass
+    def initialize_player_card(self, character_names: list[str], player_id: PlayerID):
+        self.game_state.initialize_player(
+            player=player_id, character_names=character_names
+        )
 
     def take_operation(self, operation: PlayerOperationBase):
         self.game_state.take_operation(operation)

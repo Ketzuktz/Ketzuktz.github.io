@@ -6,18 +6,19 @@ from gicg_sim.basic.event.operation import (PlayerOpDrawCard,
                                             PlayerOpSelectActiveCharacter)
 from gicg_sim.basic.subtypes import CharacterID, PlayerID
 from gicg_sim.game.manager import GameManager
-from gicg_sim.game.state.base import GameState
 
 
 def test_init():
-    gs = GameState()
-    gs.initialize()
-    assert gs.control_state.phase_status == PhaseStatusEnum.Preparation
+    gm = GameManager()
+    gm.initialize()
+    assert gm.game_state.control_state.phase_status == PhaseStatusEnum.Preparation
 
 
 def test_preparation():
     gm = GameManager()
     gm.initialize()
+    gm.initialize_player_card(["Diluc"], PlayerID(1))
+    gm.initialize_player_card(["Diluc"], PlayerID(2))
 
     gm.take_operation(PlayerOpDrawCard(count=5, player_id=PlayerID(1)))
     gm.take_operation(PlayerOpDrawCard(count=5, player_id=PlayerID(2)))
@@ -43,6 +44,8 @@ def test_preparation():
 def get_gm_to_roll() -> GameManager:
     gm = GameManager()
     gm.initialize()
+    gm.initialize_player_card(["Diluc"], PlayerID(1))
+    gm.initialize_player_card(["Diluc"], PlayerID(2))
 
     for pid in [1, 2]:
         p = PlayerID(pid)

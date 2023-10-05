@@ -5,6 +5,10 @@ from gicg_sim.model.prototype.character import (CharacterPrototype,
 
 
 class Character:
+    @staticmethod
+    def load(name: str) -> "Character":
+        return Character(CharacterPrototype.load(name))
+
     def __init__(self, prototype: CharacterPrototype) -> None:
         self._prototype = prototype
         self.hp: int = self.max_HP
