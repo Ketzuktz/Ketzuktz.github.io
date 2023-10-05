@@ -65,3 +65,5 @@ def test_roll():
 
     assert gm.game_state.control_state.phase_status == PhaseStatusEnum.RA_all_continue_1
     assert len(gm.game_state.get_phase_events()) == 0
+
+

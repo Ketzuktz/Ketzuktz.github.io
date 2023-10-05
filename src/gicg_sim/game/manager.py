@@ -9,6 +9,9 @@ class GameManager:
 
     def initialize(self):
         self.game_state.initialize()
+        
+    def initialize_player_card(self):
+        pass
 
     def take_operation(self, operation: PlayerOperationBase):
         self.game_state.take_operation(operation)

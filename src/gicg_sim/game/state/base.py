@@ -1,23 +1,23 @@
 import typing
 from random import randint
 
-from gicg_sim.action import Action
+from gicg_sim.model.action import Action
 from gicg_sim.basic.die import DieState
 from gicg_sim.basic.enums import PhaseStatusEnum, TossType
 from gicg_sim.basic.event.base import EventBase, SysEventSwitchPhase
 from gicg_sim.basic.event.operation import PlayerOperationBase
 from gicg_sim.basic.subtypes import CharacterID, PlayerID
-from gicg_sim.character import Character
+from gicg_sim.model.character import Character
 from gicg_sim.game.condition import CONTROL_CONDITIONS
 from gicg_sim.game.operation_helper import OperationHelper
 from gicg_sim.game.state.control import GameControlState
-from gicg_sim.placement import Placement
+from gicg_sim.model.placement import Placement
 
 
 class GameStateSide:
     def __init__(self) -> None:
         self.die_state: DieState = DieState()
-        self.deck: list[Character] = []
+        self.characters: list[Character] = []
         self.hand: list[Action] = []
         self.placement: list[Placement] = []
         self.summon: list = []
@@ -28,12 +28,15 @@ class GameStateSide:
         self.todo_set: typing.Set[EventBase] = set()
 
     def reset(self) -> None:
-        self.deck.clear()
+        self.characters.clear()
         self.hand.clear()
         self.placement.clear()
         self.summon.clear()
         self.draw_pile.clear()
         self.die_state = DieState()
+        
+    def initialize(self, characters: list[Character], draw_pile: list[Action]):
+        pass
 
 
 def tossType2playerID(toss: TossType) -> PlayerID:
@@ -63,6 +66,14 @@ class GameState:
         self.side1.reset()
         self.side2.reset()
         self.active_player = tossType2playerID(toss)
+
+    def initialize_player(self, player: PlayerID, *args, **kwargs):
+        if player == PlayerID(1):
+            self.side1.initialize(*args, **kwargs)
+        elif player == PlayerID(2):
+            self.side2.initialize(*args, **kwargs)
+        else:
+            raise ValueError("Invalid player ID")
 
     def _update_control_state(self) -> bool:
         for c in CONTROL_CONDITIONS:
