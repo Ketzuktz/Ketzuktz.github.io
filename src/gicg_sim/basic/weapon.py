@@ -7,3 +7,4 @@ class WeaponType(Enum):
     Claymore = "Claymore"  # 双手剑
     Polearm = "Polearm"  # 长柄武器
     Catalyst = "Catalyst"  # 法器
+    Other = "Other Weapons"  # 其他武器

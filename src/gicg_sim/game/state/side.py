@@ -1,22 +1,21 @@
-
 import typing
 
+from gicg_sim.basic.die import DieState
 from gicg_sim.basic.event.base import EventBase
 from gicg_sim.basic.subtypes import CharacterID
 from gicg_sim.model.character import Character
 from gicg_sim.model.placement import Placement
-from gicg_sim.model.prototype.action_card import Action
-from gicg_sim.model.prototype.die import DieState
+from gicg_sim.model.prototype.action_card import ActionCardPrototype
 
 
 class GameSideState:
     def __init__(self) -> None:
         self.die_state: DieState = DieState()
         self.characters: list[Character] = []
-        self.hand: list[Action] = []
+        self.hand: list[ActionCardPrototype] = []
         self.placement: list[Placement] = []
         self.summon: list = []
-        self.draw_pile: list[Action] = []
+        self.draw_pile: list[ActionCardPrototype] = []
 
         self.active_id: CharacterID = CharacterID(0)
 
@@ -30,7 +29,9 @@ class GameSideState:
         self.draw_pile.clear()
         self.die_state = DieState()
 
-    def initialize(self, character_names: list[str] = [], draw_pile: list[Action] = []):
+    def initialize(
+        self, character_names: list[str] = [], draw_pile: list[ActionCardPrototype] = []
+    ):
         for cname in character_names:
             self.characters.append(Character.load(cname))
         pass

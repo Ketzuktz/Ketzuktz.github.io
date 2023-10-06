@@ -2,9 +2,9 @@ import typing
 
 from pydantic import BaseModel
 
-from gicg_sim.model.prototype.die import DieCostType
+from gicg_sim.model.prototype.die import DieCostPrototype
 
 
 class CostType(BaseModel):
-    die: DieCostType
+    die: DieCostPrototype
     energy: typing.Optional[int] = None

@@ -1,4 +1,5 @@
 from gicg_sim.basic.element import ElementType
+from gicg_sim.basic.faction import FactionType
 from gicg_sim.basic.weapon import WeaponType
 from gicg_sim.model.prototype.character import (CharacterPrototype,
                                                 SkillPrototype)
@@ -39,6 +40,10 @@ class Character:
     @property
     def max_energy(self) -> int:
         return self._prototype.max_energy
+
+    @property
+    def faction(self) -> list[FactionType]:
+        return self._prototype.faction
 
     @property
     def skills(self) -> list[SkillPrototype]:

@@ -44,6 +44,10 @@ class GetBuffPrototype(BaseModel):
     name: str
 
 
+class HealPrototype(BaseModel):
+    target: typing.Optional[int] = None
+
+
 class EffectPrototype(BaseModel):
     damage: typing.Optional[DamageType] = None
     energy: typing.Optional[int] = None
@@ -52,3 +56,4 @@ class EffectPrototype(BaseModel):
     counter_clear: typing.Optional[CounterClearPrototype] = None
     damage_add: typing.Optional[DamageAddPrototype] = None
     get_buff: typing.Optional[GetBuffPrototype] = None
+    heal: typing.Optional[HealPrototype] = None

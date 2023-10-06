@@ -3,7 +3,7 @@ import typing
 from pydantic import BaseModel
 
 
-class DieState(BaseModel):
+class DieStatePrototype(BaseModel):
     pyro: typing.Optional[int] = None
     hydro: typing.Optional[int] = None
     anemo: typing.Optional[int] = None
@@ -14,7 +14,7 @@ class DieState(BaseModel):
     omni: typing.Optional[int] = None
 
 
-class DieCostType(BaseModel):
+class DieCostPrototype(BaseModel):
     pyro: typing.Optional[int] = None
     hydro: typing.Optional[int] = None
     anemo: typing.Optional[int] = None

@@ -4,6 +4,7 @@
   weapon : Claymore
   max_HP : 10
   max_energy : 3
+  faction: [Mondstadt]
   skills :
     - name : Tempered Sword
       type : Normal Attack
