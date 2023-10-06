@@ -2,7 +2,7 @@
   type: Food
   cost:
     die:
-      aligned: 0
+      matching: 0
   effect:
     - heal:
         hp: 1

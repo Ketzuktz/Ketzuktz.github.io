@@ -23,5 +23,5 @@ class DieCostType(BaseModel):
     cryo: typing.Optional[int] = None
     geo: typing.Optional[int] = None
     # non-specified
-    aligned: typing.Optional[int] = None
+    matching: typing.Optional[int] = None
     unaligned: typing.Optional[int] = None
