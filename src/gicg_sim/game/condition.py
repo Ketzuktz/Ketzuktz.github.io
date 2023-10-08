@@ -10,7 +10,6 @@ from gicg_sim.basic.event.logic import (CtrlCondition, EventLogic,
                                         EventLogicSingle, EventLogicTrue,
                                         EventsLogicOr)
 from gicg_sim.basic.subtypes import PlayerID
-from gicg_sim.game.state.control import GameControlState as CtrlState
 
 
 def el_and(*events: EventBase) -> EventLogic:
@@ -32,39 +31,35 @@ def el_single(event: EventBase) -> EventLogic:
 def _le_once(
     logic_event: EventLogic,
     phase_status: PhaseStatusEnum,
-    target: CtrlState,
+    target: PhaseStatusEnum,
 ) -> CtrlCondition:
     return CtrlCondition(
-        state=CtrlState(
-            phase_status=phase_status,
-        ),
+        current_phase=phase_status,
         logic_event=deepcopy(logic_event),
-        target=target,
+        target_phase=target,
     )
 
 
 def _auto_switch(
     phase_status: PhaseStatusEnum,
-    target: CtrlState,
+    target: PhaseStatusEnum,
 ) -> CtrlCondition:
     return CtrlCondition(
-        state=CtrlState(
-            phase_status=phase_status,
-        ),
+        current_phase=phase_status,
         logic_event=EventLogicTrue(),
-        target=target,
+        target_phase=target,
     )
 
 
 def _normal_condition(
     phase_status: PhaseStatusEnum,
     logic_event: EventLogic,
-    target: CtrlState,
+    target: PhaseStatusEnum,
 ) -> CtrlCondition:
     return CtrlCondition(
-        state=CtrlState(phase_status=phase_status),
+        current_phase=phase_status,
         logic_event=deepcopy(logic_event),
-        target=target,
+        target_phase=target,
     )
 
 
@@ -84,7 +79,7 @@ CONTROL_CONDITIONS: list[CtrlCondition] = [
                 EventSelectActiveCharacter(player_id=PlayerID(2)),
             ),
         ),
-        target=CtrlState(phase_status=PhaseStatusEnum.Roll),
+        target=PhaseStatusEnum.Roll,
     ),
     # phase-round round-roll
     _normal_condition(
@@ -99,11 +94,11 @@ CONTROL_CONDITIONS: list[CtrlCondition] = [
                 EventRerollDice(count=8, player_id=PlayerID(2)),
             ),
         ),
-        target=CtrlState(phase_status=PhaseStatusEnum.RA_start),
+        target=PhaseStatusEnum.RA_start,
     ),
     _auto_switch(
         phase_status=PhaseStatusEnum.RA_start,
-        target=CtrlState(phase_status=PhaseStatusEnum.RA_all_continue_1),
+        target=PhaseStatusEnum.RA_all_continue_1,
     ),
     # _must_be_once(
     #     phase_status=PhaseStatusEnum.Roll,

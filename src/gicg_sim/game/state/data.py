@@ -8,7 +8,6 @@ from gicg_sim.basic.event.operation import PlayerOperationBase
 from gicg_sim.basic.subtypes import PlayerID
 from gicg_sim.game.condition import CONTROL_CONDITIONS
 from gicg_sim.game.operation_helper import OperationHelper
-from gicg_sim.game.state.control import GameControlState
 from gicg_sim.game.state.side import GameSideState
 
 
@@ -26,7 +25,7 @@ class GameState:
         self.side1 = GameSideState()
         self.side2 = GameSideState()
         self.sides = (self.side1, self.side2)
-        self.control_state = GameControlState(phase_status=PhaseStatusEnum.Preparation)
+        self._phase_status = PhaseStatusEnum.Preparation
         self.active_player: PlayerID = PlayerID(-1)
 
         self.operation_history: list[PlayerOperationBase] = []
@@ -35,7 +34,7 @@ class GameState:
         self.event_history_phase_begin: int = 0
 
     def initialize(self, toss: TossType = TossType.CONST_1) -> None:
-        self.control_state.reset()
+        self._phase_status = PhaseStatusEnum.Preparation
         self.side1.reset()
         self.side2.reset()
         self.active_player = tossType2playerID(toss)
@@ -50,12 +49,12 @@ class GameState:
 
     def _update_control_state(self) -> bool:
         for c in CONTROL_CONDITIONS:
-            if c.state == self.control_state:
+            if c.current_phase == self.phase_status:
                 if c.validate(self.get_phase_events()):
-                    self.control_state.update(c.target)
+                    self._phase_status = c.target_phase
                     self.event_history.append(
                         SysEventSwitchPhase(
-                            phase=self.control_state.phase_status,
+                            phase=self.phase_status,
                         )
                     )
                     self.event_history_phase_begin = len(self.event_history)
@@ -63,7 +62,7 @@ class GameState:
         return False
 
     def get_phase_events(self) -> list[EventBase]:
-        return self.event_history[self.event_history_phase_begin:]
+        return self.event_history[self.event_history_phase_begin :]
 
     def take_operation(self, operation: PlayerOperationBase):
         self.operation_history.append(operation)
@@ -107,3 +106,7 @@ class GameState:
                     raise ValueError(
                         f"Invalid event type {e_raw.event_type} for {e_raw}"
                     )
+
+    @property
+    def phase_status(self) -> PhaseStatusEnum:
+        return self._phase_status

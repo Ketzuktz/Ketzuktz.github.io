@@ -1,7 +1,7 @@
 from copy import deepcopy
 
+from gicg_sim.basic.enums import PhaseStatusEnum
 from gicg_sim.basic.event.base import EventBase
-from gicg_sim.game.state.control import GameControlState as CtrlState
 
 
 class EventLogic:
@@ -96,13 +96,13 @@ class EventLogicTrue(EventLogic):
 class CtrlCondition:
     def __init__(
         self,
-        state: CtrlState,
+        current_phase: PhaseStatusEnum,
         logic_event: EventLogic,
-        target: CtrlState,
+        target_phase: PhaseStatusEnum,
     ) -> None:
-        self.state = deepcopy(state)
+        self.current_phase = deepcopy(current_phase)
         self.logic_event = deepcopy(logic_event)
-        self.target = deepcopy(target)
+        self.target_phase = deepcopy(target_phase)
 
     def validate(self, events: list[EventBase]) -> bool:
         if not self.logic_event.match(events):

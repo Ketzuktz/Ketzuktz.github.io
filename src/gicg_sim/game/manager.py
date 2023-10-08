@@ -1,6 +1,6 @@
 from gicg_sim.basic.event.operation import PlayerOperationBase
 from gicg_sim.basic.subtypes import PlayerID
-from gicg_sim.game.state.base import GameState
+from gicg_sim.game.state.data import GameState
 
 
 class GameManager:
