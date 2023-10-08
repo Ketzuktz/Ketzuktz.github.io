@@ -30,7 +30,7 @@ class GameSideState:
         self.die_state = DieState()
 
     def initialize(
-        self, character_names: list[str] = [], draw_pile: list[ActionCardPrototype] = []
+        self, character_names: list[str] = [], draw_pile_names: list[str] = []
     ):
         for cname in character_names:
             self.characters.append(Character.load(cname))

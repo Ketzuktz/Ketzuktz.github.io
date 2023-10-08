@@ -7,3 +7,12 @@
     - heal:
         target: 1
   comment: Heal the target character for 1 HP. (A character can consume at most 1 Food per Round)
+- name: Mondstadt Hash Brown
+  group: [Food]
+  cost:
+    die:
+      matching: 1
+  effect:
+    - heal:
+        target: 2
+  comment: Heal target character for 2 HP.
