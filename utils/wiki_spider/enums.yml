@@ -1,0 +1,52 @@
+Element:
+- Anemo
+- Cryo
+- Dendro
+- Electro
+- Geo
+- Hydro
+- No Elemental Type
+- Pyro
+Weapon:
+- Bow
+- Catalyst
+- Claymore
+- Other Weapons
+- Polearm
+- Sword
+Faction:
+- Fatui
+- Hilichurl
+- Inazuma
+- Kairagi
+- Liyue
+- Mondstadt
+- Monster
+- Sumeru
+- Undefined
+Group:
+- Arcane Legend
+- Artifact
+- Companion
+- Elemental Resonance
+- Food
+- Item
+- Location
+- Talent
+- Undefined
+- Weapon Bow
+- Weapon Catalyst
+- Weapon Claymore
+- Weapon Polearm
+- Weapon Sword
+Cost:
+- Anemo
+- Cryo
+- Dendro
+- Electro
+- Energy
+- Geo
+- Hydro
+- Matching
+- Pyro
+- Unaligned
