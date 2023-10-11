@@ -1,7 +1,7 @@
 import typing
 from typing import TypedDict
 
-from web import request_obc_response
+from web import request_hoyowiki_response, request_obc_response
 
 
 class MihoyoChannelData(TypedDict):
@@ -60,3 +60,18 @@ unexpected channel_id: {channel_data['id']}"
         )
 
     return channel_data
+
+
+def get_mihoyo_content_data(content_id: int):
+    url = "genshin/wapi/entry_page"
+    params = {
+        "app_sn": "ys_obc",
+        "entry_page_id": str(content_id),
+        "lang": "zh-cn",
+    }
+
+    response = request_hoyowiki_response(url, params)
+
+    data: MihoyoGeneralData = response.json()
+
+    return data
