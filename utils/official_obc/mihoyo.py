@@ -17,14 +17,56 @@ class MihoyoChannelData(TypedDict):
     hidden: bool
 
 
-class _ListWrapperDict(TypedDict):
+class MihoyoPageModuleAttribute(TypedDict):
+    key: str
+    value: typing.List[str]
+
+
+class MihoyoPageModuleData(TypedDict):
+    moduleName: str
+    layout_: str
+    name: str
+    common_img: str
+    gold_img: str
+    life: int
+    life_bg: int
+    energy: int
+    energy_bg: int
+    attr: typing.List[MihoyoPageModuleAttribute]
+    repeated: bool
+
+
+class MihoyoPageComponent(TypedDict):
+    component_id: str
+    layout: str
+    data: str   # MihoyoContentModuleData
+    style: str
+
+
+class MihoyoPageData(TypedDict):
+    name: str
+    is_poped: bool
+    components: typing.List[MihoyoPageComponent]
+    id: str
+    is_customize_name: bool
+    is_abstract: bool
+    is_show_switch: bool
+    switch: bool
+    desc: str
+    repeated: bool
+    is_submodule: bool
+    origin_module_id: str
+
+
+class MihoyoGeneralInnerWrapper(TypedDict, total=False):
     list: typing.List[typing.Any]
+    page: MihoyoPageData
 
 
 class MihoyoGeneralData(TypedDict):
     retcode: int
     message: str
-    data: _ListWrapperDict
+    data: MihoyoGeneralInnerWrapper
 
 
 def get_mihoyo_channel_list_data(channel_id: int) -> MihoyoChannelData:
@@ -62,7 +104,7 @@ unexpected channel_id: {channel_data['id']}"
     return channel_data
 
 
-def get_mihoyo_content_data(content_id: int):
+def get_mihoyo_content_data(content_id: int) -> MihoyoPageData:
     url = "genshin/wapi/entry_page"
     params = {
         "app_sn": "ys_obc",
@@ -74,4 +116,17 @@ def get_mihoyo_content_data(content_id: int):
 
     data: MihoyoGeneralData = response.json()
 
-    return data
+    if data["retcode"] != 0:
+        raise RuntimeError(
+            f"Request to {url} [{content_id}] failed with \
+retcode {data['retcode']}: {data['message']}"
+        )
+
+    if 'page' not in data['data']:
+        raise RuntimeError(
+            f"Request to {url} [{content_id}] failed with \
+unexpected data: {data['data']}"
+        )
+
+    content: MihoyoPageData = data["data"]["page"]
+    return content
