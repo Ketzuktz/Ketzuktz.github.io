@@ -2,7 +2,7 @@ import json
 import os
 
 from mihoyo.channel import get_channel
-from mihoyo.wiki.base import get_page
+from mihoyo.wiki.card import get_card
 
 if not os.path.exists('output.d'):
     os.mkdir('output.d')
@@ -28,7 +28,7 @@ if __name__ == '__main__':
             card_name = card['title']
             card_id = card['content_id']
 
-            card_data = get_page(card_id)
+            card_data = get_card(card_id)
 
             card_path = f'{subpath}/{card_name}.json'
             with open(card_path, 'w', encoding='utf-8') as f:

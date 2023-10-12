@@ -3,124 +3,65 @@
     "name": "弥生七月",
     "desc": "弥生七月卡牌",
     "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/24/258999284/09820a12324bca69fe30277287462e2f_482671450755707215.png",
-    "header_img_url": "",
-    "modules": [
-        {
+    "infos": {
+        "基础信息": {
             "name": "基础信息",
-            "is_poped": false,
-            "components": [
-                {
-                    "component_id": "card_base_info",
-                    "layout": "",
-                    "data": "{\"moduleName\":\"基础信息\",\"layout_\":\"left\",\"name\":\"弥生七月\",\"common_img\":\"https://act-upload.mihoyo.com/wiki-user-upload/2023/09/24/258999284/09820a12324bca69fe30277287462e2f_7162251245504180312.png\",\"gold_img\":\"https://act-upload.mihoyo.com/wiki-user-upload/2023/09/27/258999284/1cbc63dbf45da94c5fe3c6f6c6e1d997_4326171611870811000.gif\",\"life\":1,\"life_bg\":9,\"energy\":0,\"energy_bg\":0,\"attr\":[{\"key\":\"类型：\",\"value\":[\"支援牌\"]},{\"key\":\"标签：\",\"value\":[\"伙伴\"]},{\"key\":\"获取：\",\"value\":[\"卡牌商店购买\"]},{\"key\":\"花费：\",\"value\":[\"1\"]}]}",
-                    "style": ""
-                }
-            ],
-            "id": "1",
-            "is_customize_name": true,
-            "is_abstract": false,
-            "is_show_switch": false,
-            "switch": false,
-            "desc": "",
-            "repeated": false,
-            "is_submodule": false,
-            "origin_module_id": "0"
-        },
-        {
-            "name": "效果描述",
-            "is_poped": false,
-            "components": [
-                {
-                    "component_id": "collapse_panel",
-                    "layout": "",
-                    "data": "{\"rich_text\":\"<p><strong>我方打出「圣遗物」手牌时：</strong>少花费1个元素骰；我方场上每有一个已装备「圣遗物」的角色，就额外少花费1个元素骰。(每回合1次)</p><p></p>\",\"switch\":true,\"is_show_switch\":true}\n",
-                    "style": ""
-                }
-            ],
-            "id": "2",
-            "is_customize_name": true,
-            "is_abstract": false,
-            "is_show_switch": true,
-            "switch": true,
-            "desc": "",
-            "repeated": false,
-            "is_submodule": false,
-            "origin_module_id": "0"
-        },
-        {
-            "name": "卡牌故事",
-            "is_poped": false,
-            "components": [
-                {
-                    "component_id": "collapse_panel",
-                    "layout": "",
-                    "data": "{\"rich_text\":\"<p><strong>漆器之法·弥生七月</strong></p><p>「如果最终能抵达极致的境界，那么漆器之中也会蕴含真理的纹样吧···」</p>\",\"switch\":true,\"is_show_switch\":true}\n",
-                    "style": ""
-                }
-            ],
-            "id": "3",
-            "is_customize_name": true,
-            "is_abstract": false,
-            "is_show_switch": true,
-            "switch": true,
-            "desc": "",
-            "repeated": false,
-            "is_submodule": false,
-            "origin_module_id": "0"
-        }
-    ],
-    "filter_values": {},
-    "menu_id": "0",
-    "menu_name": "",
-    "version": "1695806800",
-    "langs": [],
-    "template_layout": {
-        "tab": [
-            {
-                "tab_id": "1",
-                "tab_name": "页签1",
-                "module_group": [
+            "id": "card_base_info",
+            "data": {
+                "moduleName": "基础信息",
+                "layout_": "left",
+                "name": "弥生七月",
+                "common_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/24/258999284/09820a12324bca69fe30277287462e2f_7162251245504180312.png",
+                "gold_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/27/258999284/1cbc63dbf45da94c5fe3c6f6c6e1d997_4326171611870811000.gif",
+                "life": 1,
+                "life_bg": 9,
+                "energy": 0,
+                "energy_bg": 0,
+                "attr": [
                     {
-                        "module_group_id": "1",
-                        "layout": "l1r1",
-                        "module": [
-                            {
-                                "id": "1",
-                                "pos": "left"
-                            },
-                            {
-                                "id": "2",
-                                "pos": "right"
-                            },
-                            {
-                                "id": "3",
-                                "pos": "right"
-                            }
-                        ],
-                        "name": "",
-                        "repeated": false,
-                        "parent_group_id": "0"
+                        "key": "类型：",
+                        "value": [
+                            "支援牌"
+                        ]
+                    },
+                    {
+                        "key": "标签：",
+                        "value": [
+                            "伙伴"
+                        ]
+                    },
+                    {
+                        "key": "获取：",
+                        "value": [
+                            "卡牌商店购买"
+                        ]
+                    },
+                    {
+                        "key": "花费：",
+                        "value": [
+                            "1"
+                        ]
                     }
                 ]
             }
-        ]
-    },
-    "edit_lock_status": "Unlock",
-    "correct_lock_status": "Unlock",
-    "menus": [
-        {
-            "id": "234",
-            "name": "行动牌",
-            "has_page": false,
-            "style": "",
-            "sub_menus": []
+        },
+        "效果描述": {
+            "name": "效果描述",
+            "id": "collapse_panel",
+            "data": {
+                "rich_text": "<p><strong>我方打出「圣遗物」手牌时：</strong>少花费1个元素骰；我方场上每有一个已装备「圣遗物」的角色，就额外少花费1个元素骰。(每回合1次)</p><p></p>",
+                "switch": true,
+                "is_show_switch": true
+            }
+        },
+        "卡牌故事": {
+            "name": "卡牌故事",
+            "id": "collapse_panel",
+            "data": {
+                "rich_text": "<p><strong>漆器之法·弥生七月</strong></p><p>「如果最终能抵达极致的境界，那么漆器之中也会蕴含真理的纹样吧···」</p>",
+                "switch": true,
+                "is_show_switch": true
+            }
         }
-    ],
-    "template_id": "64b0fb11a2a4497b032db8eb",
-    "ext": {
-        "fe_ext": "{\"c_234\":{\"costBgIcon\":{\"allow_file_type\":[],\"list\":[\"https://act-upload.mihoyo.com/wiki-user-upload/2023/09/24/258999284/8c5a4f348a3a8017500c15e9cd0c5c15_1914209180622910315.png\"],\"max_file_size\":10,\"picture_num\":1},\"energyBgIcon\":{\"allow_file_type\":[],\"list\":[],\"max_file_size\":10,\"picture_num\":1},\"filter\":{\"text\":\"[\\\"类型/支援牌\\\",\\\"标签/伙伴\\\",\\\"花费/花费1\\\"]\"}}}",
-        "post_ext": null
-    },
-    "alias_name": "",
-    "lang": ""
+    }
 }
