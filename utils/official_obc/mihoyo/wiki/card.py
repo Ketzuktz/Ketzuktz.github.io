@@ -17,7 +17,7 @@ class CardInfo(TypedDict):
 def get_card(card_id: int) -> CardInfo:
     card_page = get_page(card_id)
 
-    infos = {}
+    infos: typing.Dict[str, typing.Any] = {}
 
     for module in card_page['modules']:
         if len(module['components']) != 1:
@@ -38,7 +38,7 @@ def get_card(card_id: int) -> CardInfo:
             'data': module_data,
         }
 
-        infos.update({module_id: info_item})
+        infos[module_name] = infos.get(module_name, []) + [info_item]
 
     output: CardInfo = {
         'id': card_page['id'],
