@@ -4,7 +4,7 @@
     "desc": "弥生七月卡牌",
     "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/24/258999284/09820a12324bca69fe30277287462e2f_482671450755707215.png",
     "infos": {
-        "基础信息": {
+        "card_base_info": {
             "name": "基础信息",
             "id": "card_base_info",
             "data": {
@@ -45,16 +45,7 @@
                 ]
             }
         },
-        "效果描述": {
-            "name": "效果描述",
-            "id": "collapse_panel",
-            "data": {
-                "rich_text": "<p><strong>我方打出「圣遗物」手牌时：</strong>少花费1个元素骰；我方场上每有一个已装备「圣遗物」的角色，就额外少花费1个元素骰。(每回合1次)</p><p></p>",
-                "switch": true,
-                "is_show_switch": true
-            }
-        },
-        "卡牌故事": {
+        "collapse_panel": {
             "name": "卡牌故事",
             "id": "collapse_panel",
             "data": {

@@ -4,7 +4,7 @@
     "desc": "仙蕊玲珑·瑶瑶卡牌",
     "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/24/258999284/a351e4595bfcbec661319951fd9bc7c1_1178831720023013541.png",
     "infos": {
-        "基础信息": {
+        "card_base_info": {
             "name": "基础信息",
             "id": "card_base_info",
             "data": {
@@ -52,65 +52,7 @@
                 "repeated": true
             }
         },
-        "卡牌技能": {
-            "name": "卡牌技能",
-            "id": "card_skill",
-            "data": {
-                "moduleName": "卡牌技能",
-                "layout_": "right",
-                "list": [
-                    {
-                        "tab_name": "颠扑连环枪",
-                        "skill_type": "普通攻击",
-                        "icon": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/24/258999284/45d3b54139aaef58b0b5bf6f18493066_7031336541376527463.png",
-                        "life": 1,
-                        "life_bg": 2,
-                        "energy": 2,
-                        "energy_bg": 10,
-                        "desc": {
-                            "key": "技能效果",
-                            "value": [
-                                "<p>造成2点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"<p><strong>物理伤害</strong></p><p><span style=&quot;color: rgb(27, 27, 27)&quot;>物理伤害不会附着元素，也不会发生元素反应。</span></p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
-                            ]
-                        },
-                        "tab_id": "1694067287681_0"
-                    },
-                    {
-                        "tab_name": "云台团团降芦菔",
-                        "skill_type": "元素战技",
-                        "icon": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/24/258999284/73c9611548f96cbcaaa820548576ff81_266542015961172436.png",
-                        "life": 3,
-                        "life_bg": 2,
-                        "energy": 0,
-                        "energy_bg": 0,
-                        "desc": {
-                            "key": "",
-                            "value": [
-                                "<p>召唤<strong><em>月桂·抛掷型</em></strong>。</p>"
-                            ]
-                        },
-                        "tab_id": "1695488310439_1"
-                    },
-                    {
-                        "tab_name": "云颗珊珊月中落",
-                        "skill_type": "元素爆发",
-                        "icon": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/24/258999284/f364530033902093e271b5b3b26c0018_6031597060341810921.png",
-                        "life": 4,
-                        "life_bg": 2,
-                        "energy": 2,
-                        "energy_bg": 8,
-                        "desc": {
-                            "key": "",
-                            "value": [
-                                "<p>造成1点<strong><span style=\"color: rgb(82, 196, 26)\"><u>草元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"<p><strong>草元素伤害</strong>:</p><p>附着草玩素，可发生元素反应:</p><p><strong>绽放</strong>:本伤害+1,生成使下次火/雷伤害+ 2的</p><p>[<strong>草原核</strong>]</p><p><strong>燃烧</strong>:本伤害+1,生成回合结束时造成1钬伤</p><p>害的[<strong><em>燃烧烈焰</em></strong>] (可生效1次，够到2次)</p><p><strong>原激化</strong>:本伤害+1,生成使下2次草/雷伤害+1</p><p>的[<strong>激化领域</strong>]</p><p></p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，生成<strong><u>桂子仙机</u></strong><span data-type=\"详情\" data-name=\"<p><strong>桂子仙机</strong>：</p><p>出战状态</p><p><strong>我方切换角色后</strong>：造成1点草元素伤害，治疗我方出战角色1点。</p><p><strong>可用次数</strong>：3</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
-                            ]
-                        },
-                        "tab_id": "1695488310611_2"
-                    }
-                ]
-            }
-        },
-        "召唤物": {
+        "card_skill": {
             "name": "召唤物",
             "id": "card_skill",
             "data": {
@@ -137,7 +79,7 @@
                 "repeated": true
             }
         },
-        "卡牌故事": {
+        "collapse_panel": {
             "name": "卡牌故事",
             "id": "collapse_panel",
             "data": {
