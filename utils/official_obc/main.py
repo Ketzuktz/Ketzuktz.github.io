@@ -1,8 +1,8 @@
 import json
 import os
 
-import mihoyo
-from mihoyo import get_mihoyo_channel_list_data
+from mihoyo.channel import get_channel
+from mihoyo.wiki.base import get_page
 
 if not os.path.exists('output.d'):
     os.mkdir('output.d')
@@ -11,7 +11,7 @@ CARD_LISTS_CHANNEL_ID = 231
 
 if __name__ == '__main__':
     if not os.path.exists('output.d/card_lists.json'):
-        card_lists = get_mihoyo_channel_list_data(CARD_LISTS_CHANNEL_ID)
+        card_lists = get_channel(CARD_LISTS_CHANNEL_ID)
 
         with open('output.d/card_lists.json', 'w', encoding='utf-8') as f:
             json.dump(card_lists, f, ensure_ascii=False, indent=4)
@@ -28,7 +28,7 @@ if __name__ == '__main__':
             card_name = card['title']
             card_id = card['content_id']
 
-            card_data = mihoyo.get_mihoyo_content_data(card_id)
+            card_data = get_page(card_id)
 
             card_path = f'{subpath}/{card_name}.json'
             with open(card_path, 'w', encoding='utf-8') as f:
