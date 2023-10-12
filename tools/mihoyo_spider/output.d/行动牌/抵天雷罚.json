@@ -1,0 +1,39 @@
+{
+    "id": "5505",
+    "name": "抵天雷罚",
+    "desc": "刻晴天赋 抵天雷罚",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/58e4a4eca066cc26e6547f590def46ad_3963034565300778569.png",
+    "base_info": {
+        "name": "抵天雷罚",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/58e4a4eca066cc26e6547f590def46ad_1659079510132865575.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 5,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;战斗行动：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>刻晴</strong>时，装备此牌。</p><p style=\"white-space: pre-wrap;\">刻晴装备此牌后，立刻使用一次<strong><u>星斗归位</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;星斗归位：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成3点&lt;strong&gt;&lt;span style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;，生成手牌&lt;strong&gt;雷楔&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\">装备有此牌的刻晴生成的<strong><u>雷元素附魔</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素附魔：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;所附属角色造成的&lt;strong&gt;物理伤害&lt;/strong&gt;变为&lt;strong&gt;&lt;span style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;持续回合&lt;/strong&gt;：2&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>获得以下效果：</p><p style=\"white-space: pre-wrap;\">初始<strong><u>持续回合</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;持续回合：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;每回合结束阶段，持续回合-1；持续回合耗尽后，立刻弃置此牌。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>+1，并且会使所附属角色造成的<strong><span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;原激化：本伤害+1，生成使下3次草/雷伤害+1的[激化领域]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>+1。</p><p style=\"white-space: pre-wrap;\">（牌组中包含刻晴，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>刻晴 · 抵天雷罚</strong></p><p style=\"white-space: pre-wrap;\">只要你没有真正作弊，这就只是一张卡牌而己。</p>"
+    }
+}

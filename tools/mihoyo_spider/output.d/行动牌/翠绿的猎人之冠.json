@@ -1,0 +1,39 @@
+{
+    "id": "5435",
+    "name": "翠绿的猎人之冠",
+    "desc": "翠绿的猎人之冠",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/ab97ddfef51292e8032722be4b90033c_7637964083886847648.png",
+    "base_info": {
+        "name": "翠绿的猎人之冠",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/ab97ddfef51292e8032722be4b90033c_4334232169479597641.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/8436a3891c3bcb321cc2d0878c8db3b8_778894426758397310.gif",
+        "life": 2,
+        "life_bg": 10,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>角色使用技能或装备「天赋」时：少花费1个风元素。（每回合1次）</p><p>（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>青翠之风·翠绿的猎人之冠</strong></p><p>「无人能为最杰出的猎人加冕，因为高于她的只有地与天。」</p>"
+    }
+}

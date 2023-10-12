@@ -1,0 +1,39 @@
+{
+    "id": "5377",
+    "name": "元素共鸣：交织之冰",
+    "desc": "元素共鸣：交织之冰",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/3c2290805dd2554703ca4c5be3ae6d8a_7891985832980957194.png",
+    "base_info": {
+        "name": "元素共鸣：交织之冰",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/3c2290805dd2554703ca4c5be3ae6d8a_7656625119620764962.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/a6eb6fbe1e93332fdf2eecd91cc5a796_5278266363109026350.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "元素共鸣"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">生成1个冰元素骰。 （牌组包含至少2个冰元素角色，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">坚冰凜冽，直撼高天。</p>"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "5511",
+    "name": "支援就交给我吧",
+    "desc": "诺艾尔天赋 支援就交给我吧",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/4c6332fd42d6edc64633a44aa900b32f_6606597472246639864.png",
+    "base_info": {
+        "name": "支援就交给我吧",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/4c6332fd42d6edc64633a44aa900b32f_248861550176006555.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 7,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>战斗行动：</p><p style=&quot;white-space: pre-wrap;&quot;>我方执行了一次战斗行动后，会轮到对方行动。</p><p style=&quot;white-space: pre-wrap;&quot;>打出具有此规则的手牌是一个战斗行动，而非快速行动。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>诺艾尔</strong>时，装备此牌。</p><p>诺艾尔装备此牌后，立刻使用一次<strong><u>护心铠</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>护心铠：</p><p style=&quot;white-space: pre-wrap;&quot;>造成1点<span style=&quot;color:rgba(212,177,6,1)&quot;>岩元素伤害</span>，生成<strong>护体岩铠</strong>。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>诺艾尔<strong>普通攻击</strong>后：如果此牌和<strong><u>护体岩铠</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>护体岩铠：</p><p style=&quot;white-space: pre-wrap;&quot;>出战状态</p><p style=&quot;white-space: pre-wrap;&quot;>为我方出战角色提供2点<strong>护盾</strong>。此护盾耗尽前，我方受到的<strong>物理伤害</strong>减半。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>仍在场，治疗我方所有角色1点。（每回合1次）</p><p>（牌组中包含诺艾尔，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>诺艾尔 · 支援就交给我吧</strong></p><p>坚毅之心，才是最牢固的岩铠。</p>"
+    }
+}

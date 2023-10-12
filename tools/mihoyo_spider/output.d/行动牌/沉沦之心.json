@@ -1,0 +1,39 @@
+{
+    "id": "5430",
+    "name": "沉沦之心",
+    "desc": "沉沦之心",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/b415a4b00134ee115f7abd0518623f4f_8721743655470015978.png",
+    "base_info": {
+        "name": "沉沦之心",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/b415a4b00134ee115f7abd0518623f4f_2049230176320242762.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/1a1f609a26b9a419539d14e78041b8c5_2326356919098585192.gif",
+        "life": 2,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>角色使用技能或装备「天赋」时：少花费1个水元素。（每回合1次）</p><p>投掷阶段：2个元素骰初始总是投出水元素。</p><p>（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>浪舟残想·沉沦之心</strong></p><p>「⋯因一切死皆是枉死，耽溺过往之人没有救赎。」</p>"
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "id": "7019",
+    "name": "七七",
+    "desc": "七七卡牌",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/08/12/258999284/e94e3710ff2819e5f5fd6ddf51a90910_3879029393179491610.png",
+    "base_info": {
+        "name": "冻冻回魂夜·七七",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/08/12/258999284/e94e3710ff2819e5f5fd6ddf51a90910_7928049319389729133.png",
+        "gold_img": "",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 3,
+        "energy_bg": 0,
+        "element": [
+            "冰元素"
+        ],
+        "weapon": [
+            "单手剑"
+        ],
+        "faction": [
+            "璃月"
+        ],
+        "energy_count": [
+            "3点"
+        ],
+        "acquisition": [
+            "角色邀请·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "云来古剑法",
+            "skill_type": "普通攻击",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/08/12/258999284/85bd12d21e4421258ed6f170f1908cd4_3314152622384750907.jpg",
+            "costs": [
+                {
+                    "type": 1,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;物理伤害&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/span&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "仙法·寒病鬼差",
+            "skill_type": "元素战技",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/08/12/258999284/8ef482a027dfd52ec96e07ce452c38ce_2112371814644076808.jpg",
+            "costs": [
+                {
+                    "type": 1,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">召唤<strong><em>寒病鬼差</em></strong>。</p>"
+        },
+        {
+            "name": "仙法·救苦度厄",
+            "skill_type": "元素爆发",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/08/12/258999284/fbf260ac04da9e7eafa3967cd9bed42c_824806426983130530.jpg",
+            "costs": [
+                {
+                    "type": 1,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成3点<strong><span style=\"color:rgba(145,213,255,1)\"><u>冰元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;color:rgba(145,213,255,1)&#34;&gt;冰元素伤害&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;附着冰元素，可发生元素反应：&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;融化：本伤害+2&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/span&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，生成<strong><span style=\"color:rgba(0,0,0,1)\"><u>度厄真符</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;度厄真符&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;我方角色使用技能后：&lt;/strong&gt;如果该角色生命值未满，则治疗该角色2点。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;&lt;u&gt;可用次数&lt;/u&gt;：3&lt;/strong&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        }
+    ],
+    "summons": [
+        {
+            "name": "寒病鬼差",
+            "skill_type": "召唤物",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/08/16/12109492/f9ea7576630eb5a8c46aae9ea8f61c7b_317750933065064305.png",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\"><strong>结束阶段</strong>：造成1点<strong><span style=\"color:rgba(145,213,255,1)\"><u>冰元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;color:rgba(145,213,255,1)&#34;&gt;冰元素伤害&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;附着冰元素，可发生元素反应：&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;融化：本伤害+2&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/span&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\"><strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;此牌效果触发后，会消耗1次&lt;/span&gt;&lt;strong&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;可用次数&lt;/span&gt;&lt;/strong&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;；&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;可用次数&lt;/span&gt;&lt;/strong&gt;&lt;span style=&#34;color:rgba(27,27,27,1)&#34;&gt;耗尽后，立刻弃置此牌。&lt;/span&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span><strong>：3</strong></p><p style=\"white-space: pre-wrap;\"><strong>此召唤物在场时，七七使用「普通攻击」后：</strong>治疗受伤最多的我方角色1点。</p>"
+        }
+    ],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>冻冻回魂夜·七七</strong></p><p style=\"white-space: pre-wrap;\">流转不息，生生不绝。</p>"
+    }
+}

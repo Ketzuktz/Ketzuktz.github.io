@@ -1,0 +1,39 @@
+{
+    "id": "5426",
+    "name": "流放者头冠",
+    "desc": "流放者头冠",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/dd30c7290b9379c5a1a91e0bb5d881c3_5725038669836900112.png",
+    "base_info": {
+        "name": "流放者头冠",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/dd30c7290b9379c5a1a91e0bb5d881c3_4746512653382401326.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/7ec9424866f24564fc7b00d8e652514f_3647373597133630003.gif",
+        "life": 2,
+        "life_bg": 10,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">角色使用元素爆发后：所有后台我方角色获得1点<strong><u>充能</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;充能：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色使用「元素爆发」时，需要消耗充能。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色使用「元素战技」或「普通攻击」后，会获得1点充能。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。（每回合1次）</p><p style=\"white-space: pre-wrap;\">（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>贵胄之裔·流放者头冠</strong></p><p style=\"white-space: pre-wrap;\">「祸哉，那白银堆砌的大殿，你的冠冕何以被血淹没？」</p>"
+    }
+}

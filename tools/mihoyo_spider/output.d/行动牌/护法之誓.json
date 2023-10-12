@@ -1,0 +1,39 @@
+{
+    "id": "5401",
+    "name": "护法之誓",
+    "desc": "护法之誓",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/9df79dcb5f6faeed4d1f1b286dcaba76_6080890097882282422.png",
+    "base_info": {
+        "name": "护法之誓",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/9df79dcb5f6faeed4d1f1b286dcaba76_1426047687046512159.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/b1699beeb1ae76583172b024bbc48b6e_4730823476020559132.gif",
+        "life": 4,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买、初始自带"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "4"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">消灭所有「召唤物」。（不分敌我！）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">「三眼五显仙人， 魈，听召前来守护。」</p>"
+    }
+}

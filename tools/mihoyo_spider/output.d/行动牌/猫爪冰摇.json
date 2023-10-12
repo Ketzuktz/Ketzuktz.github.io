@@ -1,0 +1,39 @@
+{
+    "id": "5497",
+    "name": "猫爪冰摇",
+    "desc": "迪奥娜天赋 猫爪冰摇",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/cb37f02217bcd8ae5f6e4a6eb9bae539_8367659128817270816.png",
+    "base_info": {
+        "name": "猫爪冰摇",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/cb37f02217bcd8ae5f6e4a6eb9bae539_3357631204660850476.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 1,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>战斗行动：</p><p style=&quot;white-space: pre-wrap;&quot;>我方执行了一次战斗行动后，会轮到对方行动。</p><p style=&quot;white-space: pre-wrap;&quot;>打出具有此规则的手牌是一个战斗行动，而非快速行动。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>迪奥娜</strong>时，装备此牌。</p><p>迪奥娜装备此牌后，立刻使用一次<strong><u>猫爪冻冻</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>猫爪冻冻：</p><p style=&quot;white-space: pre-wrap;&quot;>造成2点<strong><span style=&quot;color:rgba(145,213,255,1)&quot;>冰元素伤害</span></strong>，生成<strong>猫爪护盾</strong>。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的迪奥娜生成的<strong><u>猫爪护盾</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>猫爪护盾：</p><p style=&quot;white-space: pre-wrap;&quot;>出战状态</p><p style=&quot;white-space: pre-wrap;&quot;>为我方出战角色提供1点<strong>护盾</strong>。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，所提供的<strong>护盾</strong>值+1<strong>。</strong></p><p>（牌组中包含迪奥娜，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>迪奥娜·猫爪冰摇</strong></p><p>摇晃摇晃，混合均匀。您要的续杯！</p>"
+    }
+}

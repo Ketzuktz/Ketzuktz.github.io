@@ -1,0 +1,39 @@
+{
+    "id": "5501",
+    "name": "交叉火力",
+    "desc": "香菱天赋 交叉火力",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/101e8ef859847643178755f3bcacbad5_4705629747924939707.png",
+    "base_info": {
+        "name": "交叉火力",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/101e8ef859847643178755f3bcacbad5_682414719379551664.png",
+        "gold_img": "",
+        "life": 4,
+        "life_bg": 4,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "4"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;战斗行动：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>香菱</strong>时，装备此牌。</p><p style=\"white-space: pre-wrap;\">香菱装备此牌后，立刻使用一次<strong><u>锅巴出击</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;锅巴出击：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;召唤&lt;strong&gt;锅巴&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\">装备有此牌的香菱施放<strong>锅巴出击</strong>时，自身也会造成1点<strong><span style=\"color:rgba(207,19,34,1)\"><u>火元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;火元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着火元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;燃烧：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\">（牌组中包含香菱，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>香菱 · 交叉火力</strong></p><p style=\"white-space: pre-wrap;\">在厨房里，这只是一种常规火力。</p>"
+    }
+}

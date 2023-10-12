@@ -1,0 +1,39 @@
+{
+    "id": "5499",
+    "name": "寒天宣命祝词",
+    "desc": "神里绫华天赋 寒天宣命祝词",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/7d706fd25ab0b3c4f8cca3af08d8a07b_2913232629544868049.png",
+    "base_info": {
+        "name": "寒天宣命祝词",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/7d706fd25ab0b3c4f8cca3af08d8a07b_7626480615922183088.png",
+        "gold_img": "",
+        "life": 2,
+        "life_bg": 1,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">装备有此牌的<strong>神里绫华</strong>生成的<strong><u>冰元素附魔</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冰元素附魔：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;所附属角色造成的&lt;strong&gt;物理伤害&lt;/strong&gt;变为&lt;strong&gt;&lt;span style=&#34;color:rgba(145,213,255,1)&#34;&gt;冰元素伤害&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>会使所附属角色造成的<strong><span style=\"color:rgba(145,213,255,1)\">冰元素伤害</span></strong>+1。</p><p style=\"white-space: pre-wrap;\">切换到装备有此牌的神里绫华时：少花费1个元素骰。（每回合1次）</p><p style=\"white-space: pre-wrap;\">（牌组中包含神里绫华，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>神里绫华 · 寒天宣命祝词</strong></p><p style=\"white-space: pre-wrap;\">雪鹤衔冰，翼影翩翩。</p>"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "500019",
+    "name": "最终解释权",
+    "desc": "烟绯天赋牌 最终解释权",
+    "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/07/14/183046623/ad8a2130c54da3c3f25d094b7019cb69_5054169515133628932.png",
+    "base_info": {
+        "name": "最终解释权",
+        "common_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/07/14/183046623/ad8a2130c54da3c3f25d094b7019cb69_4536540887547691720.png",
+        "gold_img": "",
+        "life": 1,
+        "life_bg": 4,
+        "energy": 0,
+        "energy_bg": 10,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"<p><strong>战斗行动：</strong></p><p>我方执行了一次战斗行动后，会轮到对方行动。</p><p>打出具有此规则的手牌是一个战斗行动，而非快速行动。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>烟绯</strong>时，装备此牌。</p><p>烟绯装备此牌后，立刻使用一次<strong><u>火漆制印</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>火漆制印：</p><p style=&quot;white-space: pre-wrap;&quot;>普通攻击</p><p style=&quot;white-space: pre-wrap;&quot;>造成1点<strong><span style=&quot;color:rgba(207,19,34,1)&quot;>火元素伤害</span></strong>。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的烟绯进行<strong><u>重击</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>重击：</p><p style=&quot;white-space: pre-wrap;&quot;>我方行动开始前，如果元素骰总数为偶数，则进行的「普通攻击」将被视为「重击」。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>时：对生命值不多于6的敌人造成的伤害+1。</p><p>（牌组中包含烟绯，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>烟绯·最终解释权</strong></p><p>「在打牌这方面，自然是⋯律无禁止即可为呀。」</p>"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "6608",
+    "name": "辰砂往生录",
+    "desc": "辰砂往生录卡牌",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/ad8e8b77b4efc4aabd42b7954fbc244c_8309640925909656227.png",
+    "base_info": {
+        "name": "辰砂往生录",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/ad8e8b77b4efc4aabd42b7954fbc244c_7518202688884952912.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 10,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong>角色使用「普通攻击」或装备「天赋」时：</strong>少花费1个元素骰。（每回合1次）</p><p><strong>角色被切换为「出战角色」后：</strong>本回合中，角色「普通攻击」造成的伤害+1。</p><p>（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>浓云夕照·辰砂往生录</strong></p><p>「君不闻，朔风萧瑟鼓角落，人杰淹冉没回涡。」</p><p>「竟不见，夜叉酣斗争天曙，空余长叹何蹉跎。」</p>"
+    }
+}

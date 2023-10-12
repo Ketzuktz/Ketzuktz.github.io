@@ -1,0 +1,39 @@
+{
+    "id": "6621",
+    "name": "烬火重燃",
+    "desc": "深渊咏者·渊火天赋牌 烬火重燃",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/c065153c09a84ed9d7c358c8cc61171f_6071835508615010817.png",
+    "base_info": {
+        "name": "烬火重燃",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/c065153c09a84ed9d7c358c8cc61171f_8734243408282507546.png",
+        "gold_img": "",
+        "life": 2,
+        "life_bg": 4,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong>入场时：</strong>如果装备有此牌的<strong>深渊咏者·渊火</strong>已触发过<strong><u>火之新生</u></strong><span data-type=\"详情\" data-name=\"<p>火之新生：</p><p>状态</p><p><strong>所附属角色被击倒时：</strong>移除此效果，使角色<strong><u>免于被击倒</u></strong>，并治疗该角色到3点生命值。</p><blockquote><p><strong>免于被击倒</strong></p><p>一些效果会使角色在生命值被降为0的时候<strong>免于被击倒</strong>，并治疗该角色到一定生命值。</p><p>此时，角色不视为被<strong>击倒</strong>过。(因此，角色所附属的装备和状态不会被弃置，充能也不会被清空。）</p></blockquote>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，就立刻弃置此牌，为角色附属<strong><u>渊火加护</u></strong><span data-type=\"详情\" data-name=\"<p>渊火加护：</p><p>为所附属角色提供3点护盾。此护盾耗尽前，所附属角色造成的<span style=&quot;color: rgb(245, 34, 45)&quot;>火元素伤害</span><span style=&quot;color: rgb(0, 0, 0)&quot;>+1。</span></p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的深渊咏者·渊火触发<strong>火之新生</strong>时：弃置此牌，为角色附属<strong>渊火加护</strong>。</p><p>（牌组中包含深渊咏者·渊火，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>深渊咏者 · 烬火重燃</strong></p><p>递播恩典之路，并非一路平顺。</p>"
+    }
+}

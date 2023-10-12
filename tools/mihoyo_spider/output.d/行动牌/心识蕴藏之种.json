@@ -1,0 +1,39 @@
+{
+    "id": "6623",
+    "name": "心识蕴藏之种",
+    "desc": "纳西妲天赋牌 心识蕴藏之种",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/013c862d1c89850fb23f26763f601b11_4897470263997038929.png",
+    "base_info": {
+        "name": "心识蕴藏之种",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/013c862d1c89850fb23f26763f601b11_823565145951775374.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 2,
+        "energy": 0,
+        "energy_bg": 8,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3；2点充能"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>战斗行动：</p><p style=&quot;white-space: pre-wrap;&quot;>我方执行了一次战斗行动后，会轮到对方行动。</p><p style=&quot;white-space: pre-wrap;&quot;>打出具有此规则的手牌是一个战斗行动，而非快速行动。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>纳西妲</strong>时，装备此牌。</p><p>纳西妲装备此牌后，立刻使用一次<strong><u>心景幻成</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>心景幻成：</p><p style=&quot;white-space: pre-wrap;&quot;>元素爆发</p><p style=&quot;white-space: pre-wrap;&quot;>造成4点<strong><span style=&quot;color:rgba(82,196,26,1)&quot;>草元素伤害</span></strong>，生成<strong>摩耶之殿</strong>。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的纳西妲在场时，根据我方队伍中存在的元素类型提供效果：</p><p><strong><span style=\"color: rgb(207, 19, 34)\">火元素</span></strong>：<strong><u>摩耶之殿</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>摩耶之殿：</p><p style=&quot;white-space: pre-wrap;&quot;>出战状态</p><p style=&quot;white-space: pre-wrap;&quot;><strong>我方引发元素反应时：</strong>伤害额外+1。</p><p style=&quot;white-space: pre-wrap;&quot;><strong>持续回合：2</strong></p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>在场时，自身受到元素反应触发<strong><u>蕴种印</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>蕴种印：</p><p style=&quot;white-space: pre-wrap;&quot;>状态</p><p style=&quot;white-space: pre-wrap;&quot;><strong>任意具有「蕴种印」的所在阵营角色受到元素反应伤害后：</strong>对所附属角色造成1点<strong>穿透伤害</strong>。</p><p style=&quot;white-space: pre-wrap;&quot;><strong>可用次数：2</strong></p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>的敌方角色，所受<strong>蕴种印</strong>的<strong><u>穿透伤害</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>穿透伤害：</p><p style=&quot;white-space: pre-wrap;&quot;>穿透伤害无法受到伤害加成，但是也无法被护盾、伤害免疫等效果抵消。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>改为<strong><span style=\"color: rgb(82, 196, 26)\"><u>草元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>草元素伤害：</p><p style=&quot;white-space: pre-wrap;&quot;>附着草元素，可发生元素反应：</p><p style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害＋2的[<strong>草原核</strong>]</p><p style=&quot;white-space: pre-wrap;&quot;><strong>燃烧</strong>：本伤害+1，生成回合结束时造成1点火伤害的[<strong>燃烧烈焰</strong>]（可生效1次，最多叠加到2次）</p><p style=&quot;white-space: pre-wrap;&quot;><strong>原激化</strong>：本伤害+1，生成使下2次草/雷伤害+1的[<strong>激化领域</strong>]</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>；</p><p><strong><span style=\"color: rgb(146, 84, 222)\">雷元素</span></strong>：<strong>摩耶之殿</strong>入场时，使当前对方场上<strong>蕴种印</strong>的<strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>可用次数：</p><p style=&quot;white-space: pre-wrap;&quot;>此牌效果触发后，会消耗1次可用次数；</p><p style=&quot;white-space: pre-wrap;&quot;>可用次数耗尽后，立刻弃置此牌。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>+1；</p><p><strong><span style=\"color: rgb(24, 144, 255)\">水元素</span></strong>：装备有此牌的纳西妲所生成的<strong>摩耶之殿</strong>初始<strong><u>持续回合</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>持续回合：</p><p style=&quot;white-space: pre-wrap;&quot;>每回合结束阶段，持续回合-1；持续回合耗尽后，立刻弃置此牌。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>+1。</p><p>（牌组中包含纳西妲，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>纳西妲 · 心识蕴藏之种</strong></p><p>「知识，与你分享。」</p>"
+    }
+}

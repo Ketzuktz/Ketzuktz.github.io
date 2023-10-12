@@ -1,0 +1,94 @@
+{
+    "id": "5356",
+    "name": "迪奥娜",
+    "desc": "迪奥娜卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/708ced07857094dd94314d65c9723360_6507768516922429221.png",
+    "base_info": {
+        "name": "猫尾特调·迪奥娜",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/708ced07857094dd94314d65c9723360_8516852131632705389.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/24/195563531/df53e4ac0d3bd92ceeb3a6dbec8d7977_1908586115904037757.gif",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 3,
+        "energy_bg": 0,
+        "element": [
+            "冰元素"
+        ],
+        "weapon": [
+            "弓箭"
+        ],
+        "faction": [
+            "蒙德"
+        ],
+        "energy_count": [
+            "3点"
+        ],
+        "acquisition": [
+            "角色邀请·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "猎人射术",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/wiki-user-upload/2022/12/13/81904646/949d07ba4f72b33b739fb0ed413a7fa2_6198836703420343194.png",
+            "costs": [
+                {
+                    "type": 1,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "猫爪冻冻",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/24/195563531/fc7cc8ae1d95bc094e69b8f3c1c270f8_1908586115904037757.png",
+            "costs": [
+                {
+                    "type": 1,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><span style=\"color:rgba(145,213,255,1)\"><u>冰元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冰元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着冰元素，可发生元素反应:&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，生成<strong><u>猫爪护盾</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;猫爪护盾：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;为我方出战角色提供1点&lt;strong&gt;护盾&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "最烈特调",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/24/195563531/d749ae8a4ce1c2693106ef4a39430ff7_1792825158969730188.png",
+            "costs": [
+                {
+                    "type": 1,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成1点<strong><span style=\"color:rgba(145,213,255,1)\"><u>冰元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冰元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着冰元素，可发生元素反应:&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，治疗此角色2点，召唤<strong><em>酒雾领域</em></strong>。</p>"
+        }
+    ],
+    "summons": [
+        {
+            "name": "酒雾领域",
+            "skill_type": "召唤物",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/a8a7cc75353c6df3921b63e42f46fe7d_3484731987232379289.png",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\">结束阶段：造成1点<strong><span style=\"color:rgba(145,213,255,1)\"><u>冰元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冰元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着冰元素，可发生元素反应:&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，治疗我方出战角色2点。</p><p style=\"white-space: pre-wrap;\"><strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此牌效果触发后，会消耗1次可用次数；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数耗尽后，立刻弃置此牌。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：2</p>"
+        }
+    ],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">猫尾特调·迪奥娜</p><p style=\"white-space: pre-wrap;\">用1%的力气调酒，99%的力气⋯拒绝失败。</p>"
+    }
+}

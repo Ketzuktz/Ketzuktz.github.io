@@ -1,0 +1,39 @@
+{
+    "id": "6169",
+    "name": "我界",
+    "desc": "我界",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2023/02/27/12109492/3eb3cbf6779afc39d7812e5dd6e504d9_750843650487521635.png",
+    "base_info": {
+        "name": "我界",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/02/27/12109492/3eb3cbf6779afc39d7812e5dd6e504d9_148906889400555580.png",
+        "gold_img": "",
+        "life": 4,
+        "life_bg": 5,
+        "energy": 0,
+        "energy_bg": 8,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "4"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>战斗行动：</p><p style=&quot;white-space: pre-wrap;&quot;>我方执行了一次战斗行动后，会轮到对方行动。</p><p style=&quot;white-space: pre-wrap;&quot;>打出具有此规则的手牌是一个战斗行动，而非快速行动。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>九条裟罗</strong>时，装备此牌。</p><p>九条裟罗装备此牌后，立刻使用一次<strong><u>煌煌千道镇式</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>造成1点<strong><span style=&quot;color:rgba(146,84,222,1)&quot;><u>雷元素伤害</u></span></strong>，召唤<strong><em>天狗咒雷·雷斫</em></strong>。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的九条裟罗在场时，我方附属有<strong><u>鸣煌护持</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>鸣煌护持</p><p style=&quot;white-space: pre-wrap;&quot;>状态</p><p style=&quot;white-space: pre-wrap;&quot;>所附属角色<strong>元素战技</strong>和<strong>元素爆发</strong>造成的伤害+1。</p><p style=&quot;white-space: pre-wrap;&quot;><strong>可用次数</strong>：2</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>的<strong><span style=\"color: rgb(146, 84, 222)\">雷元素</span></strong>角色，<strong>元素战技</strong>和<strong>元素爆发</strong>造成的伤害额外+1。</p><p>（牌组中包含<strong>九条裟罗</strong>，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>九条裟罗·我界</strong></p><p>「持心正弦，遇敌必除!」</p>"
+    }
+}

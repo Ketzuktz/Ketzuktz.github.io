@@ -1,0 +1,93 @@
+{
+    "id": "5362",
+    "name": "赛诺",
+    "desc": "赛诺卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/7f62549984cde8b10d694d05c0618a06_5477374575707227251.png",
+    "base_info": {
+        "name": "缄秘的裁遣·赛诺",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/7f62549984cde8b10d694d05c0618a06_5004521367910517162.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/c11c98735129ea11533cd22525dd5d9e_1074130844888089878.gif",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 2,
+        "energy_bg": 0,
+        "element": [
+            "雷元素"
+        ],
+        "weapon": [
+            "长柄武器"
+        ],
+        "faction": [
+            "须弥"
+        ],
+        "energy_count": [
+            "2点"
+        ],
+        "acquisition": [
+            "角色邀请·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "七圣枪术",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/0cd68ecb1a011d94e2b4be1b99ac3302_4090150291593632958.png",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "秘仪·律渊渡魂",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/4158f2729a2812dd54941af53f348acc_440344287585392498.png",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成3点<strong><span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "圣仪·煟煌随狼行",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/a4c6f2756a7b065b0319bddd5f9d61ee_4163672646150158077.png",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 4
+                },
+                {
+                    "type": 8,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成4点<strong><span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，</p><p style=\"white-space: pre-wrap;\"><strong><u>启途誓使</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;启途誓使：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结束阶段：&lt;/strong&gt;累积1级「凭依」。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;根据「凭依」级数，提供效果：&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;大于等于2级：&lt;strong&gt;物理伤害&lt;/strong&gt;转化为&lt;strong&gt;&lt;span style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;大于等于4级：造成的伤害+2；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;大于等于6级时：「凭依」级数-4。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>的[凭依]级数+2。</p>"
+        },
+        {
+            "name": "行度誓惩",
+            "skill_type": "被动技能",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/c61b597d14d7915b53d8bf462e8ad609_6351825637878214573.png",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\">战斗开始时，初始附属<strong><u>启途誓使</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;启途誓使：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结束阶段：&lt;/strong&gt;累积1级「凭依」。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;根据「凭依」级数，提供效果：&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;大于等于2级：&lt;strong&gt;物理伤害&lt;/strong&gt;转化为&lt;strong&gt;&lt;span style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;大于等于4级：造成的伤害+2；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;大于等于6级时：「凭依」级数-4。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        }
+    ],
+    "summons": [],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>缄秘的裁遣·赛诺</strong></p><p style=\"white-space: pre-wrap;\">卡牌中蕴藏的，是大风纪官如沙漠烈日般炙热的喜爱之情。</p>"
+    }
+}

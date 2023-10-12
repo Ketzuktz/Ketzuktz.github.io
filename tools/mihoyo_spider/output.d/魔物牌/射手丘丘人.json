@@ -1,0 +1,77 @@
+{
+    "id": "5594",
+    "name": "射手丘丘人",
+    "desc": "射手丘丘人卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/19ea96977b7722d9f379227497327d15_3611325722223613044.png",
+    "base_info": {
+        "name": "射手丘丘人",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/19ea96977b7722d9f379227497327d15_1937156949029501254.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 11,
+        "energy": 2,
+        "energy_bg": 0,
+        "element": [
+            "物理"
+        ],
+        "weapon": [
+            "其他武器"
+        ],
+        "faction": [
+            "魔物/丘丘人"
+        ],
+        "energy_count": [
+            "2点"
+        ],
+        "acquisition": [
+            "无"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "射",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/eb4631091bf74af7548dcf042f1ee374_1696064658205394428.png",
+            "costs": [
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成1点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "几支一起",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/4909c3c2280f5291e707a68ff3c7a71b_4247572651723985996.jpg",
+            "costs": [
+                {
+                    "type": 9,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成5点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "躲起来",
+            "skill_type": "被动技能",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/f7f5b3293a7de40535842ac254b0bc08_667228669052970016.jpg",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\">【被动】此角色使用技能后，自动切换到下一个角色。</p>"
+        }
+    ],
+    "summons": [],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": ""
+    }
+}

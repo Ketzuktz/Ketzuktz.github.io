@@ -1,0 +1,39 @@
+{
+    "id": "6613",
+    "name": "天空之傲",
+    "desc": "天空之傲卡牌",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/7ce2f924ae1b0922ea14eef9fbd3f2bb_951683174491798888.png",
+    "base_info": {
+        "name": "天空之傲",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/7ce2f924ae1b0922ea14eef9fbd3f2bb_3379900241583984973.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "武器"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>角色造成的伤害+1</strong>。</p><p style=\"white-space: pre-wrap;\"><strong>每回合1次：</strong>角色使用<strong>「普通攻击」</strong>造成的伤害额外+1。</p><p style=\"white-space: pre-wrap;\">（<strong>「双手剑」角色</strong>才能装备。角色最多装备1件「武器」）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>斩裂晴空·天空之傲</strong></p><p style=\"white-space: pre-wrap;\">撼动高天之勇。守护万众的意志，让风之龙必诛恶秽的仇敌。</p>"
+    }
+}

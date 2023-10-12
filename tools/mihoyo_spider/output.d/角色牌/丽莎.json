@@ -1,0 +1,94 @@
+{
+    "id": "7018",
+    "name": "丽莎",
+    "desc": "丽莎",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/08/12/203927054/129fe37de1bed078b49b9bc79ef2e757_6592209605905356259.png",
+    "base_info": {
+        "name": "蔷薇魔女·丽莎",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/08/12/203927054/129fe37de1bed078b49b9bc79ef2e757_1437470149833493317.png",
+        "gold_img": "",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 2,
+        "energy_bg": 0,
+        "element": [
+            "雷元素"
+        ],
+        "weapon": [
+            "法器"
+        ],
+        "faction": [
+            "蒙德"
+        ],
+        "energy_count": [
+            "2点"
+        ],
+        "acquisition": [
+            "角色邀请·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "指尖雷暴",
+            "skill_type": "普通攻击",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/08/03/203927054/d217eb8583875837302bfeafcd7124c8_5013794317643562467.jpeg",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成1点<span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;br&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;br&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;br&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;br&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草元素或雷元素伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>；</p><p style=\"white-space: pre-wrap;\">如果此技能为<strong>重击</strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;重击：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方行动开始前，如果元素骰总数为偶数，则进行的「普通攻击」将被视为「重击」。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，则使敌方出战角色附属<strong><u>引雷</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;引雷：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此状态初始具有2层「引雷」；重复附属时,叠加1层「引雷」。「引雷」最多可以叠加到4层。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结束阶段：&lt;/strong&gt;叠加1层「引雷」。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;所附属角色受到苍雷伤害时：&lt;/strong&gt;移除此状态，每层「引雷」使此伤害+1。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "苍雷",
+            "skill_type": "元素战技",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/08/03/203927054/bb9487283d20c857804988ace8572ebc_971397791433710881.png",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;br&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;br&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;br&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;br&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草元素或雷元素伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>；如果敌方出战角色未附属<strong><u>引雷</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;引雷：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此状态初始具有2层「引雷」；重复附属时，叠加1层「引雷」。「引雷」最多可以叠加到4层。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结束阶段：&lt;/strong&gt;叠加1层「引雷」。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;所附属角色受到苍雷伤害时：&lt;/strong&gt;移除此状态，每层「引雷」使此伤害+1。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，则使其附属<strong>引雷</strong>。</p>"
+        },
+        {
+            "name": "蔷薇的雷光",
+            "skill_type": "元素爆发",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/08/03/203927054/d641396daad417dda3c4f9a26f02bfdc_897742072769166162.png",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;br&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;br&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;br&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;br&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草元素或雷元素伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，召唤<strong><em>蔷薇雷光</em></strong>。</p>"
+        }
+    ],
+    "summons": [
+        {
+            "name": "蔷薇雷光",
+            "skill_type": "召唤物",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/08/03/203927054/0ea69a82861d8469ecdbbc78797e9fd8_3713104012683105893.png",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\">结束阶段：造成2点<span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;br&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;br&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;br&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;br&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草元素或雷元素伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\"><strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此牌效果触发后，会消耗1次&lt;strong&gt;可用次数&lt;/strong&gt;；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数&lt;/strong&gt;耗尽后，立刻弃置此牌。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：2</p>"
+        }
+    ],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>蔷薇魔女·丽莎</strong></p><p style=\"white-space: pre-wrap;\">追寻魔导的奥秘，静待真相的机缘。</p>"
+    }
+}

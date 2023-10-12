@@ -1,0 +1,39 @@
+{
+    "id": "5414",
+    "name": "狼的末路",
+    "desc": "狼的末路",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/3ec60d32f7ce9f816a6dd784b8800e93_9178895131274132126.png",
+    "base_info": {
+        "name": "狼的末路",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/3ec60d32f7ce9f816a6dd784b8800e93_4564486285810218753.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/fa8722f26fa93b629477351a073a18c0_8034141490660064765.gif",
+        "life": 3,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "武器"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">角色造成的伤害+1。</p><p style=\"white-space: pre-wrap;\">攻击剩余生命值不多于6的目标时，伤害额外+2。</p><p style=\"white-space: pre-wrap;\">（「双手剑」角色才能装备。角色最多装备1件「武器」）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>巡狩山行·狼的末路</strong></p><p style=\"white-space: pre-wrap;\">被誉为北风的骑士所使的大剑，在他与狼的情谊中获得了神话般的力量。</p>"
+    }
+}

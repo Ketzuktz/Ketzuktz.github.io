@@ -1,0 +1,39 @@
+{
+    "id": "5474",
+    "name": "仙跳墙",
+    "desc": "仙跳墙",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/d5f601020016ee5b999837dc291dc939_1995091421771489590.png",
+    "base_info": {
+        "name": "仙跳墙",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/d5f601020016ee5b999837dc291dc939_4992440254923509611.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/79683714/3c17420d518fc646e3a9e0a68d7b4fe4_1102302366647556151.gif",
+        "life": 2,
+        "life_bg": 10,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "料理"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">本回合中，目标角色下一次<strong>元素爆发</strong>造成的伤害+3。</p><p style=\"white-space: pre-wrap;\">(每回合每个角色最多食用1次「料理」)</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>仙跳墙</strong></p><p style=\"white-space: pre-wrap;\">据说其名源于，此菜曾引得仙人归复人间。那么到底是哪位仙人呢？真让人在意啊···</p>"
+    }
+}

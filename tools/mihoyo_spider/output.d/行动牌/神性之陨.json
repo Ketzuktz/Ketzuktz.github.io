@@ -1,0 +1,39 @@
+{
+    "id": "500041",
+    "name": "神性之陨",
+    "desc": "阿贝多天赋牌 神性之陨",
+    "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/08/16/82503813/d10a709aa03d497521636f9ef39ee531_8910981303564268905.png",
+    "base_info": {
+        "name": "神性之陨",
+        "common_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/08/12/82503813/d10a709aa03d497521636f9ef39ee531_3239361065263302475.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 7,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"<p>我方执行了一次战斗行动后，会轮到对方行动。</p><p>打出具有此规则的手牌是一个战斗行动，而非快速行动。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong><u>阿贝多</u></strong>时,装备此牌。</p><p>阿贝多装备此牌后,立刻使用一次<strong><u>创生法·拟造阳华</u></strong><span data-type=\"详情\" data-name=\"<p>创生法·拟造阳华</p><p>元素战技</p><p>召唤<strong><em><u>阳华</u></em></strong>。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的阿贝多在场时,如果我方场上存在<strong><em><u>阳华</u></em></strong>,则我方角色进行<strong><u>下落攻击</u></strong><span data-type=\"详情\" data-name=\"<p>角色被切换为「出战角色」后，本回合内的下一个战斗行动若为「普通攻击」，则被视为「下落攻击」。<br></p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>时造成的伤害+1。</p><p>(牌组中包含阿贝多，才能加入牌组)</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>阿贝多·神性之陨</strong></p><p>「确认对局策略的过程,也是一种缜密的计算…」</p>"
+    }
+}

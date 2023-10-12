@@ -1,0 +1,113 @@
+{
+    "id": "5525",
+    "name": "魔偶剑鬼",
+    "desc": "魔偶剑鬼卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/5b21d3abb8dd7245a8f5f540d8049fcb_8786428691685397533.png",
+    "base_info": {
+        "name": "万般机巧·魔偶剑鬼",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/5b21d3abb8dd7245a8f5f540d8049fcb_59481287402207724.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/28d90f4c270108629ee2418b9436c49b_5812254214682022054.gif",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 3,
+        "energy_bg": 0,
+        "element": [
+            "风元素"
+        ],
+        "weapon": [
+            "其他武器"
+        ],
+        "faction": [
+            "魔物"
+        ],
+        "energy_count": [
+            "3点"
+        ],
+        "acquisition": [
+            "酒馆挑战·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "一文字",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/726f23517c8595c477dd65c987b42482_8078755335487165194.png",
+            "costs": [
+                {
+                    "type": 3,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "孤风刀势",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/a72086131fbe3e03201926a46dac48f3_7155522304163694322.png",
+            "costs": [
+                {
+                    "type": 3,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">召唤<strong><em>剑影·孤风</em></strong>。</p>"
+        },
+        {
+            "name": "霜驰影突",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/6df8766388e62c6a97f9898605fb45e2_6047730151662669218.png",
+            "costs": [
+                {
+                    "type": 1,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">召唤<strong><em>剑影·霜驰</em></strong>。</p><p style=\"white-space: pre-wrap; min-height: 1.5em;\"></p>"
+        },
+        {
+            "name": "机巧伪天狗抄",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/75142675f9625abbe1d9686f1a7f59b7_6144574132276306286.png",
+            "costs": [
+                {
+                    "type": 3,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成4点<strong><span style=\"color:rgba(54,207,201,1)\"><u>风元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;风元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;扩散（冰）：对目标以外的所有敌方角色造成1点冰伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;扩散（水）：对目标以外的所有敌方角色造成1点水伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;扩散（火）：对目标以外的所有敌方角色造成1点火伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;扩散（雷）：对目标以外的所有敌方角色造成1点雷伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，触发我方所有剑影召唤物的效果。（不消耗其可用次数）</p>"
+        }
+    ],
+    "summons": [
+        {
+            "name": "剑影·孤风",
+            "skill_type": "召唤物",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/90767acfd11dc25ae46a333557b3ee2a_4658043205818200753.png",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\">结束阶段：造成1点<strong><span style=\"color:rgba(54,207,201,1)\"><u>风元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;风元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;扩散（冰）：对目标以外的所有敌方角色造成1点冰伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;扩散（水）：对目标以外的所有敌方角色造成1点水伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;扩散（火）：对目标以外的所有敌方角色造成1点火伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;扩散（雷）：对目标以外的所有敌方角色造成1点雷伤害&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\"><strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此牌效果触发后，会消耗1次可用次数；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数耗尽后，立刻弃置此牌。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：2</p>"
+        },
+        {
+            "name": "剑影·霜驰",
+            "skill_type": "召唤物",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/3f77ab65d8d940df9b3cf70d96ae0b25_8204101439924542003.png",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\">结束阶段：造成1点<strong><span style=\"color:rgba(145,213,255,1)\"><u>冰元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冰元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着冰元素，可发生元素反应:&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\"><strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此牌效果触发后，会消耗1次可用次数；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数耗尽后，立刻弃置此牌。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：2</p>"
+        }
+    ],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>万般机巧·魔偶剑鬼</strong></p><p style=\"white-space: pre-wrap;\">今日，其仍徘徊在因缘断绝之地。</p>"
+    }
+}

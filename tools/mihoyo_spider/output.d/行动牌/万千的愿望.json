@@ -1,0 +1,39 @@
+{
+    "id": "6578",
+    "name": "万千的愿望",
+    "desc": "雷电将军天赋牌 万千的愿望",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/bea2df42c6cb8eecf724f2da60554278_5147774193569895606.png",
+    "base_info": {
+        "name": "万千的愿望",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/bea2df42c6cb8eecf724f2da60554278_2483208280861354828.png",
+        "gold_img": "",
+        "life": 4,
+        "life_bg": 5,
+        "energy": 0,
+        "energy_bg": 8,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "4；2点充能"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>战斗行动：</p><p style=&quot;white-space: pre-wrap;&quot;>我方执行了一次战斗行动后，会轮到对方行动。</p><p style=&quot;white-space: pre-wrap;&quot;>打出具有此规则的手牌是一个战斗行动，而非快速行动。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>雷电将军</strong>时，装备此牌。</p><p>雷电将军装备此牌后，立刻使用一次<strong><u>奥义·梦想真说</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>奥义·梦想真说：</p><p style=&quot;white-space: pre-wrap;&quot;>元素爆发</p><p style=&quot;white-space: pre-wrap;&quot;>造成3点<strong><span style=&quot;color:rgba(146,84,222,1)&quot;>雷元素伤害</span></strong>，其他我方角色获得2点<strong>充能</strong>。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的雷电将军使用<strong>奥义·梦想真说</strong>时每消耗1点「愿力」，都使造成的伤害额外+1。</p><p>（牌组中包含雷电将军，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>雷电将军 · 万干的愿望</strong></p><p>恶曜开眼，威光无赦。</p>"
+    }
+}

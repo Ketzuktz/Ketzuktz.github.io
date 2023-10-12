@@ -1,0 +1,39 @@
+{
+    "id": "5480",
+    "name": "最好的伙伴！",
+    "desc": "最好的伙伴！",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/3fc6d26bb7b306296834c0b14abd4bc6_3989407061293772527.png",
+    "base_info": {
+        "name": "最好的伙伴！",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/3fc6d26bb7b306296834c0b14abd4bc6_3456284377597453400.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/79683714/b15b1b3f95d65d13d22f96e6be6f2aac_4734361832804308935.gif",
+        "life": 2,
+        "life_bg": 10,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "牌手手册第一局奖励获取"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">将所花费的元素骰转换为2个<strong><u>万能元素</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;万能元素可以视为任何类型的元素，来支付各种费用。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>最好的伙伴！</strong></p><p style=\"white-space: pre-wrap;\">「你是万千星辰中的一颗，于我而言却是整个世界。」</p>"
+    }
+}

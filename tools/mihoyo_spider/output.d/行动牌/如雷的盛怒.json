@@ -1,0 +1,39 @@
+{
+    "id": "5434",
+    "name": "如雷的盛怒",
+    "desc": "如雷的盛怒",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/3c5878d193077253d00e39f6db043270_1544021479773717286.png",
+    "base_info": {
+        "name": "如雷的盛怒",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/3c5878d193077253d00e39f6db043270_3315305313315198329.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/74d3361ca3e9b7a3748c20fe186ee404_3233330004637874600.gif",
+        "life": 2,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>角色使用技能或装备「天赋」时：少花费1个雷元素。（每回合1次）</p><p>投掷阶段：2个元素骰初始总是投出雷元素。</p><p>（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>霆天片羽·如雷的盛怒</strong></p><p>「当你同雷雨再来时，我唱别的歌给你听。」</p>"
+    }
+}

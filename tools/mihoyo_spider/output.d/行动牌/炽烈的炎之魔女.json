@@ -1,0 +1,39 @@
+{
+    "id": "5432",
+    "name": "炽烈的炎之魔女",
+    "desc": "炽烈的炎之魔女",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/fa55d0e05799d88270cc50bd7148bfcf_3804037770932131779.png",
+    "base_info": {
+        "name": "炽烈的炎之魔女",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/fa55d0e05799d88270cc50bd7148bfcf_7195059919267767445.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/a2739ccb896f8825e295323c733b48d2_4486039830511890066.gif",
+        "life": 2,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>角色使用技能或装备「天赋」时：少花费1个火元素。（每回合1次）</p><p>投掷阶段：2个元素骰初始总是投出火元素。</p><p>（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>灼思终散·炽烈的炎之魔女</strong></p><p>「我拒绝挽歌，拒绝哀怨，拒绝悲叹，也拒绝一切无用的噪喧。若是公义早已不复，又该向谁献上救赎？」</p>"
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "id": "5528",
+    "name": "纯水精灵·洛蒂娅",
+    "desc": "纯水精灵·洛蒂娅卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/322de5ae9b660a9bf16eb96908949f20_447198189895078860.png",
+    "base_info": {
+        "name": "净水之主·洛蒂娅",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/322de5ae9b660a9bf16eb96908949f20_6864460867288429831.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/7afedef13f0efa5a167cad57a5a1b1ff_6643145349357216455.gif",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 3,
+        "energy_bg": 0,
+        "element": [
+            "水元素"
+        ],
+        "weapon": [
+            "其他武器"
+        ],
+        "faction": [
+            "魔物"
+        ],
+        "energy_count": [
+            "3点"
+        ],
+        "acquisition": [
+            "酒馆挑战·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "翻涌",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/54dd31a9c0a4417ca4b5463532d7f5e8_5071524153933322137.png",
+            "costs": [
+                {
+                    "type": 6,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成1点<strong><span style=\"color:rgba(0,151,225,1)\"><u>水元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;水元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着水元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害+2的[草原核]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "纯水幻造",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/3e2457b116526a30a834120f8c438ca6_2477510128488129478.png",
+            "costs": [
+                {
+                    "type": 6,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">随机召唤1种<strong><em>纯水幻形</em></strong>。（优先生成不同的类型）</p>"
+        },
+        {
+            "name": "林野百态",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/6924bae6c836d2b494b5a172da6cfd70_4019717338422727435.png",
+            "costs": [
+                {
+                    "type": 6,
+                    "count": 5
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">随机召唤2种<strong><em>纯水幻形</em></strong>。（优先生成不同的类型）</p>"
+        },
+        {
+            "name": "潮涌与激流",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/37dedea23dfa78e8fb4e356bb4a4bed4_1738280724029210097.png",
+            "costs": [
+                {
+                    "type": 6,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><span style=\"color:rgba(0,151,225,1)\"><u>水元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;水元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着水元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害+2的[草原核]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>；我方每有1个召唤物，再使此伤害+2。</p>"
+        }
+    ],
+    "summons": [
+        {
+            "name": "纯水幻型",
+            "skill_type": "召唤物",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/9c9ed1587353d9e563a2dee53ffb0e2a_5326741860473626981.png",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\">「纯水幻形」共有3种：</p><p style=\"white-space: pre-wrap;\">花鼠：结束阶段造成2点<strong><span style=\"color:rgba(0,151,225,1)\"><u>水元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;水元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着水元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害+2的[草原核]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，可用2次。</p><p style=\"white-space: pre-wrap;\">飞鸢：结束阶段造成1点<strong><span style=\"color:rgba(0,151,225,1)\">水元素伤害</span></strong>，可用3次。</p><p style=\"white-space: pre-wrap;\">蛙：可抵挡2点伤害，并在耗尽后造成2点<strong><span style=\"color:rgba(0,151,225,1)\">水元素伤害</span></strong>。</p>"
+        }
+    ],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>净水之主·洛蒂娅</strong></p><p style=\"white-space: pre-wrap;\">「但，只要百川奔流，雨露不休，水就不会消失…」</p>"
+    }
+}

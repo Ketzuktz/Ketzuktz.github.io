@@ -1,0 +1,39 @@
+{
+    "id": "6599",
+    "name": "旭东",
+    "desc": "旭东卡牌",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/a23ea3b4f3cb6b2df59b912bb418f5b8_8844996335480734130.png",
+    "base_info": {
+        "name": "旭东",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/a23ea3b4f3cb6b2df59b912bb418f5b8_1362269257088452771.png",
+        "gold_img": "",
+        "life": 2,
+        "life_bg": 10,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "伙伴"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>打出「料理」事件牌时：</strong>少花费2个元素骰。（每回合1次）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>吃饱再说·旭东</strong></p><p style=\"white-space: pre-wrap;\">「有问题？哎呀，吃饱再说也不迟。」</p>"
+    }
+}

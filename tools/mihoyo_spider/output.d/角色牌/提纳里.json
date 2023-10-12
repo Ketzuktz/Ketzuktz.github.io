@@ -1,0 +1,94 @@
+{
+    "id": "6321",
+    "name": "提纳里",
+    "desc": "提纳里卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/33a72f8ddf94c32c750dd7c5c75d928e_3352000779889626001.png",
+    "base_info": {
+        "name": "浅蔚轻行·提纳里",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/33a72f8ddf94c32c750dd7c5c75d928e_176590332162344255.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/79f0f8f5f8ba13b90259aed687fe2b27_6877234313258583664.gif",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 2,
+        "energy_bg": 0,
+        "element": [
+            "草元素"
+        ],
+        "weapon": [
+            "弓"
+        ],
+        "faction": [
+            "须弥"
+        ],
+        "energy_count": [
+            "2点"
+        ],
+        "acquisition": [
+            "角色邀请·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "藏蕴破障",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/28/12109492/949d07ba4f72b33b739fb0ed413a7fa2_3784048903249936035.png",
+            "costs": [
+                {
+                    "type": 2,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><span style=\"color:rgba(0,0,0,1)\"><u>物理伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "识果种雷",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/28/12109492/2c6ed232f35902bac751007dfa939cd5_4160841179457575513.png",
+            "costs": [
+                {
+                    "type": 2,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><span style=\"color:rgba(82,196,26,1)\"><u>草元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，本角色附属<strong><u>通塞识</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;通塞识：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;所附属角色进行重击时：&lt;/strong&gt;造成的&lt;strong&gt;物理伤害&lt;/strong&gt;变为&lt;strong&gt;&lt;span style=&#34;color:rgba(82,196,26,1)&#34;&gt;草元素伤害&lt;/span&gt;&lt;/strong&gt;，并且会在技能结算后召唤&lt;strong&gt;&lt;em&gt;藏蕴花矢&lt;/em&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：2&lt;/strong&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "造生缠藤箭",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/28/12109492/417d1805fd1254e78a4b04530e33e066_3564804613469935798.png",
+            "costs": [
+                {
+                    "type": 2,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成4点<strong><span style=\"color:rgba(82,196,26,1)\"><u>草元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，对所有敌方后台角色造成1点<strong><u>穿透伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;穿透伤害：穿透伤害无法受到伤害加成，但是也无法被护盾、伤害免疫等效果抵消。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        }
+    ],
+    "summons": [
+        {
+            "name": "藏蕴花矢",
+            "skill_type": "召唤物",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/28/12109492/dc8e548704ca0e52d1c6669fac469b3d_5168805556784249785.png",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\"><strong>结束阶段：</strong>造成1点<strong><span style=\"color:rgba(82,196,26,1)\"><u>草元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\"><strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此牌效果触发后，会消耗1次可用次数；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数耗尽后，立刻弃置此牌。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span><strong>：</strong>1（可叠加，最多叠加到2次）</p>"
+        }
+    ],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>浅蔚轻行·提纳里</strong></p><p style=\"white-space: pre-wrap;\">从某种角度来说，经验并不等同于智慧。</p>"
+    }
+}

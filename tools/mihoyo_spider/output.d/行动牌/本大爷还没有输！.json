@@ -1,0 +1,39 @@
+{
+    "id": "5490",
+    "name": "本大爷还没有输！",
+    "desc": "本大爷还没有输！",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/a1ae1067afcf9899a958c166b7b32fa0_5333005492197066238.png",
+    "base_info": {
+        "name": "本大爷还没有输！",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/a1ae1067afcf9899a958c166b7b32fa0_5448401054983399180.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/79683714/dc9c6989890b78572ebf8d0293e2e8ad_5452354074813358594.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>本回合有我方角色被击倒，才能打出:</p><p>生成1个<strong><u>万能元素</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>万能元素可以视为任何类型的元素，来支付各种费用。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，我方当前出战角色获得1个<strong><u>充能</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>角色使用「元素爆发」时，需要消耗充能。</p><p style=&quot;white-space: pre-wrap;&quot;>角色使用「元素战技」或「普通攻击」后，会获得1点充能。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>（每回合中，最多只能打出1张<span style=\"color: rgba(0, 0, 0, 0.85)\">「</span>本大爷还没有输！<span style=\"color: rgba(0, 0, 0, 0.85)\">」</span>。）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>本大爷还没有输！</strong></p><p>荒泷可以输但绝不认输名副其实男子汉一斗，永远可以再来一局。</p>"
+    }
+}

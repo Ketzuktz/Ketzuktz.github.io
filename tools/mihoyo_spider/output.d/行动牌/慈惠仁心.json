@@ -1,0 +1,39 @@
+{
+    "id": "500191",
+    "name": "慈惠仁心",
+    "desc": "慈惠仁心卡牌",
+    "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/25/258999284/2b762e3829ac4a902190fde3e0f5377e_2585733612762297835.png",
+    "base_info": {
+        "name": "慈惠仁心",
+        "common_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/25/258999284/2b762e3829ac4a902190fde3e0f5377e_8510806015272134296.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 2,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p&gt;&lt;strong&gt;战斗行动：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\" class=\"wiki-note-text\"><sup class=\"wiki-sup\" class=\"wiki-sup\">[详情]</sup></span><strong>：</strong>我方出战角色为<strong><u>瑶瑶</u></strong>时，装备此牌。</p><p>瑶瑶装备此牌后，立刻使用一次<strong><u>云台团团降芦菔</u></strong><span data-type=\"详情\" data-name=\"&lt;p&gt;&lt;strong&gt;云台团团降芦菔：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;元素战技&lt;/p&gt;&lt;p&gt;召唤&lt;strong&gt;&lt;em&gt;月桂·抛掷型&lt;/em&gt;&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\" class=\"wiki-note-text\"><sup class=\"wiki-sup\" class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的瑶瑶生成的<strong><em>月桂·抛掷型</em></strong>，在可用次数仅剩余最后1次时造成的伤害和治疗各+1。</p><p>（牌组中包含瑶瑶，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>瑶瑶·慈惠仁心</strong></p><p>「痛痛飞~」</p><p></p>"
+    }
+}

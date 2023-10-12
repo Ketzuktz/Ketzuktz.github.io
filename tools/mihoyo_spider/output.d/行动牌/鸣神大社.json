@@ -1,0 +1,39 @@
+{
+    "id": "6325",
+    "name": "鸣神大社",
+    "desc": "鸣神大社",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/25bee82daa48f8018a4a921319ca2686_8618509138022267990.png",
+    "base_info": {
+        "name": "鸣神大社",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/25bee82daa48f8018a4a921319ca2686_8817000056070129488.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/a18fced348cbd8ef1b05fe87f3f3edbd_794388913754259619.gif",
+        "life": 2,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "场地"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>每回合自动触发1次：</strong>生成1个随机的基础元素骰。<br/><strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此牌效果触发后，会消耗1次可用次数；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数耗尽后，立刻弃置此牌。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：3</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>遐世的绯染之梦</strong></p><p style=\"white-space: pre-wrap;\">「影向山樱常盛，一如鸣神永恒。」</p>"
+    }
+}

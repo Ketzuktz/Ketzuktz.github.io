@@ -1,0 +1,39 @@
+{
+    "id": "5454",
+    "name": "阿圆",
+    "desc": "阿圆",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/0fa92f9ea49deff80274c1c4702e46e3_5021920770246106023.png",
+    "base_info": {
+        "name": "阿圆",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/0fa92f9ea49deff80274c1c4702e46e3_5650398579643580888.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/04/158741257/2aaaec406c0ea78272ead084d6d11a79_1710750411034951761.gif",
+        "life": 2,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "伙伴"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">打出「场地」支援牌时：少花费2个元素骰。(每回合1次)</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>销虹霁雨·阿圆</strong></p><p style=\"white-space: pre-wrap;\">「沏一壶茶，守一方洞天。陪旅者和派蒙，等阿萍和老友。观云卷云舒,赏空澈天色。无需关注仙家要务的日子，甚是悠哉 …」</p><p style=\"white-space: pre-wrap;\">「啊呀，一不小心又睡着了，还好没人发现。」</p>"
+    }
+}

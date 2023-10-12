@@ -27,24 +27,25 @@ def request(
     response = session.get(full_url, params=params)
     if response.status_code != 200:
         raise RuntimeError(
-            f"Request to {full_url} failed with status code {response.status_code}"
+            f"Request to {full_url} {params} failed with \
+status code {response.status_code}"
         )
-    print(f"Request to {url} success")
+    print(f"Request to {url} {params} success")
 
     data: MihoyoResponse = response.json()
 
     if data["retcode"] != 0:
         raise RuntimeError(
-            f"Request to {full_url} failed with \
+            f"Request to {full_url} {params} failed with \
 retcode {data['retcode']}: {data['message']}"
         )
 
     return data
 
 
-def request_obc(url: str, params: dict) -> MihoyoResponse:
+def request_obc(url: str, params: dict = None) -> MihoyoResponse:
     return request(url, params, MIHOYO_OBC_BASEURL)
 
 
-def request_wiki(url: str, params: dict) -> MihoyoResponse:
+def request_wiki(url: str, params: dict = None) -> MihoyoResponse:
     return request(url, params, MIHOYO_WIKI_BASEURL)

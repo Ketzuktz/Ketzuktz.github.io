@@ -1,0 +1,86 @@
+{
+    "id": "5367",
+    "name": "班尼特",
+    "desc": "班尼特卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/d89f82644792213864d7882f1e6a6d57_3953477015468468294.png",
+    "base_info": {
+        "name": "命运试金石·班尼特",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/d89f82644792213864d7882f1e6a6d57_6202328605123550683.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/e283316fef6cd5a0ac5edbe7b89d0d3c_4610063976776282016.gif",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 2,
+        "energy_bg": 0,
+        "element": [
+            "火元素"
+        ],
+        "weapon": [
+            "单手剑"
+        ],
+        "faction": [
+            "蒙德"
+        ],
+        "energy_count": [
+            "2点"
+        ],
+        "acquisition": [
+            "角色邀请·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "好运剑",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/2bfbf024135461849666339c43d60b2c_5858161126574396899.png",
+            "costs": [
+                {
+                    "type": 4,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "热情过载",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/4e4211389dbbc941630ae7a29ad01fe8_82456441478642234.png",
+            "costs": [
+                {
+                    "type": 4,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成3点<strong><span style=\"color:rgba(207,19,34,1)\"><u>火元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;火元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着火元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;燃烧：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;&lt;em&gt;燃烧烈焰&lt;/em&gt;&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "美妙旅程",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/6cdff59fc3701119002ab7cb38157a2c_8058649649755407178.png",
+            "costs": [
+                {
+                    "type": 4,
+                    "count": 4
+                },
+                {
+                    "type": 8,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><span style=\"color:rgba(207,19,34,1)\"><u>火元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;火元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着火元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;燃烧：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;&lt;em&gt;燃烧烈焰&lt;/em&gt;&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，生成<strong><u>鼓舞领域</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;鼓舞领域：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方角色使用技能时：如果该角色生命值至少为7，则使此伤害额外+2；技能结算后，如果该角色生命值不多于6，则治疗该角色2点。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;持续回合：2&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        }
+    ],
+    "summons": [],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>命运试金石·班尼特</strong></p><p style=\"white-space: pre-wrap;\">当你知道自己一定会输时，那你肯定也知道如何能赢。</p>"
+    }
+}

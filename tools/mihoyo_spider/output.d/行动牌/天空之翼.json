@@ -1,0 +1,39 @@
+{
+    "id": "5411",
+    "name": "天空之翼",
+    "desc": "天空之翼",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/b50f747817c941c6ea72a56b4501a99c_2147958904876284896.png",
+    "base_info": {
+        "name": "天空之翼",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/b50f747817c941c6ea72a56b4501a99c_4036579902772863157.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/97c3bef7f5951052c8d9b69f72d17b48_3976396314393280314.gif",
+        "life": 3,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "武器"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">角色造成的伤害+1。</p><p style=\"white-space: pre-wrap;\">每回合1次：角色使用「普通攻击」造成的伤害额外+1。</p><p style=\"white-space: pre-wrap;\">（「弓」角色才能装备。角色最多装备1件「武器」）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>回响长诗·天空之翼</strong></p><p style=\"white-space: pre-wrap;\">通透高天之琴，释弦时的鸣声是风之神的偏爱。</p>"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "5462",
+    "name": "骑士团图书馆",
+    "desc": "骑士团图书馆",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/cedc39cd65a6fde9ec51971973328b74_6673202979646908303.png",
+    "base_info": {
+        "name": "骑士团图书馆",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/cedc39cd65a6fde9ec51971973328b74_5542237863639059092.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/30/158741257/980e8203da59bcc3ee9811ba312053cf_1769121871265494407.gif",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "场地"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">入场时：选择任意元素骰重投。<br/>投掷阶段：获得额外一次重投机会。</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>北陆书籍集成之所</strong></p><p style=\"white-space: pre-wrap;\">「大部分馆藏皆可自由借阅,只是，切忌逾期归还…]</p>"
+    }
+}

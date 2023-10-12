@@ -1,0 +1,39 @@
+{
+    "id": "5439",
+    "name": "月桂的宝冠",
+    "desc": "月桂的宝冠",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/ee4fbb8c86fcc3d54c5e6717b3b62ddb_7264725145151740958.png",
+    "base_info": {
+        "name": "月桂的宝冠",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/ee4fbb8c86fcc3d54c5e6717b3b62ddb_2187110345050193669.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/b769d1509a7ba90e426c56302413056f_7213069753343579550.gif",
+        "life": 2,
+        "life_bg": 10,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>角色使用技能或装备「天赋」时：少花费1个草元素。（每回合1次）</p><p>（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>唤雨之纹·月桂的宝冠</strong></p><p>「万物生灭皆有定期，其循环往复不停。」</p>"
+    }
+}

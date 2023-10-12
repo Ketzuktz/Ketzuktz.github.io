@@ -1,0 +1,39 @@
+{
+    "id": "5410",
+    "name": "祭礼弓",
+    "desc": "祭礼弓",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/4adb0666f4e171943739e4baa0863b48_5457536750893996771.png",
+    "base_info": {
+        "name": "祭礼弓",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/4adb0666f4e171943739e4baa0863b48_1918666656424679479.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/861655493c9aebebccf18c1b038fdfda_279705254708092340.gif",
+        "life": 3,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "武器"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">角色造成的伤害+1。</p><p style=\"white-space: pre-wrap;\">角色使用「元素战技」后：生成1个此角色类型的元素骰。（每回合1次）</p><p style=\"white-space: pre-wrap;\">（「弓」角色才能装备。角色最多装备1件「武器」）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>气定神闲·祭礼弓</strong></p><p style=\"white-space: pre-wrap;\">经历漫长岁月的猎弓，上面的仪式性装饰依然清晰可见。</p>"
+    }
+}

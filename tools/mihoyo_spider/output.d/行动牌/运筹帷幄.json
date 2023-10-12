@@ -1,0 +1,39 @@
+{
+    "id": "5481",
+    "name": "运筹帷幄",
+    "desc": "运筹帷幄",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/88a4ec8b97063fad015a9112ee352a88_3657371852718944273.png",
+    "base_info": {
+        "name": "运筹帷幄",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/88a4ec8b97063fad015a9112ee352a88_3863332228616608470.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/79683714/f094fd8f97aabf16d77f6efed2b89a1d_3333683435132517166.gif",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">抓两张牌。</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>运筹帷幄</strong></p><p style=\"white-space: pre-wrap;\">「形势虽然错综复杂，但不外乎一百八十七种情况。」</p>"
+    }
+}

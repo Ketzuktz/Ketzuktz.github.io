@@ -1,0 +1,39 @@
+{
+    "id": "5442",
+    "name": "沉没的预言",
+    "desc": "沉没的预言",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/b3047b5bb33042d52efd49fe6966a25b_3574354225091217182.png",
+    "base_info": {
+        "name": "沉没的预言",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/b3047b5bb33042d52efd49fe6966a25b_5642914492950931923.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/7d9977084681aa8e817fd3afe4ad2653_484329307127049939.gif",
+        "life": 3,
+        "life_bg": 6,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;战斗行动：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>莫娜</strong>时，装备此牌。</p><p style=\"white-space: pre-wrap;\">莫娜装备此牌后，立刻使用一次<strong><u>星命定轨</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;星命定轨：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成4点&lt;strong&gt;&lt;span style=&#34;color:rgba(24,144,255,1)&#34;&gt;水元素伤害&lt;/span&gt;&lt;/strong&gt;，生成&lt;strong&gt;泡影&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\">装备有此牌的莫娜出战期间，我方引发的<strong><span style=\"color:rgba(24,144,255,1)\"><u>水元素相关反应</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;水元素相关反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害+2的[草原核]&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（水）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;扩散（水）：对目标以外的所有敌方角色造成1点水伤害&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>伤害额外+2。</p><p style=\"white-space: pre-wrap;\">（牌组中包含莫娜，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>莫娜·沉没的预言</strong></p><p style=\"white-space: pre-wrap;\">「嗨！应该出那一张！」「好吧，你就是不听我的。」</p>"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "5475",
+    "name": "甜甜花酿鸡",
+    "desc": "甜甜花酿鸡",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/bb5528c89decc6e54ade58e1c672cbfa_4113972688843190708.png",
+    "base_info": {
+        "name": "甜甜花酿鸡",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/bb5528c89decc6e54ade58e1c672cbfa_2331040336701581072.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/79683714/29f18944159d039dfff8844beed27245_7463935419403294078.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "料理"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">治疗目标角色1点。</p><p style=\"white-space: pre-wrap;\">(每回合每个角色最多食用1次「料理」)</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>甜甜花酿鸡</strong></p><p style=\"white-space: pre-wrap;\">或许可能有人没见过鸡跑，但肯定没有人没吃过甜甜花酿鸡！</p>"
+    }
+}

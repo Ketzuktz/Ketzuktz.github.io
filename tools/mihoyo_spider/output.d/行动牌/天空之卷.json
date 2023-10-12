@@ -1,0 +1,39 @@
+{
+    "id": "5408",
+    "name": "天空之卷",
+    "desc": "天空之卷",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/347336161ab1d81f0b5bf1508a392f64_4021839086739887808.png",
+    "base_info": {
+        "name": "天空之卷",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/347336161ab1d81f0b5bf1508a392f64_3329289681213757497.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/03/75720734/63028afbf1ea339bcc545e2f0147f65c_3957938510903362668.gif",
+        "life": 3,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "武器"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">角色造成的伤害+1。</p><p style=\"white-space: pre-wrap;\">每回合1次：角色使用「普通攻击」造成的伤害额外+1。</p><p style=\"white-space: pre-wrap;\">（「法器」角色才能装备。角色最多装备1件「武器」）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>千风万云·天空之卷</strong></p><p style=\"white-space: pre-wrap;\">全称为「千风万云通览」。</p><p style=\"white-space: pre-wrap;\">以诗与图鉴的形式，细致记载了北地天空的风与云。</p>"
+    }
+}

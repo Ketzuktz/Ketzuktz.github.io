@@ -1,0 +1,93 @@
+{
+    "id": "5524",
+    "name": "丘丘岩盔王",
+    "desc": "丘丘岩盔王卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/db05474f6bdc3a5080e141d72c876548_7546553703798415565.png",
+    "base_info": {
+        "name": "千嶂漫行·丘丘岩盔王",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/db05474f6bdc3a5080e141d72c876548_5712469579238063350.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/1e5416294a7376c426686cb40c9dd6f0_4114052556931480206.gif",
+        "life": 8,
+        "life_bg": 11,
+        "energy": 2,
+        "energy_bg": 0,
+        "element": [
+            "岩元素"
+        ],
+        "weapon": [
+            "其他武器"
+        ],
+        "faction": [
+            "魔物"
+        ],
+        "energy_count": [
+            "2点"
+        ],
+        "acquisition": [
+            "酒馆挑战·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "Plama Lawa",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/726f23517c8595c477dd65c987b42482_8499139769805205221.png",
+            "costs": [
+                {
+                    "type": 7,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "Movo Lawa",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/e605c46abaca4c05ff7fcc803d318644_1932728961174964565.png",
+            "costs": [
+                {
+                    "type": 7,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成3点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "Upa Shato",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/a63aaedd24cfbefc634b2ac2a77d5f4f_7864871648075602067.png",
+            "costs": [
+                {
+                    "type": 7,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成5点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "魔化：岩盔",
+            "skill_type": "被动技能",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/60d5501fc29ffb28bc6d2a435b463b2a_6974894146119719968.png",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\">战斗开始时，初始附属<strong><u>岩盔</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩盔：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;所附属角色受到伤害时：抵消1点伤害。抵消岩伤害时，需额外消耗1次可用次数。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：3&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>和<strong><u>坚岩之力</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;坚岩之力：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色造成的&lt;strong&gt;物理伤害&lt;/strong&gt;变为&lt;strong&gt;&lt;span style=&#34;color:rgba(199,124,82,1)&#34;&gt;岩元素伤害&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;每回合1次：角色造成的伤害+1。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色所附属的「&lt;strong&gt;岩盔&lt;/strong&gt;」被移除后：也移除此状态。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        }
+    ],
+    "summons": [],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>千嶂漫行·丘丘岩盔王</strong></p><p style=\"white-space: pre-wrap;\">绕道而行吧，因为前方是属于「王」的领域。</p>"
+    }
+}

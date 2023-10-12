@@ -1,0 +1,39 @@
+{
+    "id": "5489",
+    "name": "鹤归之时",
+    "desc": "鹤归之时",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/4b9215f7e25ed9581698b45f67164395_8716418184979886737.png",
+    "base_info": {
+        "name": "鹤归之时",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/4b9215f7e25ed9581698b45f67164395_2476594944386990796.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/79683714/d1aa97cf5f69177ad07d0ffeeb1c9e40_7845063706249561610.gif",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>我方下一次使用技能后：</strong>将下一个我方后台角色切换到场上。</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>鹤归之时</strong></p><p style=\"white-space: pre-wrap;\">「彼时鹤归，茫茫天地无依靠，孤身离去。今日再会，新朋旧友坐满堂，共聚此时。」</p>"
+    }
+}

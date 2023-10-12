@@ -1,0 +1,39 @@
+{
+    "id": "5530",
+    "name": "一掷乾坤",
+    "desc": "一掷乾坤",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/524d3e5c5e6f3fad28a931abd9c7bb92_2495658906309226331.png",
+    "base_info": {
+        "name": "一掷乾坤",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/524d3e5c5e6f3fad28a931abd9c7bb92_4949675047355464622.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/79683714/0e8f7a7c3005303116e2f076b510ebae_6797208194930521980.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "牌手手册奖励获取"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">选择任意元素骰重投，可<strong>重投</strong>2次。</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>一掷乾坤</strong></p><p style=\"white-space: pre-wrap;\">骰子掷下之前，无人知晓自己的命运。</p>"
+    }
+}

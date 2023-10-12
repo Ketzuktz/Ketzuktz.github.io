@@ -1,0 +1,39 @@
+{
+    "id": "6620",
+    "name": "汲能棱晶",
+    "desc": "无相之雷天赋牌 汲能棱晶",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/3257a4da5f15922e8f068e49f5107130_7375030839633030814.png",
+    "base_info": {
+        "name": "汲能棱晶",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/3257a4da5f15922e8f068e49f5107130_6618336041939702810.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 5,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;战斗行动：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>无相之雷</strong>时，治疗该角色3点，并附属<strong><u>雷晶核心</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷晶核心：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;所附属角色被击倒时：&lt;/strong&gt;移除此效果，使角色&lt;strong&gt;&lt;u&gt;免于被击倒&lt;/u&gt;&lt;/strong&gt;，并治疗该角色到1点生命值。&lt;/p&gt;&lt;blockquote&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;免于被击倒&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;一些效果会使角色在生命值被降为0的时候&lt;strong&gt;免于被击倒&lt;/strong&gt;，并治疗该角色到一定生命值。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此时，角色不视为被&lt;strong&gt;击倒&lt;/strong&gt;过。(因此，角色所附属的装备和状态不会被弃置，充能也不会被清空。）&lt;/p&gt;&lt;/blockquote&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\">(牌组中包含无相之雷，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>无相之雷 · 汲能棱晶</strong></p><p style=\"white-space: pre-wrap;\">「好机会！」</p><p style=\"white-space: pre-wrap;\">「嘿，它是我们这边的！」</p>"
+    }
+}

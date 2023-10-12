@@ -1,0 +1,39 @@
+{
+    "id": "500024",
+    "name": "磐岩盟契",
+    "desc": "事件牌 秘传 磐岩盟契",
+    "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/07/14/183046623/194eb0cdc9200aca52848d54b971743f_9067493452001410768.png",
+    "base_info": {
+        "name": "磐岩盟契",
+        "common_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/07/14/183046623/194eb0cdc9200aca52848d54b971743f_2099934631074713677.png",
+        "gold_img": "",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "秘传"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong>我方剩余元素骰数量为0时，才能打出：</strong>生成2个不同的基础元素骰。</p><p>（整局游戏只能打出一张「秘传」卡牌；这张牌一定在你的起始手牌中）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>磐岩盟契</strong></p><p>「岩王爷赐予他看清事物的双眼，与他约法三章。此后那龙便常伴岩王爷左右，随侍征战南北⋯」</p>"
+    }
+}

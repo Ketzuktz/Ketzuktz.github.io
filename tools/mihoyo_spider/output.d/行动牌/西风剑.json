@@ -1,0 +1,39 @@
+{
+    "id": "6326",
+    "name": "西风剑",
+    "desc": "西风剑",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/e1938c4cf6e50cfcb65d67ef10bc16a3_7998578738095514036.png",
+    "base_info": {
+        "name": "西风剑",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/e1938c4cf6e50cfcb65d67ef10bc16a3_1486330508550781744.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/72c66f08c6a120d841f5f54463b6effe_541184317695978956.gif",
+        "life": 3,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "武器"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>角色造成的伤害+1。</strong></p><p style=\"white-space: pre-wrap;\"><strong>角色使用「元素战技」后：</strong>角色额外获得1点<strong><u>充能</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;充能：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色使用「元素爆发」时，需要消耗充能。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色使用「元素战技」或「普通攻击」后，会获得1点充能。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。（每回合1次）</p><p style=\"white-space: pre-wrap;\">（「单手剑」角色才能装备。角色最多装备1件「武器」）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>顺风而行·西风剑</strong></p><p style=\"white-space: pre-wrap;\">「传说那获授幼狼之名的骑士能将细雨斩落，剑锋卷起的风便足以将蔷薇摧折；</p><p style=\"white-space: pre-wrap;\">无人抵达过他昔日的境界，但骑士当初许诺守护的誓言，却依然传承到了今天。」</p>"
+    }
+}

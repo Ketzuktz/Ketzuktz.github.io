@@ -1,0 +1,39 @@
+{
+    "id": "5461",
+    "name": "晨曦酒庄",
+    "desc": "晨曦酒庄",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/27ea1b01a7d0011b40c0180e4fba0490_7341099873708092142.png",
+    "base_info": {
+        "name": "晨曦酒庄",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/27ea1b01a7d0011b40c0180e4fba0490_7938002191515673602.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/30/158741257/d782fc0ea0cf3d4a9479c8e568ef1386_9185563452220678417.gif",
+        "life": 2,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "场地"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">我方执行行动「切换角色」时：少花费1个元素骰。(每回合1次)</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>曙光初照的庄园</strong></p><p style=\"white-space: pre-wrap;\">「最好的永远是明年酿造出的酒。」</p>"
+    }
+}

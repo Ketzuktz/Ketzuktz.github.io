@@ -1,0 +1,39 @@
+{
+    "id": "5417",
+    "name": "天空之脊",
+    "desc": "天空之脊",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/788811f1c1ce03f56a89ecde4cbe52a7_2992557107190163621.png",
+    "base_info": {
+        "name": "天空之脊",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/788811f1c1ce03f56a89ecde4cbe52a7_1442920910579479318.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/884487eb24df1372bcda5b1526b7f566_4152330200610165193.gif",
+        "life": 3,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "武器"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">角色造成的伤害+1。</p><p style=\"white-space: pre-wrap;\">每回合1次：角色使用「普通攻击」造成的伤害额外+1。</p><p style=\"white-space: pre-wrap;\">（「长柄武器」角色才能装备。角色最多装备1件「武器」）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>斫贯黑翼·天空之脊</strong></p><p style=\"white-space: pre-wrap;\">支撑高天之脊。坚硬不移的意志，支撑着风之龙与恶秽的仇敌誓死厮杀。</p>"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "5500",
+    "name": "重帘留香",
+    "desc": "行秋天赋 重帘留香",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/eb3cd31f7a2c433499221b5664a264f3_3086723857644931388.png",
+    "base_info": {
+        "name": "重帘留香",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/eb3cd31f7a2c433499221b5664a264f3_3640098588958242591.png",
+        "gold_img": "",
+        "life": 4,
+        "life_bg": 6,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "4"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;战斗行动：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>行秋</strong>时，装备此牌。</p><p style=\"white-space: pre-wrap;\">行秋装备此牌后，立刻使用一次<strong><u>画雨笼山</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;画雨笼山：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成2点&lt;strong&gt;&lt;span style=&#34;color:rgba(24,144,255,1)&#34;&gt;水元素伤害&lt;/span&gt;&lt;/strong&gt;，本角色&lt;strong&gt;附着水元素&lt;/strong&gt;，召唤&lt;strong&gt;雨帘剑&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\">装备有此牌的行秋生成的<strong><u>雨帘剑</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雨帘剑：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方出战角色受到至少为3的伤害时：抵消1点伤害。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：2&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，初始<strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此牌效果触发后，会消耗1次可用次数；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数耗尽后，立刻弃置此牌。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>+1。</p><p style=\"white-space: pre-wrap;\">（牌组中包含行秋，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>行秋 · 重帘留香</strong></p><p style=\"white-space: pre-wrap;\">他的运笔方法一直让人印象深刻。</p>"
+    }
+}

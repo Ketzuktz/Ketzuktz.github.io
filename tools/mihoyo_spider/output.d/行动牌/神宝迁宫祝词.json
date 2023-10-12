@@ -1,0 +1,39 @@
+{
+    "id": "5485",
+    "name": "神宝迁宫祝词",
+    "desc": "神宝迁宫祝词",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/a67aefe7f7473b2bc9f602917bad9c5f_6329604065139808609.png",
+    "base_info": {
+        "name": "神宝迁宫祝词",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/a67aefe7f7473b2bc9f602917bad9c5f_8524016633139982064.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/79683714/f66f1b328eae5b9ceb0d7f8c4ed2a7a2_972421057077742071.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>将一个装备在我方角色的「圣遗物」装备牌，转移给另一个我方角色，并重置其效果的「每回合」次数限制。</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>神宝迁宫</strong></p><p>「呵呵···这下总该变得有意思起来了吧？」</p>"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "500043",
+    "name": "藏锋何处",
+    "desc": "藏锋何处",
+    "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/08/12/203927054/888e75a6b80b0f407683eb2af7d25882_5042453541652190210.png",
+    "base_info": {
+        "name": "藏锋何处",
+        "common_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/08/12/203927054/888e75a6b80b0f407683eb2af7d25882_7417759921565488584.png",
+        "gold_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/26/258999284/6c34327d40cf764769e90edbb91f3efd_1616742264299129874.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>将一个我方角色所装备的「武器」返回手牌。</p><p><strong>本回合中，我方下一次打出「武器」手牌时：</strong>少花费2给元素骰。</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>藏锋何处</strong></p><p>不知身世的冒险家协会分会长，不断寻找着有关「剑」的线索，不停向沿途的强敌发起挑战…</p>"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "5440",
+    "name": "深林的记忆",
+    "desc": "深林的记忆",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/8c84639efb7e6a9fb445daafdee873fe_8494733884893501982.png",
+    "base_info": {
+        "name": "深林的记忆",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/8c84639efb7e6a9fb445daafdee873fe_1760322740115875579.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/5382420d4bdbff0acdcaba606485204d_7807365632840299342.gif",
+        "life": 2,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>角色使用技能或装备「天赋」时：少花费1个草元素。（每回合1次）</p><p>投掷阶段：2个元素骰初始总是投出草元素。</p><p>（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>翠蔓之识·深林的记忆</strong></p><p>「因为遵循自然的，终会穿过御林的迷宫，抵达漫无边际的原野。」</p>"
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "id": "5364",
+    "name": "雷泽",
+    "desc": "雷泽卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/52cc6519a87290840830b64f25117070_635776424632334205.png",
+    "base_info": {
+        "name": "狼少年·雷泽",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/52cc6519a87290840830b64f25117070_8992911737218383504.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/570c6555a03858f6d2e02baa9c35dbb6_5070321268610667737.gif",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 2,
+        "energy_bg": 0,
+        "element": [
+            "雷元素"
+        ],
+        "weapon": [
+            "双手剑"
+        ],
+        "faction": [
+            "蒙德"
+        ],
+        "energy_count": [
+            "2点"
+        ],
+        "acquisition": [
+            "角色邀请·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "钢脊",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/fc4695c7947675242718788122db81d3_5199710485709904784.png",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "利爪与苍雷",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/d9a4f69257c64d52769a6b0a9af8031a_2133845428381568499.png",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成3点<strong><span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;原激化：本伤害+1，生成使下2次草/雷伤害+1的[激化领域]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "雷牙",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/2fcead6f24aba2d2595e98615756f175_4684225450339126121.png",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成3点<strong><span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;原激化：本伤害+1，生成使下2次草/雷伤害+1的[激化领域]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，本角色附属<strong><u>雷狼</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷狼：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;所附属角色使用普通攻击或元素战技后：造成2点&lt;strong&gt;&lt;span style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;持续回合：2&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        }
+    ],
+    "summons": [],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>狼少年·雷泽</strong></p><p style=\"white-space: pre-wrap;\">「牌，难。」</p><p style=\"white-space: pre-wrap;\">「但，有朋友⋯」</p>"
+    }
+}

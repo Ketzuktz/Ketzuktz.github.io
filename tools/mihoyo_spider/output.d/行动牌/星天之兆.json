@@ -1,0 +1,39 @@
+{
+    "id": "5482",
+    "name": "星天之兆",
+    "desc": "星天之兆",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/e6e557f4dd2762ecb727e14c66bafb57_828613557415004800.png",
+    "base_info": {
+        "name": "星天之兆",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/e6e557f4dd2762ecb727e14c66bafb57_220445601923783929.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/79683714/d2f457d379ee854c80171114ecb4880d_9055035734023447400.gif",
+        "life": 2,
+        "life_bg": 10,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">我方当前出战角色获得1点<strong><u>充能</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色使用「元素爆发」时，需要消耗充能。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色使用「元素战技」或「普通攻击」后，会获得1点充能。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>命星轨迹</strong></p><p style=\"white-space: pre-wrap;\">「此乃命运，无可违逆。」</p>"
+    }
+}

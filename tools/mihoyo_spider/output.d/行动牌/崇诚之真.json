@@ -1,0 +1,39 @@
+{
+    "id": "500189",
+    "name": "崇诚之真",
+    "desc": "崇诚之真卡牌",
+    "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/25/258999284/161a55bb8e3e5141557f38536579e897_6197882985751280955.png",
+    "base_info": {
+        "name": "崇诚之真",
+        "common_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/25/258999284/161a55bb8e3e5141557f38536579e897_3725263134237782114.png",
+        "gold_img": "",
+        "life": 4,
+        "life_bg": 4,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "4"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p&gt;&lt;strong&gt;战斗行动：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\" class=\"wiki-note-text\"><sup class=\"wiki-sup\" class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>迪希雅</strong>时，装备此牌。</p><p>迪希雅装备此牌后，立刻使用一次<strong><u>熔铁流狱</u></strong><span data-type=\"详情\" data-name=\"&lt;p&gt;&lt;strong&gt;熔铁流狱：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;元素战技&lt;/p&gt;&lt;p&gt;召唤&lt;strong&gt;&lt;em&gt;净焰剑狱领域&lt;/em&gt;&lt;/strong&gt;；如果已存在&lt;strong&gt;&lt;em&gt;净焰剑狱领域&lt;/em&gt;&lt;/strong&gt;，就先造成1点火元素伤害。&lt;/p&gt;\" class=\"wiki-note-text\" class=\"wiki-note-text\"><sup class=\"wiki-sup\" class=\"wiki-sup\">[详情]</sup></span>。</p><p>结束阶段：如果装备有此牌的迪希雅生命值不多于6，则治疗该角色2点。</p><p>(牌组中包含迪希雅，才能加入牌组)</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>迪希雅·崇诚之真</strong></p><p>「不用留情，开打吧！」</p>"
+    }
+}

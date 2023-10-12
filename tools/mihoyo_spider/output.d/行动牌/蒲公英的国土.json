@@ -1,0 +1,39 @@
+{
+    "id": "5508",
+    "name": "蒲公英的国土",
+    "desc": "琴天赋 蒲公英的国土",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/4e162cfa636a6db51f166d7d82fbad4f_6452993893511545582.png",
+    "base_info": {
+        "name": "蒲公英的国土",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/4e162cfa636a6db51f166d7d82fbad4f_1568572496664267962.png",
+        "gold_img": "",
+        "life": 4,
+        "life_bg": 3,
+        "energy": 0,
+        "energy_bg": 8,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "4；3点充能"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>战斗行动：</p><p style=&quot;white-space: pre-wrap;&quot;>我方执行了一次战斗行动后，会轮到对方行动。</p><p style=&quot;white-space: pre-wrap;&quot;>打出具有此规则的手牌是一个战斗行动，而非快速行动。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>琴</strong>时，装备此牌。</p><p>琴装备此牌后，立刻使用一次<strong><u>蒲公英之风</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>蒲公英之风：</p><p style=&quot;white-space: pre-wrap;&quot;>治疗我方所有角色2点，召唤<strong>蒲公英领域</strong>。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的琴在场时，<strong><u>蒲公英领域</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>蒲公英领域：</p><p style=&quot;white-space: pre-wrap;&quot;>召唤物</p><p style=&quot;white-space: pre-wrap;&quot;>结束阶段：造成2点<strong><span style=&quot;color:rgba(54,207,201,1)&quot;>风元素伤害</span></strong>，治疗我方出战角色1点。</p><p style=&quot;white-space: pre-wrap;&quot;>可用次数：2</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>会使我方造成的<strong><span style=\"color: rgb(54, 207, 201)\"><u>风元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>风元素伤害：</p><p style=&quot;white-space: pre-wrap;&quot;>和已附着的元素发生元素反应：</p><p style=&quot;white-space: pre-wrap;&quot;>扩散（冰）：对目标以外的所有敌方角色造成1点冰伤害</p><p style=&quot;white-space: pre-wrap;&quot;>扩散（水）：对目标以外的所有敌方角色造成1点水伤害</p><p style=&quot;white-space: pre-wrap;&quot;>扩散（火）：对目标以外的所有敌方角色造成1点火伤害</p><p style=&quot;white-space: pre-wrap;&quot;>扩散（雷）：对目标以外的所有敌方角色造成1点雷伤害</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>+1。</p><p>（牌组中包含琴，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>琴 · 蒲公英的国土</strong></p><p>风啊，回应我吧！</p>"
+    }
+}

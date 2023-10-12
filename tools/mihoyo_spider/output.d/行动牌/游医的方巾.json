@@ -1,0 +1,39 @@
+{
+    "id": "5423",
+    "name": "游医的方巾",
+    "desc": "游医的方巾",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/27f34fa09a68f4de71cd8ce12b2ff2ea_5117262795386498884.png",
+    "base_info": {
+        "name": "游医的方巾",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/27f34fa09a68f4de71cd8ce12b2ff2ea_7632599925994945499.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/3be24df2fe0cc5caf384a5291b7b2331_7592156996721073746.gif",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">角色使用「元素爆发」后：治疗所有我方角色1点。（每回合1次）</p><p style=\"white-space: pre-wrap;\">（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>悬壶林藂·游医的方巾</strong></p><p style=\"white-space: pre-wrap;\">「无论是晴日当空、还是大雨瓢泼，都无法阻挡游医坚定的行步。」</p>"
+    }
+}

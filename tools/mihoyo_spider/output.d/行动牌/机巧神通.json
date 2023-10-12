@@ -1,0 +1,39 @@
+{
+    "id": "5381",
+    "name": "机巧神通",
+    "desc": "机巧神通",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/04/10827219/aef9c7a384edf87afeea8bfae8c9adb3_404756846999229173.png",
+    "base_info": {
+        "name": "机巧神通",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/12109492/29356bd9bc7cbd8bf4843d6725cb8af6_6954582480310016602.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 3,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;战斗行动：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为魔偶剑鬼时，装备此牌。</p><p style=\"white-space: pre-wrap;\">魔偶剑鬼装备此牌后，立刻使用一次<strong><u>孤风刀势</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;召唤&lt;strong&gt;&lt;em&gt;剑影·孤风&lt;/em&gt;&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\">装备有此牌的魔偶剑鬼施放<strong>孤风刀势</strong>后，我方切换到后一个角色；施放<strong><u>霜驰影突</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成1点&lt;strong&gt;&lt;span style=&#34;color:rgba(145,213,255,1)&#34;&gt;冰元素伤害&lt;/span&gt;&lt;/strong&gt;，召唤&lt;strong&gt;&lt;em&gt;剑影·霜驰&lt;/em&gt;&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>后，我方切换到前一个角色。</p><p style=\"white-space: pre-wrap;\">（牌组中包含魔偶剑鬼，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">剑豪人形</p><p style=\"white-space: pre-wrap;\">毫厘不差的斩击，或已斩出千万次。</p>"
+    }
+}

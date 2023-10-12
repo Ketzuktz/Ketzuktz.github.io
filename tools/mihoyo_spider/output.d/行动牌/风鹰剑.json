@@ -1,0 +1,39 @@
+{
+    "id": "5420",
+    "name": "风鹰剑",
+    "desc": "风鹰剑",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/fcad55ff202d5dc8fa1d782f0b2f3400_4324400083015396466.png",
+    "base_info": {
+        "name": "风鹰剑",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/fcad55ff202d5dc8fa1d782f0b2f3400_3902557354688808483.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/5c4b397c08ca23671fd457218da147b5_3480637110154002558.gif",
+        "life": 3,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "武器"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">角色造成的伤害+1。</p><p style=\"white-space: pre-wrap;\">对方使用技能后：如果所附属角色为「出战角色」，则治疗该角色1点。（每回合至多2次）</p><p style=\"white-space: pre-wrap;\">（「单手剑」角色才能装备。角色最多装备1件「武器」）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>听凭风引·风鹰剑</strong></p><p style=\"white-space: pre-wrap;\">异族斗士的佩剑，见证了她的跋涉与奋斗，最终见证她将自由与正义之风吹遍蒙德全地。</p>"
+    }
+}

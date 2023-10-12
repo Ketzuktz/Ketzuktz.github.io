@@ -1,0 +1,93 @@
+{
+    "id": "5523",
+    "name": "翠翎恐蕈",
+    "desc": "翠翎恐蕈卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/83e1eecf95f1e3ba10afad2e2a4de03c_1746539124870771061.png",
+    "base_info": {
+        "name": "幽蕈之王·翠翎恐蕈",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/83e1eecf95f1e3ba10afad2e2a4de03c_4053328098702513548.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/21e4b3527f29c42bceda66217a2f0767_6437304761874156296.gif",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 2,
+        "energy_bg": 0,
+        "element": [
+            "草元素"
+        ],
+        "weapon": [
+            "其他武器"
+        ],
+        "faction": [
+            "魔物"
+        ],
+        "energy_count": [
+            "2点"
+        ],
+        "acquisition": [
+            "酒馆挑战·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "菌王舞步",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/726f23517c8595c477dd65c987b42482_1639951068055755012.png",
+            "costs": [
+                {
+                    "type": 2,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "不稳定孢子云",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/875de1c4943f909a4adf7802bbb1034f_3081914478799274881.png",
+            "costs": [
+                {
+                    "type": 2,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成3点<strong><span style=\"color:rgba(82,196,26,1)\"><u>草元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害＋2的[草原核]&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;燃烧：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;&lt;em&gt;燃烧烈焰&lt;/em&gt;&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;原激化：本伤害+1，生成使下2次草/雷伤害+1的[激化领域]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "尾羽豪放",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/34525ada2f131e99da075f32283db903_3717723304434052962.png",
+            "costs": [
+                {
+                    "type": 2,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成4点<strong><span style=\"color:rgba(82,196,26,1)\"><u>草元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害＋2的[草原核]&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;燃烧：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;&lt;em&gt;燃烧烈焰&lt;/em&gt;&lt;/strong&gt;]（可生效1次，最多暨加到2次）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;原激化：本伤害+1，生成使下2次草/雷伤害+1的[激化领域]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，消耗所有<strong><u>活化激能</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;活化激能：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;本角色造成或受到元素伤害后：累积1层「活化激能」。（最多累积3层）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结束阶段：如果「活化激能」层数已达到上限，就将其清空。同时，角色失去所有充能。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>层数，每层使本伤害+1。</p>"
+        },
+        {
+            "name": "活化激能",
+            "skill_type": "被动技能",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/f72847095bda0ccb92781ed3f1c1bb4e_1629774298046012918.png",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\">战斗开始时，初始附属<strong><u>活化激能</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;活化激能：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;本角色造成或受到元素伤害后：累积1层「活化激能」。（最多累积3层）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结束阶段：如果「活化激能」层数已达到上限，就将其清空。同时，角色失去所有充能。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        }
+    ],
+    "summons": [],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>幽蕈之王·翠翎恐蕈</strong></p><p style=\"white-space: pre-wrap;\">悄声静听，可以听到幽林之中，蕈类王者巡视领土的脚步…</p>"
+    }
+}

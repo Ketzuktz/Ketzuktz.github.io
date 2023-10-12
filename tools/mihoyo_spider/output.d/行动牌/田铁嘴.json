@@ -1,0 +1,39 @@
+{
+    "id": "5458",
+    "name": "田铁嘴",
+    "desc": "田铁嘴",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/163adc79a3050ea18fc75293e76f1a13_1711174835731065840.png",
+    "base_info": {
+        "name": "田铁嘴",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/163adc79a3050ea18fc75293e76f1a13_607175307652592237.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/04/158741257/24573649a71434b26d6ab42b7f3f4c41_8078761257855304646.gif",
+        "life": 2,
+        "life_bg": 10,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买、完成挑战目标"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "伙伴"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">结束阶段:我方一名充能未满的角色获得1点<strong><u>充能</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色使用「元素爆发」时，需要消耗充能。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色使用「元素战技」或「普通攻击」后，会获得1点充能。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。(出战角色优先）</p><p style=\"white-space: pre-wrap;\"><strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此牌效果触发后，会消耗1次可用次数；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数耗尽后，立刻弃置此牌。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：2</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>书接上回·田铁嘴</strong></p><p style=\"white-space: pre-wrap;\">「我来给您掰扯掰扯这个道理，您来听听原汁原味的评书！」</p>"
+    }
+}

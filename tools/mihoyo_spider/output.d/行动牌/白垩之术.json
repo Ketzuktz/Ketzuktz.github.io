@@ -1,0 +1,39 @@
+{
+    "id": "5492",
+    "name": "白垩之术",
+    "desc": "白垩之术",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/567c17051137fdd9e5c981ea584df298_4305321690584111415.png",
+    "base_info": {
+        "name": "白垩之术",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/567c17051137fdd9e5c981ea584df298_6054876926783846996.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/79683714/9befa7e027222a771c6f5f91a76356a1_1163210424036993847.gif",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">从最多2个我方后台角色身上，转移1点<strong><u>充能</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色使用「元素爆发」时，需要消耗充能。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色使用「元素战技」或「普通攻击」后，会获得1点充能。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>到我方出战角色。</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>炼金实验</strong></p><p style=\"white-space: pre-wrap;\">「不必紧张，你看，实验已经完成了，很成功。」</p>"
+    }
+}

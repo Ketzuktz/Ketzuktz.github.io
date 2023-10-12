@@ -1,0 +1,39 @@
+{
+    "id": "5444",
+    "name": "吐纳真定",
+    "desc": "吐纳真定",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/06f283da39baa2e65703e7e8e9003224_6601502980262302668.png",
+    "base_info": {
+        "name": "吐纳真定",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/06f283da39baa2e65703e7e8e9003224_4719122239550886598.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/fde9c743d4ef1c6a4a97b738bb5c1a7b_3401139766226177878.gif",
+        "life": 4,
+        "life_bg": 1,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "4"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;战斗行动：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>重云</strong>时，装备此牌。</p><p style=\"white-space: pre-wrap;\">重云装备此牌后，立刻使用一次<strong><u>重华叠霜</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;重华叠霜：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成3点&lt;strong&gt;&lt;span style=&#34;color:rgba(145,213,255,1)&#34;&gt;冰元素伤害&lt;/span&gt;&lt;/strong&gt;，生成&lt;strong&gt;重华叠霜领域&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\">装备有此牌的重云生成的<strong><u>重华叠霜领域</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;重华叠霜领域：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方单手剑、双手剑或长柄武器角色造成的&lt;strong&gt;物理伤害&lt;/strong&gt;变为&lt;strong&gt;&lt;span style=&#34;color:rgba(145,213,255,1)&#34;&gt;冰元素伤害&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>获得以下效果：</p><p style=\"white-space: pre-wrap;\">初始<strong><u>持续回合</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;持续回合：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;每回合结束阶段，持续回合-1；持续回合耗尽后，立刻弃置此牌。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>+1，并且使我方单手剑、双手剑或长柄武器角色的普通攻击伤害+1。</p><p style=\"white-space: pre-wrap;\">（牌组中包含重云，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>重云·吐纳真定</strong></p><p style=\"white-space: pre-wrap;\">吐纳霜华，心神真定。</p>"
+    }
+}

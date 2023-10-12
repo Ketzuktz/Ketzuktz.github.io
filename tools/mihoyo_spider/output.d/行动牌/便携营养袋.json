@@ -1,0 +1,39 @@
+{
+    "id": "5447",
+    "name": "便携营养袋",
+    "desc": "便携营养袋",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/ab41e76335be5fe031e9d2d6a4bc5cb1_2908073160281995669.png",
+    "base_info": {
+        "name": "便携营养袋",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/ab41e76335be5fe031e9d2d6a4bc5cb1_7623544243734791763.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/158741257/c2a670f553310db300f956c59ab5f921_4704763558600475503.gif",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "道具"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>入场时：从牌组中随机抽取1张「料理」事件。</p><p>我方打出「料理」事件牌时：从牌组中随机抽取1张「料理」事件。(每回合1次)</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>应急摄入·便携料理</strong></p><p>「及时补充营养，以便剧烈运动。」</p>"
+    }
+}

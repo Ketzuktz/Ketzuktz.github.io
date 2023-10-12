@@ -1,0 +1,86 @@
+{
+    "id": "5359",
+    "name": "凝光",
+    "desc": "凝光卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/6105ce8dd57dfd2efbea4d4e9bc99a7f_8256168788529926363.png",
+    "base_info": {
+        "name": "掩月天权·凝光",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/6105ce8dd57dfd2efbea4d4e9bc99a7f_3316973407293091241.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/7e8cc721157627dddcd9003ff20d8340_7477220191403048276.gif",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 3,
+        "energy_bg": 0,
+        "element": [
+            "岩元素"
+        ],
+        "weapon": [
+            "法器"
+        ],
+        "faction": [
+            "璃月"
+        ],
+        "energy_count": [
+            "3点"
+        ],
+        "acquisition": [
+            "角色邀请·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "千金掷",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/54dd31a9c0a4417ca4b5463532d7f5e8_7531221484579442607.png",
+            "costs": [
+                {
+                    "type": 7,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成1点<strong><span style=\"color:rgba(199,124,82,1)\"><u>岩元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（冰）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（水）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（火）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（雷）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "璇玑屏",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/e16efaaa1d7a4e0e50c2df84b5870ea3_8679057305261038668.png",
+            "costs": [
+                {
+                    "type": 7,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><span style=\"color:rgba(199,124,82,1)\"><u>岩元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（冰）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（水）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（火）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（雷）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，生成<strong><u>璇玑屏</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;璇玑屏：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方出战角色受到至少为2的伤害时：抵消1点伤害。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：2&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "天权崩玉",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/27/12109492/2930a6e689cea53607ab586a8cde8c97_8943298426488751810.png",
+            "costs": [
+                {
+                    "type": 7,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成6点<strong><span style=\"color:rgba(199,124,82,1)\"><u>岩元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（冰）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（水）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（火）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（雷）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>；如果<strong><u>璇玑屏</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;璇玑屏：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方出战角色受到至少为2的伤害时：抵消1点伤害。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：2&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>在场，就使此伤害+2。</p>"
+        }
+    ],
+    "summons": [],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>掩月天权·凝光</strong></p><p style=\"white-space: pre-wrap;\">她保守着一个最大的秘密，那就是自己保守着璃月港的许多秘密。</p>"
+    }
+}

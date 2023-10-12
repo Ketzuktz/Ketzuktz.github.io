@@ -1,0 +1,39 @@
+{
+    "id": "5488",
+    "name": "换班时间",
+    "desc": "换班时间",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/c512c490a548f8322503c59c9d87c89a_5960770686347735037.png",
+    "base_info": {
+        "name": "换班时间",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/c512c490a548f8322503c59c9d87c89a_1766636291449461525.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/79683714/7d1bded95724b84e52c89ed4c851497e_922005153166484122.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>我方下次执行「切换角色」行动时：</strong>少花费1个元素骰。</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>换班时间</strong></p><p style=\"white-space: pre-wrap;\">「大人的工作时间到了，小孩子快回去睡觉吧。」</p>"
+    }
+}

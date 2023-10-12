@@ -1,0 +1,39 @@
+{
+    "id": "5449",
+    "name": "提米",
+    "desc": "提米",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/638d754606562a2ff5aa768e9e0008a9_516751861114944753.png",
+    "base_info": {
+        "name": "提米",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/638d754606562a2ff5aa768e9e0008a9_2604997534782710176.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/04/158741257/929bd1aa07ea88c4e28ee36714c6f98e_1850987451978604101.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买、完成挑战目标"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "伙伴"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">每回合自动触发1次：此牌累积1只「鸽子」。</p><p style=\"white-space: pre-wrap;\">如果此牌已累积3只「鸽子」，则弃置此牌：抓1张牌，生成一点<strong><u>万能元素</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可以视为任何类型的元素，来支付各种费用。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap; min-height: 1.5em;\"></p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>纯白守候·提米</strong></p><p style=\"white-space: pre-wrap;\">「飞走的鸽子，还会回来吗？」</p>"
+    }
+}

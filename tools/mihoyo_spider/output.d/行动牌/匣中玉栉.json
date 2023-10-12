@@ -1,0 +1,39 @@
+{
+    "id": "6170",
+    "name": "匣中玉栉",
+    "desc": "匣中玉栉",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2023/02/27/12109492/5e980c377a2142322435bb4487b4f8fc_1402768522762911376.png",
+    "base_info": {
+        "name": "匣中玉栉",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/02/27/12109492/5e980c377a2142322435bb4487b4f8fc_5354100201913685764.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 6,
+        "energy": 0,
+        "energy_bg": 8,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>战斗行动：</p><p style=&quot;white-space: pre-wrap;&quot;>我方执行了一次战斗行动后，会轮到对方行动。</p><p style=&quot;white-space: pre-wrap;&quot;>打出具有此规则的手牌是一个战斗行动，而非快速行动。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>珊瑚宫心海</strong>时，装备此牌。</p><p>珊瑚宫心海装备此牌后，立刻使用一次<strong><u>海人化羽</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>海人化羽：</p><p style=&quot;white-space: pre-wrap;&quot;>元素爆发</p><p style=&quot;white-space: pre-wrap;&quot;>造成2点<strong><span style=&quot;color:rgba(24,144,255,1)&quot;>水元素伤害</span></strong>，治疗所有我方角色1点，本角色附属<strong>仪来羽衣</strong>。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的珊瑚宫心海使用<strong>海人化羽</strong>时：如果<strong><em>化海月</em></strong>在场，则刷新其<strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>可用次数：</p><p style=&quot;white-space: pre-wrap;&quot;>此牌效果触发后，会消耗1次可用次数；</p><p style=&quot;white-space: pre-wrap;&quot;>可用次数耗尽后，立刻弃置此牌。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p><strong><u>仪来羽衣</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>仪来羽衣</p><p style=&quot;white-space: pre-wrap;&quot;>状态</p><p style=&quot;white-space: pre-wrap;&quot;>所附属角色<strong>普通攻击</strong>造成的伤害+1。</p><p style=&quot;white-space: pre-wrap;&quot;><strong>所附属角色普通攻击后：</strong>治疗所有我方角色1点。</p><p style=&quot;white-space: pre-wrap;&quot;><strong>持续回合</strong>：2</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>存在期间，<strong><em>化海月</em></strong>造成的伤害+1。</p><p>（牌组中包含珊瑚宫心海，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>珊瑚宫心海·匣中玉栉</strong></p><p>匣中有智，潮起沧海。</p>"
+    }
+}

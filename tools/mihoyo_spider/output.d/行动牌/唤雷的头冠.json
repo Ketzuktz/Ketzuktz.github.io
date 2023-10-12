@@ -1,0 +1,39 @@
+{
+    "id": "5433",
+    "name": "唤雷的头冠",
+    "desc": "唤雷的头冠",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/00d958c2d533c85d56613c0d718d9498_7034674946756695515.png",
+    "base_info": {
+        "name": "唤雷的头冠",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/00d958c2d533c85d56613c0d718d9498_790077671057541676.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/f1c4d3d2d5555ae0d7fdc4dff7639eab_6408371134188548955.gif",
+        "life": 2,
+        "life_bg": 10,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>角色使用技能或装备「天赋」时：少花费1个雷元素。（每回合1次）</p><p>（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>紫电骤雨·唤雷的头冠</strong></p><p>「直至清澈的歌声穿透低鸣的雷雨、撕裂空中的阴霭，将小小的光传给那高天的鸟儿。」</p>"
+    }
+}

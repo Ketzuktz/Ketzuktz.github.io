@@ -69,6 +69,7 @@ _CARD_BASE_ATTR_NAME_ZH_TO_EN = {
     "阵营": "faction",
     "充能": "energy_count",
     "获取方式": "acquisition",
+    "获得方式": "acquisition",
     "获取": "acquisition",
     "类型": "card_type",
     "标签": "tags",
@@ -146,9 +147,12 @@ def _get_card_skill_infos(
                     "count": s["energy"],
                 }
             )
-        assert len(s["desc"]["key"]) == 0 or s["desc"]["key"] == "技能效果", s["desc"][
-            "key"
-        ]
+
+        valid_desc_key = ["", "技能效果", "召唤物技能", "召唤物效果"]
+        assert (
+            s["desc"]["key"] in valid_desc_key
+        ), f"Invalid desc key: {s['desc']['key']}"
+
         assert len(s["desc"]["value"]) == 1
         yield {
             "name": s["tab_name"],
@@ -199,7 +203,7 @@ def _refine_card_info(raw_card_info: RawCardInfo) -> CardInfo:
         "life": base_info_data["life"],
         "life_bg": base_info_data["life_bg"],
         "energy": energy,
-        "energy_bg": base_info_data["energy_bg"],
+        "energy_bg": base_info_data.get("energy_bg", -1),
         "element": base_info_attrs.get("element", []),
         "weapon": base_info_attrs.get("weapon", []),
         "faction": base_info_attrs.get("faction", []),
@@ -213,13 +217,12 @@ def _refine_card_info(raw_card_info: RawCardInfo) -> CardInfo:
     skills: typing.List[_CardSkillInfo] = []
 
     if "卡牌技能" in raw_card_info["infos"]:
-        assert len(raw_card_info["infos"]["卡牌技能"]) == 1
-        skill_module = raw_card_info["infos"]["卡牌技能"][0]
-        assert skill_module["name"] == "卡牌技能" and skill_module["id"] == "card_skill"
-        skills_data_list = skill_module["data"]["list"]
+        for skill_module in raw_card_info["infos"]["卡牌技能"]:
+            assert skill_module["name"] == "卡牌技能" and skill_module["id"] == "card_skill"
+            skills_data_list = skill_module["data"]["list"]
 
-        if skills_data_list is not None:
-            skills.extend(_get_card_skill_infos(skills_data_list))
+            if skills_data_list is not None:
+                skills.extend(_get_card_skill_infos(skills_data_list))
 
     summons: typing.List[_CardSkillInfo] = []
 

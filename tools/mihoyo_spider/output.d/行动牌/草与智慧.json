@@ -1,0 +1,39 @@
+{
+    "id": "6593",
+    "name": "草与智慧",
+    "desc": "草与智慧",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/05/23/1694811/1c656067801c6beb53803faefedd0a47_1024175061545101305.png",
+    "base_info": {
+        "name": "草与智慧",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/05/23/1694811/1c656067801c6beb53803faefedd0a47_7333316108362576471.png",
+        "gold_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/26/258999284/48ee0a59d2321b613b405fcc46938fdc_8536143264827019739.gif",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>抓1张牌。然后，选择任意手牌替换。</p><p>（牌组包含至少2个「须弥」角色，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>诸灵欢悦之智</strong></p><p>「大家的欢舞里蕴藏着宇宙的一切。『生命』一直都是目的，『智慧』才是手段。」</p>"
+    }
+}

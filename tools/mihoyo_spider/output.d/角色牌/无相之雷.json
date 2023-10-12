@@ -1,0 +1,101 @@
+{
+    "id": "6566",
+    "name": "无相之雷",
+    "desc": "无相之雷卡牌",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/05/17/183046623/df234a18db1aa6f769ac3b32b0168ebf_140881843852417731.png",
+    "base_info": {
+        "name": "无相之雷",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/05/17/183046623/df234a18db1aa6f769ac3b32b0168ebf_4040044349475544115.png",
+        "gold_img": "",
+        "life": 8,
+        "life_bg": 11,
+        "energy": 2,
+        "energy_bg": 0,
+        "element": [
+            "雷元素"
+        ],
+        "weapon": [
+            "其他武器"
+        ],
+        "faction": [
+            "魔物"
+        ],
+        "energy_count": [
+            "2点"
+        ],
+        "acquisition": [
+            "酒馆挑战·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "雷晶投射",
+            "skill_type": "普通攻击",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/0f451842885c44779d882c9ced0b9b09_5929810669330512375.jpg",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成1点<strong><span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "猜拳三连击",
+            "skill_type": "元素战技",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/bb497b9de8d5f5aaecdecd8b54ad7113_1742166172951785514.png",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 5
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，然后分别<strong><u>准备技能</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;准备技能：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;有些技能无法被直接使用，而是需要一定次数的行动轮来进行&lt;strong&gt;准备&lt;/strong&gt;。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;轮到一位牌手行动时，如果该牌手的「出战角色」正在&lt;strong&gt;准备&lt;/strong&gt;技能，则跳过该牌手的行动；如果技能已经完成&lt;strong&gt;准备&lt;/strong&gt;，角色将会在此时直接使用此技能。（此类需要&lt;strong&gt;准备&lt;/strong&gt;的技能，无法触发「使用技能后」效果。）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;只有「出战角色」才能&lt;strong&gt;准备&lt;/strong&gt;技能；如果正在&lt;strong&gt;准备&lt;/strong&gt;技能的「出战角色」被切换到后台，技能的&lt;strong&gt;准备&lt;/strong&gt;就会被打断。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：<strong><u>猜拳三连击·剪刀</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;猜拳三连击·剪刀：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;元素战技&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成2点&lt;strong&gt;&lt;span style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;，然后&lt;strong&gt;准备技能&lt;/strong&gt;：&lt;strong&gt;猜拳三连击·布&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>和<strong><u>猜拳三连击·布</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;猜拳三连击·布：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;元素战技&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成3点&lt;strong&gt;&lt;span style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "雳霆镇锁",
+            "skill_type": "元素爆发",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/0a2d29c148c0c9dda778c3d8387ec4c8_6867523488576292893.png",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，召唤<strong><em>雷锁镇域</em></strong>。</p>"
+        },
+        {
+            "name": "雷晶核心",
+            "skill_type": "被动技能",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/84c224cb71bd755ebeb0ab587bf22901_3554738173380528607.png",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\">【被动】战斗开始时，初始附属<strong><u>雷晶核心</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷晶核心：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;所附属角色被击倒时：&lt;/strong&gt;移除此效果，使角色&lt;strong&gt;&lt;u&gt;免于被击倒&lt;/u&gt;&lt;/strong&gt;，并治疗该角色到1点生命值。&lt;/p&gt;&lt;blockquote&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;免于被击倒&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;一些效果会使角色在生命值被降为0的时候&lt;strong&gt;免于被击倒&lt;/strong&gt;，并治疗该角色到一定生命值。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此时，角色不视为被&lt;strong&gt;击倒&lt;/strong&gt;过。(因此，角色所附属的装备和状态不会被弃置，充能也不会被清空。）&lt;/p&gt;&lt;/blockquote&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        }
+    ],
+    "summons": [
+        {
+            "name": "雷锁镇域",
+            "skill_type": "召唤物",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/05/17/183046623/8df8ffcdace3033ced5ccedc1dc7da68_5001323349681512527.png",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\"><strong>结束阶段：</strong>造成1点<strong><span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\"><strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此牌效果触发后，会消耗1次可用次数；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数耗尽后，立刻弃置此牌。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span><strong>：2</strong></p><p style=\"white-space: pre-wrap;\"><strong>此召唤物在场时：</strong>敌方执行「切换角色」行动的元素骰费用+1。（每回合1次）</p>"
+        }
+    ],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>无相之雷</strong></p><p style=\"white-space: pre-wrap;\">代号为「阿莱夫」的高级雷元素生命。</p><p style=\"white-space: pre-wrap;\">就算猜拳获胜，它一般也不会认输。</p>"
+    }
+}

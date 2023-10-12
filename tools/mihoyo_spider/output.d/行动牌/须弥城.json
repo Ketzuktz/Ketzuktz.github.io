@@ -1,0 +1,39 @@
+{
+    "id": "6604",
+    "name": "须弥城",
+    "desc": "须弥城卡牌",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/a659c38687c72bdd6244b9ef3c28390b_7519574550248798179.png",
+    "base_info": {
+        "name": "须弥城",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/a659c38687c72bdd6244b9ef3c28390b_972040861793737387.png",
+        "gold_img": "",
+        "life": 2,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "场地"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>我方角色使用技能或装备「天赋」时：</strong>如果我方元素骰数量不多于手牌数量，则少花费1个元素骰。（每回合1次）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>一切智慧具足之城</strong></p><p style=\"white-space: pre-wrap;\">在繁枝茂叶的圣树之下，学城的贤者们已遍计所有的知识。</p>"
+    }
+}

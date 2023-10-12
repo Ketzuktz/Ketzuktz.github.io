@@ -1,0 +1,39 @@
+{
+    "id": "5385",
+    "name": "冒险憧憬",
+    "desc": "冒险憧憬",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/044617980be5a70980f7826036963e74_1601646362409847931.png",
+    "base_info": {
+        "name": "冒险憧憬",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/12109492/044617980be5a70980f7826036963e74_8167452876830335549.png",
+        "gold_img": "",
+        "life": 4,
+        "life_bg": 4,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "4火元素；2点充能"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;战斗行动：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为班尼特时，装备此牌。</p><p style=\"white-space: pre-wrap;\">班尼特装备此牌后，立刻使用一次<strong><u>美妙旅程</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;美妙旅程：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成2点&lt;strong&gt;&lt;span style=&#34;color:rgba(207,19,34,1)&#34;&gt;火元素伤害&lt;/span&gt;&lt;/strong&gt;，生成&lt;strong&gt;鼓舞领域&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\">装备有此牌的班尼特生成的<strong><u>鼓舞领域</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;鼓舞领域：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方角色使用技能时：如果该角色生命值至少为7，则使此伤害额外+2；技能结算后，如果该角色生命值不多于6，则治疗该角色2点。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;持续回合：2&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，其伤害提升效果改为总是生效，不再具有生命值限制。</p><p style=\"white-space: pre-wrap;\">（牌组中包含班尼特，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>班尼特·冒险憧憬</strong></p><p style=\"white-space: pre-wrap;\">最美妙的冒险永远是下一次。</p>"
+    }
+}

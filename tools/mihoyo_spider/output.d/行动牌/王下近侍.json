@@ -1,0 +1,39 @@
+{
+    "id": "500045",
+    "name": "王下近侍",
+    "desc": "王下近侍",
+    "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/08/12/203927054/c667e01fa50b448958eff1d077a7ce1b_1675300022325654745.png",
+    "base_info": {
+        "name": "王下近侍",
+        "common_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/08/12/203927054/c667e01fa50b448958eff1d077a7ce1b_1806864451648421284.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 12,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "武器"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong>角色造成的伤害+1。</strong></p><p><strong>入场时：</strong>所附属角色在本回合中，下次使用「元素战技」或者装备「天赋」时少花费两个元素骰。</p><p>（<strong>「弓」角色</strong>才能装备。角色最多装备1件「武器」）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>森林教诲·王下近侍</strong></p><p>从兰那罗的故事中得到的武器，具有弓的形制。</p><p>「记住，这个世界只是森林的梦…请将森林的语言、保护王土的责任传给更多人。」</p>"
+    }
+}

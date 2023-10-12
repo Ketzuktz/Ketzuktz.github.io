@@ -1,0 +1,39 @@
+{
+    "id": "5392",
+    "name": "元素共鸣：强能之雷",
+    "desc": "元素共鸣：强能之雷",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/24c0eec5aa696696abeacd2a9ab2e443_4714599941212092941.png",
+    "base_info": {
+        "name": "元素共鸣：强能之雷",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/24c0eec5aa696696abeacd2a9ab2e443_2548840222933909920.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/81281c2f8c598e65a7f340a36c2e7015_1346019779362905977.gif",
+        "life": 1,
+        "life_bg": 5,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "元素共鸣"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">我方一名充能未满的角色获得1点<u>充能</u><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;充能&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色使用「元素爆发」时，需要消耗充能。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色使用「元素战技」或「普通攻击」后，会获得1点充能。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。（出战角色优先）</p><p style=\"white-space: pre-wrap;\">（牌组包含至少2个雷元素角色，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">雷霆迅起，威重万钧。</p>"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "500187",
+    "name": "拳力斗技！",
+    "desc": "拳力斗技！卡牌",
+    "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/25/258999284/fa58de973ea4811ffe1812487dfb51c4_5104672140975473012.png",
+    "base_info": {
+        "name": "拳力斗技！",
+        "common_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/25/258999284/fa58de973ea4811ffe1812487dfb51c4_1089814927914226900.png",
+        "gold_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/27/258999284/4988dd678fa9f7fd883678872671434e_9138012086556571862.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "破烂骨头商店特许券兑换"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong>我方至少剩余8个元素骰，且对方未宣布结束时，才能打出：</strong>本回合中一位牌手先宣布结束时，未宣布结束的牌手抓2张牌。</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>拳力斗技!</strong></p><p>「为了胜利、特许券、破烂骨头商店的热门货···还有可能到来的自由，出拳！」</p>"
+    }
+}

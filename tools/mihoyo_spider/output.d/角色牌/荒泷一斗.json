@@ -1,0 +1,94 @@
+{
+    "id": "6320",
+    "name": "荒泷一斗",
+    "desc": "荒泷一斗卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/0f6a96fb219e919f92c2768dd4a8d17d_9069089040095294655.png",
+    "base_info": {
+        "name": "花坂豪快·荒泷一斗",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/0f6a96fb219e919f92c2768dd4a8d17d_2763599020845762537.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/2fda99e29cbbb4a20d909bc0a86aa274_4268389349599730479.gif",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 3,
+        "energy_bg": 0,
+        "element": [
+            "岩元素"
+        ],
+        "weapon": [
+            "双手剑"
+        ],
+        "faction": [
+            "稻妻"
+        ],
+        "energy_count": [
+            "3点"
+        ],
+        "acquisition": [
+            "角色邀请·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "喧哗屋传说",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/09/12109492/fc4695c7947675242718788122db81d3_203865502118892442.png",
+            "costs": [
+                {
+                    "type": 7,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><span style=\"color:rgba(0,0,0,1)\"><u>物理伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "魔杀绝技·赤牛发破！",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/28/12109492/b4b64a69f56b22af463637781ef1c035_1284380292638397340.png",
+            "costs": [
+                {
+                    "type": 7,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成1点<strong><span style=\"color:rgba(212,177,6,1)\"><u>岩元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（冰）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（水）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（火）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（雷）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，召唤<strong><em>阿丑</em></strong>，本角色附属<strong><u>乱神之怪力</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;乱神之怪力：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;所附属角色进行&lt;u&gt;重击&lt;/u&gt;时：&lt;/strong&gt;造成的伤害+1。如果&lt;strong&gt;可用次数&lt;/strong&gt;至少为2，则还会使本技能少花费1个&lt;strong&gt;无色元素&lt;/strong&gt;。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：1&lt;/strong&gt;（可叠加，最多叠加到3次）&lt;/p&gt;&lt;blockquote&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;重击&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方行动开始前，如果元素骰总数为偶数，则进行的「普通攻击」将被视为「重击」。&lt;/p&gt;&lt;/blockquote&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "最恶鬼王·一斗轰临！！",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/28/12109492/ba4c88cde04f2cd06944ddcda99c5475_7502957554265579801.png",
+            "costs": [
+                {
+                    "type": 7,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成5点<strong><span style=\"color:rgba(212,177,6,1)\"><u>岩元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（冰）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（水）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（火）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（雷）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，本角色附属<strong><u>怒目鬼王</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;怒目鬼王：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;所附属角色&lt;strong&gt;普通攻击&lt;/strong&gt;造成的伤害+2，造成的&lt;strong&gt;物理伤害&lt;/strong&gt;变为&lt;strong&gt;&lt;span style=&#34;color:rgba(212,177,6,1)&#34;&gt;岩元素伤害&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;持续回合：2&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;所附属角色普通攻击后：&lt;/strong&gt;为其附属&lt;strong&gt;乱神之怪力&lt;/strong&gt;。（每回合1次）&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        }
+    ],
+    "summons": [
+        {
+            "name": "阿丑",
+            "skill_type": "召唤物",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/28/12109492/9beb8c255664a152c8e9ca35697c7d9e_263220232522666772.png",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\"><strong>我方出战角色受到伤害时：</strong>抵消1点伤害。</p><p style=\"white-space: pre-wrap;\"><strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此牌效果触发后，会消耗1次可用次数；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数耗尽后，立刻弃置此牌。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span><strong>：</strong>1，耗尽时不弃置此牌。</p><p style=\"white-space: pre-wrap;\"><strong>此召唤物在场期间可触发1次：</strong>我方角色受到伤害后，为荒泷一斗附属<strong><u>乱神之怪力</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;乱神之怪力：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;所附属角色进行&lt;u&gt;重击&lt;/u&gt;时：&lt;/strong&gt;造成的伤害+1。如果&lt;strong&gt;可用次数&lt;/strong&gt;至少为2，则还会使本技能少花费1个&lt;strong&gt;无色元素&lt;/strong&gt;。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：1&lt;/strong&gt;（可叠加，最多叠加到3次）&lt;/p&gt;&lt;blockquote&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;重击&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方行动开始前，如果元素骰总数为偶数，则进行的「普通攻击」将被视为「重击」。&lt;/p&gt;&lt;/blockquote&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\"><strong>结束阶段：</strong>弃置此牌，造成1点<strong><span style=\"color:rgba(212,177,6,1)\"><u>岩元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（冰）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（水）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（火）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（雷）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        }
+    ],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>花坂豪快·荒泷一斗</strong></p><p style=\"white-space: pre-wrap;\">「荒泷卡牌游戏王中王一斗」</p>"
+    }
+}

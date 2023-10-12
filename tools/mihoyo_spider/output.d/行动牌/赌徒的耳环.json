@@ -1,0 +1,39 @@
+{
+    "id": "5424",
+    "name": "赌徒的耳环",
+    "desc": "赌徒的耳环",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/c36e23e6486cfc14ba1afac19d73620e_7320163391140506533.png",
+    "base_info": {
+        "name": "赌徒的耳环",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/c36e23e6486cfc14ba1afac19d73620e_6020851449922266352.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/1becdca70e4ce1ee2137c1fa69f4cbc9_3367480181908515055.gif",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>敌方角色被击倒后：如果所附属角色为「出战角色」，则生成2个<strong><u>万能元素</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>万能元素：</p><p style=&quot;white-space: pre-wrap;&quot;>万能元素可以视为任何类型的元素，来支付各种费用。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span><span style=\"color: rgb(64, 64, 64)\">（整场牌局限制3次）。</span></p><p>（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>喝雉呼卢·赌徒的耳环</strong></p><p>「在生死攸关的对局中，多一分冷静理智，便也就多了一缕得胜的希望。」</p>"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "500020",
+    "name": "风物之诗咏",
+    "desc": "枫原万叶天赋牌 风物之诗咏",
+    "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/07/14/183046623/dd06fa7b0ec63f3e60534a634ebd6fd2_7152898934711733313.png",
+    "base_info": {
+        "name": "风物之诗咏",
+        "common_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/07/14/183046623/dd06fa7b0ec63f3e60534a634ebd6fd2_9125107885461849882.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 3,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"<p><strong>战斗行动：</strong></p><p>我方执行了一次战斗行动后，会轮到对方行动。</p><p>打出具有此规则的手牌是一个战斗行动，而非快速行动。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>枫原万叶</strong>时，装备此牌。</p><p>枫原万叶装备此牌后，立刻使用一次<strong><u>千早振</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>千早振：</p><p style=&quot;white-space: pre-wrap;&quot;>元素战技</p><p style=&quot;white-space: pre-wrap;&quot;>造成3点<strong><span style=&quot;color:rgba(54,207,201,1)&quot;>风元素伤害</span></strong>，本角色附属<strong><u>乱岚拨止</u></strong>。</p><blockquote><p style=&quot;white-space: pre-wrap;&quot;>乱岚拨止：</p><p style=&quot;white-space: pre-wrap;&quot;>状态</p><p style=&quot;white-space: pre-wrap;&quot;><strong>所附属角色进行<u>下落攻击</u>时：</strong>造成的<strong>物理伤害</strong>变为<strong><span style=&quot;color:rgba(54,207,201,1)&quot;>风元素伤害</span></strong>，且伤害+1。</p><p style=&quot;white-space: pre-wrap;&quot;><strong>角色使用技能后：</strong>移除此效果。</p><p style=&quot;white-space: pre-wrap; min-height: 1.5em;&quot;></p><p style=&quot;white-space: pre-wrap;&quot;><strong>下落攻击</strong></p><p style=&quot;white-space: pre-wrap;&quot;>角色被切换为「出战角色」后，本回合内的下一个战斗行动若为「普通攻击」，则被视为「下落攻击」。</p></blockquote>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的枫原万叶引发扩散反应后：使我方角色和召唤物接下来2次所造成的被扩散元素类型的伤害+1。（每种元素类型分别计算次数）</p><p>（牌组中包含枫原万叶，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>枫原万叶·风物之诗咏</strong></p><p>在对局之中，也隐有风雅之礼。</p><p>至少⋯对局双方都「落牌无悔」。</p>"
+    }
+}

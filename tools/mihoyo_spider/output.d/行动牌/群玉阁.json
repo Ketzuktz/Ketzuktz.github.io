@@ -1,0 +1,39 @@
+{
+    "id": "5484",
+    "name": "群玉阁",
+    "desc": "群玉阁",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/a170755e85072e3672834ae9f4d558d5_1311767845175693787.png",
+    "base_info": {
+        "name": "群玉阁",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/a170755e85072e3672834ae9f4d558d5_593047424158919411.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/31892651a6619aa83e303702a0843d8d_2065413561876225575.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买、完成挑战目标"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "场地"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>投掷阶段：2个元素骰初始总是投出我方出战角色类型的元素。</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>高阁入云坐看星</strong></p><p>「据说其中有千种珍宝，琳琅满目。」</p>"
+    }
+}

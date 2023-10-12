@@ -1,0 +1,39 @@
+{
+    "id": "6171",
+    "name": "战欲涌现",
+    "desc": "战欲涌现",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2023/02/27/12109492/54bfba5d0eb40f38a0b679808dbf3941_2349866452311715194.png",
+    "base_info": {
+        "name": "战欲涌现",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/02/27/12109492/54bfba5d0eb40f38a0b679808dbf3941_5181344457570733816.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 1,
+        "energy": 0,
+        "energy_bg": 8,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>战斗行动：</p><p style=&quot;white-space: pre-wrap;&quot;>我方执行了一次战斗行动后，会轮到对方行动。</p><p style=&quot;white-space: pre-wrap;&quot;>打出具有此规则的手牌是一个战斗行动，而非快速行动。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>优菈</strong>时，装备此牌。</p><p>优菈装备此牌后，立刻使用一次<strong><u>凝浪之光剑</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>造成2点<strong><span style=&quot;color:rgba(145,213,255,1)&quot;>冰元素伤害</span></strong>，召唤<strong><em>光降之剑</em></strong>。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的优菈使用<strong><u>冰潮的涡旋</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>造成2点<strong><span style=&quot;color:rgba(145,213,255,1)&quot;>冰元素伤害</span></strong>，如果本角色未附属<strong>冷酷之心</strong>，则使其附属<strong>冷酷之心</strong>。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>时，会额外为<strong><em>光降之剑</em></strong>累积1点「能量层数」。</p><p>（牌组中包含优菈，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>优菈·战欲涌现</strong></p><p>冰浪怒涛，断绝深仇。</p>"
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "id": "5591",
+    "name": "雷箭丘丘人",
+    "desc": "雷箭丘丘人卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/12/183046623/084fbb351267f4a6eb5b4eb167cebe51_2706297818505867631.png",
+    "base_info": {
+        "name": "雷箭丘丘人卡牌",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/12/183046623/084fbb351267f4a6eb5b4eb167cebe51_7018603863032841385.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 11,
+        "energy": 2,
+        "energy_bg": 0,
+        "element": [
+            "雷元素"
+        ],
+        "weapon": [
+            "其他武器"
+        ],
+        "faction": [
+            "魔物/丘丘人"
+        ],
+        "energy_count": [
+            "2点"
+        ],
+        "acquisition": [
+            "无"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "雷箭",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/eb4631091bf74af7548dcf042f1ee374_1696064658205394428.png",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成1点<strong><span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "几支一起",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/12/183046623/317b394d13a6e413bdfc4dc142a53719_6747678307215255540.jpg",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成5点<strong><span style=\"color:rgba(146,84,222,1)\"><u>雷元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "躲起来",
+            "skill_type": "被动技能",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/f7f5b3293a7de40535842ac254b0bc08_667228669052970016.jpg",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\">【被动】此角色使用技能后，自动切换到下一个角色。</p>"
+        }
+    ],
+    "summons": [],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": ""
+    }
+}

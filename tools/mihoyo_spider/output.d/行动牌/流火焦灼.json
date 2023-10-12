@@ -1,0 +1,39 @@
+{
+    "id": "5445",
+    "name": "流火焦灼",
+    "desc": "流火焦灼",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/5d72a776e175c52de3c4ebb113f2b9e7_2138984540269318755.png",
+    "base_info": {
+        "name": "流火焦灼",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/5d72a776e175c52de3c4ebb113f2b9e7_6755813340203823962.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/bd8a16aa537e1fe197c7076d8416ef7e_1436230065528248930.gif",
+        "life": 3,
+        "life_bg": 4,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;战斗行动：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>迪卢克</strong>时，装备此牌。</p><p style=\"white-space: pre-wrap;\">迪卢克装备此牌后，立刻使用一次<strong><u>逆焰之刃</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;逆焰之刃：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成3点&lt;strong&gt;&lt;span style=&#34;color:rgba(207,19,34,1)&#34;&gt;火元素伤害&lt;/span&gt;&lt;/strong&gt;。每回合第三次使用本技能时，伤害+2。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\">装备有此牌的迪卢克每回合第2次使用逆焰之刃时，少花费1个火元素。</p><p style=\"white-space: pre-wrap;\">（牌组中包含迪卢克，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>迪卢克·流火焦灼</strong></p><p style=\"white-space: pre-wrap;\">解决焦灼情况的一种简单手段。</p>"
+    }
+}

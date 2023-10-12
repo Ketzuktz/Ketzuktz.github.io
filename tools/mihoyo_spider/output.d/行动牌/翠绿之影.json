@@ -1,0 +1,39 @@
+{
+    "id": "5436",
+    "name": "翠绿之影",
+    "desc": "翠绿之影",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/b95596e3e5648849048417635b619e2e_2329852964215208759.png",
+    "base_info": {
+        "name": "翠绿之影",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/b95596e3e5648849048417635b619e2e_6430546791422615500.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/3f1c6dafb1a64b7705e3c5f13359cf24_1192461298589747036.gif",
+        "life": 2,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>角色使用技能或装备「天赋」时：少花费1个风元素。（每回合1次）</p><p>投掷阶段：2个元素骰初始总是投出风元素。</p><p>（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>碎叶之梦·翠绿之影</strong></p><p>「终有一日⋯在无边无际的猎场中，我们将再度相逢。」</p>"
+    }
+}

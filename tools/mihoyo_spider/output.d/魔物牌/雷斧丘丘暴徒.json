@@ -1,0 +1,93 @@
+{
+    "id": "5590",
+    "name": "雷斧丘丘暴徒",
+    "desc": "雷斧丘丘暴徒卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/12/183046623/dc73e0c199476239470bedfd7f2723eb_4870665569458624117.png",
+    "base_info": {
+        "name": "雷斧丘丘暴徒",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/12/183046623/dc73e0c199476239470bedfd7f2723eb_8497110805782997384.png",
+        "gold_img": "",
+        "life": 8,
+        "life_bg": 11,
+        "energy": 2,
+        "energy_bg": 0,
+        "element": [
+            "雷元素"
+        ],
+        "weapon": [
+            "其他武器"
+        ],
+        "faction": [
+            "魔物/丘丘人"
+        ],
+        "energy_count": [
+            "2点"
+        ],
+        "acquisition": [
+            "无"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "Du Plama",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/03e9e5156cb9ba4e033d60fd5541a6b5_1959244332258103284.jpg",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "Upa",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/e3692b42c8d9bca5c3d0f7fc54acd903_6154642606973018626.jpg",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成3点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "Oto Tiga",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/67cdcf3e13e31cf86f74d60cd1e63645_4618408903865054517.jpg",
+            "costs": [
+                {
+                    "type": 5,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成5点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "流煌磨刃",
+            "skill_type": "被动技能",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/12/183046623/f7c8c4eb27c73e83b6d6ece6b598c0f3_5419760757395929879.jpg",
+            "costs": [],
+            "desc": "<p style=\"white-space: pre-wrap;\">【被动】战斗开始时，初始附属<strong><u>流煌磨刃</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;流煌磨刃：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;角色造成的&lt;strong&gt;物理伤害&lt;/strong&gt;变为&lt;strong&gt;&lt;span style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数&lt;/strong&gt;：3&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        }
+    ],
+    "summons": [],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": ""
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "5503",
+    "name": "落羽的裁择",
+    "desc": "赛诺天赋 落羽的裁择",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/b4f218c914886ea4ab9ce4e0e129a8af_8363504840262034956.png",
+    "base_info": {
+        "name": "落羽的裁择",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/b4f218c914886ea4ab9ce4e0e129a8af_2603691344610696520.png",
+        "gold_img": "",
+        "life": 3,
+        "life_bg": 5,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;战斗行动：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>赛诺</strong>时，装备此牌。</p><p style=\"white-space: pre-wrap;\">赛诺装备此牌后，立刻使用一次<strong><u>秘仪·律渊渡魂</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;秘仪·律渊渡魂：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成3点&lt;strong&gt;&lt;span style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\">装备有此牌的赛诺在<strong><u>启途誓使</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;启途誓使：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;累积1级[凭依]。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;根据[凭依]级数获得效果：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;大于等于2级：物理伤害转化为雷元素伤害;&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;大于等于4级：造成的伤害+2；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;大于等于6级时：[凭依]级数-4。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>的[凭依]级数为3或5级时使用<strong>秘仪·律渊渡魂</strong>时，造成的伤害额外+1。</p><p style=\"white-space: pre-wrap;\">（牌组中包含赛诺，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>赛诺 · 落羽的裁择</strong></p><p style=\"white-space: pre-wrap;\">「这便是我的决斗之魂。」</p>"
+    }
+}

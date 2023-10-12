@@ -1,0 +1,94 @@
+{
+    "id": "6565",
+    "name": "愚人众·冰萤术士",
+    "desc": "愚人众·冰萤术士卡牌",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/549d1869ad1f7d1d27fb5c733a239373_7619632532605164276.png",
+    "base_info": {
+        "name": "雾虚召萤·冰萤术士",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/549d1869ad1f7d1d27fb5c733a239373_8053361497142459397.png",
+        "gold_img": "",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 3,
+        "energy_bg": 0,
+        "element": [
+            "冰元素"
+        ],
+        "weapon": [
+            "其他武器"
+        ],
+        "faction": [
+            "愚人众"
+        ],
+        "energy_count": [
+            "3点"
+        ],
+        "acquisition": [
+            "酒馆挑战·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "冰萤棱锥",
+            "skill_type": "普通攻击",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/0f451842885c44779d882c9ced0b9b09_2169430972875549357.jpg",
+            "costs": [
+                {
+                    "type": 1,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p>造成1点<strong><span style=\"color: rgb(145, 213, 255)\"><u>冰元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>冰元素伤害：</p><p style=&quot;white-space: pre-wrap;&quot;>附着冰元素，可发生元素反应:</p><p style=&quot;white-space: pre-wrap;&quot;>融化：本伤害+2</p><p style=&quot;white-space: pre-wrap;&quot;>超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p style=&quot;white-space: pre-wrap;&quot;>冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "雾虚摇唤",
+            "skill_type": "元素战技",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/a2577774e5f89006d35488e99dc15531_1749914171755434787.png",
+            "costs": [
+                {
+                    "type": 1,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成1点<strong><span style=\"color:rgba(145,213,255,1)\"><u>冰元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冰元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着冰元素，可发生元素反应:&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，召唤<strong><em>冰萤</em></strong>。</p>"
+        },
+        {
+            "name": "冰枝白花",
+            "skill_type": "元素爆发",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/1368416ac693a1e50e703e92d93d2043_1088350178906732314.png",
+            "costs": [
+                {
+                    "type": 1,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成5点<strong><span style=\"color:rgba(145,213,255,1)\"><u>冰元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冰元素伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着冰元素，可发生元素反应:&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，本角色<span style=\"color:rgba(145,213,255,1)\"><u>附着冰元素</u></span><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;附着冰元素：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;不通过伤害附着冰元素时，发生的元素反应会忽略伤害效果：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;融化：没有效果&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：没有效果&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冻结：使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，生成<strong><u>流萤护罩</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;流萤护罩：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;为我方出战角色提供&lt;strong&gt;1点护盾&lt;/strong&gt;。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;创建时：&lt;/strong&gt;如果我方场上存在&lt;strong&gt;冰萤&lt;/strong&gt;，则额外提供其&lt;strong&gt;可用次数&lt;/strong&gt;的&lt;strong&gt;护盾&lt;/strong&gt;。（最多额外提供3点&lt;strong&gt;护盾&lt;/strong&gt;）&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        }
+    ],
+    "summons": [
+        {
+            "name": "冰萤",
+            "skill_type": "召唤物",
+            "icon": "https://act-upload.mihoyo.com/ys-obc/2023/05/17/183046623/e98436c034423b951fb726977b37f6b1_915982547283319448.png",
+            "costs": [],
+            "desc": "<p><strong>结束阶段：</strong>造成1点<strong><span style=\"color: rgb(145, 213, 255)\"><u>冰元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>冰元素伤害：</p><p style=&quot;white-space: pre-wrap;&quot;>附着冰元素，可发生元素反应:</p><p style=&quot;white-space: pre-wrap;&quot;>融化：本伤害+2</p><p style=&quot;white-space: pre-wrap;&quot;>超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p style=&quot;white-space: pre-wrap;&quot;>冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p style=&quot;white-space: pre-wrap; min-height: 1.5em;&quot;></p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p><strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>可用次数：</p><p style=&quot;white-space: pre-wrap;&quot;>此牌效果触发后，会消耗1次可用次数；</p><p style=&quot;white-space: pre-wrap;&quot;>可用次数耗尽后，立刻弃置此牌。</p><p style=&quot;white-space: pre-wrap; min-height: 1.5em;&quot;></p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span><strong>：2</strong>（可叠加，最多叠加到3次）</p><p><strong>愚人众·冰萤术士「普通攻击」后：</strong>此牌<strong>可用次数</strong>+1。</p><p><strong>愚人众·冰萤术士受到元素反应伤害后：</strong>此牌<strong>可用次数</strong>-1。</p>"
+        }
+    ],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p><strong>雾虚召萤·冰萤术士</strong></p><p>至少在雾虚草耗尽之前，冰萤不会离她而去。</p>"
+    }
+}

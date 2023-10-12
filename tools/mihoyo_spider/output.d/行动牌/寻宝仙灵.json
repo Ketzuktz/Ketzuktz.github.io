@@ -1,0 +1,39 @@
+{
+    "id": "6595",
+    "name": "寻宝仙灵",
+    "desc": "寻宝仙灵卡牌",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/4321ae941ccf75069eb630547df61e3c_7793999451945125774.png",
+    "base_info": {
+        "name": "寻宝仙灵",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/05/16/183046623/4321ae941ccf75069eb630547df61e3c_1672242083656433331.png",
+        "gold_img": "",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "道具"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>我方角色使用技能后：</strong>此牌累积<strong>1个「寻宝线索」</strong>。</p><p style=\"white-space: pre-wrap;\">当此牌已累积<strong>3个「寻宝线索」</strong>时，弃置此牌：抓3张牌。</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>或可解语·寻宝仙灵</strong></p><p style=\"white-space: pre-wrap;\">能引人寻宝的奇异仙灵。据说，有某人能与它们交流⋯？</p>"
+    }
+}

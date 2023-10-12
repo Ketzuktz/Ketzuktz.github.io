@@ -1,0 +1,39 @@
+{
+    "id": "5393",
+    "name": "元素共鸣：交织之风",
+    "desc": "元素共鸣：交织之风",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/f3fdbb9e308bfd69c04aa4e6681ad71d_7271899143609464819.png",
+    "base_info": {
+        "name": "元素共鸣：交织之风",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/f3fdbb9e308bfd69c04aa4e6681ad71d_7543590216853591638.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/20/12109492/15bd438282062d8de7103bff4d723542_5263927302323515905.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "元素共鸣"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">生成1个风元素骰。</p><p style=\"white-space: pre-wrap;\">（牌组包含至少2个风元素角色，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">悠游风动，抚琴以歌。</p>"
+    }
+}

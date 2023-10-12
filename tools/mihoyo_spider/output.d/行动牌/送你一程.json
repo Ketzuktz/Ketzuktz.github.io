@@ -1,0 +1,39 @@
+{
+    "id": "5402",
+    "name": "送你一程",
+    "desc": "送你一程",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/c0c1b91fe602e0d29159e8ae5effe537_7465992504913868183.png",
+    "base_info": {
+        "name": "送你一程",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/c0c1b91fe602e0d29159e8ae5effe537_5817178004449528211.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/4b52ad27097c7d8c954abc17d817b85f_5256799823016525786.gif",
+        "life": 2,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买、初始自带"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p>选择一个敌方「召唤物」，使其「<strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>可用次数：</p><p style=&quot;white-space: pre-wrap;&quot;>此牌效果触发后，会消耗1次可用次数；</p><p style=&quot;white-space: pre-wrap;&quot;>可用次数耗尽后，立刻弃置此牌。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>」-2。</p>"
+    },
+    "story": {
+        "rich_text": "<p>「一波送走~往生堂服务品质保证，包您满意！」</p>"
+    }
+}

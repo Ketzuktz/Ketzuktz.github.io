@@ -1,0 +1,39 @@
+{
+    "id": "500190",
+    "name": "梦迹一风",
+    "desc": "梦迹一风卡牌",
+    "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/25/258999284/08a42903fcff2a5249ef1fc4021ecf7a_4613726387073204745.png",
+    "base_info": {
+        "name": "梦迹一风",
+        "common_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/09/25/258999284/08a42903fcff2a5249ef1fc4021ecf7a_492792879105973370.png",
+        "gold_img": "",
+        "life": 4,
+        "life_bg": 3,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "4"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p&gt;&lt;strong&gt;战斗行动：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;\" class=\"wiki-note-text\" class=\"wiki-note-text\"><sup class=\"wiki-sup\" class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong><u>流浪者</u></strong>时，装备此牌。</p><p>流浪者装备此牌后，立刻使用一次<strong><u>羽画·风姿华歌</u></strong><span data-type=\"详情\" data-name=\"&lt;p&gt;&lt;strong&gt;羽画·风姿华歌&lt;/strong&gt;：&lt;/p&gt;&lt;p&gt;元素战技&lt;/p&gt;&lt;p&gt;造成2点&lt;strong&gt;&lt;span style=&quot;color: rgb(54, 207, 201)&quot;&gt;风元素伤害&lt;/span&gt;&lt;/strong&gt;，本角色附属&lt;strong&gt;优风倾姿&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\" class=\"wiki-note-text\"><sup class=\"wiki-sup\" class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的流浪者在<strong><u>优风倾姿</u></strong><span data-type=\"详情\" data-name=\"&lt;p&gt;&lt;strong&gt;优风倾姿：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;状态&lt;/p&gt;&lt;p&gt;所附属角色进行「普通攻击」时:造成的伤害+2；如果敌方存在后台角色，则此技能改为对下一个敌方后台角色造成伤害。&lt;/p&gt;&lt;p&gt;可用次数: 2&lt;/p&gt;&lt;p&gt;&lt;/p&gt;\" class=\"wiki-note-text\" class=\"wiki-note-text\"><sup class=\"wiki-sup\" class=\"wiki-sup\">[详情]</sup></span>状态下进行重击后：下次从该角色执行「切换角色」行动时少花费1个元素骰，并且造成1点<strong><span style=\"color: rgb(54, 207, 201)\"><u>风元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"&lt;p&gt;&lt;strong&gt;风元素伤害：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;和已附着的元素发生元索反应:&lt;/p&gt;&lt;p&gt;&lt;strong&gt;扩散(冰) &lt;/strong&gt;：对目标以外的所有敌方角色造成1点冰伤害&lt;/p&gt;&lt;p&gt;&lt;strong&gt;扩散(水) &lt;/strong&gt;：对目标以外的所有敌方角色造成1点水伤害&lt;/p&gt;&lt;p&gt;&lt;strong&gt;扩散(火)&lt;/strong&gt; ：对目标以外的所有敌方角色造成1点火伤害&lt;/p&gt;&lt;p&gt;&lt;strong&gt;扩散(雷) &lt;/strong&gt;：对目标以外的所有敌方色造成1点雷伤害&lt;/p&gt;&lt;p&gt;&lt;/p&gt;\" class=\"wiki-note-text\" class=\"wiki-note-text\"><sup class=\"wiki-sup\" class=\"wiki-sup\">[详情]</sup></span>。</p><p>（牌组中包含流浪者，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p>「怒风腾天！」</p>"
+    }
+}

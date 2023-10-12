@@ -1,0 +1,39 @@
+{
+    "id": "5387",
+    "name": "元素共鸣：交织之水",
+    "desc": "元素共鸣：交织之水",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/4111a176d3936db8220047ff52e37c40_5683036949866131997.png",
+    "base_info": {
+        "name": "元素共鸣：交织之水",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/4111a176d3936db8220047ff52e37c40_264497451263620555.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/44410102a6ae4a6bb4e8ee78d5afe696_6833358606486927701.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "元素共鸣"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">生成1个水元素骰。</p><p style=\"white-space: pre-wrap;\">（牌组包含至少2个水元素角色，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">水纳万生，清浊共舞。</p>"
+    }
+}

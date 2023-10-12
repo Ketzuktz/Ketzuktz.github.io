@@ -1,0 +1,39 @@
+{
+    "id": "500042",
+    "name": "起死回骸",
+    "desc": "七七天赋卡",
+    "icon_url": "https://act-upload.mihoyo.com/wiki-user-upload/2023/08/12/258999284/d5ef496771a846af08ec05fff036bf17_2709490203619814576.png",
+    "base_info": {
+        "name": "起死回骸",
+        "common_img": "https://act-upload.mihoyo.com/wiki-user-upload/2023/08/12/258999284/d5ef496771a846af08ec05fff036bf17_8628795343837772161.png",
+        "gold_img": "",
+        "life": 5,
+        "life_bg": 1,
+        "energy": 0,
+        "energy_bg": 8,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "5；3点充能"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"<p><span style=&quot;color: rgb(27, 27, 27)&quot;>战斗行动：</span></p><p><span style=&quot;color: rgb(27, 27, 27)&quot;>我方执行了一次战斗行动后，会轮到对方行动。</span></p><p><span style=&quot;color: rgb(27, 27, 27)&quot;>打出具有此规则的手牌是一个战斗行动，而非快速行动。</span></p><p></p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>七七</strong>时，装备此牌。</p><p><strong>七七</strong>装备此牌后，立刻使用一次<strong><u>仙法·救苦度厄</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>仙法·救苦度厄：<br>元素爆发<br>造成3点<span style=&quot;color:rgba(145,213,255,1)&quot;>冰元素伤害</span>，生成度厄真符。</p><p style=&quot;white-space: pre-wrap; min-height: 1.5em;&quot;></p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的七七使用<strong>仙法·救苦度厄</strong>时，复苏我方所有倒下的角色，并治疗其2点。（整场牌局限制2次）</p><p>（牌组中包含七七，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>七七·起死回骸</strong></p><p style=\"text-align: start\">「要…活下去…」</p>"
+    }
+}

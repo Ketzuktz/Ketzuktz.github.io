@@ -1,0 +1,39 @@
+{
+    "id": "5457",
+    "name": "艾琳",
+    "desc": "艾琳",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/8c0a0d6b2fab8ef94f09ed61451ec972_6276665237924981435.png",
+    "base_info": {
+        "name": "艾琳",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/8c0a0d6b2fab8ef94f09ed61451ec972_2061140384853735643.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/04/158741257/7e840315f5133ac03f68629b44c77b0c_1988372481494714992.gif",
+        "life": 2,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买、完成挑战目标"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "伙伴"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">我方角色使用本回合使用过的技能时：少花费1个元素骰。(每回合1次)</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>骑士之梦·艾琳</strong></p><p style=\"white-space: pre-wrap;\">「精神与力量都要修行到位，才能使出琴大人那样沉稳的剑法！」</p>"
+    }
+}

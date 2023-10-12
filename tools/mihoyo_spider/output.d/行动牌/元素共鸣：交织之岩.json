@@ -1,0 +1,39 @@
+{
+    "id": "5395",
+    "name": "元素共鸣：交织之岩",
+    "desc": "元素共鸣：交织之岩",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/cdd36a350467dd02ab79a4c49f07ba7f_5128251435129182674.png",
+    "base_info": {
+        "name": "元素共鸣：交织之岩",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/cdd36a350467dd02ab79a4c49f07ba7f_4199152511760822055.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/9f9a0df22723be7a5e1dfd3cec9c4496_1880550679523527983.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "元素共鸣"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">生成1个岩元素骰。</p><p style=\"white-space: pre-wrap;\">（牌组包含至少2个岩元素角色，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">嵯峨层岩，鉴取深盟。</p>"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "6173",
+    "name": "华饰之兜",
+    "desc": "华饰之兜",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2023/02/27/12109492/82dc7fbd9334da0ca277b234c902a394_7705865528064380986.png",
+    "base_info": {
+        "name": "华饰之兜",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/02/27/12109492/82dc7fbd9334da0ca277b234c902a394_6676194364878839414.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/02/27/12109492/4a66e17f86766fdd8ad4a8f65f158ac8_2814285873212779884.gif",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong>其他我方角色使用元素爆发后</strong>：所附属角色获得1点<strong><u>充能</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>充能：</p><p style=&quot;white-space: pre-wrap;&quot;>角色使用「元素爆发」时，需要消耗充能。</p><p style=&quot;white-space: pre-wrap;&quot;>角色使用「元素战技」或「普通攻击」后，会获得1点充能。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>往岁霆光·华饰之兜</strong></p><p>「浮生若梦十三年，影峠绯雪翩跹烟，再顾君已远。」</p>"
+    }
+}

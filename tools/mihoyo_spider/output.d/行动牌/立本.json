@@ -1,0 +1,39 @@
+{
+    "id": "5455",
+    "name": "立本",
+    "desc": "立本",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/dbe203124b2b61d17f0c46523679ee52_3533024249418701351.png",
+    "base_info": {
+        "name": "立本",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/dbe203124b2b61d17f0c46523679ee52_7625356549640398540.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/04/158741257/1e374752ccf005727d03fb55a232ff32_3110082738255674655.gif",
+        "life": 0,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "伙伴"
+        ],
+        "cost": [
+            "0"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">结束阶段：收集我方未使用的元素骰(每种最多1个)。</p><p style=\"white-space: pre-wrap;\">行动阶段开始时：如果此牌已收集3个元素骰，则抓2张牌，生成2点<strong><u>万能元素</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可以视为任何类型的元素，来支付各种费用。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，然后弃置此牌。</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>百货奇货·立本</strong></p><p style=\"white-space: pre-wrap;\">「这个世界马上就要发生大事了！我这里有一笔好生意，你可愿意听听？」</p>"
+    }
+}

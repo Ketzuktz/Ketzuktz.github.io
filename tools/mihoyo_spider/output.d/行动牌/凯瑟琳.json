@@ -1,0 +1,39 @@
+{
+    "id": "5450",
+    "name": "凯瑟琳",
+    "desc": "凯瑟琳",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/67cf3f813876e6df62f21dc45c378fa3_5832980182807113571.png",
+    "base_info": {
+        "name": "凯瑟琳",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/158741257/67cf3f813876e6df62f21dc45c378fa3_4407562376050767664.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/04/158741257/1da64978a2fe616e927c5dae564ac3cc_2608575874312148918.gif",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买、完成挑战目标"
+        ],
+        "card_type": [
+            "支援牌"
+        ],
+        "tags": [
+            "伙伴"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">我方执行「切换角色」行动时：将此次切换视为<strong><u>「快速行动」</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;执行了一次快速行动后，我方可以继续进行其他行动。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;只有执行了一次战斗行动后，才会轮到对方行动。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>而非<strong><u>「战斗行动」</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。(每回合1次)</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>协会招待员·凯瑟琳</strong></p><p style=\"white-space: pre-wrap;\">「向着星辰与深渊！欢迎来到冒险家协会。」</p>"
+    }
+}

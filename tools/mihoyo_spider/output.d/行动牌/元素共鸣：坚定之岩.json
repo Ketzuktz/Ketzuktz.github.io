@@ -1,0 +1,39 @@
+{
+    "id": "5396",
+    "name": "元素共鸣：坚定之岩",
+    "desc": "元素共鸣：坚定之岩",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/504be5406c58bbc3e269ceb8780eaa54_9131936239236910366.png",
+    "base_info": {
+        "name": "元素共鸣：坚定之岩",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/504be5406c58bbc3e269ceb8780eaa54_8358329092517997158.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/4a59f2e0aa0d8d3589ce055e853e5d0f_7219522558375624199.gif",
+        "life": 1,
+        "life_bg": 7,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "元素共鸣"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">本回合中，我方角色下一次造成<u>岩元素伤害</u><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（冰）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（水）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（火）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结晶（雷）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>后：如果我方存在提供「<u>护盾</u><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;护盾&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此护盾所保护的角色受到伤害时，将会消耗护盾来抵消伤害。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>」的出战状态，则为一个此类出战状态补充3点「护盾」。</p><p style=\"white-space: pre-wrap;\">（牌组包含至少2个岩元素角色，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">山骞不崩，磐石为镇。</p>"
+    }
+}

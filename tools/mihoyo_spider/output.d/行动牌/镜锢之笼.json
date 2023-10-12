@@ -1,0 +1,39 @@
+{
+    "id": "5382",
+    "name": "镜锢之笼",
+    "desc": "镜锢之笼",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/04/10827219/485d8be8595d0c1cae65f76eddab8f33_4264303986247171060.png",
+    "base_info": {
+        "name": "镜锢之笼",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/12109492/b0294bbab49b071b0baa570bc2339917_4550477078586399854.png",
+        "gold_img": "",
+        "life": 4,
+        "life_bg": 6,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "4"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;战斗行动：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;我方执行了一次战斗行动后，会轮到对方行动。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;打出具有此规则的手牌是一个战斗行动，而非快速行动。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为愚人众·藏镜仕女时，装备此牌。</p><p style=\"white-space: pre-wrap;\">愚人众·藏镜仕女装备此牌后，立刻使用一次<strong><u>潋波绽破</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;潋波绽破：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;元素战技&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成2点&lt;strong&gt;&lt;span style=&#34;color:rgba(0,151,225,1)&#34;&gt;水元素伤害&lt;/span&gt;&lt;/strong&gt;，目标角色附属&lt;strong&gt;水光破镜&lt;/strong&gt;。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\">装备有此牌的愚人众·藏镜仕女生成的<strong><u>水光破镜</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;水光破镜：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;所附属角色受到的&lt;strong&gt;&lt;span style=&#34;color:rgba(0,151,225,1)&#34;&gt;水元素伤害&lt;/span&gt;&lt;/strong&gt;+1&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;持续回合：2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;（此状态在同一方只能存在一张）&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>获得以下效果：</p><p style=\"white-space: pre-wrap;\">初始持续回合+1，并且会使所附属角色切换到其他角色时元素骰费用+1。</p><p style=\"white-space: pre-wrap;\">（牌组中包含愚人众·藏镜仕女，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">藏于镜中之秘</p><p style=\"white-space: pre-wrap;\">[镜子啊，镜子啊，请你倒映…我的敌人，现在哪里？]</p>"
+    }
+}

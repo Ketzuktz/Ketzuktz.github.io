@@ -1,0 +1,39 @@
+{
+    "id": "6323",
+    "name": "荒泷第一",
+    "desc": "荒泷第一",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/46588f6b5a254be9e797cc0cfe050dc7_1759052077545466771.png",
+    "base_info": {
+        "name": "荒泷第一",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/46588f6b5a254be9e797cc0cfe050dc7_8733062928845037185.png",
+        "gold_img": "",
+        "life": 1,
+        "life_bg": 7,
+        "energy": 0,
+        "energy_bg": 10,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "猫尾酒馆对战获取"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "天赋"
+        ],
+        "cost": [
+            "3"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong><u>战斗行动</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>战斗行动：</p><p style=&quot;white-space: pre-wrap;&quot;>我方执行了一次战斗行动后，会轮到对方行动。</p><p style=&quot;white-space: pre-wrap;&quot;>打出具有此规则的手牌是一个战斗行动，而非快速行动。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：我方出战角色为<strong>荒泷一斗</strong>时，装备此牌。</p><p>荒泷一斗装备此牌后，立刻使用一次<strong><u>喧哗屋传说</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>喧哗屋传说：</p><p style=&quot;white-space: pre-wrap;&quot;>普通攻击</p><p style=&quot;white-space: pre-wrap;&quot;>造成2点<strong>物理伤害</strong>。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p>装备有此牌的荒泷一斗每回合第2次及以后使用<strong>喧哗屋传说</strong>时：如果触发<strong><u>乱神之怪力</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>乱神之怪力：</p><p style=&quot;white-space: pre-wrap;&quot;>状态</p><p style=&quot;white-space: pre-wrap;&quot;><strong>所附属角色进行重击时：</strong>造成的伤害+1。如果<strong>可用次数</strong>至少为2，则还会使本技能少花费1个<strong>无色元素</strong>。</p><p style=&quot;white-space: pre-wrap;&quot;><strong>可用次数：1</strong>（可叠加，最多叠加到3次）</p><blockquote><p style=&quot;white-space: pre-wrap;&quot;><strong>重击</strong></p><p style=&quot;white-space: pre-wrap;&quot;>我方行动开始前，如果元素骰总数为偶数，则进行的「普通攻击」将被视为「重击」。</p></blockquote>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，伤害额外+1。</p><p>（牌组中包含荒泷一斗，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>荒泷一斗·荒泷第一</strong></p><p>无论如何，先在气势方面占据上风总没错。</p>"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "6590",
+    "name": "风与自由",
+    "desc": "风与自由",
+    "icon_url": "https://act-upload.mihoyo.com/ys-obc/2023/05/23/1694811/5a34fd4bfa32edfe062f0f6eb76106f4_4876281455445119119.png",
+    "base_info": {
+        "name": "风与自由",
+        "common_img": "https://act-upload.mihoyo.com/ys-obc/2023/05/23/1694811/5a34fd4bfa32edfe062f0f6eb76106f4_4397297165227014906.png",
+        "gold_img": "",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "其他标签"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p><strong>本回合中，我方角色使用技能后：</strong>将下一个我方后台角色切换到场上。</p>"
+    },
+    "story": {
+        "rich_text": "<p><strong>自在叙事之诗</strong></p><p>「终有一天，风会吹向更为光亮的方向。」</p>"
+    }
+}

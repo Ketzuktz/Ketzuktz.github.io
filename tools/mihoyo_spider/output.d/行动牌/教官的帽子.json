@@ -1,0 +1,39 @@
+{
+    "id": "5425",
+    "name": "教官的帽子",
+    "desc": "教官的帽子",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/66b3c1346a589e0dea45a58cd4d65c5a_1212682057928761008.png",
+    "base_info": {
+        "name": "教官的帽子",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/66b3c1346a589e0dea45a58cd4d65c5a_3513743616827517581.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75720734/096c814a134ef3357fb7e6f3d329ac2e_8432539929029450915.gif",
+        "life": 2,
+        "life_bg": 10,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "2"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">角色引发元素反应后：生成1个此角色元素类型的元素骰。（每回合至多3次）</p><p style=\"white-space: pre-wrap;\">（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>事预则立·教官的帽子</strong></p><p style=\"white-space: pre-wrap;\">「我没有作为将校指挥军旅的能力，除当兵外也不胜任别的什么工作，不如让我来教小伙子们吃点苦头，好让他们在战场上能多活几分钟。」</p>"
+    }
+}

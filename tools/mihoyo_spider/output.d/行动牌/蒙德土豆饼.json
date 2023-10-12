@@ -1,0 +1,39 @@
+{
+    "id": "5529",
+    "name": "蒙德土豆饼",
+    "desc": "蒙德土豆饼",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/f1026f0a187267e7484d04885e62558a_1248842015783359733.png",
+    "base_info": {
+        "name": "蒙德土豆饼",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/f1026f0a187267e7484d04885e62558a_1910147917667500142.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/79683714/3dadfbc7818e37c9971974ee7ad54f0c_9055901033467942706.gif",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "牌手手册第一局奖励获取"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "料理"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">治疗目标角色2点。</p><p style=\"white-space: pre-wrap;\">(每回合每个角色最多食用1次「料理」)</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>蒙德土豆饼</strong></p><p style=\"white-space: pre-wrap;\">香甜的口感，验证了某位提瓦特知名美食家的名言——能被冠以当地地名的菜肴，绝对不会难吃。</p>"
+    }
+}

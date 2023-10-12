@@ -1,0 +1,82 @@
+{
+    "id": "5595",
+    "name": "打手丘丘人",
+    "desc": "打手丘丘人卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/651532bc11c4d7b727f89ff646955474_5492736463010226981.png",
+    "base_info": {
+        "name": "打手丘丘人",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/651532bc11c4d7b727f89ff646955474_7880305881954606880.png",
+        "gold_img": "",
+        "life": 4,
+        "life_bg": 11,
+        "energy": 2,
+        "energy_bg": 0,
+        "element": [
+            "物理"
+        ],
+        "weapon": [
+            "其他武器"
+        ],
+        "faction": [
+            "魔物/丘丘人"
+        ],
+        "energy_count": [
+            "2点"
+        ],
+        "acquisition": [
+            "无"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "打",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/03e9e5156cb9ba4e033d60fd5541a6b5_3980957912273176401.jpg",
+            "costs": [
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成1点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "跳起打",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/2c565e22c61125d1f91677dd0ca6dd16_5008908129187815441.jpg",
+            "costs": [
+                {
+                    "type": 10,
+                    "count": 3
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成2点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "挥来挥去",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/07/183046623/b0bad0e64900f57ee522629fca2d7682_7823497972730684396.jpg",
+            "costs": [
+                {
+                    "type": 9,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 2
+                }
+            ],
+            "desc": "<p style=\"white-space: pre-wrap;\">造成4点<strong><u>物理伤害</u></strong><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        }
+    ],
+    "summons": [],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": ""
+    }
+}

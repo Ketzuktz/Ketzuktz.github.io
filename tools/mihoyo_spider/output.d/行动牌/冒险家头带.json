@@ -1,0 +1,39 @@
+{
+    "id": "5421",
+    "name": "冒险家头带",
+    "desc": "冒险家头带",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/c2617ba94c31d82bd4af6df8e74aac91_8306847584147063772.png",
+    "base_info": {
+        "name": "冒险家头带",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/c2617ba94c31d82bd4af6df8e74aac91_9153734667209458384.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/75720734/dc530052a94138caafcf1f7ba431357c_4245568754018809677.gif",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "装备牌"
+        ],
+        "tags": [
+            "圣遗物"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">角色使用「普通攻击」后：治疗自身1点。（每回合至多3次）</p><p style=\"white-space: pre-wrap;\">（角色最多装备1件「圣遗物」）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>蹊衢索途·冒险家头带</strong></p><p style=\"white-space: pre-wrap;\">「星穹与深渊掩藏的一切缄秘，正等待这弱小的凡人去猎取。」</p>"
+    }
+}

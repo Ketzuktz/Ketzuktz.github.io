@@ -1,0 +1,39 @@
+{
+    "id": "5394",
+    "name": "元素共鸣：迅捷之风",
+    "desc": "元素共鸣：迅捷之风",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/707f537df32de90d61b3ac8e8dcd4daf_2314640692068595351.png",
+    "base_info": {
+        "name": "元素共鸣：迅捷之风",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/707f537df32de90d61b3ac8e8dcd4daf_7351067372939949818.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/67d5fcaf2b35f4a0cd107356cca5d8bf_3237611293894142435.gif",
+        "life": 1,
+        "life_bg": 3,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "元素共鸣"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">切换到目标角色，并生成1点<u>万能元素</u><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;万能元素&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;万能元素可以视为任何类型的元素，来支付各种费用。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p style=\"white-space: pre-wrap;\">（牌组包含至少2个风元素角色，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">疾风穿林，驰骋四方。</p>"
+    }
+}

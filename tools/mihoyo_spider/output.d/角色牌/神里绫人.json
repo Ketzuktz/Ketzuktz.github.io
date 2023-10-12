@@ -1,0 +1,94 @@
+{
+    "id": "6319",
+    "name": "神里绫人",
+    "desc": "神里绫人卡牌",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/8abc91faf473b3d11fb53db32862737a_3623687989607815665.png",
+    "base_info": {
+        "name": "磐祭叶守·神里绫人",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/04/11/12109492/8abc91faf473b3d11fb53db32862737a_4252453982763739636.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/29/12109492/0766ae624bc27d157218674c2955f2fc_8213547487281148859.gif",
+        "life": 10,
+        "life_bg": 11,
+        "energy": 2,
+        "energy_bg": 0,
+        "element": [
+            "水元素"
+        ],
+        "weapon": [
+            "单手剑"
+        ],
+        "faction": [
+            "稻妻"
+        ],
+        "energy_count": [
+            "2点"
+        ],
+        "acquisition": [
+            "角色邀请·友好对局"
+        ],
+        "card_type": [],
+        "tags": [],
+        "cost": []
+    },
+    "skills": [
+        {
+            "name": "神里流·转",
+            "skill_type": "普通攻击",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/28/12109492/2bfbf024135461849666339c43d60b2c_4515779303486946265.png",
+            "costs": [
+                {
+                    "type": 6,
+                    "count": 1
+                },
+                {
+                    "type": 10,
+                    "count": 2
+                }
+            ],
+            "desc": "<p>造成2点<strong><span style=\"color: rgb(0, 0, 0)\"><u>物理伤害</u></span></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>物理伤害：</p><p style=&quot;white-space: pre-wrap;&quot;>物理伤害不会附着元素，也不会发生元素反应。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "神里流·镜花",
+            "skill_type": "元素战技",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/28/12109492/7d59ca30b30a9c7fdccaab51f5f3ddb6_6887701647607769506.png",
+            "costs": [
+                {
+                    "type": 6,
+                    "count": 3
+                }
+            ],
+            "desc": "<p>造成2点<strong><span style=\"color: rgb(24, 144, 255)\"><u>水元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>水元素伤害：</p><p style=&quot;white-space: pre-wrap;&quot;>附着水元素，可发生元素反应：</p><p style=&quot;white-space: pre-wrap;&quot;><strong>蒸发</strong>：本伤害+2</p><p style=&quot;white-space: pre-wrap;&quot;><strong>感电</strong>：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p style=&quot;white-space: pre-wrap;&quot;><strong>冻结</strong>：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害+2的[<strong>草原核</strong>]</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，本角色附属<strong><u>泷廻鉴花</u></strong><span data-type=\"详情\" data-name=\"<p>泷廻鉴花：</p><p>状态</p><p>所附属角色<strong>普通攻击</strong>造成的伤害+1，造成的<strong>物理伤害</strong>变为<strong><span style=&quot;color: rgb(24, 144, 255)&quot;>水元素伤害</span></strong>。</p><p><strong>可用次数：3</strong></p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p>"
+        },
+        {
+            "name": "神里流·水囿",
+            "skill_type": "元素爆发",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/28/12109492/1d3a5df815f4f5dbac3338448f2c1d22_7767414617660800462.png",
+            "costs": [
+                {
+                    "type": 6,
+                    "count": 3
+                },
+                {
+                    "type": 8,
+                    "count": 2
+                }
+            ],
+            "desc": "<p>造成1点<strong><span style=\"color: rgb(24, 144, 255)\"><u>水元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>水元素伤害：</p><p style=&quot;white-space: pre-wrap;&quot;>附着水元素，可发生元素反应：</p><p style=&quot;white-space: pre-wrap;&quot;><strong>蒸发</strong>：本伤害+2</p><p style=&quot;white-space: pre-wrap;&quot;><strong>感电</strong>：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p style=&quot;white-space: pre-wrap;&quot;><strong>冻结</strong>：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害+2的[<strong>草原核</strong>]</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>，召唤<strong><em>清净之园囿</em></strong>。</p>"
+        }
+    ],
+    "summons": [
+        {
+            "name": "清净之园囿",
+            "skill_type": "召唤物",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/28/12109492/ef32ccb60a38cb7bfa31372dd5953970_1908841666370199656.png",
+            "costs": [],
+            "desc": "<p><strong>结束阶段：</strong>造成2点<strong><span style=\"color: rgb(24, 144, 255)\"><u>水元素伤害</u></span></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>水元素伤害：</p><p style=&quot;white-space: pre-wrap;&quot;>附着水元素，可发生元素反应：</p><p style=&quot;white-space: pre-wrap;&quot;><strong>蒸发</strong>：本伤害+2</p><p style=&quot;white-space: pre-wrap;&quot;><strong>感电</strong>：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p style=&quot;white-space: pre-wrap;&quot;><strong>冻结</strong>：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害+2的[<strong>草原核</strong>]</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>。</p><p><strong><u>可用次数</u></strong><span data-type=\"详情\" data-name=\"<p style=&quot;white-space: pre-wrap;&quot;>可用次数：</p><p style=&quot;white-space: pre-wrap;&quot;>此牌效果触发后，会消耗1次可用次数；</p><p style=&quot;white-space: pre-wrap;&quot;>可用次数耗尽后，立刻弃置此牌。</p>\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>：2</p><p><strong>此召唤物在场时：</strong>我方角色「普通攻击」造成的伤害+1。</p>"
+        }
+    ],
+    "effect": {
+        "rich_text": ""
+    },
+    "story": {
+        "rich_text": "<p><strong>磐祭叶守·神里绫人</strong></p><p>神守之柏，已焕新材。</p>"
+    }
+}

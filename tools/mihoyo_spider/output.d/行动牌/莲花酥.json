@@ -1,0 +1,39 @@
+{
+    "id": "5477",
+    "name": "莲花酥",
+    "desc": "莲花酥",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/3df4388cf37da743d62547874329e020_8062215832659512862.png",
+    "base_info": {
+        "name": "莲花酥",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/79683714/3df4388cf37da743d62547874329e020_2796890620079557811.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/05/79683714/8c6f293d54b53ccd02728f07ab32ba1a_1483515287380821346.gif",
+        "life": 1,
+        "life_bg": 9,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "料理"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">本回合中，目标角色下次受到的伤害-3。</p><p style=\"white-space: pre-wrap;\">(每回合中每个角色最多食用1次「料理」)</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\"><strong>莲花酥</strong></p><p style=\"white-space: pre-wrap;\">面团做成的花骨朵儿，放入宛若湖面一般的油锅中，花瓣便一层一层地绽放开来，真是赏心悦目。</p>"
+    }
+}

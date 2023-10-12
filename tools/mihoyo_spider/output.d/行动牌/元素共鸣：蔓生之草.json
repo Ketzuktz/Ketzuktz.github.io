@@ -1,0 +1,39 @@
+{
+    "id": "5398",
+    "name": "元素共鸣：蔓生之草",
+    "desc": "元素共鸣：蔓生之草",
+    "icon_url": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/af52f6c4f7f85bb3d3242778dc257c5c_7219596947234150756.png",
+    "base_info": {
+        "name": "元素共鸣：蔓生之草",
+        "common_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/af52f6c4f7f85bb3d3242778dc257c5c_1159043703701983776.png",
+        "gold_img": "https://uploadstatic.mihoyo.com/ys-obc/2022/12/06/75833613/84739d992df40e724b306767aee4a5aa_3537386147130813685.gif",
+        "life": 1,
+        "life_bg": 2,
+        "energy": 0,
+        "energy_bg": 0,
+        "element": [],
+        "weapon": [],
+        "faction": [],
+        "energy_count": [],
+        "acquisition": [
+            "卡牌商店购买"
+        ],
+        "card_type": [
+            "事件牌"
+        ],
+        "tags": [
+            "元素共鸣"
+        ],
+        "cost": [
+            "1"
+        ]
+    },
+    "skills": [],
+    "summons": [],
+    "effect": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">本回合中，我方下一次引发元素反应时，造成的伤害+2。</p><p style=\"white-space: pre-wrap;\">使我方场上的<u>燃烧烈焰</u><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;燃烧烈焰&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;召唤物&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;结束阶段：造成1点火元素伤害。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：1（可叠加，最多叠加到2次）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>、<u>草原核</u><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草原核&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;敌方出战角色受到火元素伤害或雷元素伤害时，伤害值+2。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：1&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>、和<u>激化领域</u><span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;激化领域&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;敌方出战角色受到雷元素伤害或草元素伤害时，伤害值+1。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数：3 &lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>「可用次数<span data-type=\"详情\" data-name=\"&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此牌效果触发后，会消耗1次可用次数；&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;可用次数耗尽后，立刻弃置此牌。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;\" class=\"wiki-note-text\"><sup class=\"wiki-sup\">[详情]</sup></span>」+1。</p><p style=\"white-space: pre-wrap;\">（牌组包含至少2个草元素角色，才能加入牌组）</p>"
+    },
+    "story": {
+        "rich_text": "<p style=\"white-space: pre-wrap;\">新枝抽芽，郁郁成林。</p>"
+    }
+}
