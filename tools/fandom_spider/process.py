@@ -2,7 +2,8 @@ import typing
 from typing import Callable, Optional
 
 import bs4  # type: ignore
-from data import ColumnDataDict, sort_column_data_dict
+
+from tools.fandom_spider.datatype import ColumnDataDict, sort_column_data_dict
 
 
 class HierarchicalTableTreeNode:

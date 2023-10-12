@@ -1,5 +1,5 @@
 import bs4  # type: ignore
-from data import ColumnDataDict
+from datatype import ColumnDataDict
 from web import request_soup
 
 
