@@ -1,0 +1,63 @@
+name: 雷箭丘丘人
+rariry: -1
+element:
+- 雷元素
+weapon:
+- 其他武器
+max_HP: 3
+max_energy:
+- 2点
+faction:
+- 魔物/丘丘人
+skills:
+- name: 雷箭
+  type: 普通攻击
+  cost:
+  - type: 5
+    count: 1
+  - type: 10
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(146,84,222,1)"><u>雷元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(146,84,222,1)"><u>雷元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 几支一起
+  type: 元素爆发
+  cost:
+  - type: 5
+    count: 3
+  - type: 8
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成5点<strong><span style="color:rgba(146,84,222,1)"><u>雷元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成5点<strong><span style="color:rgba(146,84,222,1)"><u>雷元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;超载&lt;/strong&gt;：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;超导&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;感电&lt;/strong&gt;：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 躲起来
+  type: 被动技能
+  cost: []
+  effect: '<p style="white-space: pre-wrap;">【被动】此角色使用技能后，自动切换到下一个角色。</p>'
+  comment: '<p style="white-space: pre-wrap;">【被动】此角色使用技能后，自动切换到下一个角色。</p>'

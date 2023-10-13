@@ -1,0 +1,128 @@
+name: 嗜岩·兽境猎犬
+rariry: -1
+element:
+- 岩元素
+weapon:
+- 其他武器
+max_HP: 10
+max_energy:
+- 3点
+faction:
+- 魔物
+skills:
+- name: 溶蚀利爪
+  type: 普通攻击
+  cost:
+  - type: 7
+    count: 1
+  - type: 10
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(212,177,6,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结晶（冰）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（水）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（火）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（雷）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，在敌方场上生成<strong><u>侵蚀</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;侵蚀：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结束阶段：&lt;/strong&gt;除生命值不多于3的后台角色外，所有所在阵营的角色受到1点&lt;strong&gt;穿透伤害&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：1&lt;/strong&gt;（可叠加，最多叠加到3次）&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(212,177,6,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结晶（冰）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（水）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（火）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（雷）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，在敌方场上生成<strong><u>侵蚀</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;侵蚀：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结束阶段：&lt;/strong&gt;除生命值不多于3的后台角色外，所有所在阵营的角色受到1点&lt;strong&gt;穿透伤害&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：1&lt;/strong&gt;（可叠加，最多叠加到3次）&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 裂解晶岩
+  type: 元素战技
+  cost:
+  - type: 7
+    count: 3
+  effect: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(212,177,6,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结晶（冰）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（水）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（火）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（雷）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，在敌方场上生成<strong><u>侵蚀</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;侵蚀：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结束阶段：&lt;/strong&gt;除生命值不多于3的后台角色外，所有所在阵营的角色受到1点&lt;strong&gt;穿透伤害&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：1&lt;/strong&gt;（可叠加，最多叠加到3次）&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(212,177,6,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结晶（冰）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（水）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（火）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（雷）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，在敌方场上生成<strong><u>侵蚀</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;侵蚀：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结束阶段：&lt;/strong&gt;除生命值不多于3的后台角色外，所有所在阵营的角色受到1点&lt;strong&gt;穿透伤害&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：1&lt;/strong&gt;（可叠加，最多叠加到3次）&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 追猎标记
+  type: 元素爆发
+  cost:
+  - type: 7
+    count: 3
+  - type: 8
+    count: 3
+  effect: '<p style="white-space: pre-wrap;">造成6点<strong><span style="color:rgba(212,177,6,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结晶（冰）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（水）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（火）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（雷）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，在敌方场上生成<strong><u>侵蚀</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;侵蚀：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结束阶段：&lt;/strong&gt;除生命值不多于3的后台角色外，所有所在阵营的角色受到1点&lt;strong&gt;穿透伤害&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：1&lt;/strong&gt;（可叠加，最多叠加到3次）&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成6点<strong><span style="color:rgba(212,177,6,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结晶（冰）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（水）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（火）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（雷）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，在敌方场上生成<strong><u>侵蚀</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;侵蚀：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结束阶段：&lt;/strong&gt;除生命值不多于3的后台角色外，所有所在阵营的角色受到1点&lt;strong&gt;穿透伤害&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：1&lt;/strong&gt;（可叠加，最多叠加到3次）&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 嗜魔
+  type: 被动技能
+  cost: []
+  effect: '<p style="white-space: pre-wrap;">【被动】战斗开始时，初始附属<strong><u>嗜魔</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;嗜魔：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;受到&lt;strong&gt;&lt;span style=&#34;color:rgba(212,177,6,1)&#34;&gt;岩元素伤害&lt;/span&gt;&lt;/strong&gt;后，叠加1级「嗜魔」。（最多叠加到2级）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;具有2级「嗜魔」时，角色造成的&lt;strong&gt;&lt;span
+    style=&#34;color:rgba(212,177,6,1)&#34;&gt;岩元素伤害&lt;/span&gt;&lt;/strong&gt;+1，受到的&lt;strong&gt;&lt;span
+    style=&#34;color:rgba(212,177,6,1)&#34;&gt;岩元素伤害&lt;/span&gt;&lt;/strong&gt;+2。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">【被动】战斗开始时，初始附属<strong><u>嗜魔</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;嗜魔：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;受到&lt;strong&gt;&lt;span style=&#34;color:rgba(212,177,6,1)&#34;&gt;岩元素伤害&lt;/span&gt;&lt;/strong&gt;后，叠加1级「嗜魔」。（最多叠加到2级）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;具有2级「嗜魔」时，角色造成的&lt;strong&gt;&lt;span
+    style=&#34;color:rgba(212,177,6,1)&#34;&gt;岩元素伤害&lt;/span&gt;&lt;/strong&gt;+1，受到的&lt;strong&gt;&lt;span
+    style=&#34;color:rgba(212,177,6,1)&#34;&gt;岩元素伤害&lt;/span&gt;&lt;/strong&gt;+2。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'

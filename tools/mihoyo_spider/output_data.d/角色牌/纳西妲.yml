@@ -1,0 +1,122 @@
+name: 纳西妲
+rariry: -1
+element:
+- 草元素
+weapon:
+- 法器
+max_HP: 10
+max_energy:
+- 2点
+faction:
+- 须弥
+skills:
+- name: 行相
+  type: 普通攻击
+  cost:
+  - type: 2
+    count: 1
+  - type: 10
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(82,196,26,1)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(82,196,26,1)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 所闻遍计
+  type: 元素战技
+  cost:
+  - type: 2
+    count: 3
+  effect: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(82,196,26,1)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，目标角色附属<strong><u>蕴种印</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蕴种印：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;任意具有「蕴种印」的所在阵营角色受到元素反应伤害后：&lt;/strong&gt;对所附属角色造成1点&lt;strong&gt;穿透伤害&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：2&lt;/strong&gt;&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>；如果在附属前目标角色已附属有<strong>蕴种印</strong>，就改为对所有敌方角色附属<strong>蕴种印</strong>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(82,196,26,1)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，目标角色附属<strong><u>蕴种印</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蕴种印：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;任意具有「蕴种印」的所在阵营角色受到元素反应伤害后：&lt;/strong&gt;对所附属角色造成1点&lt;strong&gt;穿透伤害&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：2&lt;/strong&gt;&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>；如果在附属前目标角色已附属有<strong>蕴种印</strong>，就改为对所有敌方角色附属<strong>蕴种印</strong>。</p>'
+- name: 所闻遍计·真如
+  type: 元素战技
+  cost:
+  - type: 2
+    count: 5
+  effect: '<p style="white-space: pre-wrap;">造成3点<strong><span style="color:rgba(82,196,26,1)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，所有敌方角色附属<strong><u>蕴种印</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蕴种印：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;任意具有「蕴种印」的所在阵营角色受到元素反应伤害后：&lt;/strong&gt;对所附属角色造成1点&lt;strong&gt;穿透伤害&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：2&lt;/strong&gt;&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成3点<strong><span style="color:rgba(82,196,26,1)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，所有敌方角色附属<strong><u>蕴种印</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蕴种印：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;任意具有「蕴种印」的所在阵营角色受到元素反应伤害后：&lt;/strong&gt;对所附属角色造成1点&lt;strong&gt;穿透伤害&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：2&lt;/strong&gt;&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 心景幻成
+  type: 元素爆发
+  cost:
+  - type: 2
+    count: 3
+  - type: 8
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成4点<strong><span style="color:rgba(82,196,26,1)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，生成<strong><u>摩耶之殿</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;摩耶之殿：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;我方引发元素反应时：&lt;/strong&gt;伤害额外+1。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;持续回合：2&lt;/strong&gt;&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成4点<strong><span style="color:rgba(82,196,26,1)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，生成<strong><u>摩耶之殿</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;摩耶之殿：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;我方引发元素反应时：&lt;/strong&gt;伤害额外+1。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;持续回合：2&lt;/strong&gt;&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'

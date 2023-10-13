@@ -1,0 +1,45 @@
+name: 射手丘丘人
+rariry: -1
+element:
+- 物理
+weapon:
+- 其他武器
+max_HP: 3
+max_energy:
+- 2点
+faction:
+- 魔物/丘丘人
+skills:
+- name: 射
+  type: 普通攻击
+  cost:
+  - type: 10
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成1点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成1点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 几支一起
+  type: 元素爆发
+  cost:
+  - type: 9
+    count: 3
+  - type: 8
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成5点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成5点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 躲起来
+  type: 被动技能
+  cost: []
+  effect: '<p style="white-space: pre-wrap;">【被动】此角色使用技能后，自动切换到下一个角色。</p>'
+  comment: '<p style="white-space: pre-wrap;">【被动】此角色使用技能后，自动切换到下一个角色。</p>'

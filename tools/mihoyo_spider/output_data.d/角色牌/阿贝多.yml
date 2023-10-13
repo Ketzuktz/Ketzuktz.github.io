@@ -1,0 +1,59 @@
+name: 阿贝多
+rariry: -1
+element:
+- 岩元素
+weapon:
+- 单手剑
+max_HP: 10
+max_energy:
+- 2点
+faction:
+- 蒙德
+skills:
+- name: 西风剑术·白
+  type: 普通攻击
+  cost:
+  - type: 7
+    count: 1
+  - type: 10
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;物理伤害&lt;/strong&gt;&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;物理伤害&lt;/strong&gt;&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 创生法·拟造阳华
+  type: 元素战技
+  cost:
+  - type: 7
+    count: 3
+  effect: '<p style="white-space: pre-wrap;">召唤<strong><em>阳华</em></strong>。</p>'
+  comment: '<p style="white-space: pre-wrap;">召唤<strong><em>阳华</em></strong>。</p>'
+- name: 诞生式·大地之潮
+  type: 元素爆发
+  cost:
+  - type: 7
+    count: 3
+  - type: 8
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成4点<strong><span style="color:rgba(212,177,6,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;岩元素伤害&lt;/strong&gt;&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结晶（冰）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（水）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（火）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（雷）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。如果<strong><em>阳华</em></strong>在场，就使此伤害+2。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成4点<strong><span style="color:rgba(212,177,6,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;岩元素伤害&lt;/strong&gt;&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;结晶（冰）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（水）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（火）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;结晶（雷）&lt;/strong&gt;：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap; min-height: 1.5em;&#34;&gt;&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。如果<strong><em>阳华</em></strong>在场，就使此伤害+2。</p>'

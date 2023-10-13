@@ -1,0 +1,72 @@
+name: 岩盾丘丘暴徒
+rariry: -1
+element:
+- 岩元素
+weapon:
+- 其他武器
+max_HP: 8
+max_energy:
+- 2点
+faction:
+- 魔物/丘丘人
+skills:
+- name: Plata Plama
+  type: 普通攻击
+  cost:
+  - type: 7
+    count: 1
+  - type: 10
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+- name: Da Plama
+  type: 元素战技
+  cost:
+  - type: 7
+    count: 3
+  effect: '<p style="white-space: pre-wrap;">造成3点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成3点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+- name: Aba Movo
+  type: 元素爆发
+  cost:
+  - type: 7
+    count: 3
+  - type: 8
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成5点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成5点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 岩石大盾
+  type: 被动技能
+  cost: []
+  effect: '<p style="white-space: pre-wrap;">【被动】战斗开始时，初始附属<strong><u>岩石大盾</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩石大盾：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;所附属角色受到伤害时：&lt;/strong&gt;抵消最多2点伤害。抵消&lt;strong&gt;&lt;span
+    style=&#34;color:rgba(212,177,6,1)&#34;&gt;岩元素伤害&lt;/span&gt;&lt;/strong&gt;时，需额外消耗1次&lt;strong&gt;可用次数&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：3&lt;/strong&gt;&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">【被动】战斗开始时，初始附属<strong><u>岩石大盾</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩石大盾：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;所附属角色受到伤害时：&lt;/strong&gt;抵消最多2点伤害。抵消&lt;strong&gt;&lt;span
+    style=&#34;color:rgba(212,177,6,1)&#34;&gt;岩元素伤害&lt;/span&gt;&lt;/strong&gt;时，需额外消耗1次&lt;strong&gt;可用次数&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：3&lt;/strong&gt;&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'

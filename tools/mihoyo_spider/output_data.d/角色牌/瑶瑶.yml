@@ -1,0 +1,53 @@
+name: 瑶瑶
+rariry: -1
+element:
+- 草元素
+weapon:
+- 长柄武器
+max_HP: 10
+max_energy:
+- 2点
+faction:
+- 璃月
+skills:
+- name: 颠扑连环枪
+  type: 普通攻击
+  cost:
+  - type: 2
+    count: 1
+  - type: 10
+    count: 2
+  effect: '<p>造成2点<strong><u>物理伤害</u></strong><span data-type="详情" data-name="<p><strong>物理伤害</strong></p><p><span
+    style=&quot;color: rgb(27, 27, 27)&quot;>物理伤害不会附着元素，也不会发生元素反应。</span></p>" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p>造成2点<strong><u>物理伤害</u></strong><span data-type="详情" data-name="<p><strong>物理伤害</strong></p><p><span
+    style=&quot;color: rgb(27, 27, 27)&quot;>物理伤害不会附着元素，也不会发生元素反应。</span></p>" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 云台团团降芦菔
+  type: 元素战技
+  cost:
+  - type: 2
+    count: 3
+  effect: <p>召唤<strong><em>月桂·抛掷型</em></strong>。</p>
+  comment: <p>召唤<strong><em>月桂·抛掷型</em></strong>。</p>
+- name: 云颗珊珊月中落
+  type: 元素爆发
+  cost:
+  - type: 2
+    count: 4
+  - type: 8
+    count: 2
+  effect: '<p>造成1点<strong><span style="color: rgb(82, 196, 26)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="<p><strong>草元素伤害</strong>:</p><p>附着草玩素，可发生元素反应:</p><p><strong>绽放</strong>:本伤害+1,生成使下次火/雷伤害+
+    2的</p><p>[<strong>草原核</strong>]</p><p><strong>燃烧</strong>:本伤害+1,生成回合结束时造成1钬伤</p><p>害的[<strong><em>燃烧烈焰</em></strong>]
+    (可生效1次，够到2次)</p><p><strong>原激化</strong>:本伤害+1,生成使下2次草/雷伤害+1</p><p>的[<strong>激化领域</strong>]</p><p></p>"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，生成<strong><u>桂子仙机</u></strong><span
+    data-type="详情" data-name="<p><strong>桂子仙机</strong>：</p><p>出战状态</p><p><strong>我方切换角色后</strong>：造成1点草元素伤害，治疗我方出战角色1点。</p><p><strong>可用次数</strong>：3</p>"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p>造成1点<strong><span style="color: rgb(82, 196, 26)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="<p><strong>草元素伤害</strong>:</p><p>附着草玩素，可发生元素反应:</p><p><strong>绽放</strong>:本伤害+1,生成使下次火/雷伤害+
+    2的</p><p>[<strong>草原核</strong>]</p><p><strong>燃烧</strong>:本伤害+1,生成回合结束时造成1钬伤</p><p>害的[<strong><em>燃烧烈焰</em></strong>]
+    (可生效1次，够到2次)</p><p><strong>原激化</strong>:本伤害+1,生成使下2次草/雷伤害+1</p><p>的[<strong>激化领域</strong>]</p><p></p>"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，生成<strong><u>桂子仙机</u></strong><span
+    data-type="详情" data-name="<p><strong>桂子仙机</strong>：</p><p>出战状态</p><p><strong>我方切换角色后</strong>：造成1点草元素伤害，治疗我方出战角色1点。</p><p><strong>可用次数</strong>：3</p>"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'

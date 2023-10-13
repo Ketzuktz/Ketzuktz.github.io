@@ -1,0 +1,83 @@
+name: 提纳里
+rariry: -1
+element:
+- 草元素
+weapon:
+- 弓
+max_HP: 10
+max_energy:
+- 2点
+faction:
+- 须弥
+skills:
+- name: 藏蕴破障
+  type: 普通攻击
+  cost:
+  - type: 2
+    count: 1
+  - type: 10
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(0,0,0,1)"><u>物理伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(0,0,0,1)"><u>物理伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 识果种雷
+  type: 元素战技
+  cost:
+  - type: 2
+    count: 3
+  effect: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(82,196,26,1)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，本角色附属<strong><u>通塞识</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;通塞识：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;所附属角色进行重击时：&lt;/strong&gt;造成的&lt;strong&gt;物理伤害&lt;/strong&gt;变为&lt;strong&gt;&lt;span
+    style=&#34;color:rgba(82,196,26,1)&#34;&gt;草元素伤害&lt;/span&gt;&lt;/strong&gt;，并且会在技能结算后召唤&lt;strong&gt;&lt;em&gt;藏蕴花矢&lt;/em&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：2&lt;/strong&gt;&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(82,196,26,1)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，本角色附属<strong><u>通塞识</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;通塞识：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;所附属角色进行重击时：&lt;/strong&gt;造成的&lt;strong&gt;物理伤害&lt;/strong&gt;变为&lt;strong&gt;&lt;span
+    style=&#34;color:rgba(82,196,26,1)&#34;&gt;草元素伤害&lt;/span&gt;&lt;/strong&gt;，并且会在技能结算后召唤&lt;strong&gt;&lt;em&gt;藏蕴花矢&lt;/em&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：2&lt;/strong&gt;&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 造生缠藤箭
+  type: 元素爆发
+  cost:
+  - type: 2
+    count: 3
+  - type: 8
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成4点<strong><span style="color:rgba(82,196,26,1)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，对所有敌方后台角色造成1点<strong><u>穿透伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;穿透伤害：穿透伤害无法受到伤害加成，但是也无法被护盾、伤害免疫等效果抵消。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成4点<strong><span style="color:rgba(82,196,26,1)"><u>草元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;草元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着草元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;绽放&lt;/strong&gt;：本伤害+1，生成使下次火/雷伤害＋2的[&lt;strong&gt;草原核&lt;/strong&gt;]&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;燃烧&lt;/strong&gt;：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;燃烧烈焰&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;原激化&lt;/strong&gt;：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，对所有敌方后台角色造成1点<strong><u>穿透伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;穿透伤害：穿透伤害无法受到伤害加成，但是也无法被护盾、伤害免疫等效果抵消。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'

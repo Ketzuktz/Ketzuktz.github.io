@@ -1,0 +1,95 @@
+name: 凝光
+rariry: -1
+element:
+- 岩元素
+weapon:
+- 法器
+max_HP: 10
+max_energy:
+- 3点
+faction:
+- 璃月
+skills:
+- name: 千金掷
+  type: 普通攻击
+  cost:
+  - type: 7
+    count: 1
+  - type: 10
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(199,124,82,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（冰）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（水）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（火）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（雷）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(199,124,82,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（冰）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（水）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（火）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（雷）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 璇玑屏
+  type: 元素战技
+  cost:
+  - type: 7
+    count: 3
+  effect: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(199,124,82,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（冰）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（水）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（火）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（雷）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>，生成<strong><u>璇玑屏</u></strong><span data-type="详情"
+    data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;璇玑屏：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;我方出战角色受到至少为2的伤害时：抵消1点伤害。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;可用次数：2&lt;/p&gt;" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(199,124,82,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（冰）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（水）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（火）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（雷）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>，生成<strong><u>璇玑屏</u></strong><span data-type="详情"
+    data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;璇玑屏：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;我方出战角色受到至少为2的伤害时：抵消1点伤害。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;可用次数：2&lt;/p&gt;" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 天权崩玉
+  type: 元素爆发
+  cost:
+  - type: 7
+    count: 3
+  - type: 8
+    count: 3
+  effect: '<p style="white-space: pre-wrap;">造成6点<strong><span style="color:rgba(199,124,82,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（冰）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（水）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（火）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（雷）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>；如果<strong><u>璇玑屏</u></strong><span data-type="详情"
+    data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;璇玑屏：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;我方出战角色受到至少为2的伤害时：抵消1点伤害。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;可用次数：2&lt;/p&gt;" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>在场，就使此伤害+2。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成6点<strong><span style="color:rgba(199,124,82,1)"><u>岩元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;岩元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（冰）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（水）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（火）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;结晶（雷）：本伤害+1，我方出战角色获得1点护盾（可叠加，最多2点）。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>；如果<strong><u>璇玑屏</u></strong><span data-type="详情"
+    data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;璇玑屏：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;我方出战角色受到至少为2的伤害时：抵消1点伤害。&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;可用次数：2&lt;/p&gt;" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>在场，就使此伤害+2。</p>'

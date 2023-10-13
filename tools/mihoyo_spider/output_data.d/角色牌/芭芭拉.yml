@@ -1,0 +1,61 @@
+name: 芭芭拉
+rariry: -1
+element:
+- 水元素
+weapon:
+- 法器
+max_HP: 10
+max_energy:
+- 3点
+faction:
+- 蒙德
+skills:
+- name: 水之浅唱
+  type: 普通攻击
+  cost:
+  - type: 6
+    count: 1
+  - type: 10
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(0,151,225,1)"><u>水元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;水元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着水元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害+2的[草原核]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(0,151,225,1)"><u>水元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;水元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着水元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害+2的[草原核]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 演唱，开始♪
+  type: 元素战技
+  cost:
+  - type: 6
+    count: 3
+  effect: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(0,151,225,1)"><u>水元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;水元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着水元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害+2的[草原核]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，召唤<strong><em>歌声之环</em></strong>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(0,151,225,1)"><u>水元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;水元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;附着水元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害+2的[草原核]&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，召唤<strong><em>歌声之环</em></strong>。</p>'
+- name: 闪耀奇迹
+  type: 元素爆发
+  cost:
+  - type: 6
+    count: 3
+  - type: 8
+    count: 3
+  effect: '<p style="white-space: pre-wrap;">治疗我方所有角色4点。</p>'
+  comment: '<p style="white-space: pre-wrap;">治疗我方所有角色4点。</p>'

@@ -1,0 +1,69 @@
+name: 风丘丘萨满
+rariry: -1
+element:
+- 风元素
+weapon:
+- 其他武器
+max_HP: 4
+max_energy:
+- 2点
+faction:
+- 魔物/丘丘人
+skills:
+- name: 杖击
+  type: 普通攻击
+  cost:
+  - type: 10
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成1点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成1点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 祈风术
+  type: 元素战技
+  cost:
+  - type: 3
+    count: 3
+  effect: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(54,207,201,1)"><u>风元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;风元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;扩散（冰）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点冰伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;扩散（水）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点水伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;扩散（火）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点火伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;扩散（雷）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点雷伤害&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，召唤<strong><em>旋风</em></strong>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(54,207,201,1)"><u>风元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;风元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;扩散（冰）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点冰伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;扩散（水）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点水伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;扩散（火）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点火伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;扩散（雷）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点雷伤害&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，召唤<strong><em>旋风</em></strong>。</p>'
+- name: 风波冲击
+  type: 元素爆发
+  cost:
+  - type: 3
+    count: 3
+  - type: 8
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成5点<strong><span style="color:rgba(54,207,201,1)"><u>风元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;风元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;扩散（冰）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点冰伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;扩散（水）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点水伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;扩散（火）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点火伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;扩散（雷）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点雷伤害&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成5点<strong><span style="color:rgba(54,207,201,1)"><u>风元素伤害</u></span></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;风元素伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;扩散（冰）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点冰伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;扩散（水）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点水伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;扩散（火）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点火伤害&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;扩散（雷）&lt;/strong&gt;：对目标以外的所有敌方角色造成1点雷伤害&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'

@@ -1,0 +1,87 @@
+name: 海乱鬼·雷腾
+rariry: -1
+element:
+- 雷元素
+weapon:
+- 其他武器
+max_HP: 10
+max_energy:
+- 2点
+faction:
+- 海乱鬼
+skills:
+- name: 三位切
+  type: 普通攻击
+  cost:
+  - type: 5
+    count: 1
+  - type: 10
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 鲤跃斩
+  type: 元素战技
+  cost:
+  - type: 5
+    count: 3
+  effect: '<p style="white-space: pre-wrap;">造成3点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">造成3点<strong><u>物理伤害</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
+    class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 居合·纳刀
+  type: 元素爆发
+  cost:
+  - type: 5
+    count: 3
+  - type: 8
+    count: 2
+  effect: '<p style="white-space: pre-wrap;">本角色准备技能：<strong><u>居合·霆息</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;居合·霆息：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;元素爆发&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;（需准备2个行动轮）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成6点&lt;strong&gt;物理伤害&lt;/strong&gt;。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">本角色准备技能：<strong><u>居合·霆息</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;居合·霆息：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;元素爆发&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;（需准备2个行动轮）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成6点&lt;strong&gt;物理伤害&lt;/strong&gt;。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 惟神召符·煌
+  type: 被动技能
+  cost: []
+  effect: '<p style="white-space: pre-wrap;">【被动】战斗开始时，初始附属<strong><u>惟神召符·煌</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;惟神召符·煌：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;角色造成的&lt;strong&gt;物理伤害&lt;/strong&gt;变为&lt;strong&gt;&lt;span
+    style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：3&lt;/strong&gt;&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">【被动】战斗开始时，初始附属<strong><u>惟神召符·煌</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;惟神召符·煌：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;角色造成的&lt;strong&gt;物理伤害&lt;/strong&gt;变为&lt;strong&gt;&lt;span
+    style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：3&lt;/strong&gt;&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+- name: 绝境狂乱
+  type: 被动技能
+  cost: []
+  effect: '<p style="white-space: pre-wrap;">【被动】我方其他海乱鬼被击倒时，此角色附属<strong><u>绝境狂乱</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;绝境狂乱：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;行动阶段开始时：&lt;/strong&gt;如果所附属角色正在出战，就移除此状态，以治疗该角色3点，并使其重新附属&lt;strong&gt;惟神召符·煌&lt;/strong&gt;。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  comment: '<p style="white-space: pre-wrap;">【被动】我方其他海乱鬼被击倒时，此角色附属<strong><u>绝境狂乱</u></strong><span
+    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;绝境狂乱：&lt;/p&gt;&lt;p
+    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
+    pre-wrap;&#34;&gt;&lt;strong&gt;行动阶段开始时：&lt;/strong&gt;如果所附属角色正在出战，就移除此状态，以治疗该角色3点，并使其重新附属&lt;strong&gt;惟神召符·煌&lt;/strong&gt;。&lt;/p&gt;"
+    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
