@@ -27,9 +27,12 @@ if __name__ == '__main__':
         for card in card_list['list']:
             card_name = card['title']
             card_id = card['content_id']
+            card_path = f'{subpath}/{card_name}.json'
+
+            if os.path.exists(card_path):
+                continue
 
             card_data = get_card(card_id)
 
-            card_path = f'{subpath}/{card_name}.json'
             with open(card_path, 'w', encoding='utf-8') as f:
                 json.dump(card_data, f, ensure_ascii=False, indent=4)
