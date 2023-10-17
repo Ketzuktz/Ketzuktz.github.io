@@ -1,4 +1,4 @@
-from lxml import etree
+from lxml import etree, html
 
 html_string = '<p style="white-space: pre-wrap;">造成2点\
 <strong><u>物理伤害</u></strong>\
@@ -13,11 +13,7 @@ white-space: pre-wrap;&#34;&gt;\
 # 创建lxml Element对象
 root = etree.fromstring(html_string)
 
-# 获取包含技能描述的整个字符串，但排除 "[详情]" 部分
-skill_description = "".join(
-    root.xpath('//*[not(self::span[@data-type="详情"])]/text()')
-).strip()
-print("技能描述:", skill_description)
+skill_description = ''.join(root.xpath('//*[not(self::sup)]/text()')).strip()
 
 # 创建词典来存储加粗文本和详情
 bold_text_dict = {}
@@ -41,6 +37,10 @@ for element in strong_elements:
 
 # 打印技能描述和词典
 print("技能描述:", skill_description)
-print("加粗文本和详情:")
 for bold_text, detail_text in bold_text_dict.items():
-    print(f"{bold_text}: {detail_text}")
+    parsed_html = html.fromstring(detail_text)
+    title = parsed_html.xpath('//strong/text()')[0]
+    content = parsed_html.xpath('//p[@style="white-space: pre-wrap;"]/text()')[0]
+
+    assert title == bold_text
+    print(f"{bold_text}: {content}")
