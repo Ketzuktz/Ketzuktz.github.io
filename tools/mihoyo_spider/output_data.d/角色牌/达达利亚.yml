@@ -1,12 +1,9 @@
 name: 达达利亚
 rariry: -1
-element:
-- 水元素
-weapon:
-- 弓
+element: 水元素
+weapon: 弓
 max_HP: 10
-max_energy:
-- 3点
+max_energy: 3
 faction:
 - 愚人众
 skills:
@@ -17,47 +14,15 @@ skills:
     count: 1
   - type: 10
     count: 2
-  effect: '<p>造成2点<strong><span style="color: rgb(0, 0, 0)"><u>物理伤害</u></span></strong><span
-    data-type="详情" data-name="<p><strong>物理伤害：</strong></p><p>物理伤害不会附着元素，也不会发生元素反应。</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p>造成2点<strong><span style="color: rgb(0, 0, 0)"><u>物理伤害</u></span></strong><span
-    data-type="详情" data-name="<p><strong>物理伤害：</strong></p><p>物理伤害不会附着元素，也不会发生元素反应。</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点物理伤害。
+  comment: 造成2点物理伤害。
 - name: 魔王武装·狂澜
   type: 元素战技
   cost:
   - type: 6
     count: 3
-  effect: '<p>切换为<strong><u>近战状态</u></strong><span data-type="详情" data-name="<p>近战状态：</p><p>状态</p><p>角色造成的<strong>物理伤害</strong>转换为<strong><span
-    style=&quot;color: rgb(24, 144, 255)&quot;>水元素伤害</span></strong>。</p><p><strong>角色进行<u>重击</u>后：</strong>目标角色附属<strong><u>断流</u></strong>。</p><p>角色对附属有<strong>断流</strong>的角色造成的伤害+1；</p><p><strong>角色对已附属有断流的角色使用技能后：</strong>对下一个敌方后台角色造成1点<strong>穿透伤害</strong>。（每回合至多2次）</p><p><strong>持续回合：2</strong></p><blockquote><p><strong>重击</strong></p><p>我方行动开始前，如果元素骰总数为偶数，则进行的「普通攻击」将被视为「重击」。</p><p></p><p><strong>断流</strong></p><p><strong>所附属角色被击倒后：</strong>对所在阵营的出战角色附属「断流」。</p><p>（处于<strong>「近战状态」</strong>的<strong>达达利亚</strong>攻击所附属角色时，会造成额外伤害。）</p></blockquote>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，然后造成2点<strong><span
-    style="color: rgb(24, 144, 255)"><u>水元素伤害</u></span></strong><span data-type="详情"
-    data-name="<p style=&quot;white-space: pre-wrap;&quot;>水元素伤害：</p><p style=&quot;white-space:
-    pre-wrap;&quot;>附着水元素，可发生元素反应：</p><p style=&quot;white-space: pre-wrap;&quot;><strong>蒸发</strong>：本伤害+2</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>感电</strong>：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>冻结</strong>：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害+2的[<strong>草原核</strong>]</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，并使目标角色附属<strong><u>断流</u></strong><span
-    data-type="详情" data-name="<p style=&quot;white-space: pre-wrap;&quot;>断流：</p><p
-    style=&quot;white-space: pre-wrap;&quot;>状态</p><p style=&quot;white-space: pre-wrap;&quot;><strong>所附属角色被击倒后：</strong>对所在阵营的出战角色附属「断流」。</p><p
-    style=&quot;white-space: pre-wrap;&quot;>（处于<strong>「近战状态」</strong>的<strong>达达利亚</strong>攻击所附属角色时，会造成额外伤害。）</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>持续回合：2</strong></p>" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p>切换为<strong><u>近战状态</u></strong><span data-type="详情" data-name="<p>近战状态：</p><p>状态</p><p>角色造成的<strong>物理伤害</strong>转换为<strong><span
-    style=&quot;color: rgb(24, 144, 255)&quot;>水元素伤害</span></strong>。</p><p><strong>角色进行<u>重击</u>后：</strong>目标角色附属<strong><u>断流</u></strong>。</p><p>角色对附属有<strong>断流</strong>的角色造成的伤害+1；</p><p><strong>角色对已附属有断流的角色使用技能后：</strong>对下一个敌方后台角色造成1点<strong>穿透伤害</strong>。（每回合至多2次）</p><p><strong>持续回合：2</strong></p><blockquote><p><strong>重击</strong></p><p>我方行动开始前，如果元素骰总数为偶数，则进行的「普通攻击」将被视为「重击」。</p><p></p><p><strong>断流</strong></p><p><strong>所附属角色被击倒后：</strong>对所在阵营的出战角色附属「断流」。</p><p>（处于<strong>「近战状态」</strong>的<strong>达达利亚</strong>攻击所附属角色时，会造成额外伤害。）</p></blockquote>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，然后造成2点<strong><span
-    style="color: rgb(24, 144, 255)"><u>水元素伤害</u></span></strong><span data-type="详情"
-    data-name="<p style=&quot;white-space: pre-wrap;&quot;>水元素伤害：</p><p style=&quot;white-space:
-    pre-wrap;&quot;>附着水元素，可发生元素反应：</p><p style=&quot;white-space: pre-wrap;&quot;><strong>蒸发</strong>：本伤害+2</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>感电</strong>：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>冻结</strong>：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害+2的[<strong>草原核</strong>]</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，并使目标角色附属<strong><u>断流</u></strong><span
-    data-type="详情" data-name="<p style=&quot;white-space: pre-wrap;&quot;>断流：</p><p
-    style=&quot;white-space: pre-wrap;&quot;>状态</p><p style=&quot;white-space: pre-wrap;&quot;><strong>所附属角色被击倒后：</strong>对所在阵营的出战角色附属「断流」。</p><p
-    style=&quot;white-space: pre-wrap;&quot;>（处于<strong>「近战状态」</strong>的<strong>达达利亚</strong>攻击所附属角色时，会造成额外伤害。）</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>持续回合：2</strong></p>" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 切换为近战状态，然后造成2点水元素伤害，并使目标角色附属断流。
+  comment: 切换为近战状态，然后造成2点水元素伤害，并使目标角色附属断流。
 - name: 极恶技·尽灭闪
   type: 元素爆发
   cost:
@@ -65,56 +30,10 @@ skills:
     count: 3
   - type: 8
     count: 3
-  effect: '<p>依据<strong>达达利亚</strong>当前所处的状态，进行不同的攻击：</p><p><strong>远程状态·魔弹一闪：</strong>造成4点<strong><span
-    style="color: rgb(24, 144, 255)"><u>水元素伤害</u></span></strong><span data-type="详情"
-    data-name="<p style=&quot;white-space: pre-wrap;&quot;>水元素伤害：</p><p style=&quot;white-space:
-    pre-wrap;&quot;>附着水元素，可发生元素反应：</p><p style=&quot;white-space: pre-wrap;&quot;><strong>蒸发</strong>：本伤害+2</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>感电</strong>：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>冻结</strong>：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害+2的[<strong>草原核</strong>]</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，返还2点<strong><u>充能</u></strong><span
-    data-type="详情" data-name="<p style=&quot;white-space: pre-wrap;&quot;>充能：</p><p
-    style=&quot;white-space: pre-wrap;&quot;>角色使用「元素爆发」时，需要消耗充能。</p><p style=&quot;white-space:
-    pre-wrap;&quot;>角色使用「元素战技」或「普通攻击」后，会获得1点充能。</p>" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，目标角色附属<strong><u>断流</u></strong><span
-    data-type="详情" data-name="<p>断流：</p><p>状态</p><p><strong>所附属角色被击倒后：</strong>对所在阵营的出战角色附属「断流」。</p><p>（处于<strong>「近战状态」</strong>的<strong>达达利亚</strong>攻击所附属角色时，会造成额外伤害。）</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p><p><strong>近战状态·尽灭水光：</strong>造成7点<strong><span
-    style="color: rgb(24, 144, 255)"><u>水元素伤害</u></span></strong><span data-type="详情"
-    data-name="<p style=&quot;white-space: pre-wrap;&quot;>水元素伤害：</p><p style=&quot;white-space:
-    pre-wrap;&quot;>附着水元素，可发生元素反应：</p><p style=&quot;white-space: pre-wrap;&quot;><strong>蒸发</strong>：本伤害+2</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>感电</strong>：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>冻结</strong>：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害+2的[<strong>草原核</strong>]</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p>依据<strong>达达利亚</strong>当前所处的状态，进行不同的攻击：</p><p><strong>远程状态·魔弹一闪：</strong>造成4点<strong><span
-    style="color: rgb(24, 144, 255)"><u>水元素伤害</u></span></strong><span data-type="详情"
-    data-name="<p style=&quot;white-space: pre-wrap;&quot;>水元素伤害：</p><p style=&quot;white-space:
-    pre-wrap;&quot;>附着水元素，可发生元素反应：</p><p style=&quot;white-space: pre-wrap;&quot;><strong>蒸发</strong>：本伤害+2</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>感电</strong>：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>冻结</strong>：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害+2的[<strong>草原核</strong>]</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，返还2点<strong><u>充能</u></strong><span
-    data-type="详情" data-name="<p style=&quot;white-space: pre-wrap;&quot;>充能：</p><p
-    style=&quot;white-space: pre-wrap;&quot;>角色使用「元素爆发」时，需要消耗充能。</p><p style=&quot;white-space:
-    pre-wrap;&quot;>角色使用「元素战技」或「普通攻击」后，会获得1点充能。</p>" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，目标角色附属<strong><u>断流</u></strong><span
-    data-type="详情" data-name="<p>断流：</p><p>状态</p><p><strong>所附属角色被击倒后：</strong>对所在阵营的出战角色附属「断流」。</p><p>（处于<strong>「近战状态」</strong>的<strong>达达利亚</strong>攻击所附属角色时，会造成额外伤害。）</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p><p><strong>近战状态·尽灭水光：</strong>造成7点<strong><span
-    style="color: rgb(24, 144, 255)"><u>水元素伤害</u></span></strong><span data-type="详情"
-    data-name="<p style=&quot;white-space: pre-wrap;&quot;>水元素伤害：</p><p style=&quot;white-space:
-    pre-wrap;&quot;>附着水元素，可发生元素反应：</p><p style=&quot;white-space: pre-wrap;&quot;><strong>蒸发</strong>：本伤害+2</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>感电</strong>：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>冻结</strong>：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害+2的[<strong>草原核</strong>]</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 依据达达利亚当前所处的状态，进行不同的攻击：远程状态·魔弹一闪：造成4点水元素伤害，返还2点充能，目标角色附属断流。近战状态·尽灭水光：造成7点水元素伤害。
+  comment: 依据达达利亚当前所处的状态，进行不同的攻击：远程状态·魔弹一闪：造成4点水元素伤害，返还2点充能，目标角色附属断流。近战状态·尽灭水光：造成7点水元素伤害。
 - name: 遏浪
   type: 被动技能
   cost: []
-  effect: '<p>【被动】战斗开始时，初始附属<strong><u>远程状态</u></strong><span data-type="详情" data-name="<p>远程状态：</p><p>状态</p><p><strong>所附属角色进行<u>重击</u>后：</strong>目标角色附属<strong><u>断流</u></strong>。</p><blockquote><p><strong>重击</strong></p><p>我方行动开始前，如果元素骰总数为偶数，则进行的「普通攻击」将被视为「重击」。</p><p></p><p><strong>断流</strong></p><p><strong>所附属角色被击倒后：</strong>对所在阵营的出战角色附属「断流」。</p><p>（处于<strong>「近战状态」</strong>的<strong>达达利亚</strong>攻击所附属角色时，会造成额外伤害。）</p></blockquote>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p><p>角色所附属的<strong><u>近战状态</u></strong><span
-    data-type="详情" data-name="<p>近战状态：</p><p>状态</p><p>角色造成的<strong>物理伤害</strong>转换为<strong><span
-    style=&quot;color: rgb(24, 144, 255)&quot;>水元素伤害</span></strong>。</p><p><strong>角色进行<u>重击</u>后：</strong>目标角色附属<strong><u>断流</u></strong>。</p><p>角色对附属有<strong>断流</strong>的角色造成的伤害+1；</p><p><strong>角色对已附属有断流的角色使用技能后：</strong>对下一个敌方后台角色造成1点<strong>穿透伤害</strong>。（每回合至多2次）</p><p><strong>持续回合：2</strong></p><blockquote><p><strong>重击</strong></p><p>我方行动开始前，如果元素骰总数为偶数，则进行的「普通攻击」将被视为「重击」。</p><p></p><p><strong>断流</strong></p><p><strong>所附属角色被击倒后：</strong>对所在阵营的出战角色附属「断流」。</p><p>（处于<strong>「近战状态」</strong>的<strong>达达利亚</strong>攻击所附属角色时，会造成额外伤害。）</p></blockquote>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>效果结束时，重新附属<strong>远程状态</strong>。</p>'
-  comment: '<p>【被动】战斗开始时，初始附属<strong><u>远程状态</u></strong><span data-type="详情" data-name="<p>远程状态：</p><p>状态</p><p><strong>所附属角色进行<u>重击</u>后：</strong>目标角色附属<strong><u>断流</u></strong>。</p><blockquote><p><strong>重击</strong></p><p>我方行动开始前，如果元素骰总数为偶数，则进行的「普通攻击」将被视为「重击」。</p><p></p><p><strong>断流</strong></p><p><strong>所附属角色被击倒后：</strong>对所在阵营的出战角色附属「断流」。</p><p>（处于<strong>「近战状态」</strong>的<strong>达达利亚</strong>攻击所附属角色时，会造成额外伤害。）</p></blockquote>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p><p>角色所附属的<strong><u>近战状态</u></strong><span
-    data-type="详情" data-name="<p>近战状态：</p><p>状态</p><p>角色造成的<strong>物理伤害</strong>转换为<strong><span
-    style=&quot;color: rgb(24, 144, 255)&quot;>水元素伤害</span></strong>。</p><p><strong>角色进行<u>重击</u>后：</strong>目标角色附属<strong><u>断流</u></strong>。</p><p>角色对附属有<strong>断流</strong>的角色造成的伤害+1；</p><p><strong>角色对已附属有断流的角色使用技能后：</strong>对下一个敌方后台角色造成1点<strong>穿透伤害</strong>。（每回合至多2次）</p><p><strong>持续回合：2</strong></p><blockquote><p><strong>重击</strong></p><p>我方行动开始前，如果元素骰总数为偶数，则进行的「普通攻击」将被视为「重击」。</p><p></p><p><strong>断流</strong></p><p><strong>所附属角色被击倒后：</strong>对所在阵营的出战角色附属「断流」。</p><p>（处于<strong>「近战状态」</strong>的<strong>达达利亚</strong>攻击所附属角色时，会造成额外伤害。）</p></blockquote>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>效果结束时，重新附属<strong>远程状态</strong>。</p>'
+  effect: 【被动】战斗开始时，初始附属远程状态。角色所附属的近战状态效果结束时，重新附属远程状态。
+  comment: 【被动】战斗开始时，初始附属远程状态。角色所附属的近战状态效果结束时，重新附属远程状态。

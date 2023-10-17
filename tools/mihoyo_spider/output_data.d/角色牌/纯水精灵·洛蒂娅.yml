@@ -1,12 +1,9 @@
 name: 纯水精灵·洛蒂娅
 rariry: -1
-element:
-- 水元素
-weapon:
-- 其他武器
+element: 水元素
+weapon: 其他武器
 max_HP: 10
-max_energy:
-- 3点
+max_energy: 3
 faction:
 - 魔物
 skills:
@@ -17,34 +14,22 @@ skills:
     count: 1
   - type: 10
     count: 2
-  effect: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(0,151,225,1)"><u>水元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;水元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着水元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害+2的[草原核]&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(0,151,225,1)"><u>水元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;水元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着水元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害+2的[草原核]&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成1点水元素伤害。
+  comment: 造成1点水元素伤害。
 - name: 纯水幻造
   type: 元素战技
   cost:
   - type: 6
     count: 3
-  effect: '<p style="white-space: pre-wrap;">随机召唤1种<strong><em>纯水幻形</em></strong>。（优先生成不同的类型）</p>'
-  comment: '<p style="white-space: pre-wrap;">随机召唤1种<strong><em>纯水幻形</em></strong>。（优先生成不同的类型）</p>'
+  effect: 随机召唤1种纯水幻形。（优先生成不同的类型）
+  comment: 随机召唤1种纯水幻形。（优先生成不同的类型）
 - name: 林野百态
   type: 元素战技
   cost:
   - type: 6
     count: 5
-  effect: '<p style="white-space: pre-wrap;">随机召唤2种<strong><em>纯水幻形</em></strong>。（优先生成不同的类型）</p>'
-  comment: '<p style="white-space: pre-wrap;">随机召唤2种<strong><em>纯水幻形</em></strong>。（优先生成不同的类型）</p>'
+  effect: 随机召唤2种纯水幻形。（优先生成不同的类型）
+  comment: 随机召唤2种纯水幻形。（优先生成不同的类型）
 - name: 潮涌与激流
   type: 元素爆发
   cost:
@@ -52,17 +37,5 @@ skills:
     count: 3
   - type: 8
     count: 3
-  effect: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(0,151,225,1)"><u>水元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;水元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着水元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害+2的[草原核]&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>；我方每有1个召唤物，再使此伤害+2。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(0,151,225,1)"><u>水元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;水元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着水元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;绽放：本伤害+1，生成使下次火/雷伤害+2的[草原核]&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>；我方每有1个召唤物，再使此伤害+2。</p>'
+  effect: 造成2点水元素伤害；我方每有1个召唤物，再使此伤害+2。
+  comment: 造成2点水元素伤害；我方每有1个召唤物，再使此伤害+2。

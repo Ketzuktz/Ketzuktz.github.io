@@ -1,12 +1,9 @@
 name: 流浪者
 rariry: -1
-element:
-- 风元素
-weapon:
-- 法器
+element: 风元素
+weapon: 法器
 max_HP: 10
-max_energy:
-- 3点
+max_energy: 3
 faction: []
 skills:
 - name: 行幡鸣弦
@@ -16,59 +13,15 @@ skills:
     count: 1
   - type: 10
     count: 2
-  effect: '<p>造成1点<strong><span style="color: rgb(54, 207, 201)"><u>风元素伤害</u></span></strong><span
-    data-type="详情" data-name="<p><strong><span style=&quot;color: rgb(27, 27, 27)&quot;>风元素伤害</span></strong><span
-    style=&quot;color: rgb(27, 27, 27)&quot;>：</span></p><p><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>和已附着的元素发生元素反应：</span></p><p><strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>扩散（冰）</span></strong><span style=&quot;color: rgb(27, 27,
-    27)&quot;>：对目标以外的所有敌方角色造成1点冰伤害</span></p><p><strong><span style=&quot;color: rgb(27,
-    27, 27)&quot;>扩散（水）</span></strong><span style=&quot;color: rgb(27, 27, 27)&quot;>：对目标以外的所有敌方角色造成1点水伤害</span></p><p><strong><span
-    style=&quot;color: rgb(27, 27, 27)&quot;>扩散（火）</span></strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>：对目标以外的所有敌方角色造成1点火伤害</span></p><p><strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>扩散（雷）</span></strong><span style=&quot;color: rgb(27, 27,
-    27)&quot;>：对目标以外的所有敌方角色造成1点雷伤害</span></p>" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p>造成1点<strong><span style="color: rgb(54, 207, 201)"><u>风元素伤害</u></span></strong><span
-    data-type="详情" data-name="<p><strong><span style=&quot;color: rgb(27, 27, 27)&quot;>风元素伤害</span></strong><span
-    style=&quot;color: rgb(27, 27, 27)&quot;>：</span></p><p><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>和已附着的元素发生元素反应：</span></p><p><strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>扩散（冰）</span></strong><span style=&quot;color: rgb(27, 27,
-    27)&quot;>：对目标以外的所有敌方角色造成1点冰伤害</span></p><p><strong><span style=&quot;color: rgb(27,
-    27, 27)&quot;>扩散（水）</span></strong><span style=&quot;color: rgb(27, 27, 27)&quot;>：对目标以外的所有敌方角色造成1点水伤害</span></p><p><strong><span
-    style=&quot;color: rgb(27, 27, 27)&quot;>扩散（火）</span></strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>：对目标以外的所有敌方角色造成1点火伤害</span></p><p><strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>扩散（雷）</span></strong><span style=&quot;color: rgb(27, 27,
-    27)&quot;>：对目标以外的所有敌方角色造成1点雷伤害</span></p>" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成1点风元素伤害。
+  comment: 造成1点风元素伤害。
 - name: 羽画·风姿华歌
   type: 元素战技
   cost:
   - type: 3
     count: 3
-  effect: '<p>造成2点<strong><span style="color: rgb(54, 207, 201)"><u>风元素伤害</u></span></strong><span
-    data-type="详情" data-name="<p><strong><span style=&quot;color: rgb(27, 27, 27)&quot;>风元素伤害</span></strong><span
-    style=&quot;color: rgb(27, 27, 27)&quot;>：</span></p><p><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>和已附着的元素发生元素反应：</span></p><p><strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>扩散（冰）</span></strong><span style=&quot;color: rgb(27, 27,
-    27)&quot;>：对目标以外的所有敌方角色造成1点冰伤害</span></p><p><strong><span style=&quot;color: rgb(27,
-    27, 27)&quot;>扩散（水）</span></strong><span style=&quot;color: rgb(27, 27, 27)&quot;>：对目标以外的所有敌方角色造成1点水伤害</span></p><p><strong><span
-    style=&quot;color: rgb(27, 27, 27)&quot;>扩散（火）</span></strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>：对目标以外的所有敌方角色造成1点火伤害</span></p><p><strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>扩散（雷）</span></strong><span style=&quot;color: rgb(27, 27,
-    27)&quot;>：对目标以外的所有敌方角色造成1点雷伤害</span></p>" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，本角色附属<strong><u>优风倾姿</u></strong><span
-    data-type="详情" data-name="<p>优风倾姿：</p><p>状态</p><p><strong>所附属角色进行「普通攻击」时</strong>:造成的伤害+2；如果敌方存在后台角色，则此技能改为对下一个敌方后台角色造成伤害。</p><p><strong>可用次数:
-    2</strong></p>" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p>造成2点<strong><span style="color: rgb(54, 207, 201)"><u>风元素伤害</u></span></strong><span
-    data-type="详情" data-name="<p><strong><span style=&quot;color: rgb(27, 27, 27)&quot;>风元素伤害</span></strong><span
-    style=&quot;color: rgb(27, 27, 27)&quot;>：</span></p><p><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>和已附着的元素发生元素反应：</span></p><p><strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>扩散（冰）</span></strong><span style=&quot;color: rgb(27, 27,
-    27)&quot;>：对目标以外的所有敌方角色造成1点冰伤害</span></p><p><strong><span style=&quot;color: rgb(27,
-    27, 27)&quot;>扩散（水）</span></strong><span style=&quot;color: rgb(27, 27, 27)&quot;>：对目标以外的所有敌方角色造成1点水伤害</span></p><p><strong><span
-    style=&quot;color: rgb(27, 27, 27)&quot;>扩散（火）</span></strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>：对目标以外的所有敌方角色造成1点火伤害</span></p><p><strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>扩散（雷）</span></strong><span style=&quot;color: rgb(27, 27,
-    27)&quot;>：对目标以外的所有敌方角色造成1点雷伤害</span></p>" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，本角色附属<strong><u>优风倾姿</u></strong><span
-    data-type="详情" data-name="<p>优风倾姿：</p><p>状态</p><p><strong>所附属角色进行「普通攻击」时</strong>:造成的伤害+2；如果敌方存在后台角色，则此技能改为对下一个敌方后台角色造成伤害。</p><p><strong>可用次数:
-    2</strong></p>" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点风元素伤害，本角色附属优风倾姿。
+  comment: 造成2点风元素伤害，本角色附属优风倾姿。
 - name: 狂言·式乐五番
   type: 元素爆发
   cost:
@@ -76,29 +29,5 @@ skills:
     count: 3
   - type: 8
     count: 3
-  effect: '<p>造成7点<strong><span style="color: rgb(54, 207, 201)"><u>风元素伤害</u></span></strong><span
-    data-type="详情" data-name="<p><strong><span style=&quot;color: rgb(27, 27, 27)&quot;>风元素伤害</span></strong><span
-    style=&quot;color: rgb(27, 27, 27)&quot;>：</span></p><p><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>和已附着的元素发生元素反应：</span></p><p><strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>扩散（冰）</span></strong><span style=&quot;color: rgb(27, 27,
-    27)&quot;>：对目标以外的所有敌方角色造成1点冰伤害</span></p><p><strong><span style=&quot;color: rgb(27,
-    27, 27)&quot;>扩散（水）</span></strong><span style=&quot;color: rgb(27, 27, 27)&quot;>：对目标以外的所有敌方角色造成1点水伤害</span></p><p><strong><span
-    style=&quot;color: rgb(27, 27, 27)&quot;>扩散（火）</span></strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>：对目标以外的所有敌方角色造成1点火伤害</span></p><p><strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>扩散（雷）</span></strong><span style=&quot;color: rgb(27, 27,
-    27)&quot;>：对目标以外的所有敌方角色造成1点雷伤害</span></p>" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>；如果角色附属有<strong><u>优风倾姿</u></strong><span
-    data-type="详情" data-name="<p>优风倾姿：</p><p>状态</p><p><strong>所附属角色进行「普通攻击」时</strong>:造成的伤害+2；如果敌方存在后台角色，则此技能改为对下一个敌方后台角色造成伤害。</p><p><strong>可用次数:
-    2</strong></p>" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，则将其移除并使此伤害+1。</p>'
-  comment: '<p>造成7点<strong><span style="color: rgb(54, 207, 201)"><u>风元素伤害</u></span></strong><span
-    data-type="详情" data-name="<p><strong><span style=&quot;color: rgb(27, 27, 27)&quot;>风元素伤害</span></strong><span
-    style=&quot;color: rgb(27, 27, 27)&quot;>：</span></p><p><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>和已附着的元素发生元素反应：</span></p><p><strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>扩散（冰）</span></strong><span style=&quot;color: rgb(27, 27,
-    27)&quot;>：对目标以外的所有敌方角色造成1点冰伤害</span></p><p><strong><span style=&quot;color: rgb(27,
-    27, 27)&quot;>扩散（水）</span></strong><span style=&quot;color: rgb(27, 27, 27)&quot;>：对目标以外的所有敌方角色造成1点水伤害</span></p><p><strong><span
-    style=&quot;color: rgb(27, 27, 27)&quot;>扩散（火）</span></strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>：对目标以外的所有敌方角色造成1点火伤害</span></p><p><strong><span style=&quot;color:
-    rgb(27, 27, 27)&quot;>扩散（雷）</span></strong><span style=&quot;color: rgb(27, 27,
-    27)&quot;>：对目标以外的所有敌方角色造成1点雷伤害</span></p>" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>；如果角色附属有<strong><u>优风倾姿</u></strong><span
-    data-type="详情" data-name="<p>优风倾姿：</p><p>状态</p><p><strong>所附属角色进行「普通攻击」时</strong>:造成的伤害+2；如果敌方存在后台角色，则此技能改为对下一个敌方后台角色造成伤害。</p><p><strong>可用次数:
-    2</strong></p>" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，则将其移除并使此伤害+1。</p>'
+  effect: 造成7点风元素伤害；如果角色附属有优风倾姿，则将其移除并使此伤害+1。
+  comment: 造成7点风元素伤害；如果角色附属有优风倾姿，则将其移除并使此伤害+1。

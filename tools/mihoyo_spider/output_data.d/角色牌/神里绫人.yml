@@ -1,12 +1,9 @@
 name: 神里绫人
 rariry: -1
-element:
-- 水元素
-weapon:
-- 单手剑
+element: 水元素
+weapon: 单手剑
 max_HP: 10
-max_energy:
-- 2点
+max_energy: 2
 faction:
 - 稻妻
 skills:
@@ -17,39 +14,15 @@ skills:
     count: 1
   - type: 10
     count: 2
-  effect: '<p>造成2点<strong><span style="color: rgb(0, 0, 0)"><u>物理伤害</u></span></strong><span
-    data-type="详情" data-name="<p style=&quot;white-space: pre-wrap;&quot;>物理伤害：</p><p
-    style=&quot;white-space: pre-wrap;&quot;>物理伤害不会附着元素，也不会发生元素反应。</p>" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p>造成2点<strong><span style="color: rgb(0, 0, 0)"><u>物理伤害</u></span></strong><span
-    data-type="详情" data-name="<p style=&quot;white-space: pre-wrap;&quot;>物理伤害：</p><p
-    style=&quot;white-space: pre-wrap;&quot;>物理伤害不会附着元素，也不会发生元素反应。</p>" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点物理伤害。
+  comment: 造成2点物理伤害。
 - name: 神里流·镜花
   type: 元素战技
   cost:
   - type: 6
     count: 3
-  effect: '<p>造成2点<strong><span style="color: rgb(24, 144, 255)"><u>水元素伤害</u></span></strong><span
-    data-type="详情" data-name="<p style=&quot;white-space: pre-wrap;&quot;>水元素伤害：</p><p
-    style=&quot;white-space: pre-wrap;&quot;>附着水元素，可发生元素反应：</p><p style=&quot;white-space:
-    pre-wrap;&quot;><strong>蒸发</strong>：本伤害+2</p><p style=&quot;white-space: pre-wrap;&quot;><strong>感电</strong>：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>冻结</strong>：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害+2的[<strong>草原核</strong>]</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，本角色附属<strong><u>泷廻鉴花</u></strong><span
-    data-type="详情" data-name="<p>泷廻鉴花：</p><p>状态</p><p>所附属角色<strong>普通攻击</strong>造成的伤害+1，造成的<strong>物理伤害</strong>变为<strong><span
-    style=&quot;color: rgb(24, 144, 255)&quot;>水元素伤害</span></strong>。</p><p><strong>可用次数：3</strong></p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p>造成2点<strong><span style="color: rgb(24, 144, 255)"><u>水元素伤害</u></span></strong><span
-    data-type="详情" data-name="<p style=&quot;white-space: pre-wrap;&quot;>水元素伤害：</p><p
-    style=&quot;white-space: pre-wrap;&quot;>附着水元素，可发生元素反应：</p><p style=&quot;white-space:
-    pre-wrap;&quot;><strong>蒸发</strong>：本伤害+2</p><p style=&quot;white-space: pre-wrap;&quot;><strong>感电</strong>：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>冻结</strong>：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害+2的[<strong>草原核</strong>]</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，本角色附属<strong><u>泷廻鉴花</u></strong><span
-    data-type="详情" data-name="<p>泷廻鉴花：</p><p>状态</p><p>所附属角色<strong>普通攻击</strong>造成的伤害+1，造成的<strong>物理伤害</strong>变为<strong><span
-    style=&quot;color: rgb(24, 144, 255)&quot;>水元素伤害</span></strong>。</p><p><strong>可用次数：3</strong></p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点水元素伤害，本角色附属泷廻鉴花。
+  comment: 造成2点水元素伤害，本角色附属泷廻鉴花。
 - name: 神里流·水囿
   type: 元素爆发
   cost:
@@ -57,17 +30,5 @@ skills:
     count: 3
   - type: 8
     count: 2
-  effect: '<p>造成1点<strong><span style="color: rgb(24, 144, 255)"><u>水元素伤害</u></span></strong><span
-    data-type="详情" data-name="<p style=&quot;white-space: pre-wrap;&quot;>水元素伤害：</p><p
-    style=&quot;white-space: pre-wrap;&quot;>附着水元素，可发生元素反应：</p><p style=&quot;white-space:
-    pre-wrap;&quot;><strong>蒸发</strong>：本伤害+2</p><p style=&quot;white-space: pre-wrap;&quot;><strong>感电</strong>：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>冻结</strong>：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害+2的[<strong>草原核</strong>]</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，召唤<strong><em>清净之园囿</em></strong>。</p>'
-  comment: '<p>造成1点<strong><span style="color: rgb(24, 144, 255)"><u>水元素伤害</u></span></strong><span
-    data-type="详情" data-name="<p style=&quot;white-space: pre-wrap;&quot;>水元素伤害：</p><p
-    style=&quot;white-space: pre-wrap;&quot;>附着水元素，可发生元素反应：</p><p style=&quot;white-space:
-    pre-wrap;&quot;><strong>蒸发</strong>：本伤害+2</p><p style=&quot;white-space: pre-wrap;&quot;><strong>感电</strong>：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>冻结</strong>：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）</p><p
-    style=&quot;white-space: pre-wrap;&quot;><strong>绽放</strong>：本伤害+1，生成使下次火/雷伤害+2的[<strong>草原核</strong>]</p>"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，召唤<strong><em>清净之园囿</em></strong>。</p>'
+  effect: 造成1点水元素伤害，召唤清净之园囿。
+  comment: 造成1点水元素伤害，召唤清净之园囿。

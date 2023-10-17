@@ -1,12 +1,9 @@
 name: 重云
 rariry: -1
-element:
-- 冰元素
-weapon:
-- 双手剑
+element: 冰元素
+weapon: 双手剑
 max_HP: 10
-max_energy:
-- 3点
+max_energy: 3
 faction:
 - 璃月
 skills:
@@ -17,39 +14,15 @@ skills:
     count: 1
   - type: 10
     count: 2
-  effect: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点物理伤害。
+  comment: 造成2点物理伤害。
 - name: 重华叠霜
   type: 元素战技
   cost:
   - type: 1
     count: 3
-  effect: '<p style="white-space: pre-wrap;">造成3点<strong><span style="color:rgba(145,213,255,1)"><u>冰元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冰元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着冰元素，可发生元素反应:&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，生成<strong><u>重华叠霜领域</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;重华叠霜领域：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;我方单手剑、双手剑或长柄武器角色造成的物理伤害变为冰元素伤害。&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;持续回合：2&lt;/p&gt;" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成3点<strong><span style="color:rgba(145,213,255,1)"><u>冰元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冰元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着冰元素，可发生元素反应:&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，生成<strong><u>重华叠霜领域</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;重华叠霜领域：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;我方单手剑、双手剑或长柄武器角色造成的物理伤害变为冰元素伤害。&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;持续回合：2&lt;/p&gt;" class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成3点冰元素伤害，生成重华叠霜领域。
+  comment: 造成3点冰元素伤害，生成重华叠霜领域。
 - name: 云开星落
   type: 元素爆发
   cost:
@@ -57,15 +30,5 @@ skills:
     count: 3
   - type: 8
     count: 3
-  effect: '<p style="white-space: pre-wrap;">造成7点<strong><span style="color:rgba(145,213,255,1)"><u>冰元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冰元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着冰元素，可发生元素反应:&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成7点<strong><span style="color:rgba(145,213,255,1)"><u>冰元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;冰元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着冰元素，可发生元素反应:&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;冻结：本伤害+1，使目标本回合无法行动（受到物理或火元素伤害后提前解除，但是伤害+2）&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成7点冰元素伤害。
+  comment: 造成7点冰元素伤害。

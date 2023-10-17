@@ -1,12 +1,9 @@
 name: 班尼特
 rariry: -1
-element:
-- 火元素
-weapon:
-- 单手剑
+element: 火元素
+weapon: 单手剑
 max_HP: 10
-max_energy:
-- 2点
+max_energy: 2
 faction:
 - 蒙德
 skills:
@@ -17,33 +14,15 @@ skills:
     count: 1
   - type: 10
     count: 2
-  effect: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点物理伤害。
+  comment: 造成2点物理伤害。
 - name: 热情过载
   type: 元素战技
   cost:
   - type: 4
     count: 3
-  effect: '<p style="white-space: pre-wrap;">造成3点<strong><span style="color:rgba(207,19,34,1)"><u>火元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;火元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着火元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;燃烧：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;&lt;em&gt;燃烧烈焰&lt;/em&gt;&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成3点<strong><span style="color:rgba(207,19,34,1)"><u>火元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;火元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着火元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;燃烧：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;&lt;em&gt;燃烧烈焰&lt;/em&gt;&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成3点火元素伤害。
+  comment: 造成3点火元素伤害。
 - name: 美妙旅程
   type: 元素爆发
   cost:
@@ -51,25 +30,5 @@ skills:
     count: 4
   - type: 8
     count: 2
-  effect: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(207,19,34,1)"><u>火元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;火元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着火元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;燃烧：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;&lt;em&gt;燃烧烈焰&lt;/em&gt;&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，生成<strong><u>鼓舞领域</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;鼓舞领域：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;我方角色使用技能时：如果该角色生命值至少为7，则使此伤害额外+2；技能结算后，如果该角色生命值不多于6，则治疗该角色2点。&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;持续回合：2&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(207,19,34,1)"><u>火元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;火元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着火元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;融化：本伤害+2&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;蒸发：本伤害+2&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;燃烧：本伤害+1，生成回合结束时造成1点火伤害的[&lt;strong&gt;&lt;em&gt;燃烧烈焰&lt;/em&gt;&lt;/strong&gt;]（可生效1次，最多叠加到2次）&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，生成<strong><u>鼓舞领域</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;鼓舞领域：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;我方角色使用技能时：如果该角色生命值至少为7，则使此伤害额外+2；技能结算后，如果该角色生命值不多于6，则治疗该角色2点。&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;持续回合：2&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点火元素伤害，生成鼓舞领域。
+  comment: 造成2点火元素伤害，生成鼓舞领域。

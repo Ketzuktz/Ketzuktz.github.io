@@ -49,13 +49,16 @@ if __name__ == "__main__":
                 with open(card_path, "w", encoding="utf-8") as f:
                     json.dump(card_data, f, ensure_ascii=False, indent=4)
 
-            if not os.path.exists(card_data_path):
-                with open(card_path, "r", encoding="utf-8") as f:
-                    card_data = json.load(f)
+            # if not os.path.exists(card_data_path):
+            with open(card_path, "r", encoding="utf-8") as f:
+                card_data = json.load(f)
 
-                data = card_info_extract_data(
-                    card_data, CardInfoType(card_type), context
-                )
+            data = card_info_extract_data(
+                card_data, CardInfoType(card_type), context
+            )
 
-                with open(card_data_path, "w", encoding="utf-8") as f:
-                    yaml.dump(data, f, allow_unicode=True, sort_keys=False)
+            with open(card_data_path, "w", encoding="utf-8") as f:
+                yaml.dump(data, f, allow_unicode=True, sort_keys=False)
+
+    with open("output_data.d/dictionary.yml", "w", encoding="utf-8") as f:
+        yaml.dump(context.data, f, allow_unicode=True, sort_keys=False)

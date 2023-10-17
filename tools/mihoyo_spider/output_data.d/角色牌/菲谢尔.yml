@@ -1,12 +1,9 @@
 name: 菲谢尔
 rariry: -1
-element:
-- 雷元素
-weapon:
-- 弓
+element: 雷元素
+weapon: 弓
 max_HP: 10
-max_energy:
-- 3点
+max_energy: 3
 faction:
 - 蒙德
 skills:
@@ -17,35 +14,15 @@ skills:
     count: 1
   - type: 10
     count: 2
-  effect: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点物理伤害。
+  comment: 造成2点物理伤害。
 - name: 夜巡影翼
   type: 元素战技
   cost:
   - type: 5
     count: 3
-  effect: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(146,84,222,1)"><u>雷元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;原激化：本伤害+1，生成使下2次草/雷伤害+1的[激化领域]&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>，召唤<strong><em><u>奥兹</u></em></strong>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成1点<strong><span style="color:rgba(146,84,222,1)"><u>雷元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;原激化：本伤害+1，生成使下2次草/雷伤害+1的[激化领域]&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>，召唤<strong><em><u>奥兹</u></em></strong>。</p>'
+  effect: 造成1点雷元素伤害，召唤奥兹。
+  comment: 造成1点雷元素伤害，召唤奥兹。
 - name: 至夜幻现
   type: 元素爆发
   cost:
@@ -53,25 +30,5 @@ skills:
     count: 3
   - type: 8
     count: 3
-  effect: '<p style="white-space: pre-wrap;">造成4点<strong><span style="color:rgba(146,84,222,1)"><u>雷元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;原激化：本伤害+1，生成使下2次草/雷伤害+1的[激化领域]&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>，对所有敌方后台角色造成2点<strong><u>穿透伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;穿透伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;穿透伤害无法受到伤害加成，但是也无法被护盾、伤害免疫等效果抵消。&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成4点<strong><span style="color:rgba(146,84,222,1)"><u>雷元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;原激化：本伤害+1，生成使下2次草/雷伤害+1的[激化领域]&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>，对所有敌方后台角色造成2点<strong><u>穿透伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;穿透伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;穿透伤害无法受到伤害加成，但是也无法被护盾、伤害免疫等效果抵消。&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成4点雷元素伤害，对所有敌方后台角色造成2点穿透伤害。
+  comment: 造成4点雷元素伤害，对所有敌方后台角色造成2点穿透伤害。

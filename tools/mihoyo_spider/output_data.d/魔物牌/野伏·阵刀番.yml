@@ -1,12 +1,9 @@
 name: 野伏·阵刀番
 rariry: -1
-element:
-- 物理
-weapon:
-- 其他武器
+element: 物理
+weapon: 其他武器
 max_HP: 6
-max_energy:
-- 2点
+max_energy: 2
 faction:
 - ''
 skills:
@@ -15,27 +12,15 @@ skills:
   cost:
   - type: 10
     count: 3
-  effect: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点物理伤害。
+  comment: 造成2点物理伤害。
 - name: 跳劈弹
   type: 元素战技
   cost:
   - type: 9
     count: 3
-  effect: '<p style="white-space: pre-wrap;">造成3点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成3点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成3点物理伤害。
+  comment: 造成3点物理伤害。
 - name: 居合·纳刀
   type: 元素爆发
   cost:
@@ -43,18 +28,10 @@ skills:
     count: 3
   - type: 8
     count: 2
-  effect: '<p style="white-space: pre-wrap;">本角色准备技能：<strong><u>居合·前</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;居合·前：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;元素爆发&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;（需准备2个行动轮）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成6点&lt;strong&gt;物理伤害&lt;/strong&gt;。&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">本角色准备技能：<strong><u>居合·前</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;居合·前：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;元素爆发&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;（需准备2个行动轮）&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;造成6点&lt;strong&gt;物理伤害&lt;/strong&gt;。&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 本角色准备技能：居合·前。
+  comment: 本角色准备技能：居合·前。
 - name: 残心
   type: 被动技能
   cost: []
-  effect: '<p style="white-space: pre-wrap;">【被动】结束阶段：如果此角色是「出战角色」，就获得1点充能。</p>'
-  comment: '<p style="white-space: pre-wrap;">【被动】结束阶段：如果此角色是「出战角色」，就获得1点充能。</p>'
+  effect: 【被动】结束阶段：如果此角色是「出战角色」，就获得1点充能。
+  comment: 【被动】结束阶段：如果此角色是「出战角色」，就获得1点充能。

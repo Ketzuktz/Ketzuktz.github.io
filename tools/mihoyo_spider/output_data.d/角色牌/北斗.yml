@@ -1,12 +1,9 @@
 name: 北斗
 rariry: -1
-element:
-- 雷元素
-weapon:
-- 双手剑
+element: 雷元素
+weapon: 双手剑
 max_HP: 10
-max_energy:
-- 3点
+max_energy: 3
 faction:
 - 璃月
 skills:
@@ -17,49 +14,15 @@ skills:
     count: 1
   - type: 10
     count: 2
-  effect: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(0,0,0,1)"><u>物理伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(0,0,0,1)"><u>物理伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点物理伤害。
+  comment: 造成2点物理伤害。
 - name: 捉浪
   type: 元素战技
   cost:
   - type: 5
     count: 3
-  effect: '<p style="white-space: pre-wrap;">本角色附属<strong><u>捉浪·涛拥之守</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;捉浪·涛拥之守：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;本角色将在下次行动时，直接使用技能：&lt;strong&gt;踏潮&lt;/strong&gt;。&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;准备技能期间：提供2点&lt;strong&gt;护盾&lt;/strong&gt;，保护所附属的角色。&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>并<strong><u>准备技能</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;准备技能：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;有些技能无法被直接使用，而是需要一定次数的行动轮来进行&lt;strong&gt;准备&lt;/strong&gt;。&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;轮到一位牌手行动时，如果该牌手的「出战角色」正在&lt;strong&gt;准备&lt;/strong&gt;技能，则跳过该牌手的行动；如果技能已经完成&lt;strong&gt;准备&lt;/strong&gt;，角色将会在此时直接使用此技能。（此类需要&lt;strong&gt;准备&lt;/strong&gt;的技能，无法触发「使用技能后」效果。）&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;只有「出战角色」才能&lt;strong&gt;准备&lt;/strong&gt;技能；如果正在&lt;strong&gt;准备&lt;/strong&gt;技能的「出战角色」被切换到后台，技能的&lt;strong&gt;准备&lt;/strong&gt;就会被打断。&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>：<strong><u>踏潮</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;元素战技&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;（需准备1个行动轮）造成3点&lt;strong&gt;&lt;span
-    style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">本角色附属<strong><u>捉浪·涛拥之守</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;捉浪·涛拥之守：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;本角色将在下次行动时，直接使用技能：&lt;strong&gt;踏潮&lt;/strong&gt;。&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;准备技能期间：提供2点&lt;strong&gt;护盾&lt;/strong&gt;，保护所附属的角色。&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>并<strong><u>准备技能</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;准备技能：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;有些技能无法被直接使用，而是需要一定次数的行动轮来进行&lt;strong&gt;准备&lt;/strong&gt;。&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;轮到一位牌手行动时，如果该牌手的「出战角色」正在&lt;strong&gt;准备&lt;/strong&gt;技能，则跳过该牌手的行动；如果技能已经完成&lt;strong&gt;准备&lt;/strong&gt;，角色将会在此时直接使用此技能。（此类需要&lt;strong&gt;准备&lt;/strong&gt;的技能，无法触发「使用技能后」效果。）&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;只有「出战角色」才能&lt;strong&gt;准备&lt;/strong&gt;技能；如果正在&lt;strong&gt;准备&lt;/strong&gt;技能的「出战角色」被切换到后台，技能的&lt;strong&gt;准备&lt;/strong&gt;就会被打断。&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>：<strong><u>踏潮</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;元素战技&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;（需准备1个行动轮）造成3点&lt;strong&gt;&lt;span
-    style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 本角色附属捉浪·涛拥之守并准备技能：踏潮。
+  comment: 本角色附属捉浪·涛拥之守并准备技能：踏潮。
 - name: 斫雷
   type: 元素爆发
   cost:
@@ -67,33 +30,5 @@ skills:
     count: 3
   - type: 8
     count: 3
-  effect: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(146,84,222,1)"><u>雷元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;原激化：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，生成<strong><u>雷兽之盾</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷兽之盾：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;&lt;strong&gt;我方角色普通攻击后：&lt;/strong&gt;造成1点&lt;strong&gt;&lt;span
-    style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;我方角色受到至少为3的伤害时：&lt;/strong&gt;抵消其中1点伤害。&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;持续回合&lt;/strong&gt;：2&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(146,84,222,1)"><u>雷元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;附着雷元素，可发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;超载：本伤害+2，目标强制切换到下一个角色&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;超导：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;感电：本伤害+1，对目标以外的所有敌方角色造成1点穿透伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;原激化：本伤害+1，生成使下2次草/雷伤害+1的[&lt;strong&gt;激化领域&lt;/strong&gt;]&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>，生成<strong><u>雷兽之盾</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;雷兽之盾：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;&lt;strong&gt;我方角色普通攻击后：&lt;/strong&gt;造成1点&lt;strong&gt;&lt;span
-    style=&#34;color:rgba(146,84,222,1)&#34;&gt;雷元素伤害&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;我方角色受到至少为3的伤害时：&lt;/strong&gt;抵消其中1点伤害。&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;持续回合&lt;/strong&gt;：2&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点雷元素伤害，生成雷兽之盾。
+  comment: 造成2点雷元素伤害，生成雷兽之盾。

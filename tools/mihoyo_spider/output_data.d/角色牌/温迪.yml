@@ -1,12 +1,9 @@
 name: 温迪
 rariry: -1
-element:
-- 风元素
-weapon:
-- 弓
+element: 风元素
+weapon: 弓
 max_HP: 10
-max_energy:
-- 2点
+max_energy: 2
 faction:
 - 蒙德
 skills:
@@ -17,43 +14,15 @@ skills:
     count: 1
   - type: 10
     count: 2
-  effect: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点物理伤害。
+  comment: 造成2点物理伤害。
 - name: 高天之歌
   type: 元素战技
   cost:
   - type: 3
     count: 3
-  effect: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(54,207,201,1)"><u>风元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;风元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（冰）：对目标以外的所有敌方角色造成1点冰伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（水）：对目标以外的所有敌方角色造成1点水伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（火）：对目标以外的所有敌方角色造成1点火伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（雷）：对目标以外的所有敌方角色造成1点雷伤害&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>，生成<strong>风域</strong><span data-type="详情" data-name="&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;风域：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;我方执行「切换角色」行动时：&lt;/strong&gt;少花费1个元素骰。&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：2&lt;/strong&gt;&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(54,207,201,1)"><u>风元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;风元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（冰）：对目标以外的所有敌方角色造成1点冰伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（水）：对目标以外的所有敌方角色造成1点水伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（火）：对目标以外的所有敌方角色造成1点火伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（雷）：对目标以外的所有敌方角色造成1点雷伤害&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>，生成<strong>风域</strong><span data-type="详情" data-name="&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;风域：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;出战状态&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;我方执行「切换角色」行动时：&lt;/strong&gt;少花费1个元素骰。&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;&lt;strong&gt;可用次数：2&lt;/strong&gt;&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点风元素伤害，生成风域。
+  comment: 造成2点风元素伤害，生成风域。
 - name: 风神之诗
   type: 元素爆发
   cost:
@@ -61,19 +30,5 @@ skills:
     count: 3
   - type: 8
     count: 2
-  effect: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(54,207,201,1)"><u>风元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;风元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（冰）：对目标以外的所有敌方角色造成1点冰伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（水）：对目标以外的所有敌方角色造成1点水伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（火）：对目标以外的所有敌方角色造成1点火伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（雷）：对目标以外的所有敌方角色造成1点雷伤害&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>，召唤<strong><em>暴风之眼</em></strong>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成2点<strong><span style="color:rgba(54,207,201,1)"><u>风元素伤害</u></span></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;风元素伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;和已附着的元素发生元素反应：&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（冰）：对目标以外的所有敌方角色造成1点冰伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（水）：对目标以外的所有敌方角色造成1点水伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（火）：对目标以外的所有敌方角色造成1点火伤害&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;扩散（雷）：对目标以外的所有敌方角色造成1点雷伤害&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>，召唤<strong><em>暴风之眼</em></strong>。</p>'
+  effect: 造成2点风元素伤害，召唤暴风之眼。
+  comment: 造成2点风元素伤害，召唤暴风之眼。

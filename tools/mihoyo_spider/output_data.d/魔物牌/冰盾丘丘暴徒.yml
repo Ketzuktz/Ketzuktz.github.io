@@ -1,12 +1,9 @@
 name: 冰盾丘丘暴徒
 rariry: -1
-element:
-- 冰元素
-weapon:
-- 其他武器
+element: 冰元素
+weapon: 其他武器
 max_HP: 8
-max_energy:
-- 2点
+max_energy: 2
 faction:
 - 魔物/丘丘人
 skills:
@@ -17,27 +14,15 @@ skills:
     count: 1
   - type: 10
     count: 2
-  effect: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成2点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成2点物理伤害。
+  comment: 造成2点物理伤害。
 - name: Da Plama
   type: 元素战技
   cost:
   - type: 1
     count: 3
-  effect: '<p style="white-space: pre-wrap;">造成3点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成3点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成3点物理伤害。
+  comment: 造成3点物理伤害。
 - name: Aba Movo
   type: 元素爆发
   cost:
@@ -45,24 +30,10 @@ skills:
     count: 3
   - type: 8
     count: 2
-  effect: '<p style="white-space: pre-wrap;">造成5点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">造成5点<strong><u>物理伤害</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;物理伤害不会附着元素，也不会发生元素反应。&lt;/p&gt;" class="wiki-note-text"><sup
-    class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 造成5点物理伤害。
+  comment: 造成5点物理伤害。
 - name: 寒冰大盾
   type: 被动技能
   cost: []
-  effect: '<p style="white-space: pre-wrap;">【被动】战斗开始时，初始附属<strong><u>寒冰大盾</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;寒冰大盾：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;所附属角色所受伤害-2。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此状态会提供2次&lt;strong&gt;冰元素附着&lt;/strong&gt;（可被元素反应消耗）：耗尽后移除此状态。&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
-  comment: '<p style="white-space: pre-wrap;">【被动】战斗开始时，初始附属<strong><u>寒冰大盾</u></strong><span
-    data-type="详情" data-name="&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;寒冰大盾：&lt;/p&gt;&lt;p
-    style=&#34;white-space: pre-wrap;&#34;&gt;状态&lt;/p&gt;&lt;p style=&#34;white-space:
-    pre-wrap;&#34;&gt;所附属角色所受伤害-2。&lt;/p&gt;&lt;p style=&#34;white-space: pre-wrap;&#34;&gt;此状态会提供2次&lt;strong&gt;冰元素附着&lt;/strong&gt;（可被元素反应消耗）：耗尽后移除此状态。&lt;/p&gt;"
-    class="wiki-note-text"><sup class="wiki-sup">[详情]</sup></span>。</p>'
+  effect: 【被动】战斗开始时，初始附属寒冰大盾。
+  comment: 【被动】战斗开始时，初始附属寒冰大盾。
