@@ -4,7 +4,7 @@ import os
 import yaml
 from mihoyo.channel import get_channel
 from mihoyo.wiki.card import get_card
-from mihoyo.wiki.smarter import (CardInfoType, DictContext,
+from mihoyo.wiki.smarter import (CardInfoType, SmarterContext,
                                  card_info_extract_data)
 
 yaml.SafeDumper.org_represent_str = yaml.SafeDumper.represent_str
@@ -36,7 +36,8 @@ if __name__ == "__main__":
     with open("output.d/card_lists.json", "r", encoding="utf-8") as f:
         card_lists = json.load(f)
 
-    context: DictContext = DictContext()
+    context: SmarterContext = SmarterContext()
+    effects: list[str] = []
 
     for card_list in card_lists["children"]:
         card_type = card_list["name"]
@@ -70,4 +71,7 @@ if __name__ == "__main__":
                 yaml.dump(data, f, allow_unicode=True, sort_keys=False)
 
     with open("output_data.d/dictionary.yml", "w", encoding="utf-8") as f:
-        yaml.safe_dump(context.data, f, allow_unicode=True)
+        yaml.safe_dump(context.dictionary, f, allow_unicode=True)
+
+    with open("output_data.d/effects.yml", "w", encoding="utf-8") as f:
+        yaml.safe_dump(context.effects, f, allow_unicode=True)

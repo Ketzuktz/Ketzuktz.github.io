@@ -16,13 +16,17 @@ from gicg_sim.model.prototype.skill import SkillPrototype as SP
 SKILL_COMMENT_DICT_ALIAS = {"准备": "准备技能"}
 
 
-class DictContext:
+class SmarterContext:
     def __init__(self) -> None:
         self._dictionary = {}
         self._raw_data = {}
+        self._effects: set[str] = set()
         pass
 
-    def update(self, key: str, value: str, raw_data: str = ""):
+    def append_effect(self, effect: str):
+        self._effects.add(effect)
+
+    def update_dictionary(self, key: str, value: str, raw_data: str = ""):
         if key in self._dictionary:
             if self._dictionary[key] != value:
                 raise RuntimeError(
@@ -33,8 +37,12 @@ class DictContext:
         self._raw_data[key] = raw_data
 
     @property
-    def data(self) -> dict:
+    def dictionary(self) -> dict:
         return self._dictionary
+
+    @property
+    def effects(self) -> list:
+        return sorted(list(self._effects))
 
 
 class CardInfoType(Enum):
@@ -90,7 +98,7 @@ def _life_energy_to_cost(base_info: BaseInfo) -> CostType:
 
 
 def _extract_skill_comment_detail(
-    detail_text: str, expect_title: str, context: DictContext
+    detail_text: str, expect_title: str, context: SmarterContext
 ):
     parsed_detail = lxml_html.fromstring(detail_text)
 
@@ -257,11 +265,11 @@ def _extract_skill_comment_detail(
 
     content = re.sub("(」)\n([\u4e00-\u9fa5])", r"\1\2", content)
 
-    context.update(title, content, detail_text)
+    context.update_dictionary(title, content, detail_text)
 
 
 def _extract_skill_comment_single_paragraph_text(
-    root: etree.Element, context: DictContext
+    root: etree.Element, context: SmarterContext
 ) -> str:
     # 获取包含技能描述的整个字符串，但排除 "[详情]" 部分
     skill_description = "".join(root.xpath("//*[not(self::sup)]/text()")).strip()
@@ -302,17 +310,22 @@ def _extract_skill_comment_single_paragraph_text(
     return skill_description
 
 
-def _extract_skill_comment(skill_desc: str, context: DictContext) -> str:
-    root = etree.fromstring(f"<div>{skill_desc}</div>")
+def _extract_skill_effect_from_html(html: str, context: SmarterContext) -> str:
+    root = etree.fromstring(f"<div>{html}</div>")
+    ps = root.xpath('/*')
     output = ""
-    for p in root.xpath("/*"):
+
+    for p in ps:
         comment_frag = _extract_skill_comment_single_paragraph_text(p, context)
-        output += comment_frag + "\n"
+        output += comment_frag
+
+    output = output.replace("\n", "")
+    output = output.replace("  ，", "，")
 
     return output.strip()
 
 
-def _raw_effect_to_desc(effect: str, context: DictContext) -> str:
+def _raw_effect_to_desc(effect: str, context: SmarterContext) -> str:
     try:
         escaped_html_string = re.sub(
             r'="([^"]*)"',
@@ -322,16 +335,17 @@ def _raw_effect_to_desc(effect: str, context: DictContext) -> str:
         removed_duplicate_class_string = re.sub(
             '(class=\\"[\\w-]+\\") \\1', "\\1", escaped_html_string
         )
-        desc = _extract_skill_comment(removed_duplicate_class_string, context)
+        desc = _extract_skill_effect_from_html(removed_duplicate_class_string, context)
+        context.append_effect(desc)
         return desc
     except Exception as e:
         print(escaped_html_string)
         raise e
 
 
-def _extract_character_data(card: CardInfo, context: DictContext) -> CP:
+def _extract_character_data(card: CardInfo, context: SmarterContext) -> CP:
     def card_skill_info_to_SP(skill_info: dict) -> SP:
-        skill_comment = _raw_effect_to_desc(skill_info["desc"], context)
+        skill_effect_desc = _raw_effect_to_desc(skill_info["desc"], context)
 
         return {
             "name": skill_info["name"],
@@ -339,8 +353,8 @@ def _extract_character_data(card: CardInfo, context: DictContext) -> CP:
             "cost": _cost_repr_to_cost(
                 _type_count_list_to_dict(skill_info["costs"])
             ).model_dump(exclude_none=True),
-            "effect": skill_comment,
-            "comment": skill_comment,
+            "effect": skill_effect_desc,
+            "comment": skill_effect_desc,
         }
 
     skills: list[SP] = [card_skill_info_to_SP(s) for s in card["skills"]]
@@ -360,7 +374,7 @@ def _extract_character_data(card: CardInfo, context: DictContext) -> CP:
     return output
 
 
-def _extract_action_data(card: CardInfo, context: DictContext) -> AP:
+def _extract_action_data(card: CardInfo, context: SmarterContext) -> AP:
     effect = _raw_effect_to_desc(card["effect"]["rich_text"], context)
 
     output: AP = {
@@ -373,7 +387,7 @@ def _extract_action_data(card: CardInfo, context: DictContext) -> AP:
     return output
 
 
-def card_info_extract_data(card: CardInfo, type: CardInfoType, context: DictContext):
+def card_info_extract_data(card: CardInfo, type: CardInfoType, context: SmarterContext):
     match type:
         case CardInfoType.character:
             return _extract_character_data(card, context)

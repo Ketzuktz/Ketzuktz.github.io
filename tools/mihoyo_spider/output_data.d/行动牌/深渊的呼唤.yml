@@ -5,8 +5,6 @@ group:
 cost:
   die:
     matching: 2
-effect: '召唤一个随机「丘丘人」召唤物！
-
-  （牌组包含至少2个「魔物」角色，才能加入牌组）'
+effect: 召唤一个随机「丘丘人」召唤物！（牌组包含至少2个「魔物」角色，才能加入牌组）
 comment: '<p style="white-space: pre-wrap;"><strong>深渊的呼唤</strong></p><p style="white-space:
   pre-wrap;">「Yaya ika！」</p>'
