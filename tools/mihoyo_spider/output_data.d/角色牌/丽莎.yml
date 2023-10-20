@@ -10,25 +10,23 @@ skills:
 - name: 指尖雷暴
   type: 普通攻击
   cost:
-  - type: 5
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      electro: 1
+      unaligned: 2
   effect: 造成1点雷元素伤害；如果此技能为重击，则使敌方出战角色附属引雷。
   comment: 造成1点雷元素伤害；如果此技能为重击，则使敌方出战角色附属引雷。
 - name: 苍雷
   type: 元素战技
   cost:
-  - type: 5
-    count: 3
+    die:
+      electro: 3
   effect: 造成2点雷元素伤害；如果敌方出战角色未附属引雷，则使其附属引雷。
   comment: 造成2点雷元素伤害；如果敌方出战角色未附属引雷，则使其附属引雷。
 - name: 蔷薇的雷光
   type: 元素爆发
   cost:
-  - type: 5
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      electro: 3
+    energy: 2
   effect: 造成2点雷元素伤害，召唤蔷薇雷光。
   comment: 造成2点雷元素伤害，召唤蔷薇雷光。

@@ -1,2 +1,9 @@
-null
-...
+name: 送你一程
+group:
+- 其他标签
+- 事件牌
+cost:
+  die:
+    matching: 2
+effect: 选择一个敌方「召唤物」，使其「可用次数」-2。
+comment: <p>「一波送走~往生堂服务品质保证，包您满意！」</p>

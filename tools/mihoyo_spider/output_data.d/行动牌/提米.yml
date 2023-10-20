@@ -1,2 +1,9 @@
-null
-...
+name: 提米
+group:
+- 伙伴
+- 支援牌
+cost:
+  die: {}
+effect: 每回合自动触发1次：此牌累积1只「鸽子」。如果此牌已累积3只「鸽子」，则弃置此牌：抓1张牌，生成一点万能元素。
+comment: '<p style="white-space: pre-wrap;"><strong>纯白守候·提米</strong></p><p style="white-space:
+  pre-wrap;">「飞走的鸽子，还会回来吗？」</p>'

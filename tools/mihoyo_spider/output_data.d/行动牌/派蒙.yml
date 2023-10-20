@@ -1,2 +1,10 @@
-null
-...
+name: 派蒙
+group:
+- 伙伴
+- 支援牌
+cost:
+  die:
+    matching: 3
+effect: 行动阶段开始时：生成2点万能元素。可用次数：2
+comment: '<p style="white-space: pre-wrap;"><strong>最棒的向导·派蒙</strong></p><p style="white-space:
+  pre-wrap;">「没错！你的幸福就是派蒙的幸福呀！所以反过来说，派蒙幸福，你也幸福。」</p>'

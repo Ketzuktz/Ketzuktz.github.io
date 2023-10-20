@@ -10,32 +10,30 @@ skills:
 - name: 翻涌
   type: 普通攻击
   cost:
-  - type: 6
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      hydro: 1
+      unaligned: 2
   effect: 造成1点水元素伤害。
   comment: 造成1点水元素伤害。
 - name: 纯水幻造
   type: 元素战技
   cost:
-  - type: 6
-    count: 3
+    die:
+      hydro: 3
   effect: 随机召唤1种纯水幻形。（优先生成不同的类型）
   comment: 随机召唤1种纯水幻形。（优先生成不同的类型）
 - name: 林野百态
   type: 元素战技
   cost:
-  - type: 6
-    count: 5
+    die:
+      hydro: 5
   effect: 随机召唤2种纯水幻形。（优先生成不同的类型）
   comment: 随机召唤2种纯水幻形。（优先生成不同的类型）
 - name: 潮涌与激流
   type: 元素爆发
   cost:
-  - type: 6
-    count: 3
-  - type: 8
-    count: 3
+    die:
+      hydro: 3
+    energy: 3
   effect: 造成2点水元素伤害；我方每有1个召唤物，再使此伤害+2。
   comment: 造成2点水元素伤害；我方每有1个召唤物，再使此伤害+2。

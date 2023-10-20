@@ -10,25 +10,23 @@ skills:
 - name: 水有常形
   type: 普通攻击
   cost:
-  - type: 6
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      hydro: 1
+      unaligned: 2
   effect: 造成1点水元素伤害。
   comment: 造成1点水元素伤害。
 - name: 海月之誓
   type: 元素战技
   cost:
-  - type: 6
-    count: 3
+    die:
+      hydro: 3
   effect: 本角色附着水元素，召唤化海月。
   comment: 本角色附着水元素，召唤化海月。
 - name: 海人化羽
   type: 元素爆发
   cost:
-  - type: 6
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      hydro: 3
+    energy: 2
   effect: 造成2点水元素伤害，治疗所有我方角色1点，本角色附属仪来羽衣。
   comment: 造成2点水元素伤害，治疗所有我方角色1点，本角色附属仪来羽衣。

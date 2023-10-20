@@ -1,2 +1,9 @@
-null
-...
+name: 常九爷
+group:
+- 伙伴
+- 支援牌
+cost:
+  die: {}
+effect: 双方角色使用技能后：如果造成了物理伤害、穿透伤害或引发了元素反应，此牌累积1个「灵感」。如果此牌已累积3个「灵感」，弃置此牌：抓2张牌。
+comment: '<p style="white-space: pre-wrap;"><strong>失意墨客·常九爷</strong></p><p style="white-space:
+  pre-wrap;">「未曾清贫难成人，尚有书卷伴吾身！」</p>'

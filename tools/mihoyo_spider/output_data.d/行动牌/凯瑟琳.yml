@@ -1,2 +1,10 @@
-null
-...
+name: 凯瑟琳
+group:
+- 伙伴
+- 支援牌
+cost:
+  die:
+    matching: 1
+effect: 我方执行「切换角色」行动时：将此次切换视为「快速行动」而非「战斗行动」。(每回合1次)
+comment: '<p style="white-space: pre-wrap;"><strong>协会招待员·凯瑟琳</strong></p><p style="white-space:
+  pre-wrap;">「向着星辰与深渊！欢迎来到冒险家协会。」</p>'

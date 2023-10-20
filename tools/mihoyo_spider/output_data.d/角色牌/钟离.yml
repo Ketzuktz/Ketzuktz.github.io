@@ -10,32 +10,30 @@ skills:
 - name: 岩雨
   type: 普通攻击
   cost:
-  - type: 7
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      geo: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 地心
   type: 元素战技
   cost:
-  - type: 7
-    count: 3
+    die:
+      geo: 3
   effect: 造成1点岩元素伤害，召唤岩脊。
   comment: 造成1点岩元素伤害，召唤岩脊。
 - name: 地心·磐礴
   type: 元素战技
   cost:
-  - type: 7
-    count: 5
+    die:
+      geo: 5
   effect: 造成3点岩元素伤害，召唤岩脊，生成玉璋护盾。
   comment: 造成3点岩元素伤害，召唤岩脊，生成玉璋护盾。
 - name: 天星
   type: 元素爆发
   cost:
-  - type: 7
-    count: 3
-  - type: 8
-    count: 3
+    die:
+      geo: 3
+    energy: 3
   effect: 造成4点岩元素伤害，目标角色附属石化。
   comment: 造成4点岩元素伤害，目标角色附属石化。

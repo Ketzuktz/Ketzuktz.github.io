@@ -1,2 +1,10 @@
-null
-...
+name: 孢子增殖
+group:
+- 天赋
+- 装备牌
+cost:
+  die:
+    dendro: 3
+effect: 战斗行动：我方出战角色为翠翎恐蕈时，装备此牌。翠翎恐蕈装备此牌后，立刻使用一次不稳定孢子云。装备有此牌的翠翎恐蕈，可累积的「活化激能」层数+1。（牌组中包含翠翎恐蕈，才能加入牌组）
+comment: '<p style="white-space: pre-wrap;"><strong>粉尘孢子云</strong></p><p style="white-space:
+  pre-wrap;">那是智慧远超一般生物的蕈兽之王布设的陷阱，鲜少有人能安然无恙地通过。</p>'

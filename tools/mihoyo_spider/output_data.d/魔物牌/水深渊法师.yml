@@ -10,30 +10,29 @@ skills:
 - name: 水弹
   type: 普通攻击
   cost:
-  - type: 6
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      hydro: 1
+      unaligned: 2
   effect: 造成1点水元素伤害。
   comment: 造成1点水元素伤害。
 - name: 泡影的祭法
   type: 元素战技
   cost:
-  - type: 6
-    count: 3
+    die:
+      hydro: 3
   effect: 造成1点水元素伤害，目标角色附属水泡。
   comment: 造成1点水元素伤害，目标角色附属水泡。
 - name: 浮幻生灭之仪
   type: 元素爆发
   cost:
-  - type: 6
-    count: 4
-  - type: 8
-    count: 3
+    die:
+      hydro: 4
+    energy: 3
   effect: 造成4点水元素伤害，目标角色附属水泡。
   comment: 造成4点水元素伤害，目标角色附属水泡。
 - name: 水元素护罩
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，初始附属水元素护罩。
   comment: 【被动】战斗开始时，初始附属水元素护罩。

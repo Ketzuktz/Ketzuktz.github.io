@@ -10,25 +10,23 @@ skills:
 - name: 西风剑术·女仆
   type: 普通攻击
   cost:
-  - type: 7
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      geo: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 护心铠
   type: 元素战技
   cost:
-  - type: 7
-    count: 3
+    die:
+      geo: 3
   effect: 造成1点岩元素伤害，生成护体岩铠。
   comment: 造成1点岩元素伤害，生成护体岩铠。
 - name: 大扫除
   type: 元素爆发
   cost:
-  - type: 7
-    count: 4
-  - type: 8
-    count: 2
+    die:
+      geo: 4
+    energy: 2
   effect: 造成4点岩元素伤害，本角色附属大扫除。
   comment: 造成4点岩元素伤害，本角色附属大扫除。

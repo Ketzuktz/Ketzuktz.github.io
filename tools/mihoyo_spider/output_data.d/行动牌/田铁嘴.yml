@@ -1,2 +1,10 @@
-null
-...
+name: 田铁嘴
+group:
+- 伙伴
+- 支援牌
+cost:
+  die:
+    unaligned: 2
+effect: 结束阶段:我方一名充能未满的角色获得1点充能。(出战角色优先）可用次数：2
+comment: '<p style="white-space: pre-wrap;"><strong>书接上回·田铁嘴</strong></p><p style="white-space:
+  pre-wrap;">「我来给您掰扯掰扯这个道理，您来听听原汁原味的评书！」</p>'

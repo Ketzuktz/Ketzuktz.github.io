@@ -1,2 +1,10 @@
-null
-...
+name: 落羽的裁择
+group:
+- 天赋
+- 装备牌
+cost:
+  die:
+    electro: 3
+effect: 战斗行动：我方出战角色为赛诺时，装备此牌。赛诺装备此牌后，立刻使用一次秘仪·律渊渡魂。装备有此牌的赛诺在启途誓使的[凭依]级数为3或5级时使用秘仪·律渊渡魂时，造成的伤害额外+1。（牌组中包含赛诺，才能加入牌组）
+comment: '<p style="white-space: pre-wrap;"><strong>赛诺 · 落羽的裁择</strong></p><p style="white-space:
+  pre-wrap;">「这便是我的决斗之魂。」</p>'

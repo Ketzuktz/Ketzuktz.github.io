@@ -10,30 +10,29 @@ skills:
 - name: 溶蚀利爪
   type: 普通攻击
   cost:
-  - type: 7
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      geo: 1
+      unaligned: 2
   effect: 造成1点岩元素伤害，在敌方场上生成侵蚀。
   comment: 造成1点岩元素伤害，在敌方场上生成侵蚀。
 - name: 裂解晶岩
   type: 元素战技
   cost:
-  - type: 7
-    count: 3
+    die:
+      geo: 3
   effect: 造成2点岩元素伤害，在敌方场上生成侵蚀。
   comment: 造成2点岩元素伤害，在敌方场上生成侵蚀。
 - name: 追猎标记
   type: 元素爆发
   cost:
-  - type: 7
-    count: 3
-  - type: 8
-    count: 3
+    die:
+      geo: 3
+    energy: 3
   effect: 造成6点岩元素伤害，在敌方场上生成侵蚀。
   comment: 造成6点岩元素伤害，在敌方场上生成侵蚀。
 - name: 嗜魔
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，初始附属嗜魔。
   comment: 【被动】战斗开始时，初始附属嗜魔。

@@ -1,2 +1,9 @@
-null
-...
+name: 绝云锅巴
+group:
+- 料理
+- 事件牌
+cost:
+  die: {}
+effect: 本回合中，目标角色下一次普通攻击造成的伤害+1。(每回合每个角色最多食用1次「料理」)
+comment: '<p style="white-space: pre-wrap;"><strong>绝云锅巴</strong></p><p style="white-space:
+  pre-wrap;">香香脆脆的绝云锅巴，锅巴吃了都赞不绝口。</p>'

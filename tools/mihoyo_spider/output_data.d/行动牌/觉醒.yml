@@ -1,2 +1,10 @@
-null
-...
+name: 觉醒
+group:
+- 天赋
+- 装备牌
+cost:
+  die:
+    electro: 4
+effect: 战斗行动：我方出战角色为雷泽时，装备此牌。雷泽装备此牌后，立刻使用一次利爪与苍雷。装备有此牌的雷泽使用利爪与苍雷后：使我方一个雷元素角色获得1点充能。（出战角色优先）（牌组中包含雷泽，才能加入牌组）
+comment: '<p style="white-space: pre-wrap;"><strong>雷泽 · 觉醒</strong></p><p style="white-space:
+  pre-wrap;">追猎，即将开始。</p>'

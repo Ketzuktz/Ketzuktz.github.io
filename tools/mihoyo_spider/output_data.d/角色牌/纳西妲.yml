@@ -10,32 +10,30 @@ skills:
 - name: 行相
   type: 普通攻击
   cost:
-  - type: 2
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      dendro: 1
+      unaligned: 2
   effect: 造成1点草元素伤害。
   comment: 造成1点草元素伤害。
 - name: 所闻遍计
   type: 元素战技
   cost:
-  - type: 2
-    count: 3
+    die:
+      dendro: 3
   effect: 造成2点草元素伤害，目标角色附属蕴种印；如果在附属前目标角色已附属有蕴种印，就改为对所有敌方角色附属蕴种印。
   comment: 造成2点草元素伤害，目标角色附属蕴种印；如果在附属前目标角色已附属有蕴种印，就改为对所有敌方角色附属蕴种印。
 - name: 所闻遍计·真如
   type: 元素战技
   cost:
-  - type: 2
-    count: 5
+    die:
+      dendro: 5
   effect: 造成3点草元素伤害，所有敌方角色附属蕴种印。
   comment: 造成3点草元素伤害，所有敌方角色附属蕴种印。
 - name: 心景幻成
   type: 元素爆发
   cost:
-  - type: 2
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      dendro: 3
+    energy: 2
   effect: 造成4点草元素伤害，生成摩耶之殿。
   comment: 造成4点草元素伤害，生成摩耶之殿。

@@ -10,25 +10,23 @@ skills:
 - name: 千金掷
   type: 普通攻击
   cost:
-  - type: 7
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      geo: 1
+      unaligned: 2
   effect: 造成1点岩元素伤害。
   comment: 造成1点岩元素伤害。
 - name: 璇玑屏
   type: 元素战技
   cost:
-  - type: 7
-    count: 3
+    die:
+      geo: 3
   effect: 造成2点岩元素伤害，生成璇玑屏。
   comment: 造成2点岩元素伤害，生成璇玑屏。
 - name: 天权崩玉
   type: 元素爆发
   cost:
-  - type: 7
-    count: 3
-  - type: 8
-    count: 3
+    die:
+      geo: 3
+    energy: 3
   effect: 造成6点岩元素伤害；如果璇玑屏在场，就使此伤害+2。
   comment: 造成6点岩元素伤害；如果璇玑屏在场，就使此伤害+2。

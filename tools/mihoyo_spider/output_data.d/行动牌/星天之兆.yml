@@ -1,2 +1,10 @@
-null
-...
+name: 星天之兆
+group:
+- 其他标签
+- 事件牌
+cost:
+  die:
+    unaligned: 2
+effect: 我方当前出战角色获得1点充能。
+comment: '<p style="white-space: pre-wrap;"><strong>命星轨迹</strong></p><p style="white-space:
+  pre-wrap;">「此乃命运，无可违逆。」</p>'

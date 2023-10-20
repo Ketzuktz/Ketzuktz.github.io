@@ -1,2 +1,11 @@
-null
-...
+name: 冰萤寒光
+group:
+- 天赋
+- 装备牌
+cost:
+  die:
+    cryo: 3
+effect: 战斗行动：我方出战角色为愚人众·冰萤术士时，装备此牌。愚人众·冰萤术士装备此牌后，立刻使用一次雾虚摇唤。装备有此牌的愚人众·冰萤术士使用技能后：如果冰萤的可用次数被叠加到超过上限，则造成2点冰元素伤害。（牌组中包含愚人众·冰萤术士，才能加入牌组）
+comment: '<p style="white-space: pre-wrap;"><strong>冰萤术士 · 冰萤寒光</strong></p><p style="white-space:
+  pre-wrap;">更多的雾虛草，更多的冰萤朋友。</p><p style="white-space: pre-wrap;">⋯雾虛草耗尽会如何？</p><p
+  style="white-space: pre-wrap;">或许她并未想过。</p>'

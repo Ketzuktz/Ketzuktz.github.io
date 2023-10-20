@@ -1,2 +1,10 @@
-null
-...
+name: 天空之卷
+group:
+- 武器
+- 装备牌
+cost:
+  die:
+    matching: 3
+effect: 角色造成的伤害+1。每回合1次：角色使用「普通攻击」造成的伤害额外+1。（「法器」角色才能装备。角色最多装备1件「武器」）
+comment: '<p style="white-space: pre-wrap;"><strong>千风万云·天空之卷</strong></p><p style="white-space:
+  pre-wrap;">全称为「千风万云通览」。</p><p style="white-space: pre-wrap;">以诗与图鉴的形式，细致记载了北地天空的风与云。</p>'

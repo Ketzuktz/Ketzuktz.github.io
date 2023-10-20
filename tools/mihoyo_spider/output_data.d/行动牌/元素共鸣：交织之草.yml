@@ -1,2 +1,8 @@
-null
-...
+name: 元素共鸣：交织之草
+group:
+- 元素共鸣
+- 事件牌
+cost:
+  die: {}
+effect: 生成1个草元素骰。（牌组包含至少2个草元素角色，才能加入牌组）
+comment: '<p style="white-space: pre-wrap;">梦中欢舞，森罗万象。</p>'

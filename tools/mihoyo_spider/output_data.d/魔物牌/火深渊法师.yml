@@ -10,30 +10,29 @@ skills:
 - name: 炎波
   type: 普通攻击
   cost:
-  - type: 4
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      pyro: 1
+      unaligned: 2
   effect: 造成1点火元素伤害。
   comment: 造成1点火元素伤害。
 - name: 灼面的祭法
   type: 元素战技
   cost:
-  - type: 4
-    count: 3
+    die:
+      pyro: 3
   effect: 造成3点火元素伤害。
   comment: 造成3点火元素伤害。
 - name: 熔焰地涌之仪
   type: 元素爆发
   cost:
-  - type: 4
-    count: 4
-  - type: 8
-    count: 3
+    die:
+      pyro: 4
+    energy: 3
   effect: 造成7点火元素伤害。
   comment: 造成7点火元素伤害。
 - name: 火元素护罩
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，初始附属火元素护罩。
   comment: 【被动】战斗开始时，初始附属火元素护罩。

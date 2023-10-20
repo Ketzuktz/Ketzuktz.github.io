@@ -10,30 +10,29 @@ skills:
 - name: 岩簇飞刺
   type: 普通攻击
   cost:
-  - type: 7
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      geo: 1
+      unaligned: 2
   effect: 造成1点岩元素伤害。
   comment: 造成1点岩元素伤害。
 - name: 集束岩晶
   type: 元素战技
   cost:
-  - type: 7
-    count: 3
+    die:
+      geo: 3
   effect: 造成3点岩元素伤害。
   comment: 造成3点岩元素伤害。
 - name: 尘岩长杖
   type: 元素爆发
   cost:
-  - type: 7
-    count: 3
-  - type: 8
-    count: 3
+    die:
+      geo: 3
+    energy: 3
   effect: 造成3点岩元素伤害，本角色附属元素武装·岩，生成晶岩护罩。
   comment: 造成3点岩元素伤害，本角色附属元素武装·岩，生成晶岩护罩。
 - name: 战备补给
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，本角色获得2点充能。
   comment: 【被动】战斗开始时，本角色获得2点充能。

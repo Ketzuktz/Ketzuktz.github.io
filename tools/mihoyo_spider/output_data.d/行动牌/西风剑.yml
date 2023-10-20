@@ -1,2 +1,10 @@
-null
-...
+name: 西风剑
+group:
+- 武器
+- 装备牌
+cost:
+  die:
+    matching: 3
+effect: 角色造成的伤害+1。角色使用「元素战技」后：角色额外获得1点充能。（每回合1次）（「单手剑」角色才能装备。角色最多装备1件「武器」）
+comment: '<p style="white-space: pre-wrap;"><strong>顺风而行·西风剑</strong></p><p style="white-space:
+  pre-wrap;">「传说那获授幼狼之名的骑士能将细雨斩落，剑锋卷起的风便足以将蔷薇摧折；</p><p style="white-space: pre-wrap;">无人抵达过他昔日的境界，但骑士当初许诺守护的誓言，却依然传承到了今天。」</p>'

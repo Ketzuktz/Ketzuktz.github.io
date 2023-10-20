@@ -1,2 +1,10 @@
-null
-...
+name: 鹤归之时
+group:
+- 其他标签
+- 事件牌
+cost:
+  die:
+    matching: 1
+effect: 我方下一次使用技能后：将下一个我方后台角色切换到场上。
+comment: '<p style="white-space: pre-wrap;"><strong>鹤归之时</strong></p><p style="white-space:
+  pre-wrap;">「彼时鹤归，茫茫天地无依靠，孤身离去。今日再会，新朋旧友坐满堂，共聚此时。」</p>'

@@ -1,2 +1,10 @@
-null
-...
+name: 千夜浮梦
+group:
+- 武器
+- 装备牌
+cost:
+  die:
+    matching: 3
+effect: 角色造成的伤害+1。我方角色引发元素反应时：造成的伤害+1。（每回合最多触发2次）（「法器」角色才能装备。角色最多装备1件「武器」）
+comment: '<p style="white-space: pre-wrap;"><strong>千夜曙歌·千夜浮梦</strong></p><p style="white-space:
+  pre-wrap;">「万物生灭皆有定期，如同黑夜与黎明往复不息。」</p><p style="white-space: pre-wrap;">「就让这盏灯中的故事，给你值得期许的美梦吧。」</p>'

@@ -1,2 +1,10 @@
-null
-...
+name: 晨曦酒庄
+group:
+- 场地
+- 支援牌
+cost:
+  die:
+    matching: 2
+effect: 我方执行行动「切换角色」时：少花费1个元素骰。(每回合1次)
+comment: '<p style="white-space: pre-wrap;"><strong>曙光初照的庄园</strong></p><p style="white-space:
+  pre-wrap;">「最好的永远是明年酿造出的酒。」</p>'

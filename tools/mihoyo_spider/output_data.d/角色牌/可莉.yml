@@ -10,25 +10,23 @@ skills:
 - name: 砰砰
   type: 普通攻击
   cost:
-  - type: 4
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      pyro: 1
+      unaligned: 2
   effect: 造成1点火元素伤害。
   comment: 造成1点火元素伤害。
 - name: 蹦蹦炸弹
   type: 元素战技
   cost:
-  - type: 4
-    count: 3
+    die:
+      pyro: 3
   effect: 造成3点火元素伤害，本角色附属爆裂火花。
   comment: 造成3点火元素伤害，本角色附属爆裂火花。
 - name: 轰轰火花
   type: 元素爆发
   cost:
-  - type: 4
-    count: 3
-  - type: 8
-    count: 3
+    die:
+      pyro: 3
+    energy: 3
   effect: 造成3点火元素伤害，在对方场上生成轰轰火花。
   comment: 造成3点火元素伤害，在对方场上生成轰轰火花。

@@ -10,25 +10,23 @@ skills:
 - name: 往生秘传枪法
   type: 普通攻击
   cost:
-  - type: 4
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      pyro: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 蝶引来生
   type: 元素战技
   cost:
-  - type: 4
-    count: 2
+    die:
+      pyro: 2
   effect: 本角色附属彼岸蝶舞。
   comment: 本角色附属彼岸蝶舞。
 - name: 安神秘法
   type: 元素爆发
   cost:
-  - type: 4
-    count: 3
-  - type: 8
-    count: 3
+    die:
+      pyro: 3
+    energy: 3
   effect: 造成4点的火元素伤害，治疗自身2点。如果本角色生命值不多于6，则造成的伤害和治疗各+1。
   comment: 造成4点的火元素伤害，治疗自身2点。如果本角色生命值不多于6，则造成的伤害和治疗各+1。

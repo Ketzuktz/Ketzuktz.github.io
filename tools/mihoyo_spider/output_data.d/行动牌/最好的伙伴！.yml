@@ -1,2 +1,10 @@
-null
-...
+name: 最好的伙伴！
+group:
+- 其他标签
+- 事件牌
+cost:
+  die:
+    unaligned: 2
+effect: 将所花费的元素骰转换为2个万能元素。
+comment: '<p style="white-space: pre-wrap;"><strong>最好的伙伴！</strong></p><p style="white-space:
+  pre-wrap;">「你是万千星辰中的一颗，于我而言却是整个世界。」</p>'

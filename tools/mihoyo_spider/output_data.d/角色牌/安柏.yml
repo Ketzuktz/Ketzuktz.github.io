@@ -10,25 +10,23 @@ skills:
 - name: 神射手
   type: 普通攻击
   cost:
-  - type: 4
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      pyro: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 爆弹玩偶
   type: 元素战技
   cost:
-  - type: 4
-    count: 3
+    die:
+      pyro: 3
   effect: 召唤兔兔伯爵。
   comment: 召唤兔兔伯爵。
 - name: 箭雨
   type: 元素爆发
   cost:
-  - type: 4
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      pyro: 3
+    energy: 2
   effect: 造成2点火元素伤害，对所有敌方后台角色造成2点穿透伤害。
   comment: 造成2点火元素伤害，对所有敌方后台角色造成2点穿透伤害。

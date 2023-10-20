@@ -10,32 +10,30 @@ skills:
 - name: 流天射术
   type: 普通攻击
   cost:
-  - type: 1
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      cryo: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 霜华矢
   type: 普通攻击
   cost:
-  - type: 1
-    count: 5
+    die:
+      cryo: 5
   effect: 造成2点冰元素伤害  ，对所有后台角色造成2点穿透伤害。
   comment: 造成2点冰元素伤害  ，对所有后台角色造成2点穿透伤害。
 - name: 山泽麟迹
   type: 元素战技
   cost:
-  - type: 1
-    count: 3
+    die:
+      cryo: 3
   effect: 造成1点冰元素伤害，生成冰莲。
   comment: 造成1点冰元素伤害，生成冰莲。
 - name: 降众天华
   type: 元素爆发
   cost:
-  - type: 1
-    count: 3
-  - type: 8
-    count: 3
+    die:
+      cryo: 3
+    energy: 3
   effect: 造成2点冰元素伤害，对所有后台角色造成1点穿透伤害，召唤冰灵珠。
   comment: 造成2点冰元素伤害，对所有后台角色造成1点穿透伤害，召唤冰灵珠。

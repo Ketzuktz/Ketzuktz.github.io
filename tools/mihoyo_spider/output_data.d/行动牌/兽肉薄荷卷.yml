@@ -1,2 +1,10 @@
-null
-...
+name: 兽肉薄荷卷
+group:
+- 料理
+- 事件牌
+cost:
+  die:
+    matching: 1
+effect: 目标角色在本回合结束前，之后三次普通攻击都少花费1无色元素。(每回合每个角色最多食用1次「料理」)
+comment: '<p style="white-space: pre-wrap;"><strong>兽肉薄荷卷</strong></p><p style="white-space:
+  pre-wrap;">虽然如今是这样的造型，但仔细想想，一开始到底是薄荷先卷的兽肉，还是兽肉先卷的薄荷呢？</p>'

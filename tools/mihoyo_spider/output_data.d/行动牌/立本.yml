@@ -1,2 +1,9 @@
-null
-...
+name: 立本
+group:
+- 伙伴
+- 支援牌
+cost:
+  die: {}
+effect: 结束阶段：收集我方未使用的元素骰(每种最多1个)。行动阶段开始时：如果此牌已收集3个元素骰，则抓2张牌，生成2点万能元素，然后弃置此牌。
+comment: '<p style="white-space: pre-wrap;"><strong>百货奇货·立本</strong></p><p style="white-space:
+  pre-wrap;">「这个世界马上就要发生大事了！我这里有一笔好生意，你可愿意听听？」</p>'

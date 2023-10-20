@@ -10,30 +10,29 @@ skills:
 - name: 七圣枪术
   type: 普通攻击
   cost:
-  - type: 5
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      electro: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 秘仪·律渊渡魂
   type: 元素战技
   cost:
-  - type: 5
-    count: 3
+    die:
+      electro: 3
   effect: 造成3点雷元素伤害。
   comment: 造成3点雷元素伤害。
 - name: 圣仪·煟煌随狼行
   type: 元素爆发
   cost:
-  - type: 5
-    count: 4
-  - type: 8
-    count: 2
+    die:
+      electro: 4
+    energy: 2
   effect: 造成4点雷元素伤害，启途誓使的[凭依]级数+2。
   comment: 造成4点雷元素伤害，启途誓使的[凭依]级数+2。
 - name: 行度誓惩
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 战斗开始时，初始附属启途誓使。
   comment: 战斗开始时，初始附属启途誓使。

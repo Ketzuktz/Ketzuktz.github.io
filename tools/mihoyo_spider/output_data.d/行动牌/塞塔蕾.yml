@@ -1,2 +1,10 @@
-null
-...
+name: 塞塔蕾
+group:
+- 伙伴
+- 支援牌
+cost:
+  die:
+    matching: 1
+effect: 我方执行任何行动后，手牌数量为0时：抓一张牌可用次数：3
+comment: '<p><strong>翻越高墙·塞塔蕾</strong></p><p>身为沙漠的天才，深入雨林的殿堂<span style="color: rgb(64,
+  64, 64)">⋯</span></p>'

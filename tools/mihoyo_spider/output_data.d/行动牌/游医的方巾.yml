@@ -1,2 +1,10 @@
-null
-...
+name: 游医的方巾
+group:
+- 圣遗物
+- 装备牌
+cost:
+  die:
+    matching: 1
+effect: 角色使用「元素爆发」后：治疗所有我方角色1点。（每回合1次）（角色最多装备1件「圣遗物」）
+comment: '<p style="white-space: pre-wrap;"><strong>悬壶林藂·游医的方巾</strong></p><p style="white-space:
+  pre-wrap;">「无论是晴日当空、还是大雨瓢泼，都无法阻挡游医坚定的行步。」</p>'

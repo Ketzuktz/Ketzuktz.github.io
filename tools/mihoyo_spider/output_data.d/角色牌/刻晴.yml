@@ -10,25 +10,23 @@ skills:
 - name: 云来剑法
   type: 普通攻击
   cost:
-  - type: 5
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      electro: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 星斗归位
   type: 元素战技
   cost:
-  - type: 5
-    count: 3
+    die:
+      electro: 3
   effect: 造成3点雷元素伤害，生成手牌雷楔。
   comment: 造成3点雷元素伤害，生成手牌雷楔。
 - name: 天街巡游
   type: 元素爆发
   cost:
-  - type: 5
-    count: 4
-  - type: 8
-    count: 3
+    die:
+      electro: 4
+    energy: 3
   effect: 造成4点雷元素伤害，对所有敌方后台角色造成3点穿透伤害。
   comment: 造成4点雷元素伤害，对所有敌方后台角色造成3点穿透伤害。

@@ -1,2 +1,10 @@
-null
-...
+name: 西风大教堂
+group:
+- 场地
+- 支援牌
+cost:
+  die:
+    matching: 2
+effect: 结束阶段：治疗我方出战角色2点。可用次数：2
+comment: '<p style="white-space: pre-wrap;"><strong>虔心之人聚于此</strong></p><p style="white-space:
+  pre-wrap;">「若向风真诚倾诉，那话语总有一日能吹拂至神明的耳畔。」</p>'

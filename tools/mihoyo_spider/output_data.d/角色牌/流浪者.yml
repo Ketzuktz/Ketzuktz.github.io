@@ -9,25 +9,23 @@ skills:
 - name: 行幡鸣弦
   type: 普通攻击
   cost:
-  - type: 3
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      anemo: 1
+      unaligned: 2
   effect: 造成1点风元素伤害。
   comment: 造成1点风元素伤害。
 - name: 羽画·风姿华歌
   type: 元素战技
   cost:
-  - type: 3
-    count: 3
+    die:
+      anemo: 3
   effect: 造成2点风元素伤害，本角色附属优风倾姿。
   comment: 造成2点风元素伤害，本角色附属优风倾姿。
 - name: 狂言·式乐五番
   type: 元素爆发
   cost:
-  - type: 3
-    count: 3
-  - type: 8
-    count: 3
+    die:
+      anemo: 3
+    energy: 3
   effect: 造成7点风元素伤害；如果角色附属有优风倾姿，则将其移除并使此伤害+1。
   comment: 造成7点风元素伤害；如果角色附属有优风倾姿，则将其移除并使此伤害+1。

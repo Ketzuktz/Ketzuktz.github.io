@@ -1,2 +1,9 @@
-null
-...
+name: 交给我吧！
+group:
+- 其他标签
+- 事件牌
+cost:
+  die: {}
+effect: 我方下次执行「切换角色」行动时：将此次切换视为「快速行动」而非「战斗行动」
+comment: '<p style="white-space: pre-wrap;"><strong>交给我吧！</strong></p><p style="white-space:
+  pre-wrap;">「什么都可以，全都交给我吧！」——这句话，常年稳居最令蒙德人安心的话语排行榜榜首。</p>'

@@ -1,2 +1,11 @@
-null
-...
+name: 钟剑
+group:
+- 武器
+- 装备牌
+cost:
+  die:
+    matching: 3
+effect: 角色造成的伤害+1。角色使用技能后：为我方出战角色提供1点护盾。（每回合1次，可叠加到2点）（「双手剑」角色才能装备。角色最多装备1件「武器」）
+comment: '<p style="white-space: pre-wrap;"><strong>叛逆守护·钟剑</strong></p><p style="white-space:
+  pre-wrap;">某位叛逆者曾向堕落的族人挥剑。</p><p style="white-space: pre-wrap;">虽然此人最终被贬黜，但据说他的组织却一直在工作。</p><p
+  style="white-space: pre-wrap;">传说，就连「幼狼」鲁斯坦也与之有关⋯</p>'

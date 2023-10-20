@@ -1,2 +1,10 @@
-null
-...
+name: 祭礼残章
+group:
+- 武器
+- 装备牌
+cost:
+  die:
+    matching: 3
+effect: 角色造成的伤害+1。角色使用「元素战技」后：生成1个此角色类型的元素骰。（每回合1次）（「法器」角色才能装备。角色最多装备1件「武器」）
+comment: '<p style="white-space: pre-wrap;"><strong>气定神闲·祭礼残章</strong></p><p style="white-space:
+  pre-wrap;">经历漫长岁月的歌谱残章，其上记载的颂词已经无法辨认。</p>'

@@ -10,30 +10,29 @@ skills:
 - name: 拯救之焰
   type: 普通攻击
   cost:
-  - type: 4
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      pyro: 1
+      unaligned: 2
   effect: 造成1点火元素伤害。
   comment: 造成1点火元素伤害。
 - name: 炽烈箴言
   type: 元素战技
   cost:
-  - type: 4
-    count: 3
+    die:
+      pyro: 3
   effect: 造成3点火元素伤害。
   comment: 造成3点火元素伤害。
 - name: 天陨预兆
   type: 元素爆发
   cost:
-  - type: 4
-    count: 4
-  - type: 8
-    count: 2
+    die:
+      pyro: 4
+    energy: 2
   effect: 造成3点火元素伤害，召唤黯火炉心。
   comment: 造成3点火元素伤害，召唤黯火炉心。
 - name: 火之新生
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，初始附属火之新生。
   comment: 【被动】战斗开始时，初始附属火之新生。

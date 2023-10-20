@@ -7,6 +7,17 @@ from mihoyo.wiki.card import get_card
 from mihoyo.wiki.smarter import (CardInfoType, DictContext,
                                  card_info_extract_data)
 
+yaml.SafeDumper.org_represent_str = yaml.SafeDumper.represent_str
+
+
+def repr_str(dumper, data):
+    if "\n" in data:
+        return dumper.represent_scalar("tag:yaml.org,2002:str", data, style="|")
+    return dumper.org_represent_str(data)
+
+
+yaml.add_representer(str, repr_str, Dumper=yaml.SafeDumper)
+
 if not os.path.exists("output.d"):
     os.mkdir("output.d")
 
@@ -53,12 +64,10 @@ if __name__ == "__main__":
             with open(card_path, "r", encoding="utf-8") as f:
                 card_data = json.load(f)
 
-            data = card_info_extract_data(
-                card_data, CardInfoType(card_type), context
-            )
+            data = card_info_extract_data(card_data, CardInfoType(card_type), context)
 
             with open(card_data_path, "w", encoding="utf-8") as f:
                 yaml.dump(data, f, allow_unicode=True, sort_keys=False)
 
     with open("output_data.d/dictionary.yml", "w", encoding="utf-8") as f:
-        yaml.dump(context.data, f, allow_unicode=True, sort_keys=False)
+        yaml.safe_dump(context.data, f, allow_unicode=True)

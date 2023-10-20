@@ -10,30 +10,29 @@ skills:
 - name: 冰刺
   type: 普通攻击
   cost:
-  - type: 1
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      cryo: 1
+      unaligned: 2
   effect: 造成1点冰元素伤害。
   comment: 造成1点冰元素伤害。
 - name: 凝华的祭法
   type: 元素战技
   cost:
-  - type: 1
-    count: 3
+    die:
+      cryo: 3
   effect: 造成3点冰元素伤害。
   comment: 造成3点冰元素伤害。
 - name: 霜寒迂旋之仪
   type: 元素爆发
   cost:
-  - type: 1
-    count: 4
-  - type: 8
-    count: 3
+    die:
+      cryo: 4
+    energy: 3
   effect: 造成5点冰元素伤害。
   comment: 造成5点冰元素伤害。
 - name: 冰元素护罩
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，初始附属冰元素护罩。
   comment: 【被动】战斗开始时，初始附属冰元素护罩。

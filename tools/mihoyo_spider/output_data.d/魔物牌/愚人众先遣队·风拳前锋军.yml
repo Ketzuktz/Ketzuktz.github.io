@@ -10,25 +10,23 @@ skills:
 - name: 疾风刺拳
   type: 普通攻击
   cost:
-  - type: 3
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      anemo: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 聚风蓄力
   type: 元素战技
   cost:
-  - type: 3
-    count: 3
+    die:
+      anemo: 3
   effect: 本角色附属聚风屏障并准备技能：逆风奉还拳。
   comment: 本角色附属聚风屏障并准备技能：逆风奉还拳。
 - name: 激风鼓动
   type: 元素爆发
   cost:
-  - type: 3
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      anemo: 3
+    energy: 2
   effect: 造成5点风元素伤害，我方[愚人众]角色获得1点充能。
   comment: 造成5点风元素伤害，我方[愚人众]角色获得1点充能。

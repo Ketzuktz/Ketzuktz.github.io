@@ -1,2 +1,10 @@
-null
-...
+name: 须弥城
+group:
+- 场地
+- 支援牌
+cost:
+  die:
+    matching: 2
+effect: 我方角色使用技能或装备「天赋」时：如果我方元素骰数量不多于手牌数量，则少花费1个元素骰。（每回合1次）
+comment: '<p style="white-space: pre-wrap;"><strong>一切智慧具足之城</strong></p><p style="white-space:
+  pre-wrap;">在繁枝茂叶的圣树之下，学城的贤者们已遍计所有的知识。</p>'

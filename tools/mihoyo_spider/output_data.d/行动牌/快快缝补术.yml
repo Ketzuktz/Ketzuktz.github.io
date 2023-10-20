@@ -1,2 +1,10 @@
-null
-...
+name: 快快缝补术
+group:
+- 其他标签
+- 事件牌
+cost:
+  die:
+    matching: 1
+effect: 选择一个我方「召唤物」,使其「可用次数」+1。
+comment: '<p style="white-space: pre-wrap;"><strong>兔兔缝补</strong></p><p style="white-space:
+  pre-wrap;">兔兔伯爵八百九十三世，经久耐用的秘诀就在于此。</p>'

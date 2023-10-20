@@ -10,25 +10,23 @@ skills:
 - name: 西风剑术·白
   type: 普通攻击
   cost:
-  - type: 7
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      geo: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 创生法·拟造阳华
   type: 元素战技
   cost:
-  - type: 7
-    count: 3
+    die:
+      geo: 3
   effect: 召唤阳华。
   comment: 召唤阳华。
 - name: 诞生式·大地之潮
   type: 元素爆发
   cost:
-  - type: 7
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      geo: 3
+    energy: 2
   effect: 造成4点岩元素伤害。如果阳华在场，就使此伤害+2。
   comment: 造成4点岩元素伤害。如果阳华在场，就使此伤害+2。

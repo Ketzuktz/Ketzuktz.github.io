@@ -1,2 +1,10 @@
-null
-...
+name: 拉娜
+group:
+- 伙伴
+- 支援牌
+cost:
+  die:
+    matching: 2
+effect: 我方角色使用「元素战技」后：生成1个我方下一个后台角色类型的元素骰。(每回合1次）
+comment: '<p style="white-space: pre-wrap;"><strong>记忆之珍·拉娜</strong></p><p style="white-space:
+  pre-wrap;">「我们还有很长的时间，一起重新认识森林的大、世界的大、未来的无限。」</p>'

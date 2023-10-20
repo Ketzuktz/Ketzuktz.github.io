@@ -10,32 +10,30 @@ skills:
 - name: 一文字
   type: 普通攻击
   cost:
-  - type: 3
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      anemo: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 孤风刀势
   type: 元素战技
   cost:
-  - type: 3
-    count: 3
+    die:
+      anemo: 3
   effect: 召唤剑影·孤风。
   comment: 召唤剑影·孤风。
 - name: 霜驰影突
   type: 元素战技
   cost:
-  - type: 1
-    count: 3
+    die:
+      cryo: 3
   effect: 召唤剑影·霜驰。
   comment: 召唤剑影·霜驰。
 - name: 机巧伪天狗抄
   type: 元素爆发
   cost:
-  - type: 3
-    count: 3
-  - type: 8
-    count: 3
+    die:
+      anemo: 3
+    energy: 3
   effect: 造成4点风元素伤害，触发我方所有剑影召唤物的效果。（不消耗其可用次数）
   comment: 造成4点风元素伤害，触发我方所有剑影召唤物的效果。（不消耗其可用次数）

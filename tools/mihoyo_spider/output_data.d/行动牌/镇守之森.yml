@@ -1,2 +1,10 @@
-null
-...
+name: 镇守之森
+group:
+- 场地
+- 支援牌
+cost:
+  die:
+    matching: 1
+effect: 行动阶段开始时：如果我方不是「先手牌手」，则生成1个出战角色类型的元素骰。可用次数：3
+comment: '<p style="white-space: pre-wrap;"><strong>妖迹隐匿之处</strong></p><p style="white-space:
+  pre-wrap;">传说，这片神林曾是诸多妖怪栖身之所。</p>'

@@ -1,2 +1,10 @@
-null
-...
+name: 将帅兜鍪
+group:
+- 圣遗物
+- 装备牌
+cost:
+  die:
+    matching: 2
+effect: 行动阶段开始时：为角色附属「重嶂不移」。（提供2点护盾，保护该角色。）（角色最多装备1件「圣遗物」）
+comment: '<p style="white-space: pre-wrap;"><strong>誓愿无渝·将帅兜鍪</strong></p><p style="white-space:
+  pre-wrap;">「直至最后一滴血汇入大地，琉璃砂终又显露光泽。」</p>'

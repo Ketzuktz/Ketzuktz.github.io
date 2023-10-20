@@ -1,2 +1,9 @@
-null
-...
+name: 化城郭
+group:
+- 场地
+- 支援牌
+cost:
+  die:
+    matching: 1
+effect: 我方选择行动前，元素骰为0时：生成一个万能元素。（每回合1次）可用次数：3
+comment: <p><strong>化城郭</strong></p><p>旅者与巡林员们欢聚之地，倾听雨林心跳的村落。</p>

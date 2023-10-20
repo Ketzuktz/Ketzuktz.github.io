@@ -10,25 +10,23 @@ skills:
 - name: 水弹
   type: 普通攻击
   cost:
-  - type: 6
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      hydro: 1
+      unaligned: 2
   effect: 造成1点水元素伤害。
   comment: 造成1点水元素伤害。
 - name: 潋波绽破
   type: 元素战技
   cost:
-  - type: 6
-    count: 3
+    die:
+      hydro: 3
   effect: 造成2点水元素伤害，目标角色附属水光破镜。
   comment: 造成2点水元素伤害，目标角色附属水光破镜。
 - name: 粼镜折光
   type: 元素爆发
   cost:
-  - type: 6
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      hydro: 3
+    energy: 2
   effect: 造成5点水元素伤害。
   comment: 造成5点水元素伤害。

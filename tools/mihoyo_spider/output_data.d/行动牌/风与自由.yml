@@ -1,2 +1,9 @@
-null
-...
+name: 风与自由
+group:
+- 其他标签
+- 事件牌
+cost:
+  die:
+    matching: 1
+effect: 本回合中，我方角色使用技能后：将下一个我方后台角色切换到场上。
+comment: <p><strong>自在叙事之诗</strong></p><p>「终有一天，风会吹向更为光亮的方向。」</p>

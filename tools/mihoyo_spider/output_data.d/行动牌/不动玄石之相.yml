@@ -1,2 +1,9 @@
-null
-...
+name: 不动玄石之相
+group:
+- 圣遗物
+- 装备牌
+cost:
+  die:
+    unaligned: 2
+effect: 角色使用技能或装备「天赋」时：少花费1个岩元素。（每回合1次）（角色最多装备1件「圣遗物」）
+comment: <p><strong>玄岩嵯峨·不动玄石之相</strong></p><p>「臧否分明，从无失准。」</p>

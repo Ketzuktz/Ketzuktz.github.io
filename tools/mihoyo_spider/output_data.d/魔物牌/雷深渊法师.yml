@@ -10,30 +10,29 @@ skills:
 - name: 雷弹
   type: 普通攻击
   cost:
-  - type: 5
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      electro: 1
+      unaligned: 2
   effect: 造成1点雷元素伤害。
   comment: 造成1点雷元素伤害。
 - name: 缠光的祭法
   type: 元素战技
   cost:
-  - type: 5
-    count: 3
+    die:
+      electro: 3
   effect: 召唤缠雷之环。
   comment: 召唤缠雷之环。
 - name: 滚雷驰骤之仪
   type: 元素爆发
   cost:
-  - type: 5
-    count: 4
-  - type: 8
-    count: 3
+    die:
+      electro: 4
+    energy: 3
   effect: 造成4点雷元素伤害，召唤缠雷之环。
   comment: 造成4点雷元素伤害，召唤缠雷之环。
 - name: 雷元素护罩
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，初始附属雷元素护罩。
   comment: 【被动】战斗开始时，初始附属雷元素护罩。

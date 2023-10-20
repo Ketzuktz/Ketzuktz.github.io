@@ -1,2 +1,10 @@
-null
-...
+name: 旭东
+group:
+- 伙伴
+- 支援牌
+cost:
+  die:
+    unaligned: 2
+effect: 打出「料理」事件牌时：少花费2个元素骰。（每回合1次）
+comment: '<p style="white-space: pre-wrap;"><strong>吃饱再说·旭东</strong></p><p style="white-space:
+  pre-wrap;">「有问题？哎呀，吃饱再说也不迟。」</p>'

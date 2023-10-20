@@ -10,21 +10,21 @@ skills:
 - name: 射
   type: 普通攻击
   cost:
-  - type: 10
-    count: 2
+    die:
+      unaligned: 2
   effect: 造成1点物理伤害。
   comment: 造成1点物理伤害。
 - name: 几支一起
   type: 元素爆发
   cost:
-  - type: 9
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      matching: 3
+    energy: 2
   effect: 造成5点物理伤害。
   comment: 造成5点物理伤害。
 - name: 躲起来
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】此角色使用技能后，自动切换到下一个角色。
   comment: 【被动】此角色使用技能后，自动切换到下一个角色。

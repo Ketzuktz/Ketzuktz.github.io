@@ -10,25 +10,23 @@ skills:
 - name: 流耀枪术·守势
   type: 普通攻击
   cost:
-  - type: 6
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      hydro: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 圣仪·苍鹭庇卫
   type: 元素战技
   cost:
-  - type: 6
-    count: 3
+    die:
+      hydro: 3
   effect: 本角色附属苍鹭护盾并准备技能：苍鹭震击。
   comment: 本角色附属苍鹭护盾并准备技能：苍鹭震击。
 - name: 圣仪·灰鸰衒潮
   type: 元素爆发
   cost:
-  - type: 6
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      hydro: 3
+    energy: 2
   effect: 造成2点水元素伤害，生成赤冕祝祷。
   comment: 造成2点水元素伤害，生成赤冕祝祷。

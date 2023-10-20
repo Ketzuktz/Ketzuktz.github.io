@@ -1,2 +1,8 @@
-null
-...
+name: 元素共鸣：交织之火
+group:
+- 元素共鸣
+- 事件牌
+cost:
+  die: {}
+effect: 生成1个火元素骰。（牌组包含至少2个火元素角色，才能加入牌组）
+comment: '<p style="white-space: pre-wrap;">红莲劫尽，败者归尘。</p>'

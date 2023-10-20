@@ -1,2 +1,10 @@
-null
-...
+name: 骑士团图书馆
+group:
+- 场地
+- 支援牌
+cost:
+  die:
+    matching: 1
+effect: 入场时：选择任意元素骰重投。投掷阶段：获得额外一次重投机会。
+comment: '<p style="white-space: pre-wrap;"><strong>北陆书籍集成之所</strong></p><p style="white-space:
+  pre-wrap;">「大部分馆藏皆可自由借阅,只是，切忌逾期归还…]</p>'

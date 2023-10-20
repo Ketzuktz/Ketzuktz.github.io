@@ -10,25 +10,23 @@ skills:
 - name: 拂金剑斗术
   type: 普通攻击
   cost:
-  - type: 4
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      pyro: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 熔铁流狱
   type: 元素战技
   cost:
-  - type: 4
-    count: 3
+    die:
+      pyro: 3
   effect: 召唤净焰剑狱领域；如果已存在净焰剑狱领域，就先造成1点火元素伤害。
   comment: 召唤净焰剑狱领域；如果已存在净焰剑狱领域，就先造成1点火元素伤害。
 - name: 炎啸狮子咬
   type: 元素爆发
   cost:
-  - type: 4
-    count: 4
-  - type: 8
-    count: 2
+    die:
+      pyro: 4
+    energy: 2
   effect: 造成3点火元素伤害，然后准备技能：焚落踢。
   comment: 造成3点火元素伤害，然后准备技能：焚落踢。

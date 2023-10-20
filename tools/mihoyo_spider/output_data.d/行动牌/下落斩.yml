@@ -1,2 +1,10 @@
-null
-...
+name: 下落斩
+group:
+- 其他标签
+- 事件牌
+cost:
+  die:
+    matching: 3
+effect: 战斗行动：切换到目标角色，然后该角色进行「普通攻击」。
+comment: '<p style="white-space: pre-wrap;"><strong>坠空急袭法</strong></p><p style="white-space:
+  pre-wrap;">「⋯不要半途打开风之翼啊！要被发现了！」</p>'

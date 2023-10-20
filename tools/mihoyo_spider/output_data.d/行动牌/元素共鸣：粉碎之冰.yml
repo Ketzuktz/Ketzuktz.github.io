@@ -1,2 +1,9 @@
-null
-...
+name: 元素共鸣：粉碎之冰
+group:
+- 元素共鸣
+- 事件牌
+cost:
+  die:
+    cryo: 1
+effect: 本回合中，我方当前出战角色下一次造成的伤害+2。（牌组包含至少2个冰元素角色，才能加入牌组）
+comment: '<p style="white-space: pre-wrap;">霜华绽放，唯此一心。</p>'

@@ -1,2 +1,10 @@
-null
-...
+name: 鸣神大社
+group:
+- 场地
+- 支援牌
+cost:
+  die:
+    matching: 2
+effect: 每回合自动触发1次：生成1个随机的基础元素骰。可用次数：3
+comment: '<p style="white-space: pre-wrap;"><strong>遐世的绯染之梦</strong></p><p style="white-space:
+  pre-wrap;">「影向山樱常盛，一如鸣神永恒。」</p>'

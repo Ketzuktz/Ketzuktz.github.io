@@ -1,2 +1,10 @@
-null
-...
+name: 艾琳
+group:
+- 伙伴
+- 支援牌
+cost:
+  die:
+    matching: 2
+effect: 我方角色使用本回合使用过的技能时：少花费1个元素骰。(每回合1次)
+comment: '<p style="white-space: pre-wrap;"><strong>骑士之梦·艾琳</strong></p><p style="white-space:
+  pre-wrap;">「精神与力量都要修行到位，才能使出琴大人那样沉稳的剑法！」</p>'

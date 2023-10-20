@@ -1,2 +1,11 @@
-null
-...
+name: 唐杜尔烤鸡
+group:
+- 料理
+- 事件牌
+cost:
+  die:
+    unaligned: 2
+effect: 本回合中，所有我方角色下一次「元素战技」造成的伤害+2。（每回合每个角色最多食用1次「料理」）
+comment: '<p style="white-space: pre-wrap;"><strong>唐杜尔烤鸡</strong></p><p style="white-space:
+  pre-wrap;">鸡肉在舌尖伴随着香料的节奏，跳了一支神秘迷人的须弥舞蹈，仿佛将人带入了节庆时分的宴会之中···</p><p style="white-space:
+  pre-wrap;">但就像烤鸡总会吃完，宴会也终有落幕之时。</p>'

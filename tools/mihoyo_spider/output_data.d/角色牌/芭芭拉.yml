@@ -10,25 +10,23 @@ skills:
 - name: 水之浅唱
   type: 普通攻击
   cost:
-  - type: 6
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      hydro: 1
+      unaligned: 2
   effect: 造成1点水元素伤害。
   comment: 造成1点水元素伤害。
 - name: 演唱，开始♪
   type: 元素战技
   cost:
-  - type: 6
-    count: 3
+    die:
+      hydro: 3
   effect: 造成1点水元素伤害，召唤歌声之环。
   comment: 造成1点水元素伤害，召唤歌声之环。
 - name: 闪耀奇迹
   type: 元素爆发
   cost:
-  - type: 6
-    count: 3
-  - type: 8
-    count: 3
+    die:
+      hydro: 3
+    energy: 3
   effect: 治疗我方所有角色4点。
   comment: 治疗我方所有角色4点。

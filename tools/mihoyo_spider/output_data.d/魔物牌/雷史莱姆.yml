@@ -10,23 +10,22 @@ skills:
 - name: 弹跳
   type: 普通攻击
   cost:
-  - type: 5
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      electro: 1
+      unaligned: 2
   effect: 造成1点雷元素伤害。
   comment: 造成1点雷元素伤害。
 - name: 重重下落
   type: 元素爆发
   cost:
-  - type: 5
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      electro: 3
+    energy: 2
   effect: 造成4点雷元素伤害。
   comment: 造成4点雷元素伤害。
 - name: 元素沉积·雷
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，初始附属元素生命·雷。
   comment: 【被动】战斗开始时，初始附属元素生命·雷。

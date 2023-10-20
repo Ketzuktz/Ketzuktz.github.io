@@ -10,25 +10,23 @@ skills:
 - name: 颠扑连环枪
   type: 普通攻击
   cost:
-  - type: 2
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      dendro: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 云台团团降芦菔
   type: 元素战技
   cost:
-  - type: 2
-    count: 3
+    die:
+      dendro: 3
   effect: 召唤月桂·抛掷型。
   comment: 召唤月桂·抛掷型。
 - name: 云颗珊珊月中落
   type: 元素爆发
   cost:
-  - type: 2
-    count: 4
-  - type: 8
-    count: 2
+    die:
+      dendro: 4
+    energy: 2
   effect: 造成1点草元素伤害，生成桂子仙机。
   comment: 造成1点草元素伤害，生成桂子仙机。

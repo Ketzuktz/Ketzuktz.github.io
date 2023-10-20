@@ -1,2 +1,10 @@
-null
-...
+name: 寻宝仙灵
+group:
+- 道具
+- 支援牌
+cost:
+  die:
+    matching: 1
+effect: 我方角色使用技能后：此牌累积1个「寻宝线索」。当此牌已累积3个「寻宝线索」时，弃置此牌：抓3张牌。
+comment: '<p style="white-space: pre-wrap;"><strong>或可解语·寻宝仙灵</strong></p><p style="white-space:
+  pre-wrap;">能引人寻宝的奇异仙灵。据说，有某人能与它们交流⋯？</p>'

@@ -1,2 +1,10 @@
-null
-...
+name: 望舒客栈
+group:
+- 场地
+- 支援牌
+cost:
+  die:
+    matching: 2
+effect: 结束阶段：治疗受伤最多的我方后台角色2点。可用次数：2
+comment: '<p style="white-space: pre-wrap;"><strong>荻花远眺之高车</strong></p><p style="white-space:
+  pre-wrap;">「坊间有传说道，纵然贵为仙人者，偶尔也会在此沐浴清冷的月光…」</p>'

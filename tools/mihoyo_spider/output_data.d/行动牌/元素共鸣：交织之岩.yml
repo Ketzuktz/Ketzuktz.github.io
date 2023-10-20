@@ -1,2 +1,8 @@
-null
-...
+name: 元素共鸣：交织之岩
+group:
+- 元素共鸣
+- 事件牌
+cost:
+  die: {}
+effect: 生成1个岩元素骰。（牌组包含至少2个岩元素角色，才能加入牌组）
+comment: '<p style="white-space: pre-wrap;">嵯峨层岩，鉴取深盟。</p>'

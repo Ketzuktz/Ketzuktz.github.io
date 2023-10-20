@@ -10,25 +10,23 @@ skills:
 - name: 祈颂射艺
   type: 普通攻击
   cost:
-  - type: 2
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      dendro: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 拂花偈叶
   type: 元素战技
   cost:
-  - type: 2
-    count: 3
+    die:
+      dendro: 3
   effect: 造成3点草元素伤害。
   comment: 造成3点草元素伤害。
 - name: 猫猫秘宝
   type: 元素爆发
   cost:
-  - type: 2
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      dendro: 3
+    energy: 2
   effect: 造成2点草元素伤害，召唤柯里安巴。
   comment: 造成2点草元素伤害，召唤柯里安巴。

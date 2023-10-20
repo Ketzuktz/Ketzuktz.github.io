@@ -1,2 +1,9 @@
-null
-...
+name: 一掷乾坤
+group:
+- 其他标签
+- 事件牌
+cost:
+  die: {}
+effect: 选择任意元素骰重投，可重投2次。
+comment: '<p style="white-space: pre-wrap;"><strong>一掷乾坤</strong></p><p style="white-space:
+  pre-wrap;">骰子掷下之前，无人知晓自己的命运。</p>'

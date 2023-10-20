@@ -5,8 +5,12 @@ from html import escape as html_escape
 from lxml import etree
 from lxml import html as lxml_html
 from mihoyo.wiki.card import CardInfo
+from mihoyo.wiki.card import _CardBaseInfo as BaseInfo
 
+from gicg_sim.model.prototype.action_card import ActionCardPrototype as AP
 from gicg_sim.model.prototype.character import CharacterPrototype as CP
+from gicg_sim.model.prototype.cost import CostType
+from gicg_sim.model.prototype.die import DieCostPrototype
 from gicg_sim.model.prototype.skill import SkillPrototype as SP
 
 SKILL_COMMENT_DICT_ALIAS = {"准备": "准备技能"}
@@ -39,6 +43,52 @@ class CardInfoType(Enum):
     monster = "魔物牌"
 
 
+def _type_count_list_to_dict(type_count_list: list[dict[str, int]]) -> dict[str, int]:
+    output = dict()
+    for type_count in type_count_list:
+        output[type_count["type"]] = type_count["count"]
+    return output
+
+
+def _cost_repr_to_cost(cost_repr: dict[int, int]) -> CostType:
+    die_mapping: dict[int, str] = {
+        1: "cryo",
+        2: "dendro",
+        3: "anemo",
+        4: "pyro",
+        5: "electro",
+        6: "hydro",
+        7: "geo",
+        # 8: 'energy',
+        9: "matching",
+        10: "unaligned",
+        # 12: 'omni',
+        12: "matching",
+    }
+
+    energy = cost_repr.get(8, 0)
+    die_count = {die_mapping[k]: v for k, v in cost_repr.items() if k != 8 and v != 0}
+
+    die_cost: DieCostPrototype = DieCostPrototype.model_validate(die_count)
+
+    output = dict()
+    output["die"] = die_cost
+
+    if energy > 0:
+        output["energy"] = energy
+
+    return CostType.model_validate(output)
+
+
+def _life_energy_to_cost(base_info: BaseInfo) -> CostType:
+    data = {
+        base_info["life_bg"]: base_info["life"],
+        base_info["energy_bg"]: base_info["energy"],
+    }
+
+    return _cost_repr_to_cost(data)
+
+
 def _extract_skill_comment_detail(
     detail_text: str, expect_title: str, context: DictContext
 ):
@@ -54,15 +104,29 @@ def _extract_skill_comment_detail(
         .replace(" （", "（")
         .replace("「 ", "「")
         .replace("玩素", "元素")
+        .replace("元索", "元素")
+        .replace("敌方色", "敌方角色")
         .replace("「使用技能」后", "「使用技能后」")
         .replace("此类要", "此类需要")
         .replace("钬伤", "火伤")
         .replace("＋", "+")
         .replace("+ ", "+")
         .replace("够到2次", "最多叠加到2次")
+        .replace("[凭依]", "「凭依」")
         .replace("穿透伤害：穿透伤害", "穿透伤害")
         .replace("暨加", "叠加")
+        .replace("草/雷伤害", "草元素或雷元素伤害")
+        .replace("保护该角色", "保护所附属的角色")
+        .replace("1点护盾", "1点「护盾」")
+        .replace("根据「凭依」级数，提供效果：", "根据「凭依」级数获得效果：")
+        .replace(
+            "我方元素骰子总数为偶数时进行的「普通攻击」，视为「重击」。", "我方行动开始前，如果元素骰总数为偶数，则进行的「普通攻击」将被视为「重击」。"
+        )
+        .replace("万能元素可以视为任何类型的元素", "可以视为任何类型的元素")
+        .replace("生成使下3次草元素或雷元素伤害+1", "生成使下2次草元素或雷元素伤害+1")
+        .replace("所附属角色进行重击时", "所附属角色进行「重击」时")
         for s in parsed_detail.xpath("//*//text()")
+        if len(s.strip(" \n")) > 0
     ]
 
     if len(raw_contents) == 1 and raw_contents[0][0] == "<":
@@ -84,6 +148,10 @@ def _extract_skill_comment_detail(
         if contents[-1] != "持续回合：2":
             contents.append("持续回合：2")
 
+    if expect_title == "泷廻鉴花":
+        if contents[-1] == "可用次数：2":
+            contents[-1] = "可用次数：3"
+
     if expect_title == "潜行":
         if contents[0] == "注释内容：":
             contents = contents[1:]
@@ -96,6 +164,41 @@ def _extract_skill_comment_detail(
     if expect_title == "绝境狂乱":
         title = expect_title + [v for v in contents if "惟神召符" in v][0][-2:]
 
+    if expect_title == "踏潮":
+        contents[1] = contents[1].replace("2点", "3点")
+
+    if expect_title == "璇玑屏":
+        if contents[0] == "出战状态":
+            title = "璇玑屏（出战状态）"
+        else:
+            title = "璇玑屏"
+
+    if expect_title == "启途誓使":
+        if contents[1] != "结束阶段：":
+            contents.insert(1, "结束阶段：")
+
+    if expect_title == "冰元素附魔":
+        if contents[-1] != "（持续到回合结束）":
+            contents.append("（持续到回合结束）")
+
+    if expect_title == "万能元素":
+        if contents[0] == "： .":
+            contents = contents[1:]
+
+    if expect_title == "可用次数":
+        if contents[0] == "：":
+            contents = contents[1:]
+
+        if contents[0] != "此牌效果触发后，会消耗1次可用次数；":
+            contents.insert(0, "此牌效果触发后，会消耗1次可用次数；")
+
+    if expect_title == "重华叠霜领域":
+        if contents[-1] != "持续回合：2":
+            contents.append("持续回合：2")
+
+    if expect_title == "水光破镜":
+        contents[-1] = contents[-1].replace("此状态在同一方只能存在一张", "同一方场上最多存在一个此状态")
+
     content = "\n".join(contents)
 
     content = (
@@ -103,13 +206,56 @@ def _extract_skill_comment_detail(
         .replace("[ ", "[")
         .replace("， ", "，")
         .lstrip("：\n")
+        .replace("\n\n", "\n")
         .replace("\n[\n", "[\n")
         .replace("1火伤\n害", "1点火伤害")
         .replace("草/雷伤害+1\n的", "草/雷伤害+1的")
         .replace("超导：\n", "超导：")
         .replace("[\n草原核\n]", "[草原核]")
+        .replace("草元素或雷元素伤害+1\n的", "草元素或雷元素伤害+1的")
         .replace("[\n激化领域\n]", "[激化领域]")
+        .replace("[\n燃烧烈焰\n]", "[燃烧烈焰]")
+        .replace("\n持续回合\n", "持续回合")
+        .replace(" .\n万能元素", "万能元素")
+        .replace("，来支付", "，支付")
     )
+
+    # now, all content has been split
+
+    special_words = [
+        "角色",
+        "所附属角色",
+        "准备",
+        "护盾",
+        "击倒",
+        "免于被击倒",
+        "下落攻击",
+        "重击",
+        "普通攻击",
+        "物理伤害",
+        "穿透伤害",
+        "无色元素",
+        "丹火印",
+        "岩盔",
+        "无法使用技能",
+        "可用次数",
+        "眩晕",
+    ]
+
+    for e in ["水", "火", "风", "冰", "草", "雷", "岩"]:
+        special_words.append(f"{e}元素伤害")
+        special_words.append(f"{e}元素附着")
+        special_words.append(f"{e}元素")
+
+    content = re.sub("(：)\n", r"\1", content)
+
+    for sw in special_words:
+        content = re.sub(f"([\u4e00-\u9fa5：])\n{sw}\n", f"\\1「{sw}」", content)
+        content = re.sub(f"「\n({sw})\n」", "「\\1」", content)
+        content = re.sub(f"([^「])({sw})", "\\1「\\2」", content)
+        content = re.sub(f"^({sw})", "「\\1」", content)
+
+    content = re.sub("(」)\n([\u4e00-\u9fa5])", r"\1\2", content)
 
     context.update(title, content, detail_text)
 
@@ -120,10 +266,11 @@ def _extract_skill_comment_single_paragraph_text(
     # 获取包含技能描述的整个字符串，但排除 "[详情]" 部分
     skill_description = "".join(root.xpath("//*[not(self::sup)]/text()")).strip()
 
-    strong_elements = root.xpath(".//strong//text()")
+    strong_elements = root.xpath(".//u//text()")
     for element in strong_elements:
         # 获取加粗文本
         bold_text = element.strip()
+
         if bold_text:
             # 检查是否有相邻的 span 元素包含正确的 data-type 和 data-name 属性
             current_element = element
@@ -165,25 +312,33 @@ def _extract_skill_comment(skill_desc: str, context: DictContext) -> str:
     return output.strip()
 
 
+def _raw_effect_to_desc(effect: str, context: DictContext) -> str:
+    try:
+        escaped_html_string = re.sub(
+            r'="([^"]*)"',
+            lambda match: f'="{html_escape(match.group(1))}"',
+            effect,
+        )
+        removed_duplicate_class_string = re.sub(
+            '(class=\\"[\\w-]+\\") \\1', "\\1", escaped_html_string
+        )
+        desc = _extract_skill_comment(removed_duplicate_class_string, context)
+        return desc
+    except Exception as e:
+        print(escaped_html_string)
+        raise e
+
+
 def _extract_character_data(card: CardInfo, context: DictContext) -> CP:
     def card_skill_info_to_SP(skill_info: dict) -> SP:
-        try:
-            escaped_html_string = re.sub(
-                r'="([^"]*)"',
-                lambda match: f'="{html_escape(match.group(1))}"',
-                skill_info["desc"],
-            )
-            skill_comment = _extract_skill_comment(escaped_html_string, context)
-        except Exception as e:
-            print(escaped_html_string)
-            print(skill_info["name"])
-            print(skill_info["desc"])
-            raise e
+        skill_comment = _raw_effect_to_desc(skill_info["desc"], context)
 
         return {
             "name": skill_info["name"],
             "type": skill_info["skill_type"],
-            "cost": skill_info["costs"],
+            "cost": _cost_repr_to_cost(
+                _type_count_list_to_dict(skill_info["costs"])
+            ).model_dump(exclude_none=True),
             "effect": skill_comment,
             "comment": skill_comment,
         }
@@ -205,8 +360,17 @@ def _extract_character_data(card: CardInfo, context: DictContext) -> CP:
     return output
 
 
-def _extract_action_data(card: CardInfo, context: DictContext):
-    pass
+def _extract_action_data(card: CardInfo, context: DictContext) -> AP:
+    effect = _raw_effect_to_desc(card["effect"]["rich_text"], context)
+
+    output: AP = {
+        "name": card["name"],
+        "group": card["base_info"]["tags"] + card["base_info"]["card_type"],
+        "cost": _life_energy_to_cost(card["base_info"]).model_dump(exclude_none=True),
+        "effect": effect,
+        "comment": card["story"]["rich_text"],
+    }
+    return output
 
 
 def card_info_extract_data(card: CardInfo, type: CardInfoType, context: DictContext):

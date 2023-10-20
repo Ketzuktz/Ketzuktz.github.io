@@ -10,30 +10,29 @@ skills:
 - name: Du Plama
   type: 普通攻击
   cost:
-  - type: 5
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      electro: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: Upa
   type: 元素战技
   cost:
-  - type: 5
-    count: 3
+    die:
+      electro: 3
   effect: 造成3点物理伤害。
   comment: 造成3点物理伤害。
 - name: Oto Tiga
   type: 元素爆发
   cost:
-  - type: 5
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      electro: 3
+    energy: 2
   effect: 造成5点物理伤害。
   comment: 造成5点物理伤害。
 - name: 流煌磨刃
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，初始附属流煌磨刃。
   comment: 【被动】战斗开始时，初始附属流煌磨刃。

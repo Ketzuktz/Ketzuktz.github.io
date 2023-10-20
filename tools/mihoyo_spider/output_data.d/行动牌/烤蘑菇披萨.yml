@@ -1,2 +1,10 @@
-null
-...
+name: 烤蘑菇披萨
+group:
+- 料理
+- 事件牌
+cost:
+  die:
+    matching: 1
+effect: 治疗目标角色1点，两回合内结束阶段再治疗此角色1点。(每回合每个角色最多食用1次「料理」)
+comment: '<p style="white-space: pre-wrap;"><strong>烤蘑菇披萨</strong></p><p style="white-space:
+  pre-wrap;">据说有学者曾通过精密计算，研究出披萨的「最公平切法」，但由于太麻烦，根本没有人使用···</p>'

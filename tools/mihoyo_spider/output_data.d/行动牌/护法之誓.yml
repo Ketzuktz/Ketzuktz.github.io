@@ -1,2 +1,9 @@
-null
-...
+name: 护法之誓
+group:
+- 其他标签
+- 事件牌
+cost:
+  die:
+    matching: 4
+effect: 消灭所有「召唤物」。（不分敌我！）
+comment: '<p style="white-space: pre-wrap;">「三眼五显仙人， 魈，听召前来守护。」</p>'

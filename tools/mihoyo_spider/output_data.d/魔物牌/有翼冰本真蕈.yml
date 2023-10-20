@@ -10,30 +10,29 @@ skills:
 - name: 孢子弹
   type: 普通攻击
   cost:
-  - type: 1
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      cryo: 1
+      unaligned: 2
   effect: 造成1点冰元素伤害。
   comment: 造成1点冰元素伤害。
 - name: 翻滚喷射
   type: 元素战技
   cost:
-  - type: 1
-    count: 3
+    die:
+      cryo: 3
   effect: 造成3点冰元素伤害。
   comment: 造成3点冰元素伤害。
 - name: 爆破俯冲
   type: 元素爆发
   cost:
-  - type: 1
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      cryo: 3
+    energy: 2
   effect: 造成5点冰元素伤害。
   comment: 造成5点冰元素伤害。
 - name: 状态转换
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，角色处于空中优势。角色受到火元素伤害后，转换为枯焦状态。角色受到雷元素伤害后，转换为活化状态。
   comment: 【被动】战斗开始时，角色处于空中优势。角色受到火元素伤害后，转换为枯焦状态。角色受到雷元素伤害后，转换为活化状态。

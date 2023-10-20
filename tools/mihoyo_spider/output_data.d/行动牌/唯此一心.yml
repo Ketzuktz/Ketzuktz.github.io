@@ -1,2 +1,10 @@
-null
-...
+name: 唯此一心
+group:
+- 天赋
+- 装备牌
+cost:
+  die:
+    cryo: 5
+effect: 战斗行动：我方出战角色为甘雨时，装备此牌。甘雨装备此牌后，立刻使用一次霜华矢。装备有此牌的甘雨使用霜华矢时：如果此技能在本场对局中曾经被使用过，则其对后台的敌人造成的穿透伤害改为3点。(牌组中包含甘雨，才能加入牌组)
+comment: '<p style="white-space: pre-wrap;"><strong>甘雨·唯此一心</strong></p><p style="white-space:
+  pre-wrap;">先矢夺人，好箭成霜。</p>'

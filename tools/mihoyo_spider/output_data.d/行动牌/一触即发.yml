@@ -1,2 +1,10 @@
-null
-...
+name: 一触即发
+group:
+- 天赋
+- 装备牌
+cost:
+  die:
+    pyro: 3
+effect: 战斗行动：我方出战角色为安柏时，装备此牌。安柏装备此牌后，立刻使用一次爆弹玩偶。安柏普通攻击后：如果此牌和兔兔伯爵仍在场，则引爆兔兔伯爵，造成3点火元素伤害。（牌组中包含安柏，才能加入牌组）
+comment: '<p style="white-space: pre-wrap;"><strong>安柏 · 一触即发</strong></p><p style="white-space:
+  pre-wrap;">「兔兔伯爵，出击！」</p>'

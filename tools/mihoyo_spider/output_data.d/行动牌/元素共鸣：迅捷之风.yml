@@ -1,2 +1,9 @@
-null
-...
+name: 元素共鸣：迅捷之风
+group:
+- 元素共鸣
+- 事件牌
+cost:
+  die:
+    anemo: 1
+effect: 切换到目标角色，并生成1点万能元素。（牌组包含至少2个风元素角色，才能加入牌组）
+comment: '<p style="white-space: pre-wrap;">疾风穿林，驰骋四方。</p>'

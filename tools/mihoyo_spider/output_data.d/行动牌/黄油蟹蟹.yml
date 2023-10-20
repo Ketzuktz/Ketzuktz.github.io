@@ -1,2 +1,10 @@
-null
-...
+name: 黄油蟹蟹
+group:
+- 料理
+- 事件牌
+cost:
+  die:
+    unaligned: 2
+effect: 本回合中，所有我方角色下次受到的伤害-2。(每回合每个角色最多食用1次「料理」）
+comment: '<p style="white-space: pre-wrap;"><strong>黄油蟹蟹</strong></p><p style="white-space:
+  pre-wrap;">黄油浸润的蟹腿带着馥郁的香气，席卷味蕾，叫人无法抵抗这般鲜香的诱惑。</p><p style="white-space: pre-wrap;">「再来一份谢谢！」</p>'

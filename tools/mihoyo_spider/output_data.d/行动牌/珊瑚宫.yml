@@ -1,2 +1,10 @@
-null
-...
+name: 珊瑚宫
+group:
+- 场地
+- 支援牌
+cost:
+  die:
+    matching: 2
+effect: 结束阶段：治疗所有我方角色1点。可用次数：2
+comment: '<p style="white-space: pre-wrap;"><strong>珠光弥布的宫阙</strong></p><p style="white-space:
+  pre-wrap;">「珊瑚宫者，初为海渊，后有大蛇渡来，盘桓而升涡流，塑珊瑚而成岛。」</p>'

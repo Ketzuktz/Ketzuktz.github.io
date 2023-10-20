@@ -10,28 +10,28 @@ skills:
 - name: 连续斩
   type: 普通攻击
   cost:
-  - type: 10
-    count: 3
+    die:
+      unaligned: 3
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 跳劈弹
   type: 元素战技
   cost:
-  - type: 9
-    count: 3
+    die:
+      matching: 3
   effect: 造成3点物理伤害。
   comment: 造成3点物理伤害。
 - name: 居合·纳刀
   type: 元素爆发
   cost:
-  - type: 9
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      matching: 3
+    energy: 2
   effect: 本角色准备技能：居合·前。
   comment: 本角色准备技能：居合·前。
 - name: 残心
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】结束阶段：如果此角色是「出战角色」，就获得1点充能。
   comment: 【被动】结束阶段：如果此角色是「出战角色」，就获得1点充能。

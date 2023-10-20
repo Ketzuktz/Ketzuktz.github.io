@@ -10,35 +10,35 @@ skills:
 - name: 三位切
   type: 普通攻击
   cost:
-  - type: 4
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      pyro: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 鲤跃斩
   type: 元素战技
   cost:
-  - type: 4
-    count: 3
+    die:
+      pyro: 3
   effect: 造成3点物理伤害。
   comment: 造成3点物理伤害。
 - name: 居合·纳刀
   type: 元素爆发
   cost:
-  - type: 4
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      pyro: 3
+    energy: 2
   effect: 本角色准备技能：居合·焚风。
   comment: 本角色准备技能：居合·焚风。
 - name: 惟神召符·炎
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，初始附属惟神召符·炎。
   comment: 【被动】战斗开始时，初始附属惟神召符·炎。
 - name: 绝境狂乱
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】我方其他海乱鬼被击倒时，此角色附属绝境狂乱。
   comment: 【被动】我方其他海乱鬼被击倒时，此角色附属绝境狂乱。

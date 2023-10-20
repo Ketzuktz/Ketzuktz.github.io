@@ -10,30 +10,29 @@ skills:
 - name: 突刺
   type: 普通攻击
   cost:
-  - type: 4
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      pyro: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 伺机而动
   type: 元素战技
   cost:
-  - type: 4
-    count: 3
+    die:
+      pyro: 3
   effect: 造成1点火元素伤害，本角色附属潜行。
   comment: 造成1点火元素伤害，本角色附属潜行。
 - name: 焚毁之锋
   type: 元素爆发
   cost:
-  - type: 4
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      pyro: 3
+    energy: 2
   effect: 造成5点火元素伤害。
   comment: 造成5点火元素伤害。
 - name: 潜行大师
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 战斗开始时，初始附属潜行。
   comment: 战斗开始时，初始附属潜行。

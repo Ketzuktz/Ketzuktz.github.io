@@ -1,2 +1,10 @@
-null
-...
+name: 流放者头冠
+group:
+- 圣遗物
+- 装备牌
+cost:
+  die:
+    unaligned: 2
+effect: 角色使用元素爆发后：所有后台我方角色获得1点充能。（每回合1次）（角色最多装备1件「圣遗物」）
+comment: '<p style="white-space: pre-wrap;"><strong>贵胄之裔·流放者头冠</strong></p><p style="white-space:
+  pre-wrap;">「祸哉，那白银堆砌的大殿，你的冠冕何以被血淹没？」</p>'

@@ -10,30 +10,29 @@ skills:
 - name: 近身冲撞
   type: 普通攻击
   cost:
-  - type: 1
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      cryo: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 封冻喷剂
   type: 元素战技
   cost:
-  - type: 1
-    count: 3
+    die:
+      cryo: 3
   effect: 造成3点冰元素伤害。
   comment: 造成3点冰元素伤害。
 - name: 严霜铁铳
   type: 元素爆发
   cost:
-  - type: 1
-    count: 3
-  - type: 8
-    count: 3
+    die:
+      cryo: 3
+    energy: 3
   effect: 造成3点冰元素伤害，本角色附属元素武装·冰。
   comment: 造成3点冰元素伤害，本角色附属元素武装·冰。
 - name: 战备补给
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，本角色获得2点充能。
   comment: 【被动】战斗开始时，本角色获得2点充能。

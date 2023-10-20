@@ -10,30 +10,29 @@ skills:
 - name: 源流
   type: 普通攻击
   cost:
-  - type: 5
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      electro: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 神变·恶曜开眼
   type: 元素战技
   cost:
-  - type: 5
-    count: 3
+    die:
+      electro: 3
   effect: 召唤雷罚恶曜之眼。
   comment: 召唤雷罚恶曜之眼。
 - name: 奥义·梦想真说
   type: 元素爆发
   cost:
-  - type: 5
-    count: 4
-  - type: 8
-    count: 2
+    die:
+      electro: 4
+    energy: 2
   effect: 造成3点雷元素伤害，其他我方角色获得2点充能。
   comment: 造成3点雷元素伤害，其他我方角色获得2点充能。
 - name: 诸愿百眼之轮
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，初始附属诸愿百眼之轮。
   comment: 【被动】战斗开始时，初始附属诸愿百眼之轮。

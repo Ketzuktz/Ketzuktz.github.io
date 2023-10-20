@@ -10,25 +10,23 @@ skills:
 - name: 仪典剑术
   type: 普通攻击
   cost:
-  - type: 1
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      cryo: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 霜袭
   type: 元素战技
   cost:
-  - type: 1
-    count: 3
+    die:
+      cryo: 3
   effect: 造成3点冰元素伤害。
   comment: 造成3点冰元素伤害。
 - name: 凛冽轮舞
   type: 元素爆发
   cost:
-  - type: 1
-    count: 4
-  - type: 8
-    count: 2
+    die:
+      cryo: 4
+    energy: 2
   effect: 造成1点冰元素伤害，生成寒冰之棱。
   comment: 造成1点冰元素伤害，生成寒冰之棱。

@@ -10,25 +10,23 @@ skills:
 - name: 藏蕴破障
   type: 普通攻击
   cost:
-  - type: 2
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      dendro: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 识果种雷
   type: 元素战技
   cost:
-  - type: 2
-    count: 3
+    die:
+      dendro: 3
   effect: 造成2点草元素伤害，本角色附属通塞识。
   comment: 造成2点草元素伤害，本角色附属通塞识。
 - name: 造生缠藤箭
   type: 元素爆发
   cost:
-  - type: 2
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      dendro: 3
+    energy: 2
   effect: 造成4点草元素伤害，对所有敌方后台角色造成1点穿透伤害。
   comment: 造成4点草元素伤害，对所有敌方后台角色造成1点穿透伤害。

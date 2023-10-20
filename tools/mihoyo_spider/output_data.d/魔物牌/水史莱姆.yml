@@ -10,23 +10,22 @@ skills:
 - name: 弹跳
   type: 普通攻击
   cost:
-  - type: 6
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      hydro: 1
+      unaligned: 2
   effect: 造成1点水元素伤害。
   comment: 造成1点水元素伤害。
 - name: 重重下落
   type: 元素爆发
   cost:
-  - type: 6
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      hydro: 3
+    energy: 2
   effect: 造成4点水元素伤害。
   comment: 造成4点水元素伤害。
 - name: 元素沉积·水
   type: 被动技能
-  cost: []
+  cost:
+    die: {}
   effect: 【被动】战斗开始时，初始附属元素生命·水。
   comment: 【被动】战斗开始时，初始附属元素生命·水。

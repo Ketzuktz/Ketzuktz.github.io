@@ -1,2 +1,8 @@
-null
-...
+name: 元素共鸣：交织之水
+group:
+- 元素共鸣
+- 事件牌
+cost:
+  die: {}
+effect: 生成1个水元素骰。（牌组包含至少2个水元素角色，才能加入牌组）
+comment: '<p style="white-space: pre-wrap;">水纳万生，清浊共舞。</p>'

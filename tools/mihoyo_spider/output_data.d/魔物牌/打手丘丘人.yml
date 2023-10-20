@@ -10,23 +10,22 @@ skills:
 - name: 打
   type: 普通攻击
   cost:
-  - type: 10
-    count: 2
+    die:
+      unaligned: 2
   effect: 造成1点物理伤害。
   comment: 造成1点物理伤害。
 - name: 跳起打
   type: 元素战技
   cost:
-  - type: 10
-    count: 3
+    die:
+      unaligned: 3
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 挥来挥去
   type: 元素爆发
   cost:
-  - type: 9
-    count: 3
-  - type: 8
-    count: 2
+    die:
+      matching: 3
+    energy: 2
   effect: 造成4点物理伤害。
   comment: 造成4点物理伤害。

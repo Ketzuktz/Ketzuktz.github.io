@@ -10,25 +10,23 @@ skills:
 - name: 云来古剑法
   type: 普通攻击
   cost:
-  - type: 1
-    count: 1
-  - type: 10
-    count: 2
+    die:
+      cryo: 1
+      unaligned: 2
   effect: 造成2点物理伤害。
   comment: 造成2点物理伤害。
 - name: 仙法·寒病鬼差
   type: 元素战技
   cost:
-  - type: 1
-    count: 3
+    die:
+      cryo: 3
   effect: 召唤寒病鬼差。
   comment: 召唤寒病鬼差。
 - name: 仙法·救苦度厄
   type: 元素爆发
   cost:
-  - type: 1
-    count: 3
-  - type: 8
-    count: 3
+    die:
+      cryo: 3
+    energy: 3
   effect: 造成3点冰元素伤害，生成度厄真符。
   comment: 造成3点冰元素伤害，生成度厄真符。
