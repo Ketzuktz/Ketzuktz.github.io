@@ -31,6 +31,7 @@ class SideType(Enum):
     self: str = "self"
     enemy: str = "enemy"
     all: str = "all"
+    undefined: str = "undefined"
 
 
 class TargetType(BaseModel):
@@ -40,6 +41,11 @@ class TargetType(BaseModel):
 
 class DamagePrototype(BaseModel):
     type: DamageType
+    target: TargetType
+    value: int = 0
+
+
+class HealPrototype(BaseModel):
     target: TargetType
     value: int = 0
 
@@ -70,12 +76,9 @@ class CounterClearPrototype(BaseModel):
     name: str
 
 
-class GetBuffPrototype(BaseModel):
+class GetCharacterBuffPrototype(BaseModel):
+    target: TargetType
     name: str
-
-
-class HealPrototype(BaseModel):
-    target: typing.Optional[int] = None
 
 
 class EffectPrototype(BaseModel):
@@ -85,5 +88,5 @@ class EffectPrototype(BaseModel):
     counter_check: typing.Optional[CounterCheckPrototype] = None
     counter_clear: typing.Optional[CounterClearPrototype] = None
     damage_add: typing.Optional[DamageAddPrototype] = None
-    get_buff: typing.Optional[GetBuffPrototype] = None
+    get_buff: typing.Optional[GetCharacterBuffPrototype] = None
     heal: typing.Optional[HealPrototype] = None
