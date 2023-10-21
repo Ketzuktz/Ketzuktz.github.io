@@ -321,6 +321,7 @@ def _extract_skill_effect_from_html(html: str, context: SmarterContext) -> str:
 
     output = output.replace("\n", "")
     output = output.replace("  ，", "，")
+    output = output.replace("。 （", "。（")
 
     return output.strip()
 

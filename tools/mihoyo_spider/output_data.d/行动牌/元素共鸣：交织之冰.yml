@@ -4,5 +4,5 @@ group:
 - 事件牌
 cost:
   die: {}
-effect: 生成1个冰元素骰。 （牌组包含至少2个冰元素角色，才能加入牌组）
+effect: 生成1个冰元素骰。（牌组包含至少2个冰元素角色，才能加入牌组）
 comment: '<p style="white-space: pre-wrap;">坚冰凜冽，直撼高天。</p>'
