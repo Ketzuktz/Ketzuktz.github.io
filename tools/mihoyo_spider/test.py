@@ -154,18 +154,15 @@ def get_lose_buff_condition(desc: str) -> typing.Tuple[str, str]:
 
 def get_special_condition(desc: str) -> typing.Tuple[str, str]:
     matched = re.match(
-        r"^(?P<target>[^\u4e00-\u9fa5]+?)(?P<condition>(使用技能后))(?:，?)", desc
+        r"^(?P<target>[\u4e00-\u9fa5]+?)(?P<condition>(使用技能后))(?:，?)", desc
     )
 
     if matched:
         target = matched["target"]
         condition = matched["condition"]
 
-        buff_condition = matched["buff_condition"]
-        buff_name = matched["buff_name"]
-
         remaining_string = desc[matched.end() :]
-        return f"{target} {condition} {buff_condition} {buff_name}", remaining_string
+        return f"{target} {condition}", remaining_string
 
     return None, desc
 
