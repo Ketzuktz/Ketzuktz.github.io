@@ -1,5 +1,14 @@
+from gicg_sim.basic.enums import PhaseStatusEnum
+from gicg_sim.basic.event.operation import (PlayerOpDrawCard,
+                                            PlayerOpRedrawCard,
+                                            PlayerOpRerollDice,
+                                            PlayerOpRollDice,
+                                            PlayerOpSelectActiveCharacter)
+from gicg_sim.basic.subtypes import CharacterID, PlayerID
+from gicg_sim.game.manager import GameManager
 
-def test_preparation():
+
+def prepare_game() -> GameManager:
     pile_names = ['Sweet Madame' for _ in range(30)]
 
     gm = GameManager()
@@ -26,3 +35,10 @@ def test_preparation():
 
     assert gm.game_state.phase_status == PhaseStatusEnum.Roll
     assert len(gm.game_state.get_phase_events()) == 0
+
+    for pid in [1, 2]:
+        p = PlayerID(pid)
+        gm.take_operation(PlayerOpRollDice(count=8, player_id=p))
+        gm.take_operation(PlayerOpRerollDice(count=4, player_id=p))
+
+    return gm

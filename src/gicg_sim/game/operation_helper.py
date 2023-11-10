@@ -1,8 +1,8 @@
 from copy import deepcopy
 
-from gicg_sim.basic.event.base import (EventBase, EventDrawCard,
-                                       EventRedrawCard, EventRerollDice,
-                                       EventRollDice,
+from gicg_sim.basic.event.base import (EventBase, EventCombatAction,
+                                       EventDrawCard, EventRedrawCard,
+                                       EventRerollDice, EventRollDice,
                                        EventSelectActiveCharacter)
 from gicg_sim.basic.event.operation import (PlayerOpDrawCard,
                                             PlayerOperationBase,
@@ -10,7 +10,8 @@ from gicg_sim.basic.event.operation import (PlayerOpDrawCard,
                                             PlayerOpRedrawCard,
                                             PlayerOpRerollDice,
                                             PlayerOpRollDice,
-                                            PlayerOpSelectActiveCharacter)
+                                            PlayerOpSelectActiveCharacter,
+                                            PlayerOpUseSkill)
 from gicg_sim.basic.subtypes import OperationID
 
 
@@ -29,26 +30,19 @@ class OperationHelper:
         events: list[EventBase] = []
         match operation.op_type:
             case PlayerOperationEnum.DrawCard:
-                assert isinstance(
-                    operation, PlayerOpDrawCard
-                )
+                assert isinstance(operation, PlayerOpDrawCard)
                 events.append(
-                    EventDrawCard(count=operation.count,
-                                  player_id=operation.player_id)
+                    EventDrawCard(count=operation.count, player_id=operation.player_id)
                 )
             case PlayerOperationEnum.RedrawCard:
-                assert isinstance(
-                    operation, PlayerOpRedrawCard
-                )
+                assert isinstance(operation, PlayerOpRedrawCard)
                 events.append(
                     EventRedrawCard(
                         count=operation.count, player_id=operation.player_id
                     )
                 )
             case PlayerOperationEnum.SelectActiveCharacter:
-                assert isinstance(
-                    operation, PlayerOpSelectActiveCharacter
-                )
+                assert isinstance(operation, PlayerOpSelectActiveCharacter)
                 events.append(
                     EventSelectActiveCharacter(
                         selected_id=operation.character_id,
@@ -56,22 +50,24 @@ class OperationHelper:
                     )
                 )
             case PlayerOperationEnum.RollDice:
-                assert isinstance(
-                    operation, PlayerOpRollDice
-                )
+                assert isinstance(operation, PlayerOpRollDice)
                 events.append(
-                    EventRollDice(count=operation.count,
-                                  player_id=operation.player_id)
+                    EventRollDice(count=operation.count, player_id=operation.player_id)
                 )
             case PlayerOperationEnum.RerollDice:
-                assert isinstance(
-                    operation, PlayerOpRerollDice
-                )
+                assert isinstance(operation, PlayerOpRerollDice)
                 events.append(
-                    EventRerollDice(count=operation.count,
-                                    player_id=operation.player_id)
+                    EventRerollDice(
+                        count=operation.count, player_id=operation.player_id
+                    )
+                )
+            case PlayerOperationEnum.UseSkill:
+                assert isinstance(operation, PlayerOpUseSkill)
+                events.append(
+                    EventCombatAction(
+                        skill_id=operation.skill_id, player_id=operation.player_id
+                    )
                 )
             case _:
-                raise ValueError(
-                    f"Unknown operation type ({operation.op_type}).")
+                raise ValueError(f"Unknown operation type ({operation.op_type}).")
         return events

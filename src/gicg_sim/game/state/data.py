@@ -102,6 +102,8 @@ class GameState:
                     pass
                 case EventEnum.RerollDice:
                     pass
+                case EventEnum.CombatAction:
+                    pass
                 case _:
                     raise ValueError(
                         f"Invalid event type {e_raw.event_type} for {e_raw}"

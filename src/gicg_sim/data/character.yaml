@@ -1,56 +1,56 @@
-- name : Diluc
-  rarity : 5
-  element : Pyro
-  weapon : Claymore
-  max_HP : 10
-  max_energy : 3
+- name: Diluc
+  rarity: 5
+  element: Pyro
+  weapon: Claymore
+  max_HP: 10
+  max_energy: 3
   faction: [Mondstadt]
-  skills :
-    - name : Tempered Sword
-      type : Normal Attack
-      cost :
-          die :
-            pyro : 1
-            any : 2
-      effect :
-        - damage :
+  skills:
+    - name: Tempered Sword
+      type: Normal Attack
+      cost:
+        die:
+          pyro: 1
+          any: 2
+      effect:
+        - damage:
             type: physical
             value: 2
-        - erengy : 1
-      comment : "Deals 2 Physical DMG."
-    - name : Searing Onslaught
-      type : Elemental Skill
-      cost :
-          die :
-            pyro : 3
-      effect :
-        - damage :
+        - erengy: 1
+      comment: "Deals 2 Physical DMG."
+    - name: Searing Onslaught
+      type: Elemental Skill
+      cost:
+        die:
+          pyro: 3
+      effect:
+        - damage:
             type: pyro
             value: 3
-        - erengy : 1
-        - token_add :
-            name : Searing Onslaught
-            value : 1
-        - token_cost :
-            name : Searing Onslaught
-            value : 3
-            effect :
-            - damage_add :
-                value: 2
-      comment : Deals 3 Pyro DMG. For the third use of this Skill each Round, deals +2 DMG.
-    - name : Dawn
-      type : Elemental Burst
-      cost :
-          die :
-            pyro : 4
-          erengy : 3
-      effect :
-        - damage :
+        - erengy: 1
+        - token_add:
+            name: Searing Onslaught
+            value: 1
+        - token_cost:
+            name: Searing Onslaught
+            value: 3
+            effect:
+              - damage_add:
+                  value: 2
+      comment: Deals 3 Pyro DMG. For the third use of this Skill each Round, deals +2 DMG.
+    - name: Dawn
+      type: Elemental Burst
+      cost:
+        die:
+          pyro: 4
+        erengy: 3
+      effect:
+        - damage:
             type: pyro
             value: 8
-        - buff_get :
-            name : Pyro Infusion
-      comment : Deals 8 Pyro DMG. This character gains Pyro Infusion.
+        - buff_get:
+            name: Pyro Infusion
+      comment: Deals 8 Pyro DMG. This character gains Pyro Infusion.
   plugins:
     on_round_start:
       - token_set:

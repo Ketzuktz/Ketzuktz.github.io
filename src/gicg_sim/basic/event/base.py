@@ -1,7 +1,7 @@
 from enum import Enum
 
 from gicg_sim.basic.enums import PhaseStatusEnum
-from gicg_sim.basic.subtypes import CharacterID, EventID, PlayerID
+from gicg_sim.basic.subtypes import CharacterID, EventID, PlayerID, SkillID
 
 
 class EventEnum(Enum):
@@ -23,11 +23,13 @@ class EventBase:
         event_type: EventEnum,
         player_id: PlayerID | None = None,
         event_id: EventID | None = None,
+        skill_id: SkillID | None = None,
         system_flag: bool = False,
     ) -> None:
         self.event_type = event_type
         self.player_id = player_id
         self.event_id = event_id
+        self.skill_id = skill_id
         self.is_system = system_flag
 
     def __eq__(self, __value: object) -> bool:

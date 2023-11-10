@@ -93,6 +93,7 @@ class PlayerOpUseSkill(PlayerOperationBase):
         skill_id: SkillID,
         player_id: PlayerID,
         op_id: OperationID | None = None,
+        **kwargs,
     ) -> None:
         self.skill_id: SkillID = skill_id
         super().__init__(PlayerOperationEnum.UseSkill, player_id, op_id, *args)
