@@ -1,9 +1,10 @@
 - name : Pyro Infusion
   comment : The character to which this is attached has their Physical DMG dealt converted to Pyro DMG.
   effect :
-    - convert_damage :
+    - damage_convert :
       from :
         - physical : 1
       to :
         - pyro : 1
+      limited : false
   duration : 2

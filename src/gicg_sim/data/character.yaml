@@ -14,7 +14,8 @@
             any : 2
       effect :
         - damage :
-            physical : 2
+            type: physical
+            value: 2
         - erengy : 1
       comment : "Deals 2 Physical DMG."
     - name : Searing Onslaught
@@ -24,18 +25,18 @@
             pyro : 3
       effect :
         - damage :
-            pyro : 3
+            type: pyro
+            value: 3
         - erengy : 1
-        - counter_add :
+        - token_add :
             name : Searing Onslaught
-        - counter_check :
+            value : 1
+        - token_cost :
             name : Searing Onslaught
             value : 3
             effect :
             - damage_add :
-                pyro : 2
-            - counter_clear :
-                name : Searing Onslaught
+                value: 2
       comment : Deals 3 Pyro DMG. For the third use of this Skill each Round, deals +2 DMG.
     - name : Dawn
       type : Elemental Burst
@@ -45,7 +46,13 @@
           erengy : 3
       effect :
         - damage :
-            pyro : 8
-        - get_buff :
+            type: pyro
+            value: 8
+        - buff_get :
             name : Pyro Infusion
       comment : Deals 8 Pyro DMG. This character gains Pyro Infusion.
+  plugins:
+    on_round_start:
+      - token_set:
+          name: Searing Onslaught
+          value: 0

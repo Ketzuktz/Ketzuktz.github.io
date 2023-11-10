@@ -2,6 +2,7 @@ from gicg_sim.basic.group import GroupType
 from gicg_sim.data import action_card_mapping
 from gicg_sim.model.action_card import ActionCard
 from gicg_sim.model.prototype.action_card import ActionCardPrototype as ACP
+from gicg_sim.model.prototype.effect import SideTargetType, SideType
 
 
 def test_action_card_validate():
@@ -21,4 +22,6 @@ def test_food_create():
     assert len(a.effect) == 1
 
     effect = a.effect[0]
-    assert effect.heal.target == 1
+    assert effect.heal.value == 1
+    assert effect.heal.target.side == SideType.self
+    assert effect.heal.target.target == SideTargetType.selected

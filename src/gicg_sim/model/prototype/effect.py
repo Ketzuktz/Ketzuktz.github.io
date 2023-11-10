@@ -41,12 +41,12 @@ class TargetType(BaseModel):
 
 class DamagePrototype(BaseModel):
     type: DamageType
-    target: TargetType
+    target: TargetType = TargetType(side=SideType.enemy, target=SideTargetType.active)
     value: int = 0
 
 
 class HealPrototype(BaseModel):
-    target: TargetType
+    target: TargetType = TargetType(side=SideType.self, target=SideTargetType.selected)
     value: int = 0
 
 
