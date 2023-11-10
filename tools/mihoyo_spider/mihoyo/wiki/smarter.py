@@ -307,6 +307,8 @@ def _extract_skill_comment_single_paragraph_text(
 
                 _extract_skill_comment_detail(detail_text, bold_text, context)
 
+    skill_description = skill_description.replace('2给元素骰', '2个元素骰')
+
     return skill_description
 
 
