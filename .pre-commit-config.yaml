@@ -35,9 +35,9 @@ repos:
     -   id: ruff
         args: [--fix, --exit-non-zero-on-fix, --no-cache]
 -   repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v0.950
+    rev: v1.6.1
     hooks:
     -   id: mypy
         verbose: true
-        args: [--show-error-codes, "--config-file=.mypy.ini"]
+        args: [--show-error-codes, --check-untyped-defs, "--config-file=.mypy.ini"]
         additional_dependencies: ['types-requests', 'types-PyYAML', 'mypy[pydantic]']

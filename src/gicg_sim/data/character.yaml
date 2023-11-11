@@ -11,12 +11,12 @@
       cost:
         die:
           pyro: 1
-          any: 2
+          unaligned: 2
       effect:
         - damage:
             type: physical
             value: 2
-        - erengy: 1
+        - energy: 1
       comment: "Deals 2 Physical DMG."
     - name: Searing Onslaught
       type: Elemental Skill

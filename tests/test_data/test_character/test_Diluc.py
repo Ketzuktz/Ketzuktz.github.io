@@ -5,7 +5,7 @@ from gicg_sim.basic.subtypes import CharacterID, PlayerID, SkillID
 from gicg_sim.game.manager import GameManager
 
 
-def test_Diluc_attack():
+def test_Diluc_attack() -> None:
     game: GameManager = prepare_game()
 
     game.take_operation(PlayerOpUseSkill(
@@ -13,4 +13,4 @@ def test_Diluc_attack():
         player_id=PlayerID(1), character_id=CharacterID(1)
     ))
 
-    print(game.game_state.phase_status)
+    assert game.game_state.side2.characters[0].hp == 8

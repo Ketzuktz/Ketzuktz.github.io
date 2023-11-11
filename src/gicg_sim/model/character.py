@@ -47,4 +47,4 @@ class Character:
 
     @property
     def skills(self) -> list[SkillPrototype]:
-        return self.skills
+        return self._skills

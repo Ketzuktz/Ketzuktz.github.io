@@ -1,7 +1,9 @@
 from random import randint
 
 from gicg_sim.basic.enums import PhaseStatusEnum, TossType
-from gicg_sim.basic.event.base import (EventBase, EventEnum,
+from gicg_sim.basic.event.base import (EventBase, EventEffectDamage,
+                                       EventEffectEnergyGet, EventEnum,
+                                       EventRollDice,
                                        EventSelectActiveCharacter,
                                        SysEventSwitchPhase)
 from gicg_sim.basic.event.operation import PlayerOperationBase
@@ -9,6 +11,7 @@ from gicg_sim.basic.subtypes import PlayerID
 from gicg_sim.game.condition import CONTROL_CONDITIONS
 from gicg_sim.game.operation_helper import OperationHelper
 from gicg_sim.game.state.side import GameSideState
+from gicg_sim.model.prototype.effect import SideType as EffectSideType
 
 
 def tossType2playerID(toss: TossType) -> PlayerID:
@@ -40,12 +43,8 @@ class GameState:
         self.active_player = tossType2playerID(toss)
 
     def initialize_player(self, player: PlayerID, **kwargs):
-        if player == PlayerID(1):
-            self.side1.initialize(**kwargs)
-        elif player == PlayerID(2):
-            self.side2.initialize(**kwargs)
-        else:
-            raise ValueError("Invalid player ID")
+        side = self.get_side_absolute(player)
+        side.initialize(**kwargs)
 
     def _update_control_state(self) -> bool:
         for c in CONTROL_CONDITIONS:
@@ -66,14 +65,26 @@ class GameState:
 
     def take_operation(self, operation: PlayerOperationBase):
         self.operation_history.append(operation)
-        events = OperationHelper.map_operation_events(operation)
+        side = self.get_side_absolute(operation.player_id)
+        events = OperationHelper.map_operation_events(operation, side)
         self.apply_events(events)
 
         while True:
             if not self._update_control_state():
                 break
 
-    def get_relative_side(self, player: PlayerID) -> GameSideState:
+    def get_side_relative(
+        self, player: PlayerID, side_type: EffectSideType
+    ) -> GameSideState:
+        match side_type:
+            case EffectSideType.self:
+                return self.get_side_absolute(player)
+            case EffectSideType.enemy:
+                return self.get_side_absolute(PlayerID(3 - int(player)))
+            case _:
+                raise NotImplementedError()
+
+    def get_side_absolute(self, player: PlayerID) -> GameSideState:
         if player == PlayerID(1):
             return self.side1
         elif player == PlayerID(2):
@@ -84,7 +95,7 @@ class GameState:
     def apply_events(self, events: list[EventBase]):
         for e_raw in events:
             assert e_raw.player_id is not None
-            side: GameSideState = self.get_relative_side(e_raw.player_id)
+            side: GameSideState = self.get_side_absolute(e_raw.player_id)
 
             self.event_history.append(e_raw)
 
@@ -95,14 +106,27 @@ class GameState:
                     pass
                 case EventEnum.SelectActiveCharacter:
                     assert isinstance(e_raw, EventSelectActiveCharacter)
-                    e: EventSelectActiveCharacter = e_raw
-                    assert e.active_character_id is not None
-                    side._switch_character(e.active_character_id)
+                    e_selectactive: EventSelectActiveCharacter = e_raw
+                    assert e_selectactive.active_character_id is not None
+                    side._switch_character(e_selectactive.active_character_id)
                 case EventEnum.RollDice:
+                    assert isinstance(e_raw, EventRollDice)
+                    e_rolldice: EventRollDice = e_raw
+                    side._roll_dice(e_rolldice.count)
                     pass
                 case EventEnum.RerollDice:
                     pass
-                case EventEnum.CombatAction:
+                case EventEnum.UseSkill:
+                    pass
+                case EventEnum.EffectDamage:
+                    assert isinstance(e_raw, EventEffectDamage)
+                    e_ed: EventEffectDamage = e_raw
+                    side = self.get_side_relative(
+                        e_ed.player_id, e_ed.damage.target.side  # type: ignore
+                    )
+                    side._damaged(e_ed.damage)
+                case EventEnum.EffectEnergyGet:
+                    assert isinstance(e_raw, EventEffectEnergyGet)
                     pass
                 case _:
                     raise ValueError(

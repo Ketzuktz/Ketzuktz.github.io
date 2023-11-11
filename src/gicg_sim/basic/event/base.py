@@ -1,7 +1,9 @@
 from enum import Enum
 
 from gicg_sim.basic.enums import PhaseStatusEnum
-from gicg_sim.basic.subtypes import CharacterID, EventID, PlayerID, SkillID
+from gicg_sim.basic.subtypes import CharacterID, EventID, PlayerID
+from gicg_sim.model.prototype.effect import DamagePrototype
+from gicg_sim.model.prototype.skill import SkillPrototype
 
 
 class EventEnum(Enum):
@@ -10,9 +12,16 @@ class EventEnum(Enum):
     SelectActiveCharacter = 3
     RollDice = 4
     RerollDice = 5
-    CombatAction = 6
-    DeclareRoundEnd = 7
-    UseSkill = 8
+    UseSkill = 6
+    SwitchCharacter = 7
+
+    # Effect Event
+    EffectDamage = 11
+    EffectHeal = 12
+    EffectEnergyGet = 13
+
+    # Round Event
+    DeclareRoundEnd = 50
 
     SYS_SwitchPhaseRound = 100
 
@@ -21,15 +30,13 @@ class EventBase:
     def __init__(
         self,
         event_type: EventEnum,
-        player_id: PlayerID | None = None,
+        player_id: PlayerID,
         event_id: EventID | None = None,
-        skill_id: SkillID | None = None,
         system_flag: bool = False,
     ) -> None:
         self.event_type = event_type
-        self.player_id = player_id
+        self.player_id: PlayerID = player_id
         self.event_id = event_id
-        self.skill_id = skill_id
         self.is_system = system_flag
 
     def __eq__(self, __value: object) -> bool:
@@ -76,9 +83,33 @@ class EventRerollDice(EventBase):
         self.count: int = count
 
 
-class EventCombatAction(EventBase):
-    def __init__(self, **kwargs) -> None:
-        super().__init__(EventEnum.CombatAction, **kwargs)
+class EventUseSkill(EventBase):
+    def __init__(self, skill_prototype: SkillPrototype, **kwargs) -> None:
+        super().__init__(EventEnum.UseSkill, **kwargs)
+        self.skill = skill_prototype
+
+
+class EventEffect(EventBase):
+    def __init__(self, effect_type: EventEnum, **kwargs) -> None:
+        super().__init__(effect_type, **kwargs)
+
+
+class EventEffectDamage(EventEffect):
+    def __init__(self, damage: DamagePrototype, **kwargs) -> None:
+        super().__init__(EventEnum.EffectDamage, **kwargs)
+        self.damage: DamagePrototype = damage
+
+
+class EventEffectHeal(EventEffect):
+    def __init__(self, heal: int, **kwargs) -> None:
+        super().__init__(EventEnum.EffectHeal, **kwargs)
+        self.heal: int = heal
+
+
+class EventEffectEnergyGet(EventEffect):
+    def __init__(self, energy: int, character_id: CharacterID, **kwargs) -> None:
+        super().__init__(EventEnum.EffectEnergyGet, **kwargs)
+        self.energy: int = energy
 
 
 class EventDeclareRoundEnd(EventBase):
@@ -90,7 +121,7 @@ class SystemEventBase(EventBase):
     def __init__(
         self,
         event_type: EventEnum,
-        player_id: PlayerID | None = None,
+        player_id: PlayerID = PlayerID(-1),
         event_id: EventID | None = None,
     ) -> None:
         super().__init__(event_type, player_id, event_id, system_flag=True)
