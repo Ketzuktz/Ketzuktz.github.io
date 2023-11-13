@@ -16,6 +16,8 @@ class PlayerOperationEnum(Enum):
     SwitchCharacter = 9
     DeclareRoundEnd = 10
 
+    DEBUG_AllOmni = 101
+
 
 class PlayerOperationBase:
     def __init__(
@@ -140,3 +142,24 @@ class PlayerOpDeclareRoundEnd(PlayerOperationBase):
         self, *args, player_id: PlayerID, op_id: OperationID | None = None
     ) -> None:
         super().__init__(PlayerOperationEnum.DeclareRoundEnd, player_id, op_id, *args)
+
+
+class DEBUG_OperationBase(PlayerOperationBase):
+    def __init__(
+        self,
+        debug_op_type: PlayerOperationEnum,
+        player_id: PlayerID,
+        op_id: OperationID | None = None,
+        *args,
+        **kwargs,
+    ) -> None:
+        super().__init__(debug_op_type, player_id, op_id, *args)
+
+
+class DEBUG_AllOmni(DEBUG_OperationBase):
+    def __init__(
+        self, player_id: PlayerID, op_id: OperationID | None = None, *args, **kwargs
+    ) -> None:
+        super().__init__(
+            PlayerOperationEnum.DEBUG_AllOmni, player_id, op_id, *args, **kwargs
+        )

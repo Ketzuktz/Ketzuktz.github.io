@@ -2,6 +2,7 @@ from random import randint
 
 from gicg_sim.basic.enums import PhaseStatusEnum, TossType
 from gicg_sim.basic.event.base import (EventBase, EventEffectDamage,
+                                       EventEffectElementGauge,
                                        EventEffectEnergyGet, EventEnum,
                                        EventRollDice,
                                        EventSelectActiveCharacter,
@@ -128,6 +129,8 @@ class GameState:
                 case EventEnum.EffectEnergyGet:
                     assert isinstance(e_raw, EventEffectEnergyGet)
                     pass
+                case EventEnum.EffectElementGauge:
+                    assert isinstance(e_raw, EventEffectElementGauge)
                 case _:
                     raise ValueError(
                         f"Invalid event type {e_raw.event_type} for {e_raw}"

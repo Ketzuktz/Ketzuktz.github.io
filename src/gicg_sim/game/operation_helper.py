@@ -2,9 +2,10 @@ from copy import deepcopy
 
 from gicg_sim.basic.die import DieState
 from gicg_sim.basic.event.base import (EventBase, EventDrawCard,
-                                       EventEffectDamage, EventEffectEnergyGet,
-                                       EventRedrawCard, EventRerollDice,
-                                       EventRollDice,
+                                       EventEffectDamage,
+                                       EventEffectElementGauge,
+                                       EventEffectEnergyGet, EventRedrawCard,
+                                       EventRerollDice, EventRollDice,
                                        EventSelectActiveCharacter,
                                        EventUseSkill)
 from gicg_sim.basic.event.operation import (PlayerOpDrawCard,
@@ -19,6 +20,7 @@ from gicg_sim.basic.subtypes import OperationID
 from gicg_sim.game.state.side import GameSideState
 from gicg_sim.model.prototype.cost import CostType
 from gicg_sim.model.prototype.die import DieCostPrototype
+from gicg_sim.model.prototype.effect import DamageType
 
 
 class OperationHelper:
@@ -76,6 +78,12 @@ class OperationHelper:
                     operation, context
                 )
                 events.extend(mapped_result)
+            case PlayerOperationEnum.DEBUG_AllOmni:
+                # DEBUG, set all omni
+                # DEBUG operation should not be recorded
+                count = context.die_state.count
+                context.die_state.clear()
+                context.die_state["omni"] = count
             case _:
                 raise ValueError(f"Unknown operation type ({operation.op_type}).")
         return events
@@ -101,6 +109,20 @@ class OperationHelper:
                         damage=effect.damage, player_id=operation.player_id
                     )
                 )
+                match effect.damage.type:
+                    case DamageType.physical:
+                        pass
+                    case DamageType.piercing:
+                        pass
+                    case _:
+                        output.append(
+                            EventEffectElementGauge(
+                                effect.damage.target,
+                                effect.damage.type,
+                                damage=True,
+                                player_id=operation.player_id,
+                            )
+                        )
             elif effect.energy is not None:
                 output.append(
                     EventEffectEnergyGet(
@@ -109,6 +131,10 @@ class OperationHelper:
                         player_id=operation.player_id,
                     )
                 )
+            elif effect.token_add is not None:
+                pass
+            elif effect.token_cost is not None:
+                pass
             else:
                 raise ValueError(f"Unknown effect type {effect}.")
 

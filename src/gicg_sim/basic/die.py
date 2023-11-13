@@ -40,6 +40,10 @@ class DieState:
         for i in DieTypeEnum:
             self._data[i] = 0
 
+    @property
+    def count(self) -> int:
+        return sum(self._data.values())
+
     @staticmethod
     def roll_n_dies(n: int) -> "DieState":
         ds = DieState()

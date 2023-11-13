@@ -6,7 +6,8 @@ from gicg_sim.basic.subtypes import CharacterID
 from gicg_sim.model.character import Character
 from gicg_sim.model.placement import Placement
 from gicg_sim.model.prototype.action_card import ActionCardPrototype
-from gicg_sim.model.prototype.effect import DamagePrototype, SideTargetType
+from gicg_sim.model.prototype.effect import (DamagePrototype, DamageType,
+                                             SideTargetType)
 
 
 class GameSideState:
@@ -55,6 +56,16 @@ class GameSideState:
 
         ch = self.active_character
         ch.hp = max(0, ch.hp - damage.value)
+
+        match damage.type:
+            case DamageType.physical:
+                "do nothing"
+                pass
+            case DamageType.piercing:
+                "skip shield"
+                pass
+            case _:
+                pass
 
     def get_skill_by_id(self, skill_id: str):
         for c in self.characters:

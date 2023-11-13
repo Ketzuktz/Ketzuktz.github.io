@@ -1,8 +1,9 @@
 from enum import Enum
 
+from gicg_sim.basic.element import ElementType
 from gicg_sim.basic.enums import PhaseStatusEnum
 from gicg_sim.basic.subtypes import CharacterID, EventID, PlayerID
-from gicg_sim.model.prototype.effect import DamagePrototype
+from gicg_sim.model.prototype.effect import DamagePrototype, TargetType
 from gicg_sim.model.prototype.skill import SkillPrototype
 
 
@@ -19,6 +20,7 @@ class EventEnum(Enum):
     EffectDamage = 11
     EffectHeal = 12
     EffectEnergyGet = 13
+    EffectElementGauge = 14
 
     # Round Event
     DeclareRoundEnd = 50
@@ -110,6 +112,16 @@ class EventEffectEnergyGet(EventEffect):
     def __init__(self, energy: int, character_id: CharacterID, **kwargs) -> None:
         super().__init__(EventEnum.EffectEnergyGet, **kwargs)
         self.energy: int = energy
+
+
+class EventEffectElementGauge(EventEffect):
+    def __init__(
+        self, target: TargetType, element: ElementType, damage: bool = False, **kwargs
+    ) -> None:
+        super().__init__(EventEnum.EffectElementGauge, **kwargs)
+        self.target: TargetType = target
+        self.element: ElementType = element
+        self.damage: bool = damage
 
 
 class EventDeclareRoundEnd(EventBase):

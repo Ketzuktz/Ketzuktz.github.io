@@ -1,6 +1,6 @@
 - name: Diluc
   rarity: 5
-  element: Pyro
+  element: pyro
   weapon: Claymore
   max_HP: 10
   max_energy: 3
@@ -27,7 +27,7 @@
         - damage:
             type: pyro
             value: 3
-        - erengy: 1
+        - energy: 1
         - token_add:
             name: Searing Onslaught
             value: 1
@@ -43,7 +43,7 @@
       cost:
         die:
           pyro: 4
-        erengy: 3
+        energy: 3
       effect:
         - damage:
             type: pyro

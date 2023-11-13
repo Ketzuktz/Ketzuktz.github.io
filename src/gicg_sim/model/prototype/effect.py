@@ -3,6 +3,8 @@ from enum import Enum
 
 from pydantic import BaseModel
 
+from gicg_sim.basic.element import ElementType
+
 
 class DamageType(Enum):
     pyro: str = "pyro"
@@ -45,34 +47,33 @@ class DamagePrototype(BaseModel):
     value: int = 0
 
 
+class ElementGaugePrototype(BaseModel):
+    type: ElementType
+    damage: bool = True
+
+
 class HealPrototype(BaseModel):
     target: TargetType = TargetType(side=SideType.self, target=SideTargetType.selected)
     value: int = 0
 
 
 class DamageAddPrototype(BaseModel):
-    pyro: typing.Optional[int] = None
-    hydro: typing.Optional[int] = None
-    anemo: typing.Optional[int] = None
-    electro: typing.Optional[int] = None
-    dendro: typing.Optional[int] = None
-    cryo: typing.Optional[int] = None
-    geo: typing.Optional[int] = None
-    physical: typing.Optional[int] = None
+    target: TargetType = TargetType(side=SideType.self, target=SideTargetType.active)
+    value: int = 0
 
 
-class CounterAddPrototype(BaseModel):
+class TokenAddPrototype(BaseModel):
     name: str
     value: int = 1
 
 
-class CounterCheckPrototype(BaseModel):
+class TokenCostPrototype(BaseModel):
     name: str
     value: int = 1
     effect: list["EffectPrototype"]
 
 
-class CounterClearPrototype(BaseModel):
+class TokenClearPrototype(BaseModel):
     name: str
 
 
@@ -84,9 +85,9 @@ class GetCharacterBuffPrototype(BaseModel):
 class EffectPrototype(BaseModel):
     damage: typing.Optional[DamagePrototype] = None
     energy: typing.Optional[int] = None
-    counter_add: typing.Optional[CounterAddPrototype] = None
-    counter_check: typing.Optional[CounterCheckPrototype] = None
-    counter_clear: typing.Optional[CounterClearPrototype] = None
+    token_add: typing.Optional[TokenAddPrototype] = None
+    token_cost: typing.Optional[TokenCostPrototype] = None
+    token_clear: typing.Optional[TokenClearPrototype] = None
     damage_add: typing.Optional[DamageAddPrototype] = None
     get_buff: typing.Optional[GetCharacterBuffPrototype] = None
     heal: typing.Optional[HealPrototype] = None
