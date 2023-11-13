@@ -8,7 +8,7 @@ from gicg_sim.basic.event.base import (EventBase, EventDrawCard,
                                        EventRerollDice, EventRollDice,
                                        EventSelectActiveCharacter,
                                        EventUseSkill)
-from gicg_sim.basic.event.operation import (PlayerOpDrawCard,
+from gicg_sim.basic.event.operation import (DEBUG_GetDie, PlayerOpDrawCard,
                                             PlayerOperationBase,
                                             PlayerOperationEnum,
                                             PlayerOpRedrawCard,
@@ -78,12 +78,12 @@ class OperationHelper:
                     operation, context
                 )
                 events.extend(mapped_result)
-            case PlayerOperationEnum.DEBUG_AllOmni:
+            case PlayerOperationEnum.DEBUG_GetDie:
                 # DEBUG, set all omni
                 # DEBUG operation should not be recorded
-                count = context.die_state.count
-                context.die_state.clear()
-                context.die_state["omni"] = count
+                assert isinstance(operation, DEBUG_GetDie)
+                dop_get_die: DEBUG_GetDie = operation
+                context.die_state.append(dop_get_die.die_dict)
             case _:
                 raise ValueError(f"Unknown operation type ({operation.op_type}).")
         return events

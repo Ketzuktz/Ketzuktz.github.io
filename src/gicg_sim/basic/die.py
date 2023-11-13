@@ -1,4 +1,5 @@
 import random
+import typing
 from enum import Enum
 
 
@@ -39,6 +40,18 @@ class DieState:
     def clear(self) -> None:
         for i in DieTypeEnum:
             self._data[i] = 0
+
+    def get(self, key: DieTypeEnum | str, default: int) -> int:
+        key_ = DieState._map_idx(key)
+        return self._data.get(key_, default)
+
+    def append(
+        self, rhs: typing.Union["DieState", dict[DieTypeEnum, int]]
+    ) -> "DieState":
+        for i in DieTypeEnum:
+            self._data[i] += rhs.get(i, 0)
+
+        return self
 
     @property
     def count(self) -> int:

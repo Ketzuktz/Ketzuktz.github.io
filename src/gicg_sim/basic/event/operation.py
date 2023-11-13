@@ -1,5 +1,7 @@
+from copy import deepcopy
 from enum import Enum
 
+from gicg_sim.basic.die import DieTypeEnum
 from gicg_sim.basic.subtypes import (CardID, CharacterID, OperationID,
                                      PlayerID, SkillID)
 
@@ -16,7 +18,7 @@ class PlayerOperationEnum(Enum):
     SwitchCharacter = 9
     DeclareRoundEnd = 10
 
-    DEBUG_AllOmni = 101
+    DEBUG_GetDie = 101
 
 
 class PlayerOperationBase:
@@ -156,10 +158,16 @@ class DEBUG_OperationBase(PlayerOperationBase):
         super().__init__(debug_op_type, player_id, op_id, *args)
 
 
-class DEBUG_AllOmni(DEBUG_OperationBase):
+class DEBUG_GetDie(DEBUG_OperationBase):
     def __init__(
-        self, player_id: PlayerID, op_id: OperationID | None = None, *args, **kwargs
+        self,
+        die_dict: dict[DieTypeEnum, int],
+        player_id: PlayerID,
+        op_id: OperationID | None = None,
+        *args,
+        **kwargs,
     ) -> None:
         super().__init__(
-            PlayerOperationEnum.DEBUG_AllOmni, player_id, op_id, *args, **kwargs
+            PlayerOperationEnum.DEBUG_GetDie, player_id, op_id, *args, **kwargs
         )
+        self.die_dict = deepcopy(die_dict)

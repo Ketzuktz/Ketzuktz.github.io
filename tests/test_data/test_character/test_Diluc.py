@@ -1,12 +1,15 @@
 from game_init import prepare_game
 
-from gicg_sim.basic.event.operation import DEBUG_AllOmni, PlayerOpUseSkill
+from gicg_sim.basic.die import DieTypeEnum
+from gicg_sim.basic.event.operation import DEBUG_GetDie, PlayerOpUseSkill
 from gicg_sim.basic.subtypes import CharacterID, PlayerID, SkillID
 from gicg_sim.game.manager import GameManager
 
 
 def test_Diluc_normal_attack() -> None:
     game: GameManager = prepare_game()
+
+    game.take_operation(DEBUG_GetDie({DieTypeEnum.omni: 1}, PlayerID(1)))
 
     game.take_operation(
         PlayerOpUseSkill(
@@ -22,7 +25,7 @@ def test_Diluc_normal_attack() -> None:
 def test_Diluc_elemental_skill() -> None:
     game: GameManager = prepare_game()
 
-    game.take_operation(DEBUG_AllOmni(PlayerID(1)))
+    game.take_operation(DEBUG_GetDie({DieTypeEnum.omni: 3}, PlayerID(1)))
 
     game.take_operation(
         PlayerOpUseSkill(
