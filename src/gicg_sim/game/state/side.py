@@ -67,6 +67,10 @@ class GameSideState:
             case _:
                 pass
 
+    def _get_energy(self, value: int):
+        ch = self.active_character
+        ch.energy += value
+
     def get_skill_by_id(self, skill_id: str):
         for c in self.characters:
             for s in c.skills:

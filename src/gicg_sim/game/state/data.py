@@ -128,6 +128,8 @@ class GameState:
                     side._damaged(e_ed.damage)
                 case EventEnum.EffectEnergyGet:
                     assert isinstance(e_raw, EventEffectEnergyGet)
+                    e_eg: EventEffectEnergyGet = e_raw
+                    side._get_energy(e_eg.energy)
                     pass
                 case EventEnum.EffectElementGauge:
                     assert isinstance(e_raw, EventEffectElementGauge)

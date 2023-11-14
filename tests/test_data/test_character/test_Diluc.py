@@ -20,6 +20,7 @@ def test_Diluc_normal_attack() -> None:
     )
 
     assert game.game_state.side2.characters[0].hp == 8
+    assert game.game_state.side1.characters[0].energy == 1
 
 
 def test_Diluc_elemental_skill() -> None:
