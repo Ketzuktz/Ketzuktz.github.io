@@ -19,6 +19,7 @@ class PlayerOperationEnum(Enum):
     DeclareRoundEnd = 10
 
     DEBUG_GetDie = 101
+    DEBUG_GetEnergy = 102
 
 
 class PlayerOperationBase:
@@ -171,3 +172,20 @@ class DEBUG_GetDie(DEBUG_OperationBase):
             PlayerOperationEnum.DEBUG_GetDie, player_id, op_id, *args, **kwargs
         )
         self.die_dict = deepcopy(die_dict)
+
+
+class DEBUG_GetEnergy(DEBUG_OperationBase):
+    def __init__(
+        self,
+        energy: int,
+        character_id: CharacterID,
+        player_id: PlayerID,
+        op_id: OperationID | None = None,
+        *args,
+        **kwargs,
+    ) -> None:
+        super().__init__(
+            PlayerOperationEnum.DEBUG_GetEnergy, player_id, op_id, *args, **kwargs
+        )
+        self.energy = energy
+        self.character_id = character_id

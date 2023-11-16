@@ -3,25 +3,14 @@ import typing
 from pydantic import BaseModel
 
 
-class DieStatePrototype(BaseModel):
-    pyro: typing.Optional[int] = None
-    hydro: typing.Optional[int] = None
-    anemo: typing.Optional[int] = None
-    electro: typing.Optional[int] = None
-    dendro: typing.Optional[int] = None
-    cryo: typing.Optional[int] = None
-    geo: typing.Optional[int] = None
-    omni: typing.Optional[int] = None
-
-
 class DieCostPrototype(BaseModel):
-    pyro: typing.Optional[int] = None
-    hydro: typing.Optional[int] = None
-    anemo: typing.Optional[int] = None
-    electro: typing.Optional[int] = None
-    dendro: typing.Optional[int] = None
-    cryo: typing.Optional[int] = None
-    geo: typing.Optional[int] = None
+    pyro: typing.Optional[int] = 0
+    hydro: typing.Optional[int] = 0
+    anemo: typing.Optional[int] = 0
+    electro: typing.Optional[int] = 0
+    dendro: typing.Optional[int] = 0
+    cryo: typing.Optional[int] = 0
+    geo: typing.Optional[int] = 0
     # non-specified
-    matching: typing.Optional[int] = None
-    unaligned: typing.Optional[int] = None
+    matching: typing.Optional[int] = 0
+    unaligned: typing.Optional[int] = 0

@@ -8,7 +8,8 @@ from gicg_sim.basic.event.base import (EventBase, EventDrawCard,
                                        EventRerollDice, EventRollDice,
                                        EventSelectActiveCharacter,
                                        EventUseSkill)
-from gicg_sim.basic.event.operation import (DEBUG_GetDie, PlayerOpDrawCard,
+from gicg_sim.basic.event.operation import (DEBUG_GetDie, DEBUG_GetEnergy,
+                                            PlayerOpDrawCard,
                                             PlayerOperationBase,
                                             PlayerOperationEnum,
                                             PlayerOpRedrawCard,
@@ -84,6 +85,11 @@ class OperationHelper:
                 assert isinstance(operation, DEBUG_GetDie)
                 dop_get_die: DEBUG_GetDie = operation
                 context.die_state.append(dop_get_die.die_dict)
+            case PlayerOperationEnum.DEBUG_GetEnergy:
+                assert isinstance(operation, DEBUG_GetEnergy)
+                dop_get_energy: DEBUG_GetEnergy = operation
+                character = context.get_character_by_id(dop_get_energy.character_id)
+                character.energy += dop_get_energy.energy
             case _:
                 raise ValueError(f"Unknown operation type ({operation.op_type}).")
         return events
@@ -134,6 +140,8 @@ class OperationHelper:
             elif effect.token_add is not None:
                 pass
             elif effect.token_cost is not None:
+                pass
+            elif effect.buff_get is not None:
                 pass
             else:
                 raise ValueError(f"Unknown effect type {effect}.")

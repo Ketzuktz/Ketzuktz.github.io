@@ -1,17 +1,7 @@
 import random
 import typing
-from enum import Enum
 
-
-class DieTypeEnum(Enum):
-    pyro = "pyro"
-    hydro = "hydro"
-    anemo = "anemo"
-    electro = "electro"
-    dendro = "dendro"
-    cryo = "cryo"
-    geo = "geo"
-    omni = "omni"
+from gicg_sim.basic.element import DieTypeEnum
 
 
 class DieState:

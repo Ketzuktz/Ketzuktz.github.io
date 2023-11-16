@@ -6,7 +6,7 @@ from gicg_sim.basic.event.base import (EventBase, EventEffectDamage,
                                        EventEffectEnergyGet, EventEnum,
                                        EventRollDice,
                                        EventSelectActiveCharacter,
-                                       SysEventSwitchPhase)
+                                       EventUseSkill, SysEventSwitchPhase)
 from gicg_sim.basic.event.operation import PlayerOperationBase
 from gicg_sim.basic.subtypes import PlayerID
 from gicg_sim.game.condition import CONTROL_CONDITIONS
@@ -118,7 +118,10 @@ class GameState:
                 case EventEnum.RerollDice:
                     pass
                 case EventEnum.UseSkill:
-                    pass
+                    assert isinstance(e_raw, EventUseSkill)
+                    e_us: EventUseSkill = e_raw
+                    side = self.get_side_absolute(e_us.player_id)
+                    side._pay_cost(e_us.skill.cost)
                 case EventEnum.EffectDamage:
                     assert isinstance(e_raw, EventEffectDamage)
                     e_ed: EventEffectDamage = e_raw

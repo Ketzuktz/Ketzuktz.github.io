@@ -78,7 +78,7 @@ class TokenClearPrototype(BaseModel):
 
 
 class GetCharacterBuffPrototype(BaseModel):
-    target: TargetType
+    target: TargetType = TargetType(side=SideType.self, target=SideTargetType.active)
     name: str
 
 
@@ -89,5 +89,5 @@ class EffectPrototype(BaseModel):
     token_cost: typing.Optional[TokenCostPrototype] = None
     token_clear: typing.Optional[TokenClearPrototype] = None
     damage_add: typing.Optional[DamageAddPrototype] = None
-    get_buff: typing.Optional[GetCharacterBuffPrototype] = None
+    buff_get: typing.Optional[GetCharacterBuffPrototype] = None
     heal: typing.Optional[HealPrototype] = None
