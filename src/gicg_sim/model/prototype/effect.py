@@ -62,32 +62,20 @@ class DamageAddPrototype(BaseModel):
     value: int = 0
 
 
-class TokenAddPrototype(BaseModel):
-    name: str
-    value: int = 1
-
-
-class TokenCostPrototype(BaseModel):
-    name: str
-    value: int = 1
-    effect: list["EffectPrototype"]
-
-
-class TokenClearPrototype(BaseModel):
-    name: str
-
-
-class GetCharacterBuffPrototype(BaseModel):
+class CharacterBuffGetPrototype(BaseModel):
     target: TargetType = TargetType(side=SideType.self, target=SideTargetType.active)
     name: str
 
 
+class LuaPluginPrototype(BaseModel):
+    name: str
+    implementation: str
+
+
+# 特殊的，这里的 Effect 只描述无条件发生的效果，即，如果存在特殊条件触发或转换，则在 lua_implement 中实现
 class EffectPrototype(BaseModel):
     damage: typing.Optional[DamagePrototype] = None
-    energy: typing.Optional[int] = None
-    token_add: typing.Optional[TokenAddPrototype] = None
-    token_cost: typing.Optional[TokenCostPrototype] = None
-    token_clear: typing.Optional[TokenClearPrototype] = None
-    damage_add: typing.Optional[DamageAddPrototype] = None
-    buff_get: typing.Optional[GetCharacterBuffPrototype] = None
     heal: typing.Optional[HealPrototype] = None
+    energy: typing.Optional[int] = None
+    buff_get: typing.Optional[CharacterBuffGetPrototype] = None
+    lua_plugin: typing.Optional[LuaPluginPrototype] = None

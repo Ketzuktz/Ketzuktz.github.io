@@ -137,11 +137,9 @@ class OperationHelper:
                         player_id=operation.player_id,
                     )
                 )
-            elif effect.token_add is not None:
-                pass
-            elif effect.token_cost is not None:
-                pass
             elif effect.buff_get is not None:
+                pass
+            elif effect.lua_plugin is not None:
                 pass
             else:
                 raise ValueError(f"Unknown effect type {effect}.")

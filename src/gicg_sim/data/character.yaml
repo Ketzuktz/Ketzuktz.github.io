@@ -28,15 +28,19 @@
             type: pyro
             value: 3
         - energy: 1
-        - token_add:
+        - lua_plugin:
             name: Searing Onslaught
-            value: 1
-        - token_cost:
-            name: Searing Onslaught
-            value: 3
-            effect:
-              - damage_add:
-                  value: 2
+            implementation: |
+              function on_skill_using(character, event)
+                local token = character.tokens.get("Searing Onslaught", life_cycle="round_end", default=1)
+                local sub_event = sub_event(event, "Searing Onslaught")
+                if token.value < 3 then
+                  sub_event.token.increment("Searing Onslaught", 1)
+                else
+                  sub_event.token.set("Searing Onslaught", 0)
+                  sub_event.damage.increment(2)
+                end
+              end
       comment: Deals 3 Pyro DMG. For the third use of this Skill each Round, deals +2 DMG.
     - name: Dawn
       type: Elemental Burst
@@ -51,8 +55,3 @@
         - buff_get:
             name: Pyro Infusion
       comment: Deals 8 Pyro DMG. This character gains Pyro Infusion.
-  plugins:
-    on_round_start:
-      - token_set:
-          name: Searing Onslaught
-          value: 0
