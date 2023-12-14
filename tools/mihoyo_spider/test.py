@@ -1,12 +1,9 @@
 import re
-import typing
 
 import yaml
 
-from gicg_sim.model.prototype.effect import (DamagePrototype, DamageType,
-                                             GetCharacterBuffPrototype,
-                                             HealPrototype, SideTargetType,
-                                             SideType, TargetType)
+from gicg_sim.model.prototype.effect import (DamageType, SideTargetType,
+                                             SideType)
 
 TARGET_ALIASES = {
     "自身": "我方出战角色",
@@ -148,9 +145,10 @@ rules = [
 
 rules_compiled = [re.compile(r) for r in rules]
 
+
 def match_rules(e):
     output = {}
-    
+
     while True:
         endable = True
         for r in rules_compiled:
@@ -159,10 +157,10 @@ def match_rules(e):
                 e = e[m.end():]
                 output.update(m.groupdict())
                 endable = False
-        
+
         if endable:
             break
-        
+
     return output, e
 
 
@@ -172,6 +170,6 @@ if __name__ == "__main__":
 
     for e_ in effects:
         output, e = match_rules(e_)
-        
+
         if len(e) > 0:
             print(output, e)
