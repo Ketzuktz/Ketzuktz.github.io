@@ -36,6 +36,7 @@ class GameState:
 
         self.event_history: list[EventBase] = []
         self.event_history_phase_begin: int = 0
+        self.current_event: EventBase = EventBase(EventEnum.Undefined, PlayerID(-1), None)
 
     def initialize(self, toss: TossType = TossType.CONST_1) -> None:
         self._phase_status = PhaseStatusEnum.Preparation

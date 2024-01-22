@@ -8,6 +8,8 @@ from gicg_sim.model.prototype.skill import SkillPrototype
 
 
 class EventEnum(Enum):
+    Undefined = -1
+
     DrawCard = 1
     RedrawCard = 2
     SelectActiveCharacter = 3
@@ -15,12 +17,6 @@ class EventEnum(Enum):
     RerollDice = 5
     UseSkill = 6
     SwitchCharacter = 7
-
-    # Effect Event
-    EffectDamage = 11
-    EffectHeal = 12
-    EffectEnergyGet = 13
-    EffectElementGauge = 14
 
     # Round Event
     DeclareRoundEnd = 50
@@ -33,11 +29,13 @@ class EventBase:
         self,
         event_type: EventEnum,
         player_id: PlayerID,
+        character_id: CharacterID | None = None,
         event_id: EventID | None = None,
         system_flag: bool = False,
     ) -> None:
         self.event_type = event_type
         self.player_id: PlayerID = player_id
+        self.character_id: CharacterID | None = character_id
         self.event_id = event_id
         self.is_system = system_flag
 

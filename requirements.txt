@@ -1,4 +1,5 @@
 importlib-resources
+lupa
 typing_extensions
 pydantic
 pyyaml

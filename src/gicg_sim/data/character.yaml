@@ -31,9 +31,9 @@
         - lua_plugin:
             name: Searing Onslaught
             implementation: |
-              function on_skill_using(character, event)
+              function on_current_skill_using(character, event)
                 local token = character.tokens.get("Searing Onslaught", life_cycle="round_end", default=1)
-                local sub_event = sub_event(event, "Searing Onslaught")
+                local sub_event = event.subevents.create("Searing Onslaught")
                 if token.value < 3 then
                   sub_event.token.increment("Searing Onslaught", 1)
                 else

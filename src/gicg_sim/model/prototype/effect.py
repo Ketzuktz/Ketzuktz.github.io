@@ -36,6 +36,11 @@ class SideType(Enum):
     undefined: str = "undefined"
 
 
+class LuaPluginTrigger(Enum):
+    on_current_skill_using: str = "on_current_skill_using"
+    on_current_skill_used: str = "on_current_skill_used"
+
+
 class TargetType(BaseModel):
     side: SideType
     target: SideTargetType = SideTargetType.active
@@ -57,11 +62,6 @@ class HealPrototype(BaseModel):
     value: int = 0
 
 
-class DamageAddPrototype(BaseModel):
-    target: TargetType = TargetType(side=SideType.self, target=SideTargetType.active)
-    value: int = 0
-
-
 class CharacterBuffGetPrototype(BaseModel):
     target: TargetType = TargetType(side=SideType.self, target=SideTargetType.active)
     name: str
@@ -69,6 +69,7 @@ class CharacterBuffGetPrototype(BaseModel):
 
 class LuaPluginPrototype(BaseModel):
     name: str
+    trigger: LuaPluginTrigger
     implementation: str
 
 
