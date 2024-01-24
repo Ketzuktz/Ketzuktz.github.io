@@ -20,7 +20,7 @@ class DieType(Enum):
     Cryo = "Cryo"  # 冰
     Geo = "Geo"  # 岩
     Omni = "Omni"  # 万能
-    
+
 
 class CostType(Enum):
     Pyro = "Pyro"  # 火
@@ -40,8 +40,8 @@ class WeaponType(Enum):
     Claymore = "Claymore"  # 双手剑
     Polearm = "Polearm"  # 长柄武器
     Catalyst = "Catalyst"  # 法器
-    
-    
+
+
 class SkillType(Enum):
     NormalAttack = "Normal Attack"
     ElementalSkill = "Elemental Skill"

@@ -1,6 +1,7 @@
 from gicg_sim.game.config import UserDeckConfig
 from gicg_sim.model.character import Character
 
+
 def instantiate_characters(character: str) -> Character:
     return Character.load(character)
 
@@ -13,4 +14,4 @@ class Deck:
         self.active_character_id = -1
         self.assistances = []
         self.summons = []
-        
+
